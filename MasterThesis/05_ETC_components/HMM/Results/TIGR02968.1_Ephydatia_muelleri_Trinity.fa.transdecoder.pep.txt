@@ -1,0 +1,39 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR02968.1.HMM
+# target sequence database:        ../Predicted_proteins/Ephydatia_muelleri_Trinity.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       succ_dehyd_anc  [M=105]
+Accession:   TIGR02968.1
+Description: JCVI: succinate dehydrogenase, hydrophobic membrane anchor protein
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (105 nodes)
+Target sequences:                      55996  (20805003 residues searched)
+Passed MSV filter:                      2769  (0.04945); expected 1119.9 (0.02)
+Passed bias filter:                      988  (0.0176441); expected 1119.9 (0.02)
+Passed Vit filter:                        33  (0.000589328); expected 56.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.6 (1e-05)
+Initial search space (Z):              55996  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.34u 0.01s 00:00:00.35 Elapsed: 00:00:00.15
+# Mc/sec: 14526.22
+//
+[ok]

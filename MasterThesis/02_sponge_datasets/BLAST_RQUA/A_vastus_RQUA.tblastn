@@ -1,0 +1,143 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../AV4_1_Trinity.fa
+           46,987 sequences; 64,652,545 total letters
+
+
+
+Query= Ephydatia_muelleri_RQUA
+
+Length=292
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+comp20502_c0_seq4 len=822 path=[1:0-567 569:568-582 584:583-751 1...  28.9    6.1  
+comp20502_c0_seq5 len=851 path=[1:0-567 569:568-582 584:583-751 1...  28.9    6.2  
+comp20502_c0_seq1 len=865 path=[1:0-567 569:568-582 584:583-751 1...  28.9    6.2  
+comp20585_c0_seq2 len=872 path=[1:0-112 114:113-114 116:115-298 3...  28.9    6.2  
+comp20502_c0_seq6 len=1111 path=[1:0-567 986:568-856 876:857-871 ...  28.9    6.8  
+comp20502_c0_seq3 len=1140 path=[1:0-567 986:568-856 876:857-871 ...  28.9    6.8  
+comp20502_c0_seq2 len=1154 path=[1:0-567 986:568-856 876:857-871 ...  28.9    6.9  
+
+
+>comp20502_c0_seq4 len=822 path=[1:0-567 569:568-582 584:583-751 
+1298:752-821]
+Length=822
+
+ Score = 28.9 bits (63),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 18/33 (55%), Positives = 24/33 (73%), Gaps = 2/33 (6%)
+ Frame = +2
+
+Query  3    MLTRLAF-QMCLRNTKLTPMVNGPFQVLKTSTV  34
+            ++TRL+F Q C+R  K TPMV+  F V KTS+V
+Sbjct  635  IVTRLSFSQTCVREEKSTPMVSL*FGV-KTSSV  730
+
+
+>comp20502_c0_seq5 len=851 path=[1:0-567 569:568-582 584:583-751 
+1582:752-756 1368:757-850]
+Length=851
+
+ Score = 28.9 bits (63),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 18/33 (55%), Positives = 24/33 (73%), Gaps = 2/33 (6%)
+ Frame = +2
+
+Query  3    MLTRLAF-QMCLRNTKLTPMVNGPFQVLKTSTV  34
+            ++TRL+F Q C+R  K TPMV+  F V KTS+V
+Sbjct  635  IVTRLSFSQTCVREEKSTPMVSL*FGV-KTSSV  730
+
+
+>comp20502_c0_seq1 len=865 path=[1:0-567 569:568-582 584:583-751 
+1582:752-756 758:757-864]
+Length=865
+
+ Score = 28.9 bits (63),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 18/33 (55%), Positives = 24/33 (73%), Gaps = 2/33 (6%)
+ Frame = +2
+
+Query  3    MLTRLAF-QMCLRNTKLTPMVNGPFQVLKTSTV  34
+            ++TRL+F Q C+R  K TPMV+  F V KTS+V
+Sbjct  635  IVTRLSFSQTCVREEKSTPMVSL*FGV-KTSSV  730
+
+
+>comp20585_c0_seq2 len=872 path=[1:0-112 114:113-114 116:115-298 
+300:299-871]
+Length=872
+
+ Score = 28.9 bits (63),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 18/33 (55%), Positives = 24/33 (73%), Gaps = 2/33 (6%)
+ Frame = -1
+
+Query  3    MLTRLAF-QMCLRNTKLTPMVNGPFQVLKTSTV  34
+            ++TRL+F Q C+R  K TPMV+  F V KTS+V
+Sbjct  233  IVTRLSFSQTCVREEKSTPMVSL*FGV-KTSSV  138
+
+
+>comp20502_c0_seq6 len=1111 path=[1:0-567 986:568-856 876:857-871 
+584:872-1040 1298:1041-1110]
+Length=1111
+
+ Score = 28.9 bits (63),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 18/33 (55%), Positives = 24/33 (73%), Gaps = 2/33 (6%)
+ Frame = +3
+
+Query  3     MLTRLAF-QMCLRNTKLTPMVNGPFQVLKTSTV  34
+             ++TRL+F Q C+R  K TPMV+  F V KTS+V
+Sbjct  924   IVTRLSFSQTCVREEKSTPMVSL*FGV-KTSSV  1019
+
+
+>comp20502_c0_seq3 len=1140 path=[1:0-567 986:568-856 876:857-871 
+584:872-1040 1582:1041-1045 1368:1046-1139]
+Length=1140
+
+ Score = 28.9 bits (63),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 18/33 (55%), Positives = 24/33 (73%), Gaps = 2/33 (6%)
+ Frame = +3
+
+Query  3     MLTRLAF-QMCLRNTKLTPMVNGPFQVLKTSTV  34
+             ++TRL+F Q C+R  K TPMV+  F V KTS+V
+Sbjct  924   IVTRLSFSQTCVREEKSTPMVSL*FGV-KTSSV  1019
+
+
+>comp20502_c0_seq2 len=1154 path=[1:0-567 986:568-856 876:857-871 
+584:872-1040 1582:1041-1045 758:1046-1153]
+Length=1154
+
+ Score = 28.9 bits (63),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 18/33 (55%), Positives = 24/33 (73%), Gaps = 2/33 (6%)
+ Frame = +3
+
+Query  3     MLTRLAF-QMCLRNTKLTPMVNGPFQVLKTSTV  34
+             ++TRL+F Q C+R  K TPMV+  F V KTS+V
+Sbjct  924   IVTRLSFSQTCVREEKSTPMVSL*FGV-KTSSV  1019
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3184053060
+
+
+  Database: ../AV4_1_Trinity.fa
+    Posted date:  Aug 28, 2022  11:31 PM
+  Number of letters in database: 64,652,545
+  Number of sequences in database:  46,987
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

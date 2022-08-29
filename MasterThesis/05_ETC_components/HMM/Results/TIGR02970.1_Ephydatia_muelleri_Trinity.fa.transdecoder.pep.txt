@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR02970.1.HMM
+# target sequence database:        ../Predicted_proteins/Ephydatia_muelleri_Trinity.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       succ_dehyd_cytB  [M=120]
+Accession:   TIGR02970.1
+Description: JCVI: succinate dehydrogenase, cytochrome b556 subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+    2.3e-17   64.8   1.7      3e-17   64.5   1.7    1.1  1  Emu_contig19028.p1  GENE.Emu_contig19028~~Emu_contig19028.p1 
+    2.3e-17   64.8   1.7      3e-17   64.5   1.7    1.1  1  Emu_contig19062.p1  GENE.Emu_contig19062~~Emu_contig19062.p1 
+
+
+Domain annotation for each sequence (and alignments):
+>> Emu_contig19028.p1  GENE.Emu_contig19028~~Emu_contig19028.p1  ORF type:5prime_partial len:178 (-),score=14.95 Emu_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.5   1.7   1.1e-21     3e-17       3     114 ..      52     167 ..      50     173 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 64.5 bits;  conditional E-value: 1.1e-21
+     succ_dehyd_cytB   3 rPlsldLqiyr..lpitailsilHRitGvllflglllllw.llslsllseesfatlsal.lssilvklllvgllaallyHllnGiRhLllD 89 
+                         rPls+ Lq      ++  ils  HR +G++ + ++   ++ +ls+s + +   + ++a  +s   + ++ +++ + l+yH++nG RhL++D
+  Emu_contig19028.p1  52 RPLSPSLQHLAqhPDWVWILSFGHRASGIVTTGAISAAALlYLSASSSFPRIMDSVQAAgFSPTTITVAKFCMALPLCYHFFNGMRHLMWD 142
+                         9*******997334566778888**********9998776599**********99999889999*************************** PP
+
+     succ_dehyd_cytB  90 lgvglelkeakisakvvlvlslvlt 114
+                          g g++++++ + +++vl+++++ +
+  Emu_contig19028.p1 143 SGRGFTMTTVVRAGLIVLTCAILSA 167
+                         *********************9976 PP
+
+>> Emu_contig19062.p1  GENE.Emu_contig19062~~Emu_contig19062.p1  ORF type:5prime_partial len:178 (+),score=14.95 Emu_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.5   1.7   1.1e-21     3e-17       3     114 ..      52     167 ..      50     173 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 64.5 bits;  conditional E-value: 1.1e-21
+     succ_dehyd_cytB   3 rPlsldLqiyr..lpitailsilHRitGvllflglllllw.llslsllseesfatlsal.lssilvklllvgllaallyHllnGiRhLllD 89 
+                         rPls+ Lq      ++  ils  HR +G++ + ++   ++ +ls+s + +   + ++a  +s   + ++ +++ + l+yH++nG RhL++D
+  Emu_contig19062.p1  52 RPLSPSLQHLAqhPDWVWILSFGHRASGIVTTGAISAAALlYLSASSSFPRIMDSVQAAgFSPTTITVAKFCMALPLCYHFFNGMRHLMWD 142
+                         9*******997334566778888**********9998776599**********99999889999*************************** PP
+
+     succ_dehyd_cytB  90 lgvglelkeakisakvvlvlslvlt 114
+                          g g++++++ + +++vl+++++ +
+  Emu_contig19062.p1 143 SGRGFTMTTVVRAGLIVLTCAILSA 167
+                         *********************9976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (120 nodes)
+Target sequences:                      55996  (20805003 residues searched)
+Passed MSV filter:                      3097  (0.0553075); expected 1119.9 (0.02)
+Passed bias filter:                     1098  (0.0196085); expected 1119.9 (0.02)
+Passed Vit filter:                       100  (0.00178584); expected 56.0 (0.001)
+Passed Fwd filter:                         2  (3.57168e-05); expected 0.6 (1e-05)
+Initial search space (Z):              55996  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.36u 0.01s 00:00:00.37 Elapsed: 00:00:00.15
+# Mc/sec: 16483.17
+//
+[ok]

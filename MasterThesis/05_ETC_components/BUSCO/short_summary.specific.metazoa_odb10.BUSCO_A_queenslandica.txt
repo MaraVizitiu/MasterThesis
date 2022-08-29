@@ -1,0 +1,14 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: metazoa_odb10 (Creation date: 2021-02-17, number of species: 65, number of BUSCOs: 954)
+# Summarized benchmarking in BUSCO notation for file /home/inf-44-2020/MasterThesis/EukProt/proteins/EP00119_Amphimedon_queenslandica.fasta
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:90.9%[S:76.0%,D:14.9%],F:2.8%,M:6.3%,n:954	   
+	867	Complete BUSCOs (C)			   
+	725	Complete and single-copy BUSCOs (S)	   
+	142	Complete and duplicated BUSCOs (D)	   
+	27	Fragmented BUSCOs (F)			   
+	60	Missing BUSCOs (M)			   
+	954	Total BUSCO groups searched		   

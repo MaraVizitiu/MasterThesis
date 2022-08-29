@@ -1,0 +1,2381 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Spongilla_lacustris_ar.fa.transdecoder.cds
+           20,640 sequences; 14,257,791 total letters
+
+
+
+Query= SDHA_Homo_sapiens
+
+Length=664
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 GENE.Spo...  823     0.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1423.p1 GENE.Spo...  29.6    2.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079.p1 GENE.Sp...  27.3    6.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11381.p1 GENE.Sp...  27.3    7.9  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 
+ ORF type:complete 
+len:565 (-),score=135.56 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030:1196-2776(-)
+Length=1581
+
+ Score = 823 bits (2125),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 395/527 (75%), Positives = 447/527 (85%), Gaps = 5/527 (1%)
+ Frame = +1
+
+Query  142   MTEQAPAAVVELENYGMPFSRTEDGKIYQRAFGGQSLKFGKGGQAHRCCCVADRTGHSLL  201
+             MTEQA  +V+ELENYGMPFSRT+DG+IYQRAFGGQS  FG+GGQAHRCCCVADRTGHSLL
+Sbjct  1     MTEQAAKSVIELENYGMPFSRTDDGRIYQRAFGGQSYDFGRGGQAHRCCCVADRTGHSLL  180
+
+Query  202   HTLYGRSLRYDTSYFVEYFALDLLMENGECRGVIALCIEDGSIHRIRAKNTVVATGGYGR  261
+             HTLYG+SLR+DT YFVEYFALDLLMENGECRGVIALC+EDG+IHR RAKNTV+ATGGYGR
+Sbjct  181   HTLYGQSLRHDTKYFVEYFALDLLMENGECRGVIALCMEDGTIHRFRAKNTVLATGGYGR  360
+
+Query  262   TYFSCTSAHTSTGDGTAMITRAGLPCQDLEFVQFHPTGIYGAGCLITEGCRGEGGILINS  321
+             +YFSCTSAHT TGDG AM  RAGL  +D+EFVQFHPTGIY AGCLITEGCRGEGG LIN 
+Sbjct  361   SYFSCTSAHTCTGDGIAMANRAGLASEDMEFVQFHPTGIYSAGCLITEGCRGEGGYLING  540
+
+Query  322   QGERFMERYAPVAKDLASRDVVSRSMTLEIREGRGCGPEKDHVYLQLHHLPPEQLATRLP  381
+             +GERFMERYAP AKDLASRDVVSR+MT+EI EGRGCGP KDHV+LQL HLPPE LATRLP
+Sbjct  541   KGERFMERYAPTAKDLASRDVVSRAMTVEIMEGRGCGPLKDHVHLQLSHLPPEILATRLP  720
+
+Query  382   GISETAMIFAGVDVTKEPIPVLPTVHYNMGGIPTNYKGQVLRH--VNGQDQIVPGLYACG  439
+             GISETA IFAGVDVTKEPIPVLPTVHYNMGG+PTNYKGQV+++    G D IVPGLYACG
+Sbjct  721   GISETAHIFAGVDVTKEPIPVLPTVHYNMGGVPTNYKGQVIQYDPARGGDYIVPGLYACG  900
+
+Query  440   EAACASVHGANRLGANSLLDLVVFGRACALSIEESCRPGDKVPPIKPNAGEESVMNLDKL  499
+             E ACASVHGANRLGANSLLDLVVFGRACA +I E  +PG+  PP+K NAGE+S+ NLD+L
+Sbjct  901   ETACASVHGANRLGANSLLDLVVFGRACANTIAEVNKPGEAQPPLKQNAGEKSIANLDRL  1080
+
+Query  500   -RFADGSIRTSELRLSMQKSMQNHAAVFRVGSVLQEGCGKISKLYGDL-KHLKTFDRGMV  557
+                ++G   T+ELRL MQK M   A VFR G  L++GC +I+++   L + LK +D+G V
+Sbjct  1081  YHTSNGETHTAELRLRMQKVMHEKAGVFRTGEYLKQGCQQITQIATHLDEDLKLYDKGHV  1260
+
+Query  558   WNTDLVETLELQNLMLCALQTIYGAEARKESRGAHAREDYKVRIDEYDYSKPIQGQQKKP  617
+             WNTDL+ETLELQNLM C+L T+Y AEARKESRGAHAR+DY  RIDEYDYSKP+  Q+ +P
+Sbjct  1261  WNTDLIETLELQNLMACSLLTVYSAEARKESRGAHARQDYNTRIDEYDYSKPLADQKMRP  1440
+
+Query  618   FEEHWRKHTLSYVDVGTGKVTLEYRPVIDKTLNEADCATVPPAIRSY  664
+             FEEHWRKHTL+ V+     V L YRPVIDKTL+E  C +VPP +R Y
+Sbjct  1441  FEEHWRKHTLALVN-DDYSVHLSYRPVIDKTLDEKVCPSVPPKLRVY  1578
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1423.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1423~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1423.p1 
+ ORF type:complete 
+len:241 (+),score=50.85 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1423:77-799(+)
+Length=723
+
+ Score = 29.6 bits (65),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+ Frame = -3
+
+Query  271  TSTGDGTAMITRAGLPCQDLEFV  293
+            TSTG GT    + GLPC DL+ +
+Sbjct  313  TSTGHGTGNTCQQGLPCSDLQHI  245
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079.p1 
+ ORF 
+type:5prime_partial len:116 (-),score=7.16 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079:17-364(-)
+Length=348
+
+ Score = 27.3 bits (59),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 11/22 (50%), Positives = 12/22 (55%), Gaps = 0/22 (0%)
+ Frame = +1
+
+Query  259  YGRTYFSCTSAHTSTGDGTAMI  280
+            Y   Y  CT  HT TGDG+  I
+Sbjct  256  YIHVYSHCTHTHTQTGDGSTRI  321
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11381.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11381~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11381.p1 
+ ORF 
+type:5prime_partial len:140 (+),score=12.49 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11381:2-421(+)
+Length=420
+
+ Score = 27.3 bits (59),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 16/55 (29%), Positives = 23/55 (42%), Gaps = 1/55 (2%)
+ Frame = -3
+
+Query  438  CGEAACASVHGANRLGANSLLDLVVFGRACALSIEESCRPGDKVPP-IKPNAGEE  491
+            C    C S+H  N  G  S         A +   +  C+PGD+V   ++   GEE
+Sbjct  235  CS*PCCTSMHWHNSFGGESPXXPPPLCGAISADDKYKCKPGDQVAARVRTEDGEE  71
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1559543139
+
+
+Query= SDHA_Saccharomyces_cerevisiae
+
+Length=640
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 GENE.Spo...  698     0.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23581.p1 GENE.Sp...  30.8    1.1  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9497.p1 GENE.Spo...  28.9    2.3  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8539.p1 GENE.Spo...  29.6    2.7  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4358.p2 GENE.Spo...  28.9    4.2  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6620.p1 GENE.Spo...  28.1    8.7  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 
+ ORF type:complete 
+len:565 (-),score=135.56 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030:1196-2776(-)
+Length=1581
+
+ Score = 698 bits (1801),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 335/527 (64%), Positives = 403/527 (76%), Gaps = 20/527 (4%)
+ Frame = +1
+
+Query  133   MTREAPKSIIELEHYGVPFSRTENGKIYQRAFGGQTKEYGKGAQAYRTCAVADRTGHALL  192
+             MT +A KS+IELE+YG+PFSRT++G+IYQRAFGGQ+ ++G+G QA+R C VADRTGH+LL
+Sbjct  1     MTEQAAKSVIELENYGMPFSRTDDGRIYQRAFGGQSYDFGRGGQAHRCCCVADRTGHSLL  180
+
+Query  193   HTLYGQALRHDTHFFIEYFALDLLTHNGEVVGVIAYNQEDGTIHRFRAHKTIIATGGYGR  252
+             HTLYGQ+LRHDT +F+EYFALDLL  NGE  GVIA   EDGTIHRFRA  T++ATGGYGR
+Sbjct  181   HTLYGQSLRHDTKYFVEYFALDLLMENGECRGVIALCMEDGTIHRFRAKNTVLATGGYGR  360
+
+Query  253   AYFSCTSAHTCTGDGNAMVSRAGFPLQDLEFVQFHPSGIYGSGCLITEGARGEGGFLVNS  312
+             +YFSCTSAHTCTGDG AM +RAG   +D+EFVQFHP+GIY +GCLITEG RGEGG+L+N 
+Sbjct  361   SYFSCTSAHTCTGDGIAMANRAGLASEDMEFVQFHPTGIYSAGCLITEGCRGEGGYLING  540
+
+Query  313   EGERFMERYAPTAKDLACRDVVSRAITMEIREGRGVGKKKDHMYLQLSHLPPEVLKERLP  372
+             +GERFMERYAPTAKDLA RDVVSRA+T+EI EGRG G  KDH++LQLSHLPPE+L  RLP
+Sbjct  541   KGERFMERYAPTAKDLASRDVVSRAMTVEIMEGRGCGPLKDHVHLQLSHLPPEILATRLP  720
+
+Query  373   GISETAAIFAGVDVTKEPIPIIPTVHYNMGGIPTKWNGEALTIDEETGEDKVIPGLMACG  432
+             GISETA IFAGVDVTKEPIP++PTVHYNMGG+PT + G+ +  D   G D ++PGL ACG
+Sbjct  721   GISETAHIFAGVDVTKEPIPVLPTVHYNMGGVPTNYKGQVIQYDPARGGDYIVPGLYACG  900
+
+Query  433   EAACVSVHGANRLGANSLLDLVVFGRAVAHTVADTLQPGLPHKPLPSDLGKESIANLDKL  492
+             E AC SVHGANRLGANSLLDLVVFGRA A+T+A+  +PG    PL  + G++SIANLD+L
+Sbjct  901   ETACASVHGANRLGANSLLDLVVFGRACANTIAEVNKPGEAQPPLKQNAGEKSIANLDRL  1080
+
+Query  493   -RNANGSRSTAEIRMNMKQTMQKDVSVFRTQSSLDEGVRNITAVEKTFD-DVKTTDRSMI  550
+                +NG   TAE+R+ M++ M +   VFRT   L +G + IT +    D D+K  D+  +
+Sbjct  1081  YHTSNGETHTAELRLRMQKVMHEKAGVFRTGEYLKQGCQQITQIATHLDEDLKLYDKGHV  1260
+
+Query  551   WNSDLVETLELQNLLTCASQTAVSAANRKESRGAHAREDYPNRDD---------------  595
+             WN+DL+ETLELQNL+ C+  T  SA  RKESRGAHAR+DY  R D               
+Sbjct  1261  WNTDLIETLELQNLMACSLLTVYSAEARKESRGAHARQDYNTRIDEYDYSKPLADQKMRP  1440
+
+Query  596   --EHWMKHTLSWQKDVAAPVTLKYRRVIDHTLDEKECPSVPPTVRAY  640
+               EHW KHTL+   D  + V L YR VID TLDEK CPSVPP +R Y
+Sbjct  1441  FEEHWRKHTLALVNDDYS-VHLSYRPVIDKTLDEKVCPSVPPKLRVY  1578
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23581.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23581~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23581.p1 
+ ORF 
+type:complete len:336 (-),score=-22.84 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23581:138-1145(-)
+Length=1008
+
+ Score = 30.8 bits (68),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 21/67 (31%), Positives = 35/67 (52%), Gaps = 5/67 (7%)
+ Frame = +1
+
+Query  518  VFRTQSSLDEGVRNITAVEKTFDDVKTTD-RSMIWNSDLVETLELQNLLTCAS----QTA  572
+            V  T  +LDE +RN T V K     KTT  +++ +  +++E L+LQ   T       +  
+Sbjct  610  VHVTSEALDEALRNYTFVAKVKVQSKTTAGKALAYAVEVLEYLQLQQCTTAPQLPPKKAV  789
+
+Query  573  VSAANRK  579
+            +S AN++
+Sbjct  790  ISMANKQ  810
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9497.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9497~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9497.p1 
+ ORF type:internal 
+len:154 (+),score=33.45 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9497:2-460(+)
+Length=459
+
+ Score = 28.9 bits (63),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 13/42 (31%), Positives = 23/42 (55%), Gaps = 5/42 (12%)
+ Frame = -1
+
+Query  111  KWHMYDTVKGSDWLGDQDSIHYM-----TREAPKSIIELEHY  147
+            ++H++DT  GS W    D +  +     T+E P S + ++HY
+Sbjct  126  RFHIHDTPHGSGWSQSCDHMPEVPRVIWTKEGPLSFVSMQHY  1
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8539.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8539~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8539.p1 
+ ORF type:internal 
+len:547 (-),score=101.92 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8539:1-1638(-)
+Length=1638
+
+ Score = 29.6 bits (65),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 16/33 (48%), Positives = 23/33 (70%), Gaps = 1/33 (3%)
+ Frame = +1
+
+Query  525  LDEGVRNITA-VEKTFDDVKTTDRSMIWNSDLV  556
+            L E + NIT  VEKT +D+  +DRS+ +N DL+
+Sbjct  364  LPELMHNITLLVEKTENDILQSDRSLQYNRDLI  462
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4358.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4358~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4358.p2 
+ ORF type:5prime_partial 
+len:315 (+),score=60.61 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4358:1-945(+)
+Length=945
+
+ Score = 28.9 bits (63),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+ Frame = -2
+
+Query  119  KGSDWLGDQDSIHYMTREAPKSIIELE  145
+            + SDWL  Q S+ YM+ E+PKS I + 
+Sbjct  464  RSSDWLRRQ*SVLYMSWESPKSDILMR  384
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6620.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6620~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6620.p1 
+ ORF type:3prime_partial 
+len:577 (-),score=67.62 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6620:3-1730(-)
+Length=1728
+
+ Score = 28.1 bits (61),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 26/90 (29%), Positives = 36/90 (40%), Gaps = 7/90 (8%)
+ Frame = -1
+
+Query  151  FSRTENGKIYQRAFGGQTKEYGKGAQAYRTCAVADRTGHA---LLHTLYGQALRHDTHFF  207
+            ++   +GK Y   F         G   +R C V    G     LL  +  Q    D H F
+Sbjct  459  YALFVSGKWYCHLFNNVVNA-CPGMAGWRGCVVIQHYGEIVPNLLIVVLDQVYLDDAHVF  283
+
+Query  208  IEYFALDLLTHNGEVVGVIAYNQEDGTIHR  237
+            +  + L L TH GE V V+  +  DG + R
+Sbjct  282  VN*YFLVLKTH-GERVTVV--DIHDGNVPR  202
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1493530731
+
+
+Query= SDHA_Amphimedon_queenslandica
+
+Length=876
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 GENE.Spo...  817     0.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_938.p1 GENE.Spon...  169     7e-48
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p2 GENE.Spo...  164     8e-46
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_325.p2 GENE.Spon...  145     2e-39
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9465.p1 GENE.Spo...  142     2e-38
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16471.p1 GENE.Sp...  133     2e-35
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30125.p1 GENE.Sp...  130     2e-34
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27467.p1 GENE.Sp...  94.7    5e-23
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31871.p1 GENE.Sp...  86.3    3e-20
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24274.p1 GENE.Sp...  82.4    5e-19
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_20110.p1 GENE.Sp...  57.0    3e-10
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7115.p1 GENE.Spo...  36.2    0.031
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079.p1 GENE.Sp...  29.6    1.5  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1649.p1 GENE.Spo...  28.5    8.9  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15749.p1 GENE.Sp...  28.5    9.1  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 
+ ORF type:complete 
+len:565 (-),score=135.56 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030:1196-2776(-)
+Length=1581
+
+ Score = 817 bits (2110),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 381/524 (73%), Positives = 442/524 (84%), Gaps = 1/524 (0%)
+ Frame = +1
+
+Query  129   MTEEAPRTVIELENYGMPFSRLEDGRIYQRAFGGGSLNYGKGGQAHRCCCVADRTGHSLL  188
+             MTE+A ++VIELENYGMPFSR +DGRIYQRAFGG S ++G+GGQAHRCCCVADRTGHSLL
+Sbjct  1     MTEQAAKSVIELENYGMPFSRTDDGRIYQRAFGGQSYDFGRGGQAHRCCCVADRTGHSLL  180
+
+Query  189   HTLYGQSLRFNTEYFIEYFALDLIMEEGECRGVVAMNMEDGSIHRFKALNTVLATGGYGR  248
+             HTLYGQSLR +T+YF+EYFALDL+ME GECRGV+A+ MEDG+IHRF+A NTVLATGGYGR
+Sbjct  181   HTLYGQSLRHDTKYFVEYFALDLLMENGECRGVIALCMEDGTIHRFRAKNTVLATGGYGR  360
+
+Query  249   VYFSCTSAHTCTGDGTAMITRAGLANEDMEFVQFHPTGIYGAGCLITEGSRGEGGYLLNS  308
+              YFSCTSAHTCTGDG AM  RAGLA+EDMEFVQFHPTGIY AGCLITEG RGEGGYL+N 
+Sbjct  361   SYFSCTSAHTCTGDGIAMANRAGLASEDMEFVQFHPTGIYSAGCLITEGCRGEGGYLING  540
+
+Query  309   EGERFMERYAPSAKDLASRDVVSRSITIEIREGRGCGPDKDHVYLQLSHLPPEVLASRLP  368
+             +GERFMERYAP+AKDLASRDVVSR++T+EI EGRGCGP KDHV+LQLSHLPPE+LA+RLP
+Sbjct  541   KGERFMERYAPTAKDLASRDVVSRAMTVEIMEGRGCGPLKDHVHLQLSHLPPEILATRLP  720
+
+Query  369   GISETAQIFAGVDITREPIPVLPTVHYNMGGVPTNYKGQVIQYDESKGGDYIIPGLYSAG  428
+             GISETA IFAGVD+T+EPIPVLPTVHYNMGGVPTNYKGQVIQYD ++GGDYI+PGLY+ G
+Sbjct  721   GISETAHIFAGVDVTKEPIPVLPTVHYNMGGVPTNYKGQVIQYDPARGGDYIVPGLYACG  900
+
+Query  429   EAACASVHGANRLGANSLLDIVVFGRAAALTIAEECTPGQTVPNISESTGESSIDNIDTL  488
+             E ACASVHGANRLGANSLLD+VVFGRA A TIAE   PG+  P + ++ GE SI N+D L
+Sbjct  901   ETACASVHGANRLGANSLLDLVVFGRACANTIAEVNKPGEAQPPLKQNAGEKSIANLDRL  1080
+
+Query  489   LHNETATIPTSELRLNMQKVMQNNAAVFRTGPVLEEGIEKLTSLAGDM-RNVKVHDKGLV  547
+              H       T+ELRL MQKVM   A VFRTG  L++G +++T +A  +  ++K++DKG V
+Sbjct  1081  YHTSNGETHTAELRLRMQKVMHEKAGVFRTGEYLKQGCQQITQIATHLDEDLKLYDKGHV  1260
+
+Query  548   WNTDLVETLELQNLMLNGLQTVASAEARKETRGAHAREDFKDRVDEYDYKLPLEGQDKLD  607
+             WNTDL+ETLELQNLM   L TV SAEARKE+RGAHAR+D+  R+DEYDY  PL  Q    
+Sbjct  1261  WNTDLIETLELQNLMACSLLTVYSAEARKESRGAHARQDYNTRIDEYDYSKPLADQKMRP  1440
+
+Query  608   VKDHWRKHTLSSMPSDSEVKLDYRPVIDETLNENDCPSVPPTIR  651
+              ++HWRKHTL+ +  D  V L YRPVID+TL+E  CPSVPP +R
+Sbjct  1441  FEEHWRKHTLALVNDDYSVHLSYRPVIDKTLDEKVCPSVPPKLR  1572
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_938.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_938~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_938.p1 
+ ORF type:3prime_partial 
+len:234 (-),score=48.71 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_938:3-701(-)
+Length=699
+
+ Score = 169 bits (427),  Expect = 7e-48, Method: Compositional matrix adjust.
+ Identities = 98/210 (47%), Positives = 134/210 (64%), Gaps = 22/210 (10%)
+ Frame = +1
+
+Query  674  FDFDMCLEYAKLAEQAERFEDMKEATKKMTELNPDIFIKKDEESEARGAECRNLLSVAYK  733
+             D    +E AKLAEQAER+EDM +A K++ E            +E   +E RNLLSVAYK
+Sbjct  1    MDKKRLVEQAKLAEQAERYEDMAKAMKEVVE----------SSNEPVSSEERNLLSVAYK  150
+
+Query  734  NLVGSRRTALRILASIED--SKDPDSNEKKFVQEYTKRIQEELKGGCNEIIGIIDSKF--  789
+            N+VG+RR+A RI++SIE   S   D N++K  +EY + I++ELK  CNE++G++D KF  
+Sbjct  151  NVVGARRSAWRIMSSIEQKTSTANDENKRKLAKEYRESIEKELKDICNEVLGLLD-KFLV  327
+
+Query  790  SDDTKNENQVFFLKMKGDYYRYMAEIPTED-------AIENSkkayekayelakDLTNPS  842
+             +    E +VFFLKMKGDYYRY+AE+ + +       + +N+  +  +     +    P+
+Sbjct  328  PNAIDTEAKVFFLKMKGDYYRYLAEVASAEQRAGVVESSKNAYDSAMEVAVNKEGKLAPT  507
+
+Query  843  HPIRLGLALNFSVFYYEIAKEVNKACELAK  872
+            HPIRLGLALNFSVFYYEI    +KAC LAK
+Sbjct  508  HPIRLGLALNFSVFYYEIMNAPDKACALAK  597
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p2 
+ ORF type:complete 
+len:256 (-),score=57.60 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030:163-930(-)
+Length=768
+
+ Score = 164 bits (414),  Expect = 8e-46, Method: Compositional matrix adjust.
+ Identities = 97/218 (44%), Positives = 143/218 (66%), Gaps = 27/218 (12%)
+ Frame = +1
+
+Query  671  MDGFDFDMCLEYAKLAEQAERFEDMKEATKKMTELNPDIFIKKDEESEARGAECRNLLSV  730
+            M+  + +  +E AKLAEQAER+E+M +A K +TEL  ++             E RNLLSV
+Sbjct  1    MEDKNKNTWIEKAKLAEQAERYEEMAKAMKTVTELGAEL-----------NNEERNLLSV  147
+
+Query  731  AYKNLVGSRRTALRILASIEDSKDPDSNEKKFVQEYTKRIQEELKGGCNEIIGIID----  786
+            AYKN+VG+RR++ R+++SIE  K  D ++    +EY ++I+ EL   CNE++ ++D    
+Sbjct  148  AYKNVVGTRRSSWRVISSIE-QKSADEDKTSMAKEYREKIEAELTEICNEVLTLLDKYLI  324
+
+Query  787  -------SKFSDDTKNENQVFFLKMKGDYYRYMAEIPTED----AIENSkkayekayela  835
+                   +K    ++ E+ VF+LKMKGDYYRY+AE+ T D     +E+SK+AY+ A ++A
+Sbjct  325  PKASSGTTKDGSSSREESHVFYLKMKGDYYRYLAEVATGDKKKTVVEDSKQAYDGALKVA  504
+
+Query  836  kDLTNPSHPIRLGLALNFSVFYYEIAKEVNKACELAKE  873
+            +    P+HPIRLGLALNFSVFYYEI    ++AC+LAK+
+Sbjct  505  ETHMPPTHPIRLGLALNFSVFYYEILNAPDQACKLAKD  618
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_325.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_325~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_325.p2 
+ ORF type:complete 
+len:252 (+),score=52.40 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_325:299-1054(+)
+Length=756
+
+ Score = 145 bits (366),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 87/209 (42%), Positives = 126/209 (60%), Gaps = 28/209 (13%)
+ Frame = +1
+
+Query  680  LEYAKLAEQAERFEDMKEATKKMTELNPDIFIKKDEESEARGAECRNLLSVAYKNLVGSR  739
+            +E AK+AEQAER++DM +  K + E +P +             E RNLLSVAYKN+VGSR
+Sbjct  19   VEIAKVAEQAERYDDMAKNMKAVVEKDPHL-----------TQEERNLLSVAYKNVVGSR  165
+
+Query  740  RTALRILASIEDSKDPDSNEKK---FVQEYTKRIQEELKGGCNEIIGIIDSKF---SDDT  793
+            R+A RI++SIE   +    + +    V+EY  +++ ELK  C +++ ++D      +D+ 
+Sbjct  166  RSAWRIISSIEQKTERSEGQDQKLILVREYRGKVETELKDICEDVLRLLDEYLVPKADEV  345
+
+Query  794  KNENQVFFLKMKGDYYRYMAEIPT---EDAIENSkkayekayelakDLTNP------SHP  844
+              E +VF+LKMKGDYYRY+AE+     +DA+  + K   +          P      +HP
+Sbjct  346  --EQRVFYLKMKGDYYRYLAEVANAQNKDAVITNSKEAYEKAMSEASTGGPDKQLPSTHP  519
+
+Query  845  IRLGLALNFSVFYYEIAKEVNKACELAKE  873
+            IRLGLALNFSVFYYEI    ++AC+LAK+
+Sbjct  520  IRLGLALNFSVFYYEIMNAPDQACKLAKD  606
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9465.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9465~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9465.p1 
+ ORF type:complete 
+len:256 (-),score=38.46 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9465:48-722(-)
+Length=675
+
+ Score = 142 bits (357),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 77/184 (42%), Positives = 118/184 (64%), Gaps = 16/184 (9%)
+ Frame = +1
+
+Query  695  MKEATKKMTELNPDIFIKKDEESEARGAECRNLLSVAYKNLVGSRRTALRILASIEDSKD  754
+            M +A K++TE   ++             E RNLLSVAYKN+VG+RR++ R+++SIE   +
+Sbjct  1    MAQAMKQVTETGVEL-----------SNEERNLLSVAYKNVVGARRSSWRVISSIEQKTE  147
+
+Query  755  PDSNEKKFVQEYTKRIQEELKGGCNEIIGIIDSKFSDDTKN-ENQVFFLKMKGDYYRYMA  813
+                +++  +EY +++++EL+  C +++G++D        N E++VF+LKMKGDYYRY+A
+Sbjct  148  GSERKQQMAREYREKVEKELREICYDVLGLLDKFLIPKASNAESKVFYLKMKGDYYRYLA  327
+
+Query  814  EIPTEDAIENSkkayekayelakDLT----NPSHPIRLGLALNFSVFYYEIAKEVNKACE  869
+            E+ T D   +     + AY+ A D++     P+HPIRLGLALNFSVF+YEI     KAC 
+Sbjct  328  EVATGDQKTSVVTESQNAYQEAFDISKSKMQPTHPIRLGLALNFSVFFYEILNSPEKACS  507
+
+Query  870  LAKE  873
+            LAK+
+Sbjct  508  LAKQ  519
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16471.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16471~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16471.p1 
+ ORF 
+type:complete len:236 (-),score=18.25 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16471:199-870(-)
+Length=672
+
+ Score = 133 bits (334),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 73/157 (46%), Positives = 106/157 (68%), Gaps = 7/157 (4%)
+ Frame = +1
+
+Query  723  ECRNLLSVAYKNLVGSRRTALRILASIEDSKDPDSNEKKF--VQEYTKRIQEELKGGCNE  780
+            E RNLLSVAYKN++G+RR + RI++SIE  ++  + E +   ++ Y  +++ ELK  C +
+Sbjct  22   EERNLLSVAYKNVIGARRASWRIISSIEQKEEQKNAESRLTMIKSYRTQVENELKDICQD  201
+
+Query  781  IIGIIDSKF-SDDTKNENQVFFLKMKGDYYRYMAEIPT----EDAIENSkkayekayela  835
+            I+ ++D       +  E++VF+ KMKGDY+RY+AE  T    +DA ENS  AY+ A ++A
+Sbjct  202  ILDVLDKHLIPSASSGESRVFYYKMKGDYHRYLAEFATGNDRKDAAENSLVAYKSASDIA  381
+
+Query  836  kDLTNPSHPIRLGLALNFSVFYYEIAKEVNKACELAK  872
+             +    +HPIRLGLALNFSVFYYEI    ++AC LAK
+Sbjct  382  MNELQSTHPIRLGLALNFSVFYYEILNSPDRACRLAK  492
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30125.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30125~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30125.p1 
+ ORF 
+type:5prime_partial len:226 (+),score=28.16 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30125:1-678(+)
+Length=678
+
+ Score = 130 bits (326),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 73/158 (46%), Positives = 107/158 (68%), Gaps = 8/158 (5%)
+ Frame = +1
+
+Query  723  ECRNLLSVAYKNLVGSRRTALRILASIE---DSKDPDSNEKKFVQEYTKRIQEELKGGCN  779
+            E RNLLSVAYKN++G++R+A RI++SIE   +SKD +S++  F ++Y   +++EL     
+Sbjct  22   EERNLLSVAYKNVIGAKRSAWRIVSSIEQKEESKDAESSKLAFTRQYRIEVEKELNVVSK  201
+
+Query  780  EIIGIIDSKF-SDDTKNENQVFFLKMKGDYYRYMAEIPTED----AIENSkkayekayel  834
+            +++ ++        +  E++VF+ KM+GDYYRY+AE  T D      ENS  AY+ A ++
+Sbjct  202  DVLEVLSKHLLPAASTAESKVFYYKMQGDYYRYLAEFATGDERKSVAENSLVAYKSASDV  381
+
+Query  835  akDLTNPSHPIRLGLALNFSVFYYEIAKEVNKACELAK  872
+            A     P+HPIRLGLALNFSVFYYEI    ++AC+LAK
+Sbjct  382  ALAELAPTHPIRLGLALNFSVFYYEILNSPDRACQLAK  495
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27467.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27467~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27467.p1 
+ ORF 
+type:internal len:146 (+),score=27.51 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27467:3-437(+)
+Length=435
+
+ Score = 94.7 bits (234),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 53/122 (43%), Positives = 84/122 (69%), Gaps = 7/122 (6%)
+ Frame = +1
+
+Query  759  EKK--FVQEYTKRIQEELKGGCNEIIGIIDSKFSDDTKN-ENQVFFLKMKGDYYRYMAEI  815
+            EKK    +EY +++++EL   C +++ ++D+       N E++VF+LKMKGDYYRY+AE+
+Sbjct  1    EKKQSMTKEYRQKVEKELDDICQDVLVLLDTHLVPKASNPESKVFYLKMKGDYYRYLAEV  180
+
+Query  816  PTED----AIENSkkayekayelakDLTNPSHPIRLGLALNFSVFYYEIAKEVNKACELA  871
+               +     + NS+K+Y++A ++A+    P+HPIRLGLALN+SVF+YEI     +AC LA
+Sbjct  181  ADGEKKGAVVNNSEKSYQEALDIAQTQMQPTHPIRLGLALNYSVFFYEILSSPERACVLA  360
+
+Query  872  KE  873
+            K+
+Sbjct  361  KK  366
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31871.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31871~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31871.p1 
+ ORF 
+type:internal len:122 (+),score=15.01 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31871:1-363(+)
+Length=363
+
+ Score = 86.3 bits (212),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 46/79 (58%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+ Frame = +1
+
+Query  798  QVFFLKMKGDYYRYMAEIPTE---DAIENSkkayekayelakDLTNPSHPIRLGLALNFS  854
+            +VF+LKMKGDYYRY+AE+      + +ENS+KAY++A+++AK    P+HPIRLGLALNFS
+Sbjct  1    KVFYLKMKGDYYRYLAEVANAKKAEVVENSEKAYQEAFDIAKTQMQPTHPIRLGLALNFS  180
+
+Query  855  VFYYEIAKEVNKACELAKE  873
+            VF+YEI    ++AC+LAK+
+Sbjct  181  VFFYEIKNAPDRACQLAKQ  237
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24274.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24274~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24274.p1 
+ ORF 
+type:internal len:124 (-),score=16.55 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24274:2-370(-)
+Length=369
+
+ Score = 82.4 bits (202),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 50/122 (41%), Positives = 75/122 (61%), Gaps = 15/122 (12%)
+ Frame = +1
+
+Query  764  QEYTKRIQEELKGGCNEIIGIIDSKFSDDTKN-----------ENQVFFLKMKGDYYRYM  812
+            +EY ++I+ EL   CNE++ ++D        +                +LKMKGDY+RY+
+Sbjct  4    KEYREKIEAELTEICNEVLTLLDKYLIPKASSGXXXXXXXXXXXXXXXYLKMKGDYFRYL  183
+
+Query  813  AEIPT----EDAIENSkkayekayelakDLTNPSHPIRLGLALNFSVFYYEIAKEVNKAC  868
+            AE+ T    +  +E+SK+AY+ A ++A+    P+HPIRLGLALNFSVFYYEI    ++AC
+Sbjct  184  AEVATGEKKKAVVEDSKQAYDGALKVAEGHMPPTHPIRLGLALNFSVFYYEILNSPDQAC  363
+
+Query  869  EL  870
+            +L
+Sbjct  364  KL  369
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_20110.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_20110~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_20110.p1 
+ ORF 
+type:5prime_partial len:105 (+),score=5.62 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_20110:2-316(+)
+Length=315
+
+ Score = 57.0 bits (136),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 24/33 (73%), Positives = 28/33 (85%), Gaps = 0/33 (0%)
+ Frame = +1
+
+Query  841  PSHPIRLGLALNFSVFYYEIAKEVNKACELAKE  873
+            P+HPIRLGLALNFSVFYYEI    ++AC LAK+
+Sbjct  40   PTHPIRLGLALNFSVFYYEILNSPDRACRLAKQ  138
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7115.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7115~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7115.p1 
+ ORF type:5prime_partial 
+len:364 (-),score=51.65 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7115:160-1251(-)
+Length=1092
+
+ Score = 36.2 bits (82),  Expect = 0.031, Method: Compositional matrix adjust.
+ Identities = 31/98 (32%), Positives = 49/98 (50%), Gaps = 13/98 (13%)
+ Frame = +1
+
+Query  191  LYGQSLRFNT-EYFIEYFALDLIMEEGECRGVVAMNMEDGSIH--RFKAL-NTVLATGGY  246
+            LY +  R+ T     ++FA D++M    C G+     ED  I   + KAL +TV+A  G+
+Sbjct  706  LYNKKHRYGTFSNNCQHFAKDVLM----CLGM----EEDAEIFHGKSKALADTVMAGFGH  861
+
+Query  247  GRVYFSCTSAHTCTG-DGTAMITRAGLANEDMEFVQFH  283
+            G+++  CT  ++    D        G+  ED+EF Q H
+Sbjct  862  GKIFTKCTEFNSHEDLDRYVAEEGEGMGREDLEFCQLH  975
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079.p1 
+ ORF 
+type:5prime_partial len:116 (-),score=7.16 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_28079:17-364(-)
+Length=348
+
+ Score = 29.6 bits (65),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 13/28 (46%), Positives = 16/28 (57%), Gaps = 0/28 (0%)
+ Frame = +1
+
+Query  240  VLATGGYGRVYFSCTSAHTCTGDGTAMI  267
+            +L+   Y  VY  CT  HT TGDG+  I
+Sbjct  238  ILSLHTYIHVYSHCTHTHTQTGDGSTRI  321
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1649.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1649~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1649.p1 
+ ORF type:5prime_partial 
+len:410 (+),score=107.49 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1649:1-1230(+)
+Length=1230
+
+ Score = 28.5 bits (62),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 16/54 (30%), Positives = 28/54 (52%), Gaps = 0/54 (0%)
+ Frame = -2
+
+Query  212  IMEEGECRGVVAMNMEDGSIHRFKALNTVLATGGYGRVYFSCTSAHTCTGDGTA  265
+            ++ +  CR +VA      S++R   + ++LAT G+   +FS +S       GTA
+Sbjct  386  LISKASCRHLVASLSLPCSLYRTARMLSMLATSGWFLPFFSSSSLTAFLHRGTA  225
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15749.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15749~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15749.p1 
+ ORF 
+type:5prime_partial len:377 (+),score=48.85 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15749:2-1132(+)
+Length=1131
+
+ Score = 28.5 bits (62),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 27/96 (28%), Positives = 41/96 (43%), Gaps = 10/96 (10%)
+ Frame = +1
+
+Query  321  AKDLASRDVVSRSITIEIREGRGC----GPD---KDHVYLQLSHLPPEVLASRLPGISET  373
+            AK ++   + S+SI I    GR C     P    +     +L+++PPEVL S +P    T
+Sbjct  607  AKSISHPLLTSQSIGI--YRGRACITMWAPHSSCRSITAQELTYIPPEVLRSLVPNHDGT  780
+
+Query  374  AQIFAGVDITREPIPVLPTVHYNMGGVPTNYKGQVI  409
+              +F         +    TV Y +  +   YKG  I
+Sbjct  781  LSLFECSSYEAN-VYSFGTVAYELATMQRPYKGMAI  885
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2105077149
+
+
+Query= SDHB_Homo_sapiens
+
+Length=280
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398.p2 GENE.Spo...  171     4e-53
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3333.p2 GENE.Spo...  32.3    0.099
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18621.p2 GENE.Sp...  26.6    3.4  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14771.p1 GENE.Sp...  26.9    6.1  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398.p2 
+ ORF type:5prime_partial 
+len:209 (+),score=29.02 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398:3-629(+)
+Length=627
+
+ Score = 171 bits (432),  Expect = 4e-53, Method: Compositional matrix adjust.
+ Identities = 73/91 (80%), Positives = 85/91 (93%), Gaps = 0/91 (0%)
+ Frame = +1
+
+Query  181  DGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSL  240
+            DGLYECILCACC+TSCP+YWW+ +KYLGPAVLMQAYRW+IDSRD+   ERL KL DPFS+
+Sbjct  343  DGLYECILCACCTTSCPAYWWHPEKYLGPAVLMQAYRWIIDSRDEMKAERLKKLSDPFSV  522
+
+Query  241  YRCHTIMNCTRTCPKGLNPGKAIAEIKKMMA  271
+            +RCHTIMNCT++CPKGLNPGKAIAE+KKM+A
+Sbjct  523  FRCHTIMNCTKSCPKGLNPGKAIAELKKMLA  615
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3333.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3333~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3333.p2 
+ ORF type:complete 
+len:276 (+),score=38.26 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3333:248-1075(+)
+Length=828
+
+ Score = 32.3 bits (72),  Expect = 0.099, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 24/50 (48%), Gaps = 4/50 (8%)
+ Frame = -1
+
+Query  51   KAGDKPHMQTYEVDLNKCGPMVLDALIKIKNEVDSTLTFRRSCREGICGS  100
+             AG++P    ++       P+V      I++ VDS L FR   R G+C S
+Sbjct  282  SAGEEPAQDHFQ----GVNPLVQLHHFLIEHHVDSNLVFRFVVRHGVCSS  145
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18621.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18621~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18621.p2 
+ ORF 
+type:complete len:100 (-),score=11.68 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18621:237-536(-)
+Length=300
+
+ Score = 26.6 bits (57),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 8/35 (23%), Positives = 18/35 (51%), Gaps = 0/35 (0%)
+ Frame = -3
+
+Query  233  KLQDPFSLYRCHTIMNCTRTCPKGLNPGKAIAEIK  267
+            + Q+P+ +YR      C + C + L+    + E++
+Sbjct  274  RFQNPWHIYRDMNFHQCWQICVESLHHSVVVREVQ  170
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14771.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14771~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14771.p1 
+ ORF 
+type:complete len:311 (-),score=32.14 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14771:238-1170(-)
+Length=933
+
+ Score = 26.9 bits (58),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 16/62 (26%), Positives = 26/62 (42%), Gaps = 2/62 (3%)
+ Frame = -2
+
+Query  200  WWNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSLYRCHTIMNCTRTCPKGLNP  259
+            W+    ++  ++L+ A              R+ KLQ  F  +    +MNCT  C   +NP
+Sbjct  722  WYGYVTHVATSLLVAAIVIYSTGPSFVVMGRV*KLQYVF--FSSSYVMNCTAPCEVPINP  549
+
+Query  260  GK  261
+             K
+Sbjct  548  AK  543
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 550049430
+
+
+Query= SDHB_Saccharomyces_cerevisiae
+
+Length=266
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398.p2 GENE.Spo...  151     1e-45
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1557.p1 GENE.Spo...  29.6    0.77 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6129.p1 GENE.Spo...  28.9    1.8  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2640.p1 GENE.Spo...  28.9    2.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6128.p1 GENE.Spo...  28.1    3.1  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7571.p1 GENE.Spo...  27.3    5.2  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1556.p2 GENE.Spo...  26.9    5.5  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_41056.p1 GENE.Sp...  25.8    6.9  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7476.p2 GENE.Spo...  25.8    8.0  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398.p2 
+ ORF type:5prime_partial 
+len:209 (+),score=29.02 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398:3-629(+)
+Length=627
+
+ Score = 151 bits (381),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 66/91 (73%), Positives = 79/91 (87%), Gaps = 0/91 (0%)
+ Frame = +1
+
+Query  174  DGLYECILCACCSTSCPSYWWNQEQYLGPAVLMQAYRWLIDSRDQATKTRKAMLNNSMSL  233
+            DGLYECILCACC+TSCP+YWW+ E+YLGPAVLMQAYRW+IDSRD+    R   L++  S+
+Sbjct  343  DGLYECILCACCTTSCPAYWWHPEKYLGPAVLMQAYRWIIDSRDEMKAERLKKLSDPFSV  522
+
+Query  234  YRCHTIMNCTRTCPKGLNPGLAIAEIKKSLA  264
+            +RCHTIMNCT++CPKGLNPG AIAE+KK LA
+Sbjct  523  FRCHTIMNCTKSCPKGLNPGKAIAELKKMLA  615
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1557.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1557~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1557.p1 
+ ORF type:complete 
+len:252 (+),score=29.20 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1557:19-774(+)
+Length=756
+
+ Score = 29.6 bits (65),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 18/41 (44%), Gaps = 0/41 (0%)
+ Frame = +1
+
+Query  155  SFPKDGTEVLQSIEDRKKLDGLYECILCACCSTSCPSYWWN  195
+            SFP  G + L  ++D KKL   YE  +    S  C    W 
+Sbjct  16   SFPATGCQKLIEVDDEKKLRTFYEKRMAQEVSAECLGDEWK  138
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6129.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6129~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6129.p1 
+ ORF type:internal 
+len:570 (-),score=97.74 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6129:1-1707(-)
+Length=1707
+
+ Score = 28.9 bits (63),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 21/37 (57%), Gaps = 0/37 (0%)
+ Frame = +1
+
+Query  83    FRRSCREGICGSCAMNIGGRNTLACICKIDQNESKQL  119
+             + R+ R+G  G+C+M +   + L C    DQN+  QL
+Sbjct  1492  YGRAGRQGQPGTCSMILSLEDPLICSLNTDQNDKVQL  1602
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2640.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2640~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2640.p1 
+ ORF type:5prime_partial 
+len:1000 (-),score=256.06 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2640:520-3519(-)
+Length=3000
+
+ Score = 28.9 bits (63),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 23/84 (27%), Positives = 38/84 (45%), Gaps = 7/84 (8%)
+ Frame = -1
+
+Query  155   SFPKDGTEVLQ-SIEDRKKLDGLYECILCACCSTSCPSYWWNQEQYLGPAVLMQAYRWLI  213
+             S P +G  V++  ++  + LDG+   I+C CC+ +  S       Y  P   + +  WL 
+Sbjct  1689  SQPLEGFVVIEIQVQVSQDLDGISH-IICLCCTDTKTSCSRKHPCYEIPTETLHSLDWLT  1513
+
+Query  214   DSRDQATKTRKAMLNNSMSLYRCH  237
+              S D      + + NN   L+ CH
+Sbjct  1512  QSHDHLIA--RTIHNN---LHCCH  1456
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6128.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6128~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6128.p1 
+ ORF type:3prime_partial 
+len:1720 (-),score=246.62 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6128:2-4537(-)
+Length=4536
+
+ Score = 28.1 bits (61),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 23/39 (59%), Gaps = 1/39 (3%)
+ Frame = +1
+
+Query  83    FRRSCREGICGSCAMNIGGRNTLACICKIDQNES-KQLK  120
+             + R+ R+G  G+C+M +   + L C    DQNE  +QLK
+Sbjct  4300  YGRAGRQGQPGTCSMVLSLEDPLICSLITDQNEKVEQLK  4416
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7571.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7571~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7571.p1 
+ ORF type:3prime_partial 
+len:581 (-),score=144.41 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7571:2-1558(-)
+Length=1557
+
+ Score = 27.3 bits (59),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 14/52 (27%), Positives = 21/52 (40%), Gaps = 0/52 (0%)
+ Frame = +1
+
+Query  210  RWLIDSRDQATKTRKAMLNNSMSLYRCHTIMNCTRTCPKGLNPGLAIAEIKK  261
+            +W I S  +A  + +    N      CH +  CTR       P L I  +K+
+Sbjct  424  KWTIQSGLEAISSEETFEENQWCCPNCHNMPKCTRRTEVAEAPELLIVHLKR  579
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1556.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1556~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1556.p2 
+ ORF type:complete 
+len:248 (-),score=23.85 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1556:1123-1866(-)
+Length=744
+
+ Score = 26.9 bits (58),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 13/41 (32%), Positives = 19/41 (46%), Gaps = 0/41 (0%)
+ Frame = +1
+
+Query  155  SFPKDGTEVLQSIEDRKKLDGLYECILCACCSTSCPSYWWN  195
+            S+P  G + L +IED  ++   YE  + A  S  C    W 
+Sbjct  16   SYPATGCQKLLNIEDELRVRPFYEKRMAAEVSADCLGDEWK  138
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_41056.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_41056~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_41056.p1 
+ ORF 
+type:internal len:115 (-),score=31.38 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_41056:3-344(-)
+Length=342
+
+ Score = 25.8 bits (55),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 26/49 (53%), Gaps = 3/49 (6%)
+ Frame = +1
+
+Query  99   IGGRNTLAC--ICKIDQNESKQLKIYPLPHMFIVKDLVPDLTNFYQQYK  145
+            I G   LA   I K+  N+ KQL+ +    + ++K+ VP + N   QY+
+Sbjct  148  IAGSVLLAAVTITKLPNNQ-KQLENFSRNMLALIKETVPSIANLKDQYR  291
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7476.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7476~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7476.p2 
+ ORF type:complete 
+len:146 (-),score=34.52 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7476:1011-1448(-)
+Length=438
+
+ Score = 25.8 bits (55),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 23/77 (30%), Positives = 32/77 (42%), Gaps = 6/77 (8%)
+ Frame = +3
+
+Query  31   PRLKTFKVYRWNPDEPSAKPHLQSYQVDLNDCGPMV-LDALLKIKDEQDSTLTFRRSCRE  89
+            PRL   +   W+      + HLQ++   L    PM  L A   ++DEQ         CR 
+Sbjct  186  PRL--LQALLWHGGHVG*R-HLQAWHPGLLQLCPMATLHA--GVEDEQVHQALPESMCRS  350
+
+Query  90   GICGSCAMNIGGRNTLA  106
+              C  CA+  GG+   A
+Sbjct  351  AGCCGCALCNGGKGMQA  401
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 516067749
+
+
+Query= SDHB_Amphimedon_queenslandica
+
+Length=202
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398.p2 GENE.Spo...  180     8e-58
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31437.p1 GENE.Sp...  27.3    1.8  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7887.p1 GENE.Spo...  26.9    4.4  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6810.p1 GENE.Spo...  25.8    8.7  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12506.p1 GENE.Sp...  25.8    10.0 
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398.p2 
+ ORF type:5prime_partial 
+len:209 (+),score=29.02 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3398:3-629(+)
+Length=627
+
+ Score = 180 bits (456),  Expect = 8e-58, Method: Compositional matrix adjust.
+ Identities = 78/91 (86%), Positives = 89/91 (98%), Gaps = 0/91 (0%)
+ Frame = +1
+
+Query  109  DGLYECILCACCSTSCPSYWWNPDKYLGPAVLMQAYRWMIDSRDEYRSERLAKISDPFSV  168
+            DGLYECILCACC+TSCP+YWW+P+KYLGPAVLMQAYRW+IDSRDE ++ERL K+SDPFSV
+Sbjct  343  DGLYECILCACCTTSCPAYWWHPEKYLGPAVLMQAYRWIIDSRDEMKAERLKKLSDPFSV  522
+
+Query  169  FRCHTIMNCTKTCPKGLNPGRAIAEIKKMLA  199
+            FRCHTIMNCTK+CPKGLNPG+AIAE+KKMLA
+Sbjct  523  FRCHTIMNCTKSCPKGLNPGKAIAELKKMLA  615
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31437.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31437~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31437.p1 
+ ORF 
+type:internal len:151 (+),score=27.95 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31437:1-450(+)
+Length=450
+
+ Score = 27.3 bits (59),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 26/51 (51%), Gaps = 1/51 (2%)
+ Frame = +1
+
+Query  63   DLNQCGPMV-LDALIKIKNEIDPTLTFRRSCREDYKHLQSMEDRAKLDGLY  112
+            DLN+  P++ ++ +     E DP L  RRS  E    LQS +   + D LY
+Sbjct  193  DLNRVTPIIKVEDMDSSSMEADPGLHLRRSLTELKDSLQSKKLLLEFDQLY  345
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7887.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7887~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7887.p1 
+ ORF type:5prime_partial 
+len:366 (-),score=107.59 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7887:83-1180(-)
+Length=1098
+
+ Score = 26.9 bits (58),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+ Frame = +2
+
+Query  28   VATEHKEQPRLKTFLVYRWN  47
+            ++T H   P  K+FL YRWN
+Sbjct  380  LSTNHYMNPTCKSFLNYRWN  439
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6810.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6810~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6810.p1 
+ ORF type:5prime_partial 
+len:283 (-),score=50.22 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6810:1-849(-)
+Length=849
+
+ Score = 25.8 bits (55),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 15/27 (56%), Gaps = 0/27 (0%)
+ Frame = -1
+
+Query  117  CACCSTSCPSYWWNPDKYLGPAVLMQA  143
+            CAC STSC     N D  L  A L+Q+
+Sbjct  345  CACVSTSCLDLIHNKDHTLLLAQLLQS  265
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12506.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12506~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12506.p1 
+ ORF 
+type:5prime_partial len:623 (-),score=150.07 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12506:274-2142(-)
+Length=1869
+
+ Score = 25.8 bits (55),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 14/49 (29%), Positives = 25/49 (51%), Gaps = 2/49 (4%)
+ Frame = +1
+
+Query  120   CSTS--CPSYWWNPDKYLGPAVLMQAYRWMIDSRDEYRSERLAKISDPF  166
+             C+T    P Y+   D Y+G ++ +  +R+ +   DEY    + K +D F
+Sbjct  1111  CNTDGQSPVYYQAEDLYVGGSMELCKHRFRLIDADEYALRYMEKNADQF  1257
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 340045455
+
+
+Query= SDHC_Homo_sapiens
+
+Length=169
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085.p1 GENE.Spo...  77.0    1e-18
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24826.p1 GENE.Sp...  30.0    0.24 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15040.p2 GENE.Sp...  28.1    0.93 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27589.p2 GENE.Sp...  27.3    1.1  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7383.p1 GENE.Spo...  27.3    1.9  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13076.p2 GENE.Sp...  26.9    2.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1591.p1 GENE.Spo...  26.2    5.1  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5572.p1 GENE.Spo...  25.8    6.5  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31167.p1 GENE.Sp...  25.8    6.6  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10805.p1 GENE.Sp...  25.4    9.6  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085.p1 
+ ORF type:complete 
+len:183 (-),score=12.08 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085:133-657(-)
+Length=525
+
+ Score = 77.0 bits (188),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 58/176 (33%), Positives = 91/176 (52%), Gaps = 17/176 (10%)
+ Frame = +1
+
+Query  1    MAALLLRHVGRHCLRAHFSPQLCIRNAVPLGTTAK---EEMERFWNKNIGSNRPLSPHIT  57
+            MAA +L   GR C+ A++S  L     +    T     E++     KN    RPLSP + 
+Sbjct  1    MAAFVL---GR-CVPAYWSTSLIASPIICRAATTVPNWEKLTERTTKNKQLGRPLSPSLQ  168
+
+Query  58   ------IYSWSLPMAMSICHRGTGIALSAGVSLFGMSALLLPGNFESYLELVKSLCLGPA  111
+                   + W L    S  HR +G+  + G+S+  +  L    +F   ++ V+++ L PA
+Sbjct  169  HLAQHPDWVWIL----SFGHRASGVVTTGGISVAALLYLGSSRHFPQIMDSVQAMSLSPA  336
+
+Query  112  LIHTAKFALVFPLMYHTWNGIRHLMWDLGKGLKIPQLYQSGvvvlvltvlSSMGLA  167
+             I  AKF +  PL YH +NG+RHLMWD G+G  +  + ++G+ VL   +L++ GLA
+Sbjct  337  TITIAKFCMALPLAYHFFNGMRHLMWDSGRGFTMTTVVRAGLTVLTCAILTAGGLA  504
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24826.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24826~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24826.p1 
+ ORF 
+type:internal len:303 (-),score=27.87 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24826:2-907(-)
+Length=906
+
+ Score = 30.0 bits (66),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 20/58 (34%), Positives = 29/58 (50%), Gaps = 7/58 (12%)
+ Frame = +1
+
+Query  28   VPLGTTAK------EEMERFWNKNIGSNRPLSPHITIYSWSLPMAMSICHRGTGIALS  79
+            VPL   A+      +E  R W+ +I S+R  +   +I SWS P A  I  R T  ++S
+Sbjct  79   VPLTEAARFSSFETKENSRLWDTDIESSRSTTDLRSIISWS-PSASDIQTRATSPSVS  249
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15040.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15040~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15040.p2 
+ ORF 
+type:5prime_partial len:226 (+),score=20.81 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15040:2-679(+)
+Length=678
+
+ Score = 28.1 bits (61),  Expect = 0.93, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+ Frame = +3
+
+Query  2    AALLLRHVGRHCLRAHFSPQLCIRNAVPLG  31
+            +ALL+R   RHCL   F   L  RN  P G
+Sbjct  234  SALLVRSESRHCLP*DFGSPLTSRNQTPCG  323
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27589.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27589~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27589.p2 
+ ORF 
+type:internal len:106 (-),score=30.02 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27589:3-317(-)
+Length=315
+
+ Score = 27.3 bits (59),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 13/24 (54%), Gaps = 0/24 (0%)
+ Frame = +1
+
+Query  9    VGRHCLRAHFSPQLCIRNAVPLGT  32
+            VG +C R   SP LC     P+GT
+Sbjct  238  VGPNCKREEPSPSLCANRGEPVGT  309
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7383.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7383~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7383.p1 
+ ORF type:5prime_partial 
+len:351 (+),score=66.31 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7383:2-1054(+)
+Length=1053
+
+ Score = 27.3 bits (59),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 13/48 (27%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+ Frame = -2
+
+Query  38   MERFWNKNIGSNRPLSPHITIYSWSLPMAMSICHRGTGIALSAGVSLF  85
+            ++ F  ++I ++ P  P I+I SW+ P   ++C R   ++++    LF
+Sbjct  200  VQLFNGRSITTSNPF-PEISIISWTSPTGSNVCRRTFLLSVTLITRLF  60
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13076.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13076~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13076.p2 
+ ORF 
+type:5prime_partial len:176 (+),score=17.72 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13076:3-530(+)
+Length=528
+
+ Score = 26.9 bits (58),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+ Frame = -3
+
+Query  93   PGNFESYLELVKSLCLGPALIHTAKFALVFPLMYHTWN  130
+            P   + YL +V S  +  ++  TA+ A   PLM H W 
+Sbjct  247  PAGQQEYLPIVLSFSVTVSIFCTAEIASFSPLMRHQWT  134
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1591.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1591~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1591.p1 
+ ORF type:3prime_partial 
+len:652 (+),score=107.48 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1591:374-2326(+)
+Length=1953
+
+ Score = 26.2 bits (56),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 12/40 (30%), Positives = 24/40 (60%), Gaps = 4/40 (10%)
+ Frame = +2
+
+Query  98    SYLELVKSLCLGPALIHTAKFALVFPLMYHTWNGIRHLMW  137
+             +YL+ +  LC+ P +    + ++VFP +    + +RHLM+
+Sbjct  920   NYLQELTLLCMTPLI----RLSIVFPDLVRVHHHLRHLMY  1027
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5572.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5572~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5572.p1 
+ ORF type:5prime_partial 
+len:562 (-),score=95.27 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5572:122-1807(-)
+Length=1686
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 15/22 (68%), Gaps = 0/22 (0%)
+ Frame = -1
+
+Query  86   GMSALLLPGNFESYLELVKSLC  107
+            G+  LLLPG+F++  E  + LC
+Sbjct  894  GLQQLLLPGHFQTTQERRQCLC  829
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31167.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31167~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31167.p1 
+ ORF 
+type:internal len:237 (-),score=6.41 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31167:1-708(-)
+Length=708
+
+ Score = 25.8 bits (55),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+ Frame = +3
+
+Query  5    LLRHVGRHCLRAHFSP  20
+            L RH+GR  L+AHF P
+Sbjct  141  LCRHIGRDSLQAHFQP  188
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10805.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10805~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10805.p1 
+ ORF 
+type:5prime_partial len:296 (+),score=65.68 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10805:1-888(+)
+Length=888
+
+ Score = 25.4 bits (54),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 16/68 (24%), Positives = 27/68 (40%), Gaps = 15/68 (22%)
+ Frame = +3
+
+Query  21   QLCIRNAVPLGTTAKEEM------------ERFWNKNIGSNRPLSPHITIY---SWSLPM  65
+            QLC++    L T+ +                R WN +   +RP +PH+  +   S  +P 
+Sbjct  342  QLCVKEEC*LHTSPQSHHLPALFQRSHLCGYRRWNDSGNEHRPQAPHLLPHLCRSQPVPY  521
+
+Query  66   AMSICHRG  73
+               +C  G
+Sbjct  522  GDQVCQTG  545
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.138    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 256601145
+
+
+Query= SDHC_Saccharomyces_cerevisiae
+
+Length=196
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085.p1 GENE.Spo...  52.8    3e-09
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1217.p1 GENE.Spo...  26.9    3.4  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6091.p1 GENE.Spo...  26.9    3.5  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5229.p1 GENE.Spo...  26.2    7.9  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_26922.p1 GENE.Sp...  25.4    8.7  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085.p1 
+ ORF type:complete 
+len:183 (-),score=12.08 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085:133-657(-)
+Length=525
+
+ Score = 52.8 bits (125),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 39/129 (30%), Positives = 60/129 (47%), Gaps = 8/129 (6%)
+ Frame = +1
+
+Query  63   EELLVSQRKKRPISPHLT--VYEPEMSWYLSSLHRISGVLLALGFYAFTITLGVTTIMGM  120
+            E    +++  RP+SP L      P+  W LS  HR SGV+   G     I++     +G 
+Sbjct  115  ERTTKNKQLGRPLSPSLQHLAQHPDWVWILSFGHRASGVVTTGG-----ISVAALLYLGS  279
+
+Query  121  DTTF-QDLNKWYHEKMPKWSQWVAKGSAAYLFAFHFGNGIRHLIWDMGYELTNRGVIKTG  179
+               F Q ++      +   +  +AK   A   A+HF NG+RHL+WD G   T   V++ G
+Sbjct  280  SRHFPQIMDSVQAMSLSPATITIAKFCMALPLAYHFFNGMRHLMWDSGRGFTMTTVVRAG  459
+
+Query  180  SIVLAGTLV  188
+              VL   ++
+Sbjct  460  LTVLTCAIL  486
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1217.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1217~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1217.p1 
+ ORF type:3prime_partial 
+len:394 (+),score=89.34 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1217:619-1797(+)
+Length=1179
+
+ Score = 26.9 bits (58),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 22/48 (46%), Gaps = 5/48 (10%)
+ Frame = +1
+
+Query  78   HLTVYEPEMSWYLSSLHRISGVLLALGFYAFTITLGVTTIMGMDTTFQ  125
+             L + EPE  W L  L +ISG     GF A  ++  V  +  +  T +
+Sbjct  166  QLMIDEPEREWQLGDLPKISG-----GFTAADVSKCVNILNQLARTLK  294
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6091.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6091~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6091.p1 
+ ORF type:5prime_partial 
+len:402 (-),score=82.79 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6091:165-1370(-)
+Length=1206
+
+ Score = 26.9 bits (58),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 13/44 (30%), Positives = 17/44 (39%), Gaps = 5/44 (11%)
+ Frame = -1
+
+Query  120   MDTTFQDLNKWYHEKMPKWSQWVAKGSAAYLFAFH-----FGNG  158
+             +D    DLN   H    + S WV      +L  F      FG+G
+Sbjct  1146  LDVALDDLNSLKHSSCARPSVWVCSKEVLHLAEFQLCAECFGDG  1015
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5229.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5229~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5229.p1 
+ ORF type:internal 
+len:656 (+),score=146.95 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5229:2-1966(+)
+Length=1965
+
+ Score = 26.2 bits (56),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 12/51 (24%), Positives = 26/51 (51%), Gaps = 0/51 (0%)
+ Frame = -1
+
+Query  89   YLSSLHRISGVLLALGFYAFTITLGVTTIMGMDTTFQDLNKWYHEKMPKWS  139
+            Y  +LH +   +    F  ++  + V+ ++ M + +Q+L KW H  +  W+
+Sbjct  285  Y*CALHLVMAWVNLYKFIFYSCLVIVSNLVTMCSYYQNLGKWRHLAILTWN  133
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_26922.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_26922~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_26922.p1 
+ ORF 
+type:5prime_partial len:178 (+),score=1.57 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_26922:1-534(+)
+Length=534
+
+ Score = 25.4 bits (54),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 19/71 (27%), Positives = 34/71 (48%), Gaps = 4/71 (6%)
+ Frame = +2
+
+Query  83   EPEMSWYLSSLHRISGVLLALGFYAFTITLGVTTIM---GMDTTFQDLNKWYHEKMPKWS  139
+            E   S+ L + +RIS V    G +       +TT++   G  T+   L K   +++P+W 
+Sbjct  59   ERACSYSLLNTNRISYVWKGFGVWCMGTGCSMTTVIPSSGPSTSIWIL-K*ASKRLPRWL  235
+
+Query  140  QWVAKGSAAYL  150
+            +WV    A ++
+Sbjct  236  RWVILAPAVFV  268
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 327531270
+
+
+Query= SDHC_Amphimedon_queenslandica
+
+Length=243
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085.p1 GENE.Spo...  37.7    8e-04
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13994.p1 GENE.Sp...  27.7    3.0  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085.p1 
+ ORF type:complete 
+len:183 (-),score=12.08 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3085:133-657(-)
+Length=525
+
+ Score = 37.7 bits (86),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 15/34 (44%), Positives = 24/34 (71%), Gaps = 1/34 (3%)
+ Frame = +1
+
+Query  199  NGIRHLFWDTGAGFALDSARKSGIAVIAFAAIMT  232
+            NG+RHL WD+G GF + +  ++G+ V+   AI+T
+Sbjct  391  NGMRHLMWDSGRGFTMTTVVRAGLTVLT-CAILT  489
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13994.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13994~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13994.p1 
+ ORF 
+type:5prime_partial len:375 (-),score=11.93 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13994:69-1193(-)
+Length=1125
+
+ Score = 27.7 bits (60),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 20/38 (53%), Gaps = 0/38 (0%)
+ Frame = +3
+
+Query  51   QGSIAGDREKHRPAIEILGRRHLPDSISGANGRAEAAR  88
+            QGS   +  +HRP +    R HLP +I G  GR   +R
+Sbjct  702  QGSDGSEGREHRPPVSRPSRDHLPLAIRGGRGRHTHSR  815
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 449008098
+
+
+Query= SDHD_Homo_sapiens
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382.p1 GENE.Sp...  26.9    1.7  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3273.p1 GENE.Spo...  26.6    4.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_49353.p1 GENE.Sp...  25.8    5.8  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8393.p1 GENE.Spo...  25.4    7.2  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7169.p1 GENE.Spo...  25.4    9.9  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382.p1 
+ ORF 
+type:internal len:142 (+),score=2.36 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382:1-423(+)
+Length=423
+
+ Score = 26.9 bits (58),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 26/63 (41%), Positives = 33/63 (52%), Gaps = 1/63 (2%)
+ Frame = -1
+
+Query  95   LAAALTLHGHWGLGQVVTDYVHGDalqkaakagllalsalTFAGLCYFNYHDVGICKAVA  154
+            L AAL +HGH  +  VVTDYV   A+   A+ G+L  + L  AG+   N    GI   V 
+Sbjct  423  LNAALPVHGHIAMNYVVTDYVP-KAVAGVARWGVLGGTLLAAAGMVKLNGAGPGITATVK  247
+
+Query  155  MLW  157
+             LW
+Sbjct  246  ALW  238
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3273.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3273~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3273.p1 
+ ORF type:3prime_partial 
+len:486 (+),score=84.11 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3273:93-1547(+)
+Length=1455
+
+ Score = 26.6 bits (57),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 15/22 (68%), Gaps = 0/22 (0%)
+ Frame = -2
+
+Query  81    PAAYLNPCSAMDYSLAAALTLH  102
+             P  +LN C A++  LA+ +TLH
+Sbjct  1058  PKGFLNVCCALEKLLASVVTLH  993
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_49353.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_49353~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_49353.p1 
+ ORF 
+type:complete len:206 (+),score=32.84 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_49353:46-663(+)
+Length=618
+
+ Score = 25.8 bits (55),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 12/23 (52%), Gaps = 7/23 (30%)
+ Frame = -1
+
+Query  33   AFLQDR-------PIPEWCGVQH  48
+            AFL  R       P+PEWCG+  
+Sbjct  375  AFLDQRDTVVALIPLPEWCGIDQ  307
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8393.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8393~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8393.p1 
+ ORF type:internal 
+len:161 (-),score=19.93 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8393:1-480(-)
+Length=480
+
+ Score = 25.4 bits (54),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+ Frame = -3
+
+Query  39   PIPEWCGVQHIHLSPSHH  56
+            P PE+CGV H+   P H+
+Sbjct  268  PYPEYCGVVHLWFGPEHY  215
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7169.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7169~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7169.p1 
+ ORF type:5prime_partial 
+len:519 (+),score=48.59 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7169:3-1559(+)
+Length=1557
+
+ Score = 25.4 bits (54),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 19/45 (42%), Gaps = 2/45 (4%)
+ Frame = -1
+
+Query  24   PVVRPAHISAFLQDRPIPEWCGVQHIHLSPSHHSGSKAASL--HW  66
+            P++  A +  F+  RP         I L   HH   K ASL  HW
+Sbjct  627  PIILDAELCKFILCRPYINKIQTSQIDLGNDHHGCHKLASLLVHW  493
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.135    0.474    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 226412775
+
+
+Query= SDHD_Saccharomyces_cerevisiae
+
+Length=181
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5502.p1 GENE.Spo...  30.4    0.22 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_21338.p1 GENE.Sp...  29.3    0.40 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12250.p1 GENE.Sp...  29.3    0.68 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11346.p1 GENE.Sp...  27.7    1.2  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_32609.p1 GENE.Sp...  25.4    5.6  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_384.p1 GENE.Spon...  26.2    6.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_151.p1 GENE.Spon...  25.4    6.8  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12400.p1 GENE.Sp...  25.8    7.1  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25028.p1 GENE.Sp...  25.8    8.4  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12182.p1 GENE.Sp...  25.4    9.1  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4714.p1 GENE.Spo...  25.4    9.8  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10644.p1 GENE.Sp...  25.4    9.9  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5502.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5502~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5502.p1 
+ ORF type:internal 
+len:219 (+),score=56.87 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5502:2-655(+)
+Length=654
+
+ Score = 30.4 bits (67),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 21/40 (53%), Gaps = 0/40 (0%)
+ Frame = -1
+
+Query  7    MKFMTGRRIFHTATVRAFQSTAKKSLTIPFLPVLPQKPGG  46
+            +K  TG   FHT+++  F S   +S+TIP L V      G
+Sbjct  354  IKIRTGNETFHTSSMTFFCSIV*RSITIPILDVHINTRSG  235
+
+
+ Score = 26.9 bits (58),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+ Frame = -1
+
+Query  11   TGRRIFHTATVRAFQSTAKKSLTIPFLPV  39
+            +G+  FHT+++ +  S  K S TIP L V
+Sbjct  240  SGKETFHTSSMTSLYSIVKWSTTIPILDV  154
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_21338.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_21338~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_21338.p1 
+ ORF 
+type:internal len:159 (+),score=53.83 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_21338:1-474(+)
+Length=474
+
+ Score = 29.3 bits (64),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 14/44 (32%), Positives = 21/44 (48%), Gaps = 0/44 (0%)
+ Frame = -3
+
+Query  12   GRRIFHTATVRAFQSTAKKSLTIPFLPVLPQKPGGVRGTPNDAY  55
+            GR+ FH     +      +S  +P   + P  PG  RGTP+ +Y
+Sbjct  172  GRQAFHCKLDGSSSPAFSRSCWLPHGWLWPGSPGPWRGTPHGSY  41
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12250.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12250~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12250.p1 
+ ORF 
+type:3prime_partial len:542 (+),score=105.31 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12250:625-2247(+)
+Length=1623
+
+ Score = 29.3 bits (64),  Expect = 0.68, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 29/54 (54%), Gaps = 2/54 (4%)
+ Frame = -2
+
+Query  71    MEKIFALSVVPLATTA--MLTTGPLSTAADSFFSVMLLGYCYMEFNSCITDYIS  122
+             M +  +  ++PL   A  +L++     +A+SF    LL  C   FN+CI+D +S
+Sbjct  1163  MSRGCSTDLMPLNNRAFSLLSSRATKNSANSFMFPHLLYSCRCSFNACISDSVS  1002
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11346.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11346~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11346.p1 
+ ORF 
+type:internal len:138 (+),score=29.46 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_11346:1-411(+)
+Length=411
+
+ Score = 27.7 bits (60),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 24/41 (59%), Gaps = 2/41 (5%)
+ Frame = -1
+
+Query  1    MMLPRSMKFMT--GRRIFHTATVRAFQSTAKKSLTIPFLPV  39
+            + LP ++ F T  G+ +FHT+++ +  S     +TIP L V
+Sbjct  396  IFLPLNVHFNTRNGKELFHTSSITSLCSIV*WKITIPILNV  274
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_32609.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_32609~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_32609.p1 
+ ORF 
+type:internal len:125 (+),score=35.55 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_32609:2-373(+)
+Length=372
+
+ Score = 25.4 bits (54),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 14/36 (39%), Positives = 17/36 (47%), Gaps = 8/36 (22%)
+ Frame = +1
+
+Query  33   TIPFLPVLPQKPGGVRGTPNDAYVPPPENKLEGSYH  68
+            TI  LP +P         P+D   PPPE  +E  YH
+Sbjct  127  TINQLPAIP--------PPSDINAPPPEPYIEDDYH  210
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_384.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_384~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_384.p1 
+ ORF type:internal 
+len:328 (+),score=56.03 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_384:3-983(+)
+Length=981
+
+ Score = 26.2 bits (56),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+ Frame = -1
+
+Query  11   TGRRIFHTATVRAFQSTAKKSLTIPFLPV  39
+            +G+  FHT+++ +  ST   S+TIP L V
+Sbjct  888  SGKETFHTSSMTSLCSTV*WSITIPSLNV  802
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_151.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_151~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_151.p1 
+ ORF type:5prime_partial 
+len:155 (+),score=31.43 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_151:3-467(+)
+Length=465
+
+ Score = 25.4 bits (54),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+ Frame = -1
+
+Query  11   TGRRIFHTATVRAFQSTAKKSLTIPFLPV  39
+            +G+ +FHT+++    ST   S+TIP L +
+Sbjct  216  SGKELFHTSSMTFHGSTV*WSITIPILNI  130
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12400.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12400~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12400.p1 
+ ORF 
+type:5prime_partial len:228 (-),score=44.49 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12400:118-801(-)
+Length=684
+
+ Score = 25.8 bits (55),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+ Frame = -1
+
+Query  11   TGRRIFHTATVRAFQSTAKKSLTIPFLPV  39
+            +G+  FHT+++ +  S  + S+TIP L V
+Sbjct  432  SGKETFHTSSMTSQCSIVQCSITIPVLNV  346
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25028.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25028~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25028.p1 
+ ORF 
+type:internal len:295 (-),score=59.81 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25028:3-884(-)
+Length=882
+
+ Score = 25.8 bits (55),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  16   FHTATVRAFQSTAKKSLTIPFLPVLPQKPGGV  47
+             +T T+R   STA  +  IP+ P + QK   +
+Sbjct  242  LYTVTIRTIISTASMNFMIPWAP*IHQKSNSI  337
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12182.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12182~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12182.p1 
+ ORF 
+type:internal len:332 (-),score=81.15 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12182:1-993(-)
+Length=993
+
+ Score = 25.4 bits (54),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+ Frame = -1
+
+Query  11   TGRRIFHTATVRAFQSTAKKSLTIPFLPV  39
+            +G+ +FHT ++ +  S    S+TIP L V
+Sbjct  126  SGKEMFHTCSMTSLCSIV*WSITIPILNV  40
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4714.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4714~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4714.p1 
+ ORF type:3prime_partial 
+len:200 (+),score=6.15 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4714:50-646(+)
+Length=597
+
+ Score = 25.4 bits (54),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 25/96 (26%), Positives = 41/96 (43%), Gaps = 8/96 (8%)
+ Frame = +1
+
+Query  86   AMLTTGPLSTAADSFFSVMLLGYCYMEF-NSCITDYISERVYGVWHKYAMYMLGLGSAVS  144
+            A +  G    A DS  S  L  +   ++ N    +Y+ E  Y +W   A+   G  +A  
+Sbjct  160  AAIDKGADVNACDSIGSTAL--HIAAQYGNLGALEYLVECGYNIW---ALDDSGRTAATV  324
+
+Query  145  LFGIYKLETENDGVVGLVKSLWDSSEKDNSQKIEAK  180
+                +K+ET     +    S W+    DN+ K++AK
+Sbjct  325  ARNNHKVETAQ--YLDTQASYWELQNADNAHKLKAK  426
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10644.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10644~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10644.p1 
+ ORF 
+type:internal len:332 (+),score=81.39 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_10644:2-994(+)
+Length=993
+
+ Score = 25.4 bits (54),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 13/40 (33%), Positives = 20/40 (50%), Gaps = 0/40 (0%)
+ Frame = -1
+
+Query  1    MMLPRSMKFMTGRRIFHTATVRAFQSTAKKSLTIPFLPVL  40
+            ++L   M  M+G+  FHT+ +    S     +TIP   VL
+Sbjct  801  IILHVHMNTMSGKETFHTSIMTFLHSKV*WCVTIPVFNVL  682
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 287826912
+
+
+Query= SDHD_Amphimedon_queenslandica
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382.p1 GENE.Sp...  28.9    0.32 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23322.p1 GENE.Sp...  25.8    4.7  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202.p1 GENE.Spo...  25.4    6.8  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382.p1 
+ ORF 
+type:internal len:142 (+),score=2.36 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12382:1-423(+)
+Length=423
+
+ Score = 28.9 bits (63),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 12/26 (46%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+ Frame = -1
+
+Query  92   LPLHIHWGIASVVVDYVPKSIQMVTK  117
+            LP+H H  +  VV DYVPK++  V +
+Sbjct  411  LPVHGHIAMNYVVTDYVPKAVAGVAR  334
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23322.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23322~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23322.p1 
+ ORF 
+type:3prime_partial len:149 (-),score=17.42 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23322:1-444(-)
+Length=444
+
+ Score = 25.8 bits (55),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 16/32 (50%), Gaps = 0/32 (0%)
+ Frame = +3
+
+Query  67   VAIMGLIPAGLMYPNPIIDYSIAVLLPLHIHW  98
+            +     +P    YPNP +    ++L P H+HW
+Sbjct  249  ITTFPYVPWQSRYPNP*LLLQTSLLHPAHLHW  344
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202.p1 
+ ORF type:5prime_partial 
+len:417 (-),score=89.26 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202:212-1462(-)
+Length=1251
+
+ Score = 25.4 bits (54),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 8/14 (57%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+ Frame = -2
+
+Query  89   AVLLPLHIHWGIAS  102
+             +L P H+HWG+AS
+Sbjct  695  GILQPAHVHWGLAS  654
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.137    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 209723913
+
+
+Query= NDUFS7_Homo_sapiens
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973.p1 GENE.Sp...  222     8e-75
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461.p1 GENE.Spo...  218     1e-73
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5494.p1 GENE.Spo...  26.2    7.0  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973.p1 
+ ORF 
+type:3prime_partial len:172 (+),score=4.35 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973:116-628(+)
+Length=513
+
+ Score = 222 bits (565),  Expect = 8e-75, Method: Compositional matrix adjust.
+ Identities = 118/164 (72%), Positives = 143/164 (87%), Gaps = 1/164 (1%)
+ Frame = +1
+
+Query  33   SVATDGPSSTQPALPKARAVAPKPSSRGEYVVAKLDDLVNWARRSSLWPMTFGLACCAVE  92
+            +VA  G  S  PA  K+ +     +S+ E+ +A++DDL NW ++ SLWP+TFGLACCAVE
+Sbjct  25   NVAVTG-DSQLPAKKKSYSPFVGSTSKMEFALARVDDLANWGKKGSLWPLTFGLACCAVE  201
+
+Query  93   MMHMAAPRYDMDRFGVVFRASPRQSDVMIVAGTLTNKMAPALRKVYDQMPEPRYVVSMGS  152
+            MMH+AAPRYDM RFG++FRASPRQ+DVMIVAGTLTNKMAPALR+VY+QM +P++V+SMGS
+Sbjct  202  MMHIAAPRYDMGRFGMLFRASPRQADVMIVAGTLTNKMAPALRRVYEQMIDPKWVISMGS  381
+
+Query  153  CANgggyyhysysvvrgCDRIVPVDIYIPGCPPTAEALLYGILQ  196
+            CANGGGYYHYSY+VVRGCDRIVPVDIY+PGCPPTAEALLYG+LQ
+Sbjct  382  CANGGGYYHYSYAVVRGCDRIVPVDIYVPGCPPTAEALLYGLLQ  513
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461.p1 
+ ORF type:complete 
+len:133 (-),score=27.05 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461:244-642(-)
+Length=399
+
+ Score = 218 bits (554),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 114/132 (86%), Positives = 128/132 (97%), Gaps = 0/132 (0%)
+ Frame = +1
+
+Query  82   MTFGLACCAVEMMHMAAPRYDMDRFGVVFRASPRQSDVMIVAGTLTNKMAPALRKVYDQM  141
+            MTFGLACCAVEMMH AAPRYDM+RFG+VFRASPRQ+DVMIVAGTLTNKMAPALRKVYDQM
+Sbjct  1    MTFGLACCAVEMMHSAAPRYDMERFGMVFRASPRQADVMIVAGTLTNKMAPALRKVYDQM  180
+
+Query  142  PEPRYVVSMGSCANgggyyhysysvvrgCDRIVPVDIYIPGCPPTAEALLYGILQLQRKI  201
+            PEPR+V+SMGSCANGGGYYHYSY+VVRGCDRIVPVDIY+PGCPPTAEALLYG+LQL++KI
+Sbjct  181  PEPRWVISMGSCANGGGYYHYSYAVVRGCDRIVPVDIYVPGCPPTAEALLYGLLQLKKKI  360
+
+Query  202  KRERRLQIWYRR  213
+             R + +Q+WYR+
+Sbjct  361  SRTKAVQMWYRK  396
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5494.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5494~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5494.p1 
+ ORF type:internal 
+len:203 (+),score=49.33 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_5494:2-607(+)
+Length=606
+
+ Score = 26.2 bits (56),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 13/40 (33%), Positives = 19/40 (48%), Gaps = 0/40 (0%)
+ Frame = -1
+
+Query  108  VVFRASPRQSDVMIVAGTLTNKMAPALRKVYDQMPEPRYV  147
+            +V R  P+Q  +  + G    K    LR   D +P+P YV
+Sbjct  390  LVIRHMPKQGAIANILGNGGVKEGGLLRYDADLLPQPTYV  271
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.136    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 372571542
+
+
+Query= NDUFS7_Amphimedon_queenslandica
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461.p1 GENE.Spo...  257     3e-89
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973.p1 GENE.Sp...  252     6e-87
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_333.p2 GENE.Spon...  27.3    3.0  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23065.p2 GENE.Sp...  26.2    3.5  
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461.p1 
+ ORF type:complete 
+len:133 (-),score=27.05 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8461:244-642(-)
+Length=399
+
+ Score = 257 bits (656),  Expect = 3e-89, Method: Compositional matrix adjust.
+ Identities = 119/132 (90%), Positives = 127/132 (96%), Gaps = 0/132 (0%)
+ Frame = +1
+
+Query  74   MTFGLACCAVEMMHVACARYDLDRFGVVFRASPRQSDVMIVAGTLTNKMAPALRKVYDQM  133
+            MTFGLACCAVEMMH A  RYD++RFG+VFRASPRQ+DVMIVAGTLTNKMAPALRKVYDQM
+Sbjct  1    MTFGLACCAVEMMHSAAPRYDMERFGMVFRASPRQADVMIVAGTLTNKMAPALRKVYDQM  180
+
+Query  134  PEPRWVISMGSCANGGGYYHYSYAVVRGCDRIVPVDIYVPGCPPTAEALLYGVLQLQKKI  193
+            PEPRWVISMGSCANGGGYYHYSYAVVRGCDRIVPVDIYVPGCPPTAEALLYG+LQL+KKI
+Sbjct  181  PEPRWVISMGSCANGGGYYHYSYAVVRGCDRIVPVDIYVPGCPPTAEALLYGLLQLKKKI  360
+
+Query  194  KRTRAMSMWYRK  205
+             RT+A+ MWYRK
+Sbjct  361  SRTKAVQMWYRK  396
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973.p1 
+ ORF 
+type:3prime_partial len:172 (+),score=4.35 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30973:116-628(+)
+Length=513
+
+ Score = 252 bits (644),  Expect = 6e-87, Method: Compositional matrix adjust.
+ Identities = 111/136 (82%), Positives = 127/136 (93%), Gaps = 0/136 (0%)
+ Frame = +1
+
+Query  53   EYAFMKLDDIVNWARAGSLWPMTFGLACCAVEMMHVACARYDLDRFGVVFRASPRQSDVM  112
+            E+A  ++DD+ NW + GSLWP+TFGLACCAVEMMH+A  RYD+ RFG++FRASPRQ+DVM
+Sbjct  106  EFALARVDDLANWGKKGSLWPLTFGLACCAVEMMHIAAPRYDMGRFGMLFRASPRQADVM  285
+
+Query  113  IVAGTLTNKMAPALRKVYDQMPEPRWVISMGSCANGGGYYHYSYAVVRGCDRIVPVDIYV  172
+            IVAGTLTNKMAPALR+VY+QM +P+WVISMGSCANGGGYYHYSYAVVRGCDRIVPVDIYV
+Sbjct  286  IVAGTLTNKMAPALRRVYEQMIDPKWVISMGSCANGGGYYHYSYAVVRGCDRIVPVDIYV  465
+
+Query  173  PGCPPTAEALLYGVLQ  188
+            PGCPPTAEALLYG+LQ
+Sbjct  466  PGCPPTAEALLYGLLQ  513
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_333.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_333~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_333.p2 
+ ORF type:complete 
+len:254 (+),score=24.87 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_333:1834-2595(+)
+Length=762
+
+ Score = 27.3 bits (59),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 23/41 (56%), Gaps = 6/41 (15%)
+ Frame = +1
+
+Query  6    LWRLRCTSLASPSLFRPAATSMVVYQSRDASTDGSSVAKRS  46
+            L+RLR  S  SPS+F PA + ++      ++ DG+   K S
+Sbjct  61   LYRLRTKSAVSPSVFAPAVSPLI------STVDGNGQYKDS  165
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23065.p2 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23065~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23065.p2 
+ ORF 
+type:3prime_partial len:114 (-),score=18.45 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23065:2-340(-)
+Length=339
+
+ Score = 26.2 bits (56),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 21/51 (41%), Gaps = 0/51 (0%)
+ Frame = -2
+
+Query  98   FGVVFRASPRQSDVMIVAGTLTNKMAPALRKVYDQMPEPRWVISMGSCANG  148
+            F VV R  P  S V    G L     PAL  V   +  PRW  S    A+G
+Sbjct  209  FTVVGRVLPSFSVVTTSTGVLATGGVPALIDVVCILVAPRWS*SFCFSASG  57
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.134    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 348916206
+
+
+Query= NDUFS2_Homo_sapiens
+
+Length=463
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079.p1 GENE.Spo...  484     9e-172
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988.p1 GENE.Sp...  448     1e-158
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427.p1 GENE.Sp...  266     1e-88 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4823.p1 GENE.Spo...  30.8    0.43  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_38014.p1 GENE.Sp...  29.6    0.85  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090.p1 GENE.Spo...  30.4    1.1   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202.p1 GENE.Spo...  30.0    1.5   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24652.p1 GENE.Sp...  28.9    3.1   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4540.p1 GENE.Spo...  28.5    5.1   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_17682.p1 GENE.Sp...  27.7    7.3   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_541.p1 GENE.Spon...  27.3    7.4   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145.p1 GENE.Spo...  27.7    7.9   
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079.p1 
+ ORF type:complete 
+len:348 (-),score=66.62 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079:658-1701(-)
+Length=1044
+
+ Score = 484 bits (1247),  Expect = 9e-172, Method: Compositional matrix adjust.
+ Identities = 219/300 (73%), Positives = 261/300 (87%), Gaps = 0/300 (0%)
+ Frame = +1
+
+Query  145  MCNEQAYSLAVEKLLNIRPPPRAQWIRVLFGEITRLLNHIMAVTTHALDLGAMTPFFWLF  204
+            M  EQ Y+L VE+LL I+ P RA++IRV+F EI R+ NHIMAVTTHA+D+GA+TPF WL 
+Sbjct  1    MSMEQGYALGVERLLGIQIPERAKFIRVMFAEIARITNHIMAVTTHAMDVGALTPFLWLM  180
+
+Query  205  EEREKMFEFYERVSGARMHAAYIRPGGVHQDLPLGLMDDIYQFSKNFSLRLDELEELLTN  264
+            EEREK+ EF ERVSGARMH+AYIRPGGV QDLPLGLMDDI+ + K F +RLDE EELLTN
+Sbjct  181  EEREKLMEFCERVSGARMHSAYIRPGGVSQDLPLGLMDDIHDWCKKFCVRLDESEELLTN  360
+
+Query  265  NRIWRNRTIDIGVVTAEEALNYGFSGVMLRGSGIQWDLRKTQPYDVYDQVEFDVPVGSRG  324
+            NRIW+ R +DIG+VTA++AL+Y  +GVMLR SG++WDLRK+QPYD YDQVEFDVP+G  G
+Sbjct  361  NRIWKQRLVDIGIVTAQQALDYSLTGVMLRASGVKWDLRKSQPYDAYDQVEFDVPIGRHG  540
+
+Query  325  DCYDRYLCRVEEMRQSLRIIAQCLNKMPPGEIKVDDAKVSPPKRAEMKTSMESLIHHFKL  384
+            D YDRYLCR+EEMRQS+RII QCLNKMP GE+K+DDAK+SPP R+EMK SME+LIHHFKL
+Sbjct  541  DSYDRYLCRMEEMRQSIRIIHQCLNKMPEGEVKIDDAKISPPARSEMKDSMEALIHHFKL  720
+
+Query  385  YTEGYQVPPGATYTAIEAPKGEFGVYLVSDGSSRPYRCKIKAPGFAHLAGLDKMSKGHML  444
+            +T+G QVPPG+TYT IE+PKGE+GVYLVSDGSS+PYRC+I+ PGF HLA LD MS+GHML
+Sbjct  721  FTQGLQVPPGSTYTVIESPKGEYGVYLVSDGSSKPYRCRIRPPGFYHLAALDFMSRGHML  900
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988.p1 
+ ORF 
+type:5prime_partial len:262 (-),score=39.39 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988:203-988(-)
+Length=786
+
+ Score = 448 bits (1153),  Expect = 1e-158, Method: Compositional matrix adjust.
+ Identities = 206/258 (80%), Positives = 233/258 (90%), Gaps = 0/258 (0%)
+ Frame = +1
+
+Query  206  EREKMFEFYERVSGARMHAAYIRPGGVHQDLPLGLMDDIYQFSKNFSLRLDELEELLTNN  265
+             R KMFEFYERVSGARMHAAYIRPGGV QDLP+GLMDDIY F + FS RLDE+EELLT+N
+Sbjct  10   SRAKMFEFYERVSGARMHAAYIRPGGVSQDLPVGLMDDIYDFIRVFSTRLDEVEELLTHN  189
+
+Query  266  RIWRNRTIDIGVVTAEEALNYGFSGVMLRGSGIQWDLRKTQPYDVYDQVEFDVPVGSRGD  325
+            RIW+ R +DIGVVTA++AL+YGFSGVMLRGSGI+WDLRKTQPYD YDQV+FDVP+G  GD
+Sbjct  190  RIWKQRMVDIGVVTAQQALDYGFSGVMLRGSGIKWDLRKTQPYDAYDQVDFDVPIGRNGD  369
+
+Query  326  CYDRYLCRVEEMRQSLRIIAQCLNKMPPGEIKVDDAKVSPPKRAEMKTSMESLIHHFKLY  385
+            CYDRYLCR+EEMRQSLRII QCLNKMP GE+K+DDAK+S P RAEMK SME LIHHFKL+
+Sbjct  370  CYDRYLCRMEEMRQSLRIIHQCLNKMPTGEVKIDDAKISGPSRAEMKDSMEGLIHHFKLF  549
+
+Query  386  TEGYQVPPGATYTAIEAPKGEFGVYLVSDGSSRPYRCKIKAPGFAHLAGLDKMSKGHMLA  445
+            T+G+QVP G+TYTAIE PKGEFGVY+VSDGS++PYRC+++ P F HLA LD MSKGHMLA
+Sbjct  550  TQGFQVPAGSTYTAIEGPKGEFGVYIVSDGSTKPYRCRVRPPCFYHLAALDLMSKGHMLA  729
+
+Query  446  DVVAIIGTQDIVFGEVDR  463
+            DVVAIIGTQDIVFGE+DR
+Sbjct  730  DVVAIIGTQDIVFGEIDR  783
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427.p1 
+ ORF 
+type:internal len:162 (+),score=8.85 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427:2-484(+)
+Length=483
+
+ Score = 266 bits (680),  Expect = 1e-88, Method: Compositional matrix adjust.
+ Identities = 119/158 (75%), Positives = 145/158 (92%), Gaps = 0/158 (0%)
+ Frame = +1
+
+Query  164  PPRAQWIRVLFGEITRLLNHIMAVTTHALDLGAMTPFFWLFEEREKMFEFYERVSGARMH  223
+            P RA++IRVLFGEITR+LNH M + THALD+GA+TPFFWLFEEREK+ EFYERVSGARMH
+Sbjct  4    PKRAKYIRVLFGEITRILNHQMGIGTHALDVGALTPFFWLFEEREKLMEFYERVSGARMH  183
+
+Query  224  AAYIRPGGVHQDLPLGLMDDIYQFSKNFSLRLDELEELLTNNRIWRNRTIDIGVVTAEEA  283
+            +AY+RPGGV+QDLPLGLMDDIY +++ +  R+DE+E+LLT+NRIW++RT+DIGVV++E+A
+Sbjct  184  SAYVRPGGVNQDLPLGLMDDIYHWAQQYPQRIDEVEDLLTDNRIWKSRTVDIGVVSSEDA  363
+
+Query  284  LNYGFSGVMLRGSGIQWDLRKTQPYDVYDQVEFDVPVG  321
+            LNYGFSGVMLRGSGI+WDLRKTQPYD Y   EFD+PVG
+Sbjct  364  LNYGFSGVMLRGSGIKWDLRKTQPYDDYQDFEFDIPVG  477
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4823.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4823~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4823.p1 
+ ORF type:3prime_partial 
+len:154 (+),score=7.79 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4823:862-1320(+)
+Length=459
+
+ Score = 30.8 bits (68),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+ Frame = +2
+
+Query  142  VSMMCNEQAYSLAVEKLLNIRPPPRAQWIRVLFGEITRLLNHIMAV  187
+            +S + +E   S    K  N  PPP A+ + +++  IT ++NH+  V
+Sbjct  281  MSEIGHEHVSSAKDPKCSNTHPPPVARLLHLMYNLITYIINHLFCV  418
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_38014.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_38014~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_38014.p1 
+ ORF 
+type:internal len:155 (+),score=10.50 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_38014:3-464(+)
+Length=462
+
+ Score = 29.6 bits (65),  Expect = 0.85, Method: Compositional matrix adjust.
+ Identities = 14/33 (42%), Positives = 20/33 (61%), Gaps = 0/33 (0%)
+ Frame = +1
+
+Query  231  GVHQDLPLGLMDDIYQFSKNFSLRLDELEELLT  263
+            G+H  + L  +DDI  F K+    LD+L E+LT
+Sbjct  154  GLHWSICLVYLDDIIVFGKSVEEHLDQLREVLT  252
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090.p1 
+ ORF type:5prime_partial 
+len:581 (+),score=131.46 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090:3-1745(+)
+Length=1743
+
+ Score = 30.4 bits (67),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 20/69 (29%), Positives = 29/69 (42%), Gaps = 16/69 (23%)
+ Frame = +1
+
+Query  382   FKLYTEGYQVPPGATYTAIEA-------PKGEFGVYLVSD-----GSSR----PYRCKIK  425
+             F +   GY+ PPG+T    E        P  E G Y  SD      S++      +C + 
+Sbjct  1165  FMVMRHGYRPPPGSTLPVSETKGKHTKLPGNELGCYFCSDVVAPTNSTKDRTLDQQCTVT  1344
+
+Query  426   APGFAHLAG  434
+              PG + +AG
+Sbjct  1345  RPGVSMMAG  1371
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202.p1 
+ ORF type:5prime_partial 
+len:417 (-),score=89.26 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2202:212-1462(-)
+Length=1251
+
+ Score = 30.0 bits (66),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 22/89 (25%), Positives = 41/89 (46%), Gaps = 8/89 (9%)
+ Frame = -2
+
+Query  163  PPPRA-----QWIRVLFGEITRLLNHIMAVTTHALDLGAMTPFFWLFEEREKMFEFYERV  217
+            P PR+     +W+R  F    R+ +     ++HA   G  +  +W  +   + F   + +
+Sbjct  980  PRPRSHLKQQKWLRCQFWSSARVNSGQTMSSSHAAHRGFTSSAWWRPQYSLRCFSSQKYI  801
+
+Query  218  SGAR--MHAAYIRPGGVHQDLPLGLMDDI  244
+            S AR  +H+A ++  G  Q +PL    +I
+Sbjct  800  S*ARSSLHSAQVKQLGC-QHIPLARSANI  717
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24652.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24652~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24652.p1 
+ ORF 
+type:5prime_partial len:289 (-),score=77.45 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24652:31-897(-)
+Length=867
+
+ Score = 28.9 bits (63),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 11/36 (31%), Positives = 19/36 (53%), Gaps = 0/36 (0%)
+ Frame = -2
+
+Query  46   QFGGAVMYPSKETAHWKPPPWNDVDPPKDTIVKNIT  81
+            Q GG ++ P + +  WKP P +    P++T    +T
+Sbjct  434  QGGGVLLLPRRASLAWKPSPLSSSQEPRETFS*GLT  327
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4540.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4540~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4540.p1 
+ ORF type:complete 
+len:736 (-),score=159.65 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4540:1643-3535(-)
+Length=1893
+
+ Score = 28.5 bits (62),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 14/37 (38%), Positives = 20/37 (54%), Gaps = 0/37 (0%)
+ Frame = +1
+
+Query  300  WDLRKTQPYDVYDQVEFDVPVGSRGDCYDRYLCRVEE  336
+            W+LRKT   DV D +  ++ V +R     R L R+ E
+Sbjct  460  WELRKTDSIDVLDALGSNIVVNTRSGEVMRILPRLNE  570
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_17682.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_17682~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_17682.p1 
+ ORF 
+type:complete len:320 (+),score=46.88 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_17682:132-1091(+)
+Length=960
+
+ Score = 27.7 bits (60),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 24/79 (30%), Positives = 40/79 (51%), Gaps = 14/79 (18%)
+ Frame = +1
+
+Query  377  SLIHHFKLYTEGYQVPPGATYTAIEAPKGEFGVYLVSDGSSRPY----RCKIKAPGFAHL  432
+            +++H+   + E  +  PGA Y+  E  +G   + L +  S  PY    RCK KAP  AH 
+Sbjct  226  TILHNLATHLEVQR--PGAVYSTREEGEGGLVLALSTKISGLPYQWEFRCK-KAP--AHD  390
+
+Query  433  AGLDKMSKGHMLADVVAII  451
+            A +      H++  +VA++
+Sbjct  391  AKV-----THLVTPLVAMV  432
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_541.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_541~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_541.p1 
+ ORF type:5prime_partial 
+len:257 (-),score=32.46 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_541:389-1159(-)
+Length=771
+
+ Score = 27.3 bits (59),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 13/32 (41%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+ Frame = +1
+
+Query  277  VVTAEEALNYGFSGVMLRGSGIQWDLRKTQPY  308
+            +V A  A+ +GF+ V+L G+ I W L  T  Y
+Sbjct  598  LVQAAIAVVFGFTNVLLWGANIYWVLIDTAWY  693
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145.p1 
+ ORF type:complete 
+len:514 (+),score=45.57 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145:135-1676(+)
+Length=1542
+
+ Score = 27.7 bits (60),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 27/52 (52%), Gaps = 3/52 (6%)
+ Frame = +1
+
+Query  182  NHIMAVTTHALDLGAMTPFFWLFEEREK---MFEFYERVSGARMHAAYIRPG  230
+            N+++A  +H L LG      WLF +R+     FE Y  +S  R+  A+++  
+Sbjct  568  NYLLASFSHLLMLGYEFRVLWLFCKRKDDRYSFERYRDLSFLRLMTAFMQSA  723
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1037789253
+
+
+Query= NDUFS2_Amphimedon_queenslandica
+
+Length=468
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079.p1 GENE.Spo...  504     3e-179
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988.p1 GENE.Sp...  464     7e-165
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427.p1 GENE.Sp...  259     7e-86 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090.p1 GENE.Spo...  31.2    0.67  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30625.p1 GENE.Sp...  28.5    1.6   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1797.p1 GENE.Spo...  29.6    1.9   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23525.p1 GENE.Sp...  27.3    3.3   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145.p1 GENE.Spo...  28.9    3.8   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25785.p1 GENE.Sp...  27.3    5.8   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12409.p1 GENE.Sp...  27.7    7.2   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13702.p1 GENE.Sp...  27.3    9.9   
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079.p1 
+ ORF type:complete 
+len:348 (-),score=66.62 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2079:658-1701(-)
+Length=1044
+
+ Score = 504 bits (1297),  Expect = 3e-179, Method: Compositional matrix adjust.
+ Identities = 231/300 (77%), Positives = 264/300 (88%), Gaps = 0/300 (0%)
+ Frame = +1
+
+Query  150  MCNEQCFSLAVENLLGIEVPKRAKYIRTMFGEITRILNHIMSVTSHILDVGANTPFLWLF  209
+            M  EQ ++L VE LLGI++P+RAK+IR MF EI RI NHIM+VT+H +DVGA TPFLWL 
+Sbjct  1    MSMEQGYALGVERLLGIQIPERAKFIRVMFAEIARITNHIMAVTTHAMDVGALTPFLWLM  180
+
+Query  210  EEREKMMEFYERVSGARLHAAYVRPGGVAQDLPLGLMDDIYDFISNFSVRLDEVEELLTN  269
+            EEREK+MEF ERVSGAR+H+AY+RPGGV+QDLPLGLMDDI+D+   F VRLDE EELLTN
+Sbjct  181  EEREKLMEFCERVSGARMHSAYIRPGGVSQDLPLGLMDDIHDWCKKFCVRLDESEELLTN  360
+
+Query  270  NRIWKQRVVDIGVVPVQTALDYGFSGVMLRGSGVKWDLRKVQPYDAYDEVDFDVPIGPNG  329
+            NRIWKQR+VDIG+V  Q ALDY  +GVMLR SGVKWDLRK QPYDAYD+V+FDVPIG +G
+Sbjct  361  NRIWKQRLVDIGIVTAQQALDYSLTGVMLRASGVKWDLRKSQPYDAYDQVEFDVPIGRHG  540
+
+Query  330  DCYDRYLCRMEEMRQSLRIILQCMNQMPEGEVKVDDAKITPPKRAEMKDSMEALIHHFKL  389
+            D YDRYLCRMEEMRQS+RII QC+N+MPEGEVK+DDAKI+PP R+EMKDSMEALIHHFKL
+Sbjct  541  DSYDRYLCRMEEMRQSIRIIHQCLNKMPEGEVKIDDAKISPPARSEMKDSMEALIHHFKL  720
+
+Query  390  FTEGYNVPPGSTYTAIEAPKGEFGVYLVSDGSSKPYRCKIRAPGFYHLAGLHMMSKGHML  449
+            FT+G  VPPGSTYT IE+PKGE+GVYLVSDGSSKPYRC+IR PGFYHLA L  MS+GHML
+Sbjct  721  FTQGLQVPPGSTYTVIESPKGEYGVYLVSDGSSKPYRCRIRPPGFYHLAALDFMSRGHML  900
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988.p1 
+ ORF 
+type:5prime_partial len:262 (-),score=39.39 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12988:203-988(-)
+Length=786
+
+ Score = 464 bits (1194),  Expect = 7e-165, Method: Compositional matrix adjust.
+ Identities = 215/258 (83%), Positives = 235/258 (91%), Gaps = 0/258 (0%)
+ Frame = +1
+
+Query  211  EREKMMEFYERVSGARLHAAYVRPGGVAQDLPLGLMDDIYDFISNFSVRLDEVEELLTNN  270
+             R KM EFYERVSGAR+HAAY+RPGGV+QDLP+GLMDDIYDFI  FS RLDEVEELLT+N
+Sbjct  10   SRAKMFEFYERVSGARMHAAYIRPGGVSQDLPVGLMDDIYDFIRVFSTRLDEVEELLTHN  189
+
+Query  271  RIWKQRVVDIGVVPVQTALDYGFSGVMLRGSGVKWDLRKVQPYDAYDEVDFDVPIGPNGD  330
+            RIWKQR+VDIGVV  Q ALDYGFSGVMLRGSG+KWDLRK QPYDAYD+VDFDVPIG NGD
+Sbjct  190  RIWKQRMVDIGVVTAQQALDYGFSGVMLRGSGIKWDLRKTQPYDAYDQVDFDVPIGRNGD  369
+
+Query  331  CYDRYLCRMEEMRQSLRIILQCMNQMPEGEVKVDDAKITPPKRAEMKDSMEALIHHFKLF  390
+            CYDRYLCRMEEMRQSLRII QC+N+MP GEVK+DDAKI+ P RAEMKDSME LIHHFKLF
+Sbjct  370  CYDRYLCRMEEMRQSLRIIHQCLNKMPTGEVKIDDAKISGPSRAEMKDSMEGLIHHFKLF  549
+
+Query  391  TEGYNVPPGSTYTAIEAPKGEFGVYLVSDGSSKPYRCKIRAPGFYHLAGLHMMSKGHMLA  450
+            T+G+ VP GSTYTAIE PKGEFGVY+VSDGS+KPYRC++R P FYHLA L +MSKGHMLA
+Sbjct  550  TQGFQVPAGSTYTAIEGPKGEFGVYIVSDGSTKPYRCRVRPPCFYHLAALDLMSKGHMLA  729
+
+Query  451  DVVAIIGTQDIVFGEVDR  468
+            DVVAIIGTQDIVFGE+DR
+Sbjct  730  DVVAIIGTQDIVFGEIDR  783
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427.p1 
+ ORF 
+type:internal len:162 (+),score=8.85 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34427:2-484(+)
+Length=483
+
+ Score = 259 bits (662),  Expect = 7e-86, Method: Compositional matrix adjust.
+ Identities = 118/161 (73%), Positives = 137/161 (85%), Gaps = 0/161 (0%)
+ Frame = +1
+
+Query  168  VPKRAKYIRTMFGEITRILNHIMSVTSHILDVGANTPFLWLFEEREKMMEFYERVSGARL  227
+            +PKRAKYIR +FGEITRILNH M + +H LDVGA TPF WLFEEREK+MEFYERVSGAR+
+Sbjct  1    IPKRAKYIRVLFGEITRILNHQMGIGTHALDVGALTPFFWLFEEREKLMEFYERVSGARM  180
+
+Query  228  HAAYVRPGGVAQDLPLGLMDDIYDFISNFSVRLDEVEELLTNNRIWKQRVVDIGVVPVQT  287
+            H+AYVRPGGV QDLPLGLMDDIY +   +  R+DEVE+LLT+NRIWK R VDIGVV  + 
+Sbjct  181  HSAYVRPGGVNQDLPLGLMDDIYHWAQQYPQRIDEVEDLLTDNRIWKSRTVDIGVVSSED  360
+
+Query  288  ALDYGFSGVMLRGSGVKWDLRKVQPYDAYDEVDFDVPIGPN  328
+            AL+YGFSGVMLRGSG+KWDLRK QPYD Y + +FD+P+G N
+Sbjct  361  ALNYGFSGVMLRGSGIKWDLRKTQPYDDYQDFEFDIPVGRN  483
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090.p1 
+ ORF type:5prime_partial 
+len:581 (+),score=131.46 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_6090:3-1745(+)
+Length=1743
+
+ Score = 31.2 bits (69),  Expect = 0.67, Method: Compositional matrix adjust.
+ Identities = 22/69 (32%), Positives = 27/69 (39%), Gaps = 16/69 (23%)
+ Frame = +1
+
+Query  387   FKLFTEGYNVPPGSTYTAIEA-------PKGEFGVYLVSD-----GSSK----PYRCKIR  430
+             F +   GY  PPGST    E        P  E G Y  SD      S+K      +C + 
+Sbjct  1165  FMVMRHGYRPPPGSTLPVSETKGKHTKLPGNELGCYFCSDVVAPTNSTKDRTLDQQCTVT  1344
+
+Query  431   APGFYHLAG  439
+              PG   +AG
+Sbjct  1345  RPGVSMMAG  1371
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30625.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30625~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30625.p1 
+ ORF 
+type:5prime_partial len:125 (-),score=2.41 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30625:169-543(-)
+Length=375
+
+ Score = 28.5 bits (62),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 22/47 (47%), Gaps = 0/47 (0%)
+ Frame = +3
+
+Query  129  IEYKTYLQALPYFDRLDYVSMMCNEQCFSLAVENLLGIEVPKRAKYI  175
+            I+ + + Q L Y   +DY+    + QC SL +E   G E      YI
+Sbjct  39   IQTEAHSQHLRYNSDIDYLYRRSSHQCLSLCLEADYGTEFLSDGSYI  179
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1797.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1797~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1797.p1 
+ ORF type:internal 
+len:486 (+),score=89.51 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1797:2-1456(+)
+Length=1455
+
+ Score = 29.6 bits (65),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 15/58 (26%), Positives = 34/58 (59%), Gaps = 1/58 (2%)
+ Frame = -1
+
+Query  147  VSMMCNEQCFSLAVENLLGIEVPKRAKYIRTMFGEITRILNHI-MSVTSHILDVGANT  203
+            ++ +C++  +S+  +  L + + +R++      G +T + + +  S+T+HILDV  NT
+Sbjct  654  MTCLCSKV*WSMGTQPFLNVHINRRSRKETFHTGSMTFLCSKV*WSITTHILDVHINT  481
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23525.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23525~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23525.p1 
+ ORF 
+type:complete len:100 (-),score=9.91 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_23525:445-744(-)
+Length=300
+
+ Score = 27.3 bits (59),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 15/41 (37%), Positives = 23/41 (56%), Gaps = 4/41 (10%)
+ Frame = -2
+
+Query  134  YLQALPYFDRLDYVSMMCNEQCFSLAV---ENLLGIEVPKR  171
+            +L+A  YF    + S+MC  QCFS A+    NL+ +   K+
+Sbjct  212  FLRAFKYFLNC-FESLMCASQCFSNALASSRNLMSLRSSKQ  93
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145.p1 
+ ORF type:complete 
+len:514 (+),score=45.57 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1145:135-1676(+)
+Length=1542
+
+ Score = 28.9 bits (63),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 26/85 (31%), Positives = 42/85 (49%), Gaps = 12/85 (14%)
+ Frame = +1
+
+Query  187  NHIMSVTSHILDVGANTPFLWLFEEREK---MMEFYERVSGARLHAAYVRPGGVAQDLPL  243
+            N++++  SH+L +G     LWLF +R+      E Y  +S  RL  A+++    A  L L
+Sbjct  568  NYLLASFSHLLMLGYEFRVLWLFCKRKDDRYSFERYRDLSFLRLMTAFMQS---APQLVL  738
+
+Query  244  GLMDDIYDFISNFSVRLDEVEELLT  268
+             L      +IS  S  + EV  ++T
+Sbjct  739  QL------YISIISGEVTEVYRVIT  795
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25785.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25785~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25785.p1 
+ ORF 
+type:5prime_partial len:150 (+),score=25.03 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25785:3-452(+)
+Length=450
+
+ Score = 27.3 bits (59),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 10/11 (91%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+ Frame = -1
+
+Query  198  DVGANTPFLWL  208
+            D GANTPFLWL
+Sbjct  363  DGGANTPFLWL  331
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12409.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12409~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12409.p1 
+ ORF 
+type:5prime_partial len:549 (-),score=138.46 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_12409:411-2057(-)
+Length=1647
+
+ Score = 27.7 bits (60),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 31/64 (48%), Gaps = 9/64 (14%)
+ Frame = -1
+
+Query  144  LDYVSMMCNEQCFSLAVENL-LGIEVPKRAKYIRTMFGEITRILNHIMSVTSHILDVGAN  202
+            LDY+ M+C+ Q  +L V+ L + +    R +Y+ +    IT  L H          +G+ 
+Sbjct  762  LDYIWMLCSTQKLALLVKFLHIPVASQNRVEYLCSTLKAITYCLVHC--------SIGSI  607
+
+Query  203  TPFL  206
+            T FL
+Sbjct  606  TKFL  595
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13702.p1 GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13702~~Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13702.p1 
+ ORF 
+type:internal len:529 (-),score=131.32 Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_13702:2-1585(-)
+Length=1584
+
+ Score = 27.3 bits (59),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 23/85 (27%), Positives = 41/85 (48%), Gaps = 5/85 (6%)
+ Frame = +1
+
+Query  336  LCRMEE-MRQSLRIILQCMNQMPEGEVKVDDAKITPPKRAEMKDSMEALIHHFKLFTEGY  394
+            LC  E+   ++LRII +      +  +  +DA++      ++K   EAL+  F+ + EG 
+Sbjct  280  LCDTEQSFLKALRIITENFYPKLQTMISKEDAELLFSIVQKLKPIHEALVVGFEKWVEGD  459
+
+Query  395  NVPPGSTYTAIEAPKGE----FGVY  415
+             +P G   T +   + E    +GVY
+Sbjct  460  KLPNGGEITRVFMEQKEGLLIYGVY  534
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1041340281
+
+
+  Database: Spongilla_lacustris_ar.fa.transdecoder.cds
+    Posted date:  Jun 28, 2022  10:35 PM
+  Number of letters in database: 14,257,791
+  Number of sequences in database:  20,640
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

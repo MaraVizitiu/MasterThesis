@@ -1,0 +1,82 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR01959.1.HMM
+# target sequence database:        ../Predicted_proteins/spongilla_transcriptome_annotated_200501.fasta.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       nuoF_fam  [M=410]
+Accession:   TIGR01959.1
+Description: JCVI: NADH-quinone oxidoreductase subunit NuoF
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+   1.3e-187  623.9   0.1   1.5e-187  623.7   0.1    1.0  1  c93657_g1_i1|c93657-g1.p1  GENE.c93657_g1_i1|c93657-g1~~c9365
+  ------ inclusion threshold ------
+      0.033   13.2   0.0       0.04   13.0   0.0    1.1  1  c95014_g2_i1|c95014-g2.p1  GENE.c95014_g2_i1|c95014-g2~~c9501
+
+
+Domain annotation for each sequence (and alignments):
+>> c93657_g1_i1|c93657-g1.p1  GENE.c93657_g1_i1|c93657-g1~~c93657_g1_i1|c93657-g1.p1  ORF type:complete len:475 (-),scor
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  623.7   0.1    1e-191  1.5e-187       2     409 ..      52     460 ..      51     461 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 623.7 bits;  conditional E-value: 1e-191
+                   nuoF_fam   2 llkkleekesvtleeyekkggykalkkaleelspddiieevkesglrGrGGaGfptGlkWsfipkde.akpkylvvnadesePg 84 
+                                ++++l+ +++++l+ ++++g++ ++k++l +  +d+i++e+k+sglrGrGGaGfp+GlkWsf+ k    +pkylvvnade+ePg
+  c93657_g1_i1|c93657-g1.p1  52 IFTNLYGRHDWKLKGAMSRGDWYKTKEILIK-GHDWILQEIKKSGLRGRGGAGFPSGLKWSFMNKPPdGRPKYLVVNADEGEPG 134
+                                789999***********************99.*********************************8779*************** PP
+
+                   nuoF_fam  85 tfkdrdlleaePhklieGliiaayalkakkgyiyirGefvkeakaleaaideayaagllGknilgsgfdlelvvheGaGayiCG 168
+                                t+kdr++++++Phkl+eG+++a+++++a+++yiyirGef++ea++++ ai+eay+agl+Gkn +gs++d+++++h+GaGayiCG
+  c93657_g1_i1|c93657-g1.p1 135 TCKDREIMRHDPHKLVEGCLVAGRSMGARAAYIYIRGEFYNEASNMQVAIQEAYEAGLIGKNACGSNYDFDIYMHRGAGAYICG 218
+                                ************************************************************************************ PP
+
+                   nuoF_fam 169 eetallesleGkkgqPrlkPPfPavvGlygkPtvvnnvetlasvPailrkGaewykklgkeksaGtklfslsGkvkkpglyelp 252
+                                eetal+esleGk g+PrlkPPfPa vG++g+Pt+v nvet+a+ P+i r+G +w++++g+e+++Gtkl+++sG+v+ p+++e++
+  c93657_g1_i1|c93657-g1.p1 219 EETALIESLEGKAGKPRLKPPFPADVGVFGCPTTVANVETVAVAPTICRRGGDWFASFGRERNSGTKLYCISGHVNTPCTVEEE 302
+                                ************************************************************************************ PP
+
+                   nuoF_fam 253 lgitlkelledyagGvrdgkk.lkaviPGGssvpvltaeevldvemdydslakagsrlGtaavivldesvdivklvarlsefyk 335
+                                ++i+lkel+e +agGvr+g++ l a+iPGGssvp+l+ + +++v md+d+la+++s+lGtaaviv+d+s d+v  +arl  fyk
+  c93657_g1_i1|c93657-g1.p1 303 MSIPLKELVERHAGGVRGGWNnLLAIIPGGSSVPLLPRKICEEVLMDFDALAAVNSGLGTAAVIVMDKSADVVDCIARLILFYK 386
+                                ********************99************************************************************** PP
+
+                   nuoF_fam 336 kesCGqCtPCreGtgWlvkilerleegegkkedidkleslskelegktiCalgdaavepvqsaikkfrdefeak 409
+                                +esCGqCtPCreGtgWl ki++r+++g++k  +id++ +lsk++eg+tiCalgdaa++pvq+++++fr e+ea+
+  c93657_g1_i1|c93657-g1.p1 387 HESCGQCTPCREGTGWLSKIMDRFVSGNAKPSEIDMIWELSKQIEGHTICALGDAAAWPVQGLVRHFRPELEAR 460
+                                ***********************************************************************987 PP
+
+>> c95014_g2_i1|c95014-g2.p1  GENE.c95014_g2_i1|c95014-g2~~c95014_g2_i1|c95014-g2.p1  ORF type:5prime_partial len:192 (-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   2.7e-06      0.04      60      99 ..      52      91 ..      48     148 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.7e-06
+                   nuoF_fam 60 kWsfipkdeakpkylvvnadesePgtfkdrdlleaePhkl 99
+                               k sfi+k eak++yl+ ++d  e g    + l++++Ph+ 
+  c95014_g2_i1|c95014-g2.p1 52 KHSFITKTEAKQRYLLKECDFEERGGTPLKYLVRKNPHSY 91
+                               89************************************86 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (410 nodes)
+Target sequences:                      29373  (8488546 residues searched)
+Passed MSV filter:                       681  (0.0231846); expected 587.5 (0.02)
+Passed bias filter:                      571  (0.0194396); expected 587.5 (0.02)
+Passed Vit filter:                        37  (0.00125966); expected 29.4 (0.001)
+Passed Fwd filter:                         2  (6.80897e-05); expected 0.3 (1e-05)
+Initial search space (Z):              29373  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.22u 0.01s 00:00:00.23 Elapsed: 00:00:00.08
+# Mc/sec: 38977.75
+//
+[ok]

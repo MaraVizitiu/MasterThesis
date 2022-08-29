@@ -1,0 +1,14 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: metazoa_odb10 (Creation date: 2021-02-17, number of species: 65, number of BUSCOs: 954)
+# Summarized benchmarking in BUSCO notation for file /home/inf-44-2020/MasterThesis/RQUA_analysis/18S_rRNA_contamination/Ephydatia_muelleri_Trinity.fa
+# BUSCO was run in mode: transcriptome
+
+	***** Results: *****
+
+	C:84.4%[S:8.0%,D:76.4%],F:7.5%,M:8.1%,n:954	   
+	805	Complete BUSCOs (C)			   
+	76	Complete and single-copy BUSCOs (S)	   
+	729	Complete and duplicated BUSCOs (D)	   
+	72	Fragmented BUSCOs (F)			   
+	77	Missing BUSCOs (M)			   
+	954	Total BUSCO groups searched		   

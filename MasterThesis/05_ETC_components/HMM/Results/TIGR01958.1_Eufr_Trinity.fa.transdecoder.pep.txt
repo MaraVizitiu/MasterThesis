@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR01958.1.HMM
+# target sequence database:        ../Predicted_proteins/Eufr_Trinity.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       nuoE_fam  [M=148]
+Accession:   TIGR01958.1
+Description: JCVI: NADH-quinone oxidoreductase subunit NuoE
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+      1e-55  189.5   0.1    1.3e-55  189.1   0.1    1.1  1  Efr_contig21914.p1  GENE.Efr_contig21914~~Efr_contig21914.p1 
+      1e-55  189.5   0.1    1.3e-55  189.1   0.1    1.1  1  Efr_contig21994.p1  GENE.Efr_contig21994~~Efr_contig21994.p1 
+
+
+Domain annotation for each sequence (and alignments):
+>> Efr_contig21914.p1  GENE.Efr_contig21914~~Efr_contig21914.p1  ORF type:complete len:251 (-),score=27.79 Efr_contig219
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  189.1   0.1   4.6e-60   1.3e-55       2     147 ..      64     209 ..      63     210 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 189.1 bits;  conditional E-value: 4.6e-60
+            nuoE_fam   2 ieeaikkypddqkrsaileaLkeaqeekGwvaaealeavAelleipaveveevatFYsmfetepvgryklqvCttvvCaLrGseallkale 92 
+                         ie+++k+yp+++k +a++++L+ aq+++ w++ +a+++vAe+l++++++v+evatFY+mf+++pvg+y++qvCtt++C+Lr s a+++a+ 
+  Efr_contig21914.p1  64 IEAIVKNYPEGHKAAAVIPVLDLAQRQHRWLPISAMNKVAEILGMSRMRVYEVATFYTMFNRSPVGKYHIQVCTTTPCMLRDSGAIVSAIC 154
+                         899**************************************************************************************** PP
+
+            nuoE_fam  93 kklgiklgettkdgkftlkeveClgaCeeaPvllvnedtyerlteekleelleel 147
+                         kkl+i++g+tt+dg ftl+eveClgaC++aP++++n+d+ye+lt+  +e++l+el
+  Efr_contig21914.p1 155 KKLNIEMGQTTHDGLFTLSEVECLGACVNAPMVQINDDYYEDLTPRDIEQVLDEL 209
+                         ****************************************************997 PP
+
+>> Efr_contig21994.p1  GENE.Efr_contig21994~~Efr_contig21994.p1  ORF type:complete len:251 (+),score=27.79 Efr_contig219
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  189.1   0.1   4.6e-60   1.3e-55       2     147 ..      64     209 ..      63     210 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 189.1 bits;  conditional E-value: 4.6e-60
+            nuoE_fam   2 ieeaikkypddqkrsaileaLkeaqeekGwvaaealeavAelleipaveveevatFYsmfetepvgryklqvCttvvCaLrGseallkale 92 
+                         ie+++k+yp+++k +a++++L+ aq+++ w++ +a+++vAe+l++++++v+evatFY+mf+++pvg+y++qvCtt++C+Lr s a+++a+ 
+  Efr_contig21994.p1  64 IEAIVKNYPEGHKAAAVIPVLDLAQRQHRWLPISAMNKVAEILGMSRMRVYEVATFYTMFNRSPVGKYHIQVCTTTPCMLRDSGAIVSAIC 154
+                         899**************************************************************************************** PP
+
+            nuoE_fam  93 kklgiklgettkdgkftlkeveClgaCeeaPvllvnedtyerlteekleelleel 147
+                         kkl+i++g+tt+dg ftl+eveClgaC++aP++++n+d+ye+lt+  +e++l+el
+  Efr_contig21994.p1 155 KKLNIEMGQTTHDGLFTLSEVECLGACVNAPMVQINDDYYEDLTPRDIEQVLDEL 209
+                         ****************************************************997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (148 nodes)
+Target sequences:                      55605  (21132013 residues searched)
+Passed MSV filter:                      1517  (0.0272817); expected 1112.1 (0.02)
+Passed bias filter:                     1166  (0.0209693); expected 1112.1 (0.02)
+Passed Vit filter:                        58  (0.00104307); expected 55.6 (0.001)
+Passed Fwd filter:                         2  (3.5968e-05); expected 0.6 (1e-05)
+Initial search space (Z):              55605  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.31u 0.01s 00:00:00.32 Elapsed: 00:00:00.15
+# Mc/sec: 20748.99
+//
+[ok]

@@ -1,0 +1,14 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: metazoa_odb10 (Creation date: 2021-02-17, number of species: 65, number of BUSCOs: 954)
+# Summarized benchmarking in BUSCO notation for file /home/inf-44-2020/MasterThesis/RQUA_analysis/18S_rRNA_contamination/Eufr_Trinity.fa
+# BUSCO was run in mode: transcriptome
+
+	***** Results: *****
+
+	C:78.4%[S:57.0%,D:21.4%],F:8.8%,M:12.8%,n:954	   
+	748	Complete BUSCOs (C)			   
+	544	Complete and single-copy BUSCOs (S)	   
+	204	Complete and duplicated BUSCOs (D)	   
+	84	Fragmented BUSCOs (F)			   
+	122	Missing BUSCOs (M)			   
+	954	Total BUSCO groups searched		   

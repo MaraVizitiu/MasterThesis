@@ -1,0 +1,163 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../Ephydatia_muelleri_Trinity.fa
+           69,604 sequences; 83,839,759 total letters
+
+
+
+Query= Ephydatia_muelleri_RQUA
+
+Length=292
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Emu_contig21898                                                       608     0.0  
+Emu_contig21389                                                       608     0.0  
+Emu_contig12867                                                       32.3    0.83 
+Emu_contig7365                                                        32.3    0.83 
+Emu_contig16838                                                       29.6    6.7  
+Emu_contig16624                                                       29.6    6.7  
+
+
+>Emu_contig21898
+Length=1012
+
+ Score = 608 bits (1569),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 292/292 (100%), Positives = 292/292 (100%), Gaps = 0/292 (0%)
+ Frame = -1
+
+Query  1    MSMLTRLAFQMCLRNTKLTPMVNGPFQVLKTSTVTSSPLVRPEEVGARFTNDVPSYMTDI  60
+            MSMLTRLAFQMCLRNTKLTPMVNGPFQVLKTSTVTSSPLVRPEEVGARFTNDVPSYMTDI
+Sbjct  898  MSMLTRLAFQMCLRNTKLTPMVNGPFQVLKTSTVTSSPLVRPEEVGARFTNDVPSYMTDI  719
+
+Query  61   YTWAYVNPTNVRLLDNQYVVDTILFFNARVLEREVLSRLEPGCKAIQVGHTHGRLVPHAA  120
+            YTWAYVNPTNVRLLDNQYVVDTILFFNARVLEREVLSRLEPGCKAIQVGHTHGRLVPHAA
+Sbjct  718  YTWAYVNPTNVRLLDNQYVVDTILFFNARVLEREVLSRLEPGCKAIQVGHTHGRLVPHAA  539
+
+Query  121  KKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGDACVAENILPKGEVPYDVAYAFM  180
+            KKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGDACVAENILPKGEVPYDVAYAFM
+Sbjct  538  KKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGDACVAENILPKGEVPYDVAYAFM  359
+
+Query  181  ILHEVPDDRKYQIVNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWLEPFALRM  240
+            ILHEVPDDRKYQIVNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWLEPFALRM
+Sbjct  358  ILHEVPDDRKYQIVNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWLEPFALRM  179
+
+Query  241  WDTEIEAFADEDLKKQFTWSKTVYGGNLYQVVVAENRQVPKPSFVVVHDVEI  292
+            WDTEIEAFADEDLKKQFTWSKTVYGGNLYQVVVAENRQVPKPSFVVVHDVEI
+Sbjct  178  WDTEIEAFADEDLKKQFTWSKTVYGGNLYQVVVAENRQVPKPSFVVVHDVEI  23
+
+
+>Emu_contig21389
+Length=997
+
+ Score = 608 bits (1569),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 292/292 (100%), Positives = 292/292 (100%), Gaps = 0/292 (0%)
+ Frame = +1
+
+Query  1    MSMLTRLAFQMCLRNTKLTPMVNGPFQVLKTSTVTSSPLVRPEEVGARFTNDVPSYMTDI  60
+            MSMLTRLAFQMCLRNTKLTPMVNGPFQVLKTSTVTSSPLVRPEEVGARFTNDVPSYMTDI
+Sbjct  109  MSMLTRLAFQMCLRNTKLTPMVNGPFQVLKTSTVTSSPLVRPEEVGARFTNDVPSYMTDI  288
+
+Query  61   YTWAYVNPTNVRLLDNQYVVDTILFFNARVLEREVLSRLEPGCKAIQVGHTHGRLVPHAA  120
+            YTWAYVNPTNVRLLDNQYVVDTILFFNARVLEREVLSRLEPGCKAIQVGHTHGRLVPHAA
+Sbjct  289  YTWAYVNPTNVRLLDNQYVVDTILFFNARVLEREVLSRLEPGCKAIQVGHTHGRLVPHAA  468
+
+Query  121  KKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGDACVAENILPKGEVPYDVAYAFM  180
+            KKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGDACVAENILPKGEVPYDVAYAFM
+Sbjct  469  KKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGDACVAENILPKGEVPYDVAYAFM  648
+
+Query  181  ILHEVPDDRKYQIVNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWLEPFALRM  240
+            ILHEVPDDRKYQIVNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWLEPFALRM
+Sbjct  649  ILHEVPDDRKYQIVNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWLEPFALRM  828
+
+Query  241  WDTEIEAFADEDLKKQFTWSKTVYGGNLYQVVVAENRQVPKPSFVVVHDVEI  292
+            WDTEIEAFADEDLKKQFTWSKTVYGGNLYQVVVAENRQVPKPSFVVVHDVEI
+Sbjct  829  WDTEIEAFADEDLKKQFTWSKTVYGGNLYQVVVAENRQVPKPSFVVVHDVEI  984
+
+
+>Emu_contig12867
+Length=1185
+
+ Score = 32.3 bits (72),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 27/115 (23%), Positives = 51/115 (44%), Gaps = 9/115 (8%)
+ Frame = -3
+
+Query  102  GCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQAD----HAQEKVQDF--PWCKVR  155
+            GC  + +G   GR     +K +GP G  + VD+ P Q +    H    ++ F    C V 
+Sbjct  958  GCTVLDLGCGTGRDCFVLSKLVGPTGHVTGVDMTPEQLEVARRHTDYHMKQFGHASCNVN  779
+
+Query  156  LGDACVAE-NILPKGEVPYDVAYAFMILHEVPDDRKYQIVNNMLRSVREGGRVVW  209
+                 + +   +   +  +DVA +  +++ VPD  K  +   + R ++ GG + +
+Sbjct  778  FFQGYIEKLETIGIKDNSFDVAISNCVINLVPD--KEAVFREVYRVLKPGGELYF  620
+
+
+>Emu_contig7365
+Length=1185
+
+ Score = 32.3 bits (72),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 27/115 (23%), Positives = 51/115 (44%), Gaps = 9/115 (8%)
+ Frame = +3
+
+Query  102  GCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQAD----HAQEKVQDF--PWCKVR  155
+            GC  + +G   GR     +K +GP G  + VD+ P Q +    H    ++ F    C V 
+Sbjct  228  GCTVLDLGCGTGRDCFVLSKLVGPTGHVTGVDMTPEQLEVARRHTDYHMKQFGHASCNVN  407
+
+Query  156  LGDACVAE-NILPKGEVPYDVAYAFMILHEVPDDRKYQIVNNMLRSVREGGRVVW  209
+                 + +   +   +  +DVA +  +++ VPD  K  +   + R ++ GG + +
+Sbjct  408  FFQGYIEKLETIGIKDNSFDVAISNCVINLVPD--KEAVFREVYRVLKPGGELYF  566
+
+
+>Emu_contig16838
+Length=7471
+
+ Score = 29.6 bits (65),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 24/47 (51%), Gaps = 3/47 (6%)
+ Frame = -3
+
+Query  194   VNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWL---EPFA  237
+             +N +L + RE     W++   PP+ Y      M FV +WL   EPF+
+Sbjct  1820  LNPVLLAQREEKFETWIDDQVPPFLYGTHYSTMAFVLHWLARVEPFS  1680
+
+
+>Emu_contig16624
+Length=8796
+
+ Score = 29.6 bits (65),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 24/47 (51%), Gaps = 3/47 (6%)
+ Frame = +1
+
+Query  194   VNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWL---EPFA  237
+             +N +L + RE     W++   PP+ Y      M FV +WL   EPF+
+Sbjct  5653  LNPVLLAQREEKFETWIDDQVPPFLYGTHYSTMAFVLHWLARVEPFS  5793
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3893060760
+
+
+  Database: ../Ephydatia_muelleri_Trinity.fa
+    Posted date:  Aug 28, 2022  11:29 PM
+  Number of letters in database: 83,839,759
+  Number of sequences in database:  69,604
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

@@ -1,0 +1,452 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Ephydatia_muelleri_Trinity.fa
+           69,604 sequences; 83,839,759 total letters
+
+
+
+Query= V00159.1 Chloroplast Euglena gracilis gene coding for the 5S and 16S
+rRNA
+
+Length=2474
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Emu_contig11026                                                       289     1e-76
+Emu_contig5369                                                        289     1e-76
+Emu_contig32086                                                       191     8e-47
+Emu_contig37378                                                       136     2e-30
+Emu_contig7762-3                                                      126     3e-27
+Emu_contig7762-1                                                      126     3e-27
+Emu_contig6506-2                                                      126     3e-27
+Emu_contig16228                                                       73.4    2e-11
+Emu_contig14949-1                                                     73.4    2e-11
+Emu_contig7762-2                                                      36.5    4.0  
+Emu_contig6506-1                                                      36.5    4.0  
+Emu_contig13397                                                       35.6    4.0  
+Emu_contig9007                                                        35.6    4.0  
+
+
+>Emu_contig11026
+Length=433
+
+ Score = 289 bits (320),  Expect = 1e-76
+ Identities = 261/325 (80%), Gaps = 5/325 (2%)
+ Strand=Plus/Plus
+
+Query  652  GATTAGCTTGTTGGTGAGGTAAAGGCTTACCAAGGCGACGATCAGTAGCTGATTTGAGAG  711
+            |||||||| ||||||| ||||||||| ||||||||||||||||  |||||| | ||||||
+Sbjct  11   GATTAGCTAGTTGGTGGGGTAAAGGCCTACCAAGGCGACGATCCATAGCTGGTCTGAGAG  70
+
+Query  712  GATGATCAGCCACACTGGGATTGAGA-ACGGAACAGACTTTTACGGAAGGCAGCAGTGAG  770
+            |||||||||||||| ||||| ||||| ||||  || |||  ||||| ||||||||||| |
+Sbjct  71   GATGATCAGCCACATTGGGACTGAGACACGGCCCAAACTCCTACGGGAGGCAGCAGTGGG  130
+
+Query  771  GAATTTTCCGCAATGGGCGCAAGCCTGACGGAGCAATACCGCGTGAAGGAAGAAGGCCTT  830
+            |||| ||   ||||||||||||||||||   ||| || ||||||||  || ||||||| |
+Sbjct  131  GAATATTGGACAATGGGCGCAAGCCTGATCCAGCCATGCCGCGTGAGTGATGAAGGCCCT  190
+
+Query  831  TGGGTTGTAAACTTCTTTTCTCAAAGAAGAAGA-AATGACGGTATTTGAGGAATAAGCAT  889
+             ||||||||||  ||||   |||  |  ||||| ||||||||||   |  ||| ||||  
+Sbjct  191  AGGGTTGTAAAGCTCTT---TCACCGGTGAAGATAATGACGGTAACCGGAGAAGAAGCCC  247
+
+Query  890  CGGCTAATTCCGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAGCGTTATCCGGAATTA  949
+            ||||||| | ||||||||||||||||||||||||   |  || |||||| | ||||||||
+Sbjct  248  CGGCTAACTTCGTGCCAGCAGCCGCGGTAATACGAAGGGGGCTAGCGTTGTTCGGAATTA  307
+
+Query  950  TTGGGCGTAAAGAGTTTGTAGGCGG  974
+             ||||||||||| |   ||||||||
+Sbjct  308  CTGGGCGTAAAGCGCACGTAGGCGG  332
+
+
+>Emu_contig5369
+Length=333
+
+ Score = 289 bits (320),  Expect = 1e-76
+ Identities = 261/325 (80%), Gaps = 5/325 (2%)
+ Strand=Plus/Minus
+
+Query  652  GATTAGCTTGTTGGTGAGGTAAAGGCTTACCAAGGCGACGATCAGTAGCTGATTTGAGAG  711
+            |||||||| ||||||| ||||||||| ||||||||||||||||  |||||| | ||||||
+Sbjct  325  GATTAGCTAGTTGGTGGGGTAAAGGCCTACCAAGGCGACGATCCATAGCTGGTCTGAGAG  266
+
+Query  712  GATGATCAGCCACACTGGGATTGAGA-ACGGAACAGACTTTTACGGAAGGCAGCAGTGAG  770
+            |||||||||||||| ||||| ||||| ||||  || |||  ||||| ||||||||||| |
+Sbjct  265  GATGATCAGCCACATTGGGACTGAGACACGGCCCAAACTCCTACGGGAGGCAGCAGTGGG  206
+
+Query  771  GAATTTTCCGCAATGGGCGCAAGCCTGACGGAGCAATACCGCGTGAAGGAAGAAGGCCTT  830
+            |||| ||   ||||||||||||||||||   ||| || ||||||||  || ||||||| |
+Sbjct  205  GAATATTGGACAATGGGCGCAAGCCTGATCCAGCCATGCCGCGTGAGTGATGAAGGCCCT  146
+
+Query  831  TGGGTTGTAAACTTCTTTTCTCAAAGAAGAAGA-AATGACGGTATTTGAGGAATAAGCAT  889
+             ||||||||||  ||||   |||  |  ||||| ||||||||||   |  ||| ||||  
+Sbjct  145  AGGGTTGTAAAGCTCTT---TCACCGGTGAAGATAATGACGGTAACCGGAGAAGAAGCCC  89
+
+Query  890  CGGCTAATTCCGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAGCGTTATCCGGAATTA  949
+            ||||||| | ||||||||||||||||||||||||   |  || |||||| | ||||||||
+Sbjct  88   CGGCTAACTTCGTGCCAGCAGCCGCGGTAATACGAAGGGGGCTAGCGTTGTTCGGAATTA  29
+
+Query  950  TTGGGCGTAAAGAGTTTGTAGGCGG  974
+             ||||||||||| |   ||||||||
+Sbjct  28   CTGGGCGTAAAGCGCACGTAGGCGG  4
+
+
+>Emu_contig32086
+Length=214
+
+ Score = 191 bits (211),  Expect = 8e-47
+ Identities = 171/213 (80%), Gaps = 5/213 (2%)
+ Strand=Plus/Minus
+
+Query  1169  CAGGATTAGATACCCTGGTAGTCTTGGCCGTAAACTATGGATACTAA--GTGGTGCTGAA  1226
+             |||||||||||||||||||||||   ||||||||| ||| ||  ||   || | || | |
+Sbjct  214   CAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATGAATGTTAGCCGTCGGGCAGTA  155
+
+Query  1227  A---GTGCACTGCTGTAGTTAACACGTTAAGTATCCCGCCTGGGGAGTACGCTTGCACAA  1283
+                 || |  ||  | || |||| | ||||  || |||||||||||||||| | |||  |
+Sbjct  154   TACTGTTCGGTGGCGCAGCTAACGCATTAAACATTCCGCCTGGGGAGTACGGTCGCAAGA  95
+
+Query  1284  GTGAAACTCAAAGGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCG  1343
+              | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  94    TTAAAACTCAAAGGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCG  35
+
+Query  1344  ATGCAACACGAAGAACCTTACCAGGATTTGACA  1376
+             | ||||| || |||||||||||||   ||||||
+Sbjct  34    AAGCAACGCGCAGAACCTTACCAGCTCTTGACA  2
+
+
+>Emu_contig37378
+Length=247
+
+ Score = 136 bits (150),  Expect = 2e-30
+ Identities = 165/221 (75%), Gaps = 3/221 (1%)
+ Strand=Plus/Minus
+
+Query  989   TGTTAAAAGTCAAAGCTTAACTTTGGAAGGGCATTAAAAACT-GCTAGACTTGAGTATGG  1047
+             ||| |||  |||  ||| ||| ||| ||  ||| |  ||||| || || |||||||| ||
+Sbjct  220   TGTGAAAGCTCAGGGCTCAACCTTGAAACTGCAGTCGAAACTTGCAAG-CTTGAGTACGG  162
+
+Query  1048  TAGGGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCA  1107
+             ||| ||   |||||||| |  | | || |||||||| |||||| ||  | | |||  |||
+Sbjct  161   TAGAGGCAGAGGGAATTCCTGGAGGAGAGGTGAAATTCGTAGATATCAGGAGGAAGGCCA  102
+
+Query  1108  ATGGCGAAGGCACTTTTCTAGGCCAAT-ACTGACGCTGAGAAACGAAAGCTGAGGGAGCA  1166
+             |  ||||| ||||| |||| |||| || |||||| || | | |||||||||  |||||| 
+Sbjct  101   AAAGCGAAAGCACTCTTCTGGGCCGATTACTGACACTCACAGACGAAAGCTAGGGGAGCG  42
+
+Query  1167  AACAGGATTAGATACCCTGGTAGTCTTGGCCGTAAACTATG  1207
+             ||  |||||||||||||  |||||| | ||||||||| |||
+Sbjct  41    AAAGGGATTAGATACCCCTGTAGTCCTAGCCGTAAACGATG  1
+
+
+>Emu_contig7762-3
+Length=1301
+
+ Score = 126 bits (139),  Expect = 3e-27
+ Identities = 129/166 (78%), Gaps = 2/166 (1%)
+ Strand=Plus/Plus
+
+Query  1049  AGGGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCAA  1108
+             |||||| || |||| ||  | |||||||||  ||||| |  | ||   |  |||||||  
+Sbjct  401   AGGGGTAAATGGAACTTTTA-TGTAGCGGTAGAATGCTTTAATATAAAATGGAACACCGG  459
+
+Query  1109  TGGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAGCTGAGGGAGCAAA  1168
+              |||||||||| ||| |||    ||| |||||||||||| |||||||    |||||||||
+Sbjct  460   AGGCGAAGGCAATTTACTAATTAAAT-CTGACGCTGAGACACGAAAGTAAGGGGAGCAAA  518
+
+Query  1169  CAGGATTAGATACCCTGGTAGTCTTGGCCGTAAACTATGGATACTA  1214
+             ||||||||||||||||||||||| |  |||||||||||| ||| ||
+Sbjct  519   CAGGATTAGATACCCTGGTAGTCCTTACCGTAAACTATGAATATTA  564
+
+
+ Score = 47.3 bits (51),  Expect = 0.002
+ Identities = 83/120 (69%), Gaps = 1/120 (1%)
+ Strand=Plus/Plus
+
+Query  1256  ATCCCGCCTGGGGAGTACGCTTGCACAAGTGAAACTCAAAGGAATTGACGGGGGCCCGCA  1315
+             ||||||||||  ||||||| | |||  | | ||| |||||  | ||| |||    |   |
+Sbjct  624   ATCCCGCCTGAAGAGTACGATCGCAAGATTAAAATTCAAAAAATTTGGCGGTTCACTAAA  683
+
+Query  1316  C-AAGCGGTGGAGCATGTGGTTTAATTCGATGCAACACGAAGAACCTTACCAGGATTTGA  1374
+             | ||   | ||||| ||| ||||||||||||    | |||  ||||||||||  | ||||
+Sbjct  684   CCAATTAGAGGAGCGTGTAGTTTAATTCGATAATCCGCGATTAACCTTACCAAAACTTGA  743
+
+
+ Score = 36.5 bits (39),  Expect = 4.0
+ Identities = 53/74 (72%), Gaps = 6/74 (8%)
+ Strand=Plus/Plus
+
+Query  900  CGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAG-CGTTATCCGGAATTATTGGGCGTA  958
+            ||||||||||| |||||| |||||  || |   ||   ||||| | ||      ||||||
+Sbjct  245  CGTGCCAGCAGACGCGGTTATACGTAAGGTCTAAGTTTTTATCAGAAA-----AGGCGTA  299
+
+Query  959  AAGAGTTTGTAGGC  972
+            ||| || |||||||
+Sbjct  300  AAGGGTGTGTAGGC  313
+
+
+>Emu_contig7762-1
+Length=961
+
+ Score = 126 bits (139),  Expect = 3e-27
+ Identities = 129/166 (78%), Gaps = 2/166 (1%)
+ Strand=Plus/Plus
+
+Query  1049  AGGGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCAA  1108
+             |||||| || |||| ||  | |||||||||  ||||| |  | ||   |  |||||||  
+Sbjct  61    AGGGGTAAATGGAACTTTTA-TGTAGCGGTAGAATGCTTTAATATAAAATGGAACACCGG  119
+
+Query  1109  TGGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAGCTGAGGGAGCAAA  1168
+              |||||||||| ||| |||    ||| |||||||||||| |||||||    |||||||||
+Sbjct  120   AGGCGAAGGCAATTTACTAATTAAAT-CTGACGCTGAGACACGAAAGTAAGGGGAGCAAA  178
+
+Query  1169  CAGGATTAGATACCCTGGTAGTCTTGGCCGTAAACTATGGATACTA  1214
+             ||||||||||||||||||||||| |  |||||||||||| ||| ||
+Sbjct  179   CAGGATTAGATACCCTGGTAGTCCTTACCGTAAACTATGAATATTA  224
+
+
+ Score = 47.3 bits (51),  Expect = 0.002
+ Identities = 83/120 (69%), Gaps = 1/120 (1%)
+ Strand=Plus/Plus
+
+Query  1256  ATCCCGCCTGGGGAGTACGCTTGCACAAGTGAAACTCAAAGGAATTGACGGGGGCCCGCA  1315
+             ||||||||||  ||||||| | |||  | | ||| |||||  | ||| |||    |   |
+Sbjct  284   ATCCCGCCTGAAGAGTACGATCGCAAGATTAAAATTCAAAAAATTTGGCGGTTCACTAAA  343
+
+Query  1316  C-AAGCGGTGGAGCATGTGGTTTAATTCGATGCAACACGAAGAACCTTACCAGGATTTGA  1374
+             | ||   | ||||| ||| ||||||||||||    | |||  ||||||||||  | ||||
+Sbjct  344   CCAATTAGAGGAGCGTGTAGTTTAATTCGATAATCCGCGATTAACCTTACCAAAACTTGA  403
+
+
+>Emu_contig6506-2
+Length=1665
+
+ Score = 126 bits (139),  Expect = 3e-27
+ Identities = 129/166 (78%), Gaps = 2/166 (1%)
+ Strand=Plus/Minus
+
+Query  1049  AGGGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCAA  1108
+             |||||| || |||| ||  | |||||||||  ||||| |  | ||   |  |||||||  
+Sbjct  901   AGGGGTAAATGGAACTTTTA-TGTAGCGGTAGAATGCTTTAATATAAAATGGAACACCGG  843
+
+Query  1109  TGGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAGCTGAGGGAGCAAA  1168
+              |||||||||| ||| |||    ||| |||||||||||| |||||||    |||||||||
+Sbjct  842   AGGCGAAGGCAATTTACTAATTAAAT-CTGACGCTGAGACACGAAAGTAAGGGGAGCAAA  784
+
+Query  1169  CAGGATTAGATACCCTGGTAGTCTTGGCCGTAAACTATGGATACTA  1214
+             ||||||||||||||||||||||| |  |||||||||||| ||| ||
+Sbjct  783   CAGGATTAGATACCCTGGTAGTCCTTACCGTAAACTATGAATATTA  738
+
+
+ Score = 47.3 bits (51),  Expect = 0.002
+ Identities = 83/120 (69%), Gaps = 1/120 (1%)
+ Strand=Plus/Minus
+
+Query  1256  ATCCCGCCTGGGGAGTACGCTTGCACAAGTGAAACTCAAAGGAATTGACGGGGGCCCGCA  1315
+             ||||||||||  ||||||| | |||  | | ||| |||||  | ||| |||    |   |
+Sbjct  678   ATCCCGCCTGAAGAGTACGATCGCAAGATTAAAATTCAAAAAATTTGGCGGTTCACTAAA  619
+
+Query  1316  C-AAGCGGTGGAGCATGTGGTTTAATTCGATGCAACACGAAGAACCTTACCAGGATTTGA  1374
+             | ||   | ||||| ||| ||||||||||||    | |||  ||||||||||  | ||||
+Sbjct  618   CCAATTAGAGGAGCGTGTAGTTTAATTCGATAATCCGCGATTAACCTTACCAAAACTTGA  559
+
+
+ Score = 36.5 bits (39),  Expect = 4.0
+ Identities = 53/74 (72%), Gaps = 6/74 (8%)
+ Strand=Plus/Minus
+
+Query  900   CGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAG-CGTTATCCGGAATTATTGGGCGTA  958
+             ||||||||||| |||||| |||||  || |   ||   ||||| | ||      ||||||
+Sbjct  1057  CGTGCCAGCAGACGCGGTTATACGTAAGGTCTAAGTTTTTATCAGAAA-----AGGCGTA  1003
+
+Query  959   AAGAGTTTGTAGGC  972
+             ||| || |||||||
+Sbjct  1002  AAGGGTGTGTAGGC  989
+
+
+ Score = 36.5 bits (39),  Expect = 4.0
+ Identities = 53/74 (72%), Gaps = 6/74 (8%)
+ Strand=Plus/Minus
+
+Query  900   CGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAG-CGTTATCCGGAATTATTGGGCGTA  958
+             ||||||||||| |||||| |||||  || |   ||   ||||| | ||      ||||||
+Sbjct  1421  CGTGCCAGCAGACGCGGTTATACGTAAGGTCTAAGTTTTTATCAGAAA-----AGGCGTA  1367
+
+Query  959   AAGAGTTTGTAGGC  972
+             ||| || |||||||
+Sbjct  1366  AAGGGTGTGTAGGC  1353
+
+
+>Emu_contig16228
+Length=8910
+
+ Score = 73.4 bits (80),  Expect = 2e-11
+ Identities = 81/106 (76%), Gaps = 3/106 (3%)
+ Strand=Plus/Minus
+
+Query  1265  GGGGAGTACGCTTGCACAAGTGAAACTCAAAGGAATTGACGG--GGGCCCGCACAAGCGG  1322
+             |||||||| | | |||    ||||||| ||||||||||||||  |||| | ||| ||  |
+Sbjct  5070  GGGGAGTATGGTCGCAAGGCTGAAACTTAAAGGAATTGACGGAAGGGCAC-CACCAGGAG  5012
+
+Query  1323  TGGAGCATGTGGTTTAATTCGATGCAACACGAAGAACCTTACCAGG  1368
+             |||||| || || |||||| ||  |||||||  ||| || ||||||
+Sbjct  5011  TGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGG  4966
+
+
+ Score = 50.9 bits (55),  Expect = 2e-04
+ Identities = 55/72 (76%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1698  GGAATCGCTAGTAATCGCCGGTCAGCTATACGGCGGTGAATACGTTCTCGGGCCTTGTAC  1757
+             |||||  ||||||| ||| |||||||    || || ||| ||||| |  |  | ||||||
+Sbjct  4604  GGAATTCCTAGTAAGCGCGGGTCAGCAGCTCG-CGTTGATTACGTCCCTGCCCTTTGTAC  4546
+
+Query  1758  ACACCGCCCGTC  1769
+             ||||||||||||
+Sbjct  4545  ACACCGCCCGTC  4534
+
+
+ Score = 37.4 bits (40),  Expect = 1.1
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  901   GTGCCAGCAGCCGCGGTAAT  920
+             ||||||||||||||||||||
+Sbjct  5614  GTGCCAGCAGCCGCGGTAAT  5595
+
+
+>Emu_contig14949-1
+Length=6723
+
+ Score = 73.4 bits (80),  Expect = 2e-11
+ Identities = 81/106 (76%), Gaps = 3/106 (3%)
+ Strand=Plus/Plus
+
+Query  1265  GGGGAGTACGCTTGCACAAGTGAAACTCAAAGGAATTGACGG--GGGCCCGCACAAGCGG  1322
+             |||||||| | | |||    ||||||| ||||||||||||||  |||| | ||| ||  |
+Sbjct  1654  GGGGAGTATGGTCGCAAGGCTGAAACTTAAAGGAATTGACGGAAGGGCAC-CACCAGGAG  1712
+
+Query  1323  TGGAGCATGTGGTTTAATTCGATGCAACACGAAGAACCTTACCAGG  1368
+             |||||| || || |||||| ||  |||||||  ||| || ||||||
+Sbjct  1713  TGGAGCCTGCGGCTTAATTTGACCCAACACGGGGAAACTCACCAGG  1758
+
+
+ Score = 50.9 bits (55),  Expect = 2e-04
+ Identities = 55/72 (76%), Gaps = 1/72 (1%)
+ Strand=Plus/Plus
+
+Query  1698  GGAATCGCTAGTAATCGCCGGTCAGCTATACGGCGGTGAATACGTTCTCGGGCCTTGTAC  1757
+             |||||  ||||||| ||| |||||||    || || ||| ||||| |  |  | ||||||
+Sbjct  2120  GGAATTCCTAGTAAGCGCGGGTCAGCAGCTCG-CGTTGATTACGTCCCTGCCCTTTGTAC  2178
+
+Query  1758  ACACCGCCCGTC  1769
+             ||||||||||||
+Sbjct  2179  ACACCGCCCGTC  2190
+
+
+ Score = 37.4 bits (40),  Expect = 1.1
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  901   GTGCCAGCAGCCGCGGTAAT  920
+             ||||||||||||||||||||
+Sbjct  1110  GTGCCAGCAGCCGCGGTAAT  1129
+
+
+>Emu_contig7762-2
+Length=877
+
+ Score = 36.5 bits (39),  Expect = 4.0
+ Identities = 53/74 (72%), Gaps = 6/74 (8%)
+ Strand=Plus/Plus
+
+Query  900  CGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAG-CGTTATCCGGAATTATTGGGCGTA  958
+            ||||||||||| |||||| |||||  || |   ||   ||||| | ||      ||||||
+Sbjct  418  CGTGCCAGCAGACGCGGTTATACGTAAGGTCTAAGTTTTTATCAGAAA-----AGGCGTA  472
+
+Query  959  AAGAGTTTGTAGGC  972
+            ||| || |||||||
+Sbjct  473  AAGGGTGTGTAGGC  486
+
+
+ Score = 36.5 bits (39),  Expect = 4.0
+ Identities = 53/74 (72%), Gaps = 6/74 (8%)
+ Strand=Plus/Plus
+
+Query  900  CGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAG-CGTTATCCGGAATTATTGGGCGTA  958
+            ||||||||||| |||||| |||||  || |   ||   ||||| | ||      ||||||
+Sbjct  782  CGTGCCAGCAGACGCGGTTATACGTAAGGTCTAAGTTTTTATCAGAAA-----AGGCGTA  836
+
+Query  959  AAGAGTTTGTAGGC  972
+            ||| || |||||||
+Sbjct  837  AAGGGTGTGTAGGC  850
+
+
+>Emu_contig6506-1
+Length=513
+
+ Score = 36.5 bits (39),  Expect = 4.0
+ Identities = 53/74 (72%), Gaps = 6/74 (8%)
+ Strand=Plus/Minus
+
+Query  900  CGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAG-CGTTATCCGGAATTATTGGGCGTA  958
+            ||||||||||| |||||| |||||  || |   ||   ||||| | ||      ||||||
+Sbjct  96   CGTGCCAGCAGACGCGGTTATACGTAAGGTCTAAGTTTTTATCAGAAA-----AGGCGTA  42
+
+Query  959  AAGAGTTTGTAGGC  972
+            ||| || |||||||
+Sbjct  41   AAGGGTGTGTAGGC  28
+
+
+>Emu_contig13397
+Length=1357
+
+ Score = 35.6 bits (38),  Expect = 4.0
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  2186  TGCCAGAATAGAACTGATTAATCT  2209
+             ||||||||||||||||||  ||||
+Sbjct  980   TGCCAGAATAGAACTGATACATCT  1003
+
+
+>Emu_contig9007
+Length=1355
+
+ Score = 35.6 bits (38),  Expect = 4.0
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Minus
+
+Query  2186  TGCCAGAATAGAACTGATTAATCT  2209
+             ||||||||||||||||||  ||||
+Sbjct  808   TGCCAGAATAGAACTGATACATCT  785
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 199801005716
+
+
+  Database: Ephydatia_muelleri_Trinity.fa
+    Posted date:  Jan 16, 2022  2:24 PM
+  Number of letters in database: 83,839,759
+  Number of sequences in database:  69,604
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

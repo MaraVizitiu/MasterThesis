@@ -1,0 +1,176 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: S_lacustris_mt_genome.fasta
+           1 sequences; 28,045 total letters
+
+
+
+Query= ND1_Homo_sapiens
+
+Length=318
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+LT158503.1 Spongilla lacustris genome assembly, organelle: mitoch...  185     2e-55
+
+
+>LT158503.1 Spongilla lacustris genome assembly, organelle: mitochondrion
+Length=28045
+
+ Score = 185 bits (470),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 104/217 (48%), Positives = 153/217 (71%), Gaps = 7/217 (3%)
+ Frame = +1
+
+Query  107    ATSSLAVYSILWSGWASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLI  166
+              A SS++VY+IL SG +SNS YA +GA+RA AQ ISYEV++ +I++S +L  GS NL+ ++
+Sbjct  20017  AVSSISVYAILMSG*SSNSKYAFLGAIRAAAQMISYEVSIGLIIISVVLCVGSLNLTEIV  20196
+
+Query  167    TTQEHLWLLLPSWPLAMMWFISTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMA  226
+               TQ+ +  ++P +P A+M+F+S LAETNR PFDL EGESELVSG+N+EY++  FALFF+A
+Sbjct  20197  LTQKPI*FIIPLFPAAIMFFVSALAETNRVPFDLTEGESELVSGYNVEYSSMSFALFFLA  20376
+
+Query  227    EYtniimmntltttiflgttYDALSP-ELYTTYFV------TKTLLLTSLFLWIRTAYPR  279
+              EY +II+M+T    +FLG      +P   +   F+       K  ++  LF+W+R +YPR
+Sbjct  20377  EYAHIILMSTFGVILFLGG*MVTSAPWPNHANIFILSPILGLKVSIIIFLFIWVRASYPR  20556
+
+Query  280    FRYDQLMHLLWKNFLPLTLALLMWYVSMPITISSIPP  316
+               RYDQLM LL K++LPL+LA ++    + I  +++PP
+Sbjct  20557  IRYDQLMALL*KSYLPLSLAFVVLVSGILIGFNALPP  20667
+
+
+ Score = 82.8 bits (203),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 37/53 (70%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+ Frame = +1
+
+Query  11     VPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKP  63
+              VP+LI++A+L L ERK+LGY+Q RKGPNVVG YGLLQP AD +KLFTKE + P
+Sbjct  19723  VPLLISIAYLTLAERKVLGYIQCRKGPNVVGVYGLLQPLADGLKLFTKEIIIP  19881
+
+
+ Score = 18.5 bits (36),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 11/28 (39%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+ Frame = -1
+
+Query  124   NSNYALIGALRAVAQTISYEVTLAIILL  151
+             N  YA +   +AVA T   ++ L+IIL+
+Sbjct  2332  NLMYAFVTL*KAVAPTKLSDIYLSIILV  2249
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.137    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2472736
+
+
+Query= ND1_Amphimedon_queenslandica
+
+Length=314
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+LT158503.1 Spongilla lacustris genome assembly, organelle: mitoch...  397     2e-129
+
+
+>LT158503.1 Spongilla lacustris genome assembly, organelle: mitochondrion
+Length=28045
+
+ Score = 397 bits (1021),  Expect = 2e-129, Method: Compositional matrix adjust.
+ Identities = 221/303 (73%), Positives = 255/303 (84%), Gaps = 18/303 (6%)
+ Frame = +1
+
+Query  30     ERKVLGYIQSRKGPNIEGVWGVIQPFADGLKLFTKEMIMPNHANIFLYWLSPIFSLTLAF  89
+              ERKVLGYIQ RKGPN+ GV+G++QP ADGLKLFTKE+I+PNHANIF+Y ++PI SLTLAF
+Sbjct  19762  ERKVLGYIQCRKGPNVVGVYGLLQPLADGLKLFTKEIIIPNHANIFIYIMAPILSLTLAF  19941
+
+Query  90     IAWGVMPYSNGIVFSDLGQGLLYIFAVSSISVYAVLMSGWASNSRYGFLGAIRAAAQMIS  149
+              +A GV+PY  GIVFSDLG G+LY+FAVSSISVYA+LMSG +SNS+Y FLGAIRAAAQMIS
+Sbjct  19942  MA*GVIPYGQGIVFSDLGIGILYLFAVSSISVYAILMSG*SSNSKYAFLGAIRAAAQMIS  20121
+
+Query  150    YEvsigliiisvvlcvgslNLTQIVMAQGYMWYIAPLWPAAMMFFVSALAETNRVPFDLT  209
+              YEVSIGLIIISVVLCVGSLNLT+IV+ Q  + +I PL+PAA+MFFVSALAETNRVPFDLT
+Sbjct  20122  YEVSIGLIIISVVLCVGSLNLTEIVLTQKPI*FIIPLFPAAIMFFVSALAETNRVPFDLT  20301
+
+Query  210    EGESELVSGFNVEYPSMSFALFFLAEYANIILMSALSAVLFLGG------GW--------  255
+              EGESELVSG+NVEY SMSFALFFLAEYA+IILMS    +LFLGG       W        
+Sbjct  20302  EGESELVSGYNVEYSSMSFALFFLAEYAHIILMSTFGVILFLGG*MVTSAPWPNHANIFI  20481
+
+Query  256    ----LGVKTSVIVYIFIWIRATFPRVRYDQLMALLWKSYLPLSLGFVTLVSGTLIGVNGL  311
+                  LG+K S+I+++FIW+RA++PR+RYDQLMALL KSYLPLSL FV LVSG LIG N L
+Sbjct  20482  LSPILGLKVSIIIFLFIWVRASYPRIRYDQLMALL*KSYLPLSLAFVVLVSGILIGFNAL  20661
+
+Query  312    LPY  314
+               PY
+Sbjct  20662  PPY  20670
+
+
+ Score = 20.8 bits (42),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 10/18 (56%), Positives = 10/18 (56%), Gaps = 0/18 (0%)
+ Frame = +3
+
+Query  52   IQPFADGLKLFTKEMIMP  69
+            I P   GLKL TKE   P
+Sbjct  345  IPPLGAGLKLKTKEGNRP  398
+
+
+ Score = 20.0 bits (40),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+ Frame = +1
+
+Query  256    LGVKTSVIVYIFIWIRA  272
+                ++ SV  +IFIW+R+
+Sbjct  22750  FCIRRSVFWFIFIWMRS  22800
+
+
+ Score = 19.2 bits (38),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 10/24 (42%), Gaps = 0/24 (0%)
+ Frame = -1
+
+Query  245    LSAVLFLGGGWLGVKTSVIVYIFI  268
+               S+  F GGG  G        IFI
+Sbjct  27103  FSSTTFAGGGTFGAAPGCCDLIFI  27032
+
+
+ Score = 18.1 bits (35),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+ Frame = -3
+
+Query  288    KSYLPLSLGFVTLVSGTLIGVNGLLP  313
+              ++Y+P  +  VT +  TL+    LLP
+Sbjct  22187  RTYIPQIMSLVTNL*STLLEA*PLLP  22110
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2445111
+
+
+  Database: S_lacustris_mt_genome.fasta
+    Posted date:  Aug 28, 2022  10:44 PM
+  Number of letters in database: 28,045
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

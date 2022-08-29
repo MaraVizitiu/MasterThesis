@@ -1,0 +1,300 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Ephydatia_muelleri_genome.fa
+           1,444 sequences; 322,620,753 total letters
+
+
+
+Query= V00159.1 Chloroplast Euglena gracilis gene coding for the 5S and 16S
+rRNA
+
+Length=2474
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+scaffold_0001                                                         113     7e-23
+scaffold_0699                                                         65.3    3e-08
+scaffold_0193                                                         65.3    3e-08
+scaffold_0002                                                         63.5    1e-07
+scaffold_0622                                                         37.4    4.5  
+scaffold_0067                                                         37.4    4.5  
+scaffold_0031                                                         37.4    4.5  
+scaffold_0010                                                         37.4    4.5  
+scaffold_0009                                                         37.4    4.5  
+scaffold_0008                                                         37.4    4.5  
+scaffold_0006                                                         37.4    4.5  
+scaffold_0005                                                         37.4    4.5  
+scaffold_0004                                                         37.4    4.5  
+scaffold_0003                                                         37.4    4.5  
+
+
+>scaffold_0001
+Length=34737626
+
+ Score = 113 bits (124),  Expect = 7e-23
+ Identities = 127/166 (77%), Gaps = 7/166 (4%)
+ Strand=Plus/Minus
+
+Query  1051     GGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCAAT-  1109
+                |||| || |||| ||  | |||||||||  ||||| |  | ||   |  ||||||||   
+Sbjct  5662669  GGGTAAATGGAACTTTTA-TGTAGCGGTAGAATGCTTGAATATAAAATGGAACACCAGGA  5662611
+
+Query  1110     GGCGAAGGCACTTTTCTAGG-CCAATA----CTGACGCTGAGAAACGAAAGCTGAGGGAG  1164
+                |||||||||| ||| |||   |||||     |||||||||||| |||||||    |||||
+Sbjct  5662610  GGCGAAGGCAATTTACTAATTCCAATTAAATCTGACGCTGAGATACGAAAGTAAGGGGAG  5662551
+
+Query  1165     CAAACAGGATTAGATACCCTGGTAGTCTTGGCCGTAAACTATGGAT  1210
+                ||||||||||||||||||||||||||| |  |||||||||||| ||
+Sbjct  5662550  CAAACAGGATTAGATACCCTGGTAGTCCTTACCGTAAACTATGAAT  5662505
+
+
+ Score = 39.2 bits (42),  Expect = 1.3
+ Identities = 39/51 (76%), Gaps = 0/51 (0%)
+ Strand=Plus/Minus
+
+Query  1324     GGAGCATGTGGTTTAATTCGATGCAACACGAAGAACCTTACCAGGATTTGA  1374
+                ||||| ||| ||||||||||||    | |||  ||||||||||  | ||||
+Sbjct  5662380  GGAGCGTGTAGTTTAATTCGATAATCCGCGATTAACCTTACCAAAACTTGA  5662330
+
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  1537      GAGGAAGGTGAGGACGACGT  1556
+                 ||||||||||||||||||||
+Sbjct  34257803  GAGGAAGGTGAGGACGACGT  34257784
+
+
+>scaffold_0699
+Length=23724
+
+ Score = 65.3 bits (71),  Expect = 3e-08
+ Identities = 80/107 (75%), Gaps = 2/107 (2%)
+ Strand=Plus/Minus
+
+Query  1049  AGGGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCAA  1108
+             |||||| || |||| ||  | |||||||||  ||||| |  | ||   |  |||||||| 
+Sbjct  5637  AGGGGTAAATGGAACTTTTA-TGTAGCGGTAGAATGCTTTAATATAAAATGGAACACCAG  5579
+
+Query  1109  TGGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAG  1155
+              |||||||||| ||| |||    ||| |||||||||||| |||||||
+Sbjct  5578  AGGCGAAGGCAATTTACTAATTAAAT-CTGACGCTGAGACACGAAAG  5533
+
+
+>scaffold_0193
+Length=60610
+
+ Score = 65.3 bits (71),  Expect = 3e-08
+ Identities = 80/107 (75%), Gaps = 2/107 (2%)
+ Strand=Plus/Plus
+
+Query  1049   AGGGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCAA  1108
+              |||||| || |||| ||  | |||||||||  ||||| |  | ||   |  |||||||| 
+Sbjct  36151  AGGGGTAAATGGAACTTTTA-TGTAGCGGTAGAATGCTTTAATATAAAATGGAACACCAG  36209
+
+Query  1109   TGGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAG  1155
+               |||||||||| ||| |||    ||| |||||||||||| |||||||
+Sbjct  36210  AGGCGAAGGCAATTTACTAATTAAAT-CTGACGCTGAGACACGAAAG  36255
+
+
+>scaffold_0002
+Length=18036862
+
+ Score = 63.5 bits (69),  Expect = 1e-07
+ Identities = 81/108 (75%), Gaps = 3/108 (3%)
+ Strand=Plus/Plus
+
+Query  1049      AGGGGTGAAGGGAATTTCCAGTGTAGCGGTGA-AATGCGTAGAGATTGGAAAGAACACCA  1107
+                 |||||| || |||| ||  | ||||||||| | ||||| |  | ||   |  ||||||||
+Sbjct  11006397  AGGGGTAAATGGAACTTTTA-TGTAGCGGTTAGAATGCTTTAATATAAAATGGAACACCA  11006455
+
+Query  1108      ATGGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAG  1155
+                   |||||||||| ||| |||    ||| |||||||||||| |||||||
+Sbjct  11006456  GAGGCGAAGGCAATTTACTAATTAAAT-CTGACGCTGAGACACGAAAG  11006502
+
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  1537     GAGGAAGGTGAGGACGACGT  1556
+                ||||||||||||||||||||
+Sbjct  2234409  GAGGAAGGTGAGGACGACGT  2234428
+
+
+>scaffold_0622
+Length=26577
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  1537  GAGGAAGGTGAGGACGACGT  1556
+             ||||||||||||||||||||
+Sbjct  8168  GAGGAAGGTGAGGACGACGT  8149
+
+
+>scaffold_0067
+Length=171067
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  1537   GAGGAAGGTGAGGACGACGT  1556
+              ||||||||||||||||||||
+Sbjct  11193  GAGGAAGGTGAGGACGACGT  11212
+
+
+>scaffold_0031
+Length=430008
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  1537   GAGGAAGGTGAGGACGACGT  1556
+              ||||||||||||||||||||
+Sbjct  21874  GAGGAAGGTGAGGACGACGT  21855
+
+
+>scaffold_0010
+Length=9915261
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  1537     GAGGAAGGTGAGGACGACGT  1556
+                ||||||||||||||||||||
+Sbjct  1646743  GAGGAAGGTGAGGACGACGT  1646724
+
+
+>scaffold_0009
+Length=10784955
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  901      GTGCCAGCAGCCGCGGTAAT  920
+                ||||||||||||||||||||
+Sbjct  1351054  GTGCCAGCAGCCGCGGTAAT  1351073
+
+
+>scaffold_0008
+Length=11012714
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  1537     GAGGAAGGTGAGGACGACGT  1556
+                ||||||||||||||||||||
+Sbjct  4219879  GAGGAAGGTGAGGACGACGT  4219860
+
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  1537     GAGGAAGGTGAGGACGACGT  1556
+                ||||||||||||||||||||
+Sbjct  4256754  GAGGAAGGTGAGGACGACGT  4256735
+
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  1537     GAGGAAGGTGAGGACGACGT  1556
+                ||||||||||||||||||||
+Sbjct  8728941  GAGGAAGGTGAGGACGACGT  8728922
+
+
+>scaffold_0006
+Length=13980526
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 27/31 (87%), Gaps = 3/31 (10%)
+ Strand=Plus/Plus
+
+Query  253       AGCTAAATATTGCTTTTCGTTAAAATTGTAA  283
+                 ||||||||||||||||||   |||| |||||
+Sbjct  12402060  AGCTAAATATTGCTTTTC---AAAAATGTAA  12402087
+
+
+>scaffold_0005
+Length=14008563
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  901     GTGCCAGCAGCCGCGGTAAT  920
+               ||||||||||||||||||||
+Sbjct  262778  GTGCCAGCAGCCGCGGTAAT  262759
+
+
+>scaffold_0004
+Length=14242454
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  1537     GAGGAAGGTGAGGACGACGT  1556
+                ||||||||||||||||||||
+Sbjct  1763746  GAGGAAGGTGAGGACGACGT  1763727
+
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  1537     GAGGAAGGTGAGGACGACGT  1556
+                ||||||||||||||||||||
+Sbjct  2914839  GAGGAAGGTGAGGACGACGT  2914858
+
+
+>scaffold_0003
+Length=16756708
+
+ Score = 37.4 bits (40),  Expect = 4.5
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  1537     GAGGAAGGTGAGGACGACGT  1556
+                ||||||||||||||||||||
+Sbjct  4246978  GAGGAAGGTGAGGACGACGT  4246959
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 788053141127
+
+
+  Database: Ephydatia_muelleri_genome.fa
+    Posted date:  Jan 16, 2022  2:23 PM
+  Number of letters in database: 322,620,753
+  Number of sequences in database:  1,444
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

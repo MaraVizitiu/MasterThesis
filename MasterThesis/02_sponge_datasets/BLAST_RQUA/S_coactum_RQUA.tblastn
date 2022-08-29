@@ -1,0 +1,226 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../Sycon_coactum_ar.fa
+           70,220 sequences; 48,266,486 total letters
+
+
+
+Query= Ephydatia_muelleri_RQUA
+
+Length=292
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_15238             31.6    0.15 
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_10747             32.7    0.31 
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_10805             30.4    0.88 
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_66000             28.9    1.4  
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_2045              30.0    2.7  
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_10746             29.6    2.7  
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_7984              30.0    3.1  
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_35899             29.3    3.8  
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_55553             27.7    3.9  
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_472               28.5    7.1  
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_8964              28.1    8.2  
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_49192             28.5    8.8  
+Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_54743             26.2    9.7  
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_15238
+Length=224
+
+ Score = 31.6 bits (70),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 15/33 (45%), Positives = 20/33 (61%), Gaps = 1/33 (3%)
+ Frame = -1
+
+Query  103  CKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVV  135
+            C+  +V HT GR+V H +  +G  G F VVD V
+Sbjct  206  CRTREV-HTSGRMVVHCSAGVGRTGAFCVVDSV  111
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_10747
+Length=764
+
+ Score = 32.7 bits (73),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 21/68 (31%), Positives = 32/68 (47%), Gaps = 6/68 (9%)
+ Frame = +1
+
+Query  166  LPKGEVPYDVAYAFMILHEVPDDRKYQIVNNMLRSVREGGRVVWVEY------HGPPYWY  219
+            L  GE  +D+ ++  +L  + D    ++   MLR V+ GGRV + E         P    
+Sbjct  475  LDLGEASFDLVFSNWLLMYLSDSELERLAERMLRWVKPGGRVFFRESCHRQSGDRPRDSS  654
+
+Query  220  NPTRYFMP  227
+            NPT+Y  P
+Sbjct  655  NPTKYRDP  678
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_10805
+Length=385
+
+ Score = 30.4 bits (67),  Expect = 0.88, Method: Compositional matrix adjust.
+ Identities = 10/37 (27%), Positives = 24/37 (65%), Gaps = 0/37 (0%)
+ Frame = -1
+
+Query  172  PYDVAYAFMILHEVPDDRKYQIVNNMLRSVREGGRVV  208
+            P+D+ +A  +LH + +D  +  +  +++ ++ GGR+V
+Sbjct  265  PFDLIFANFVLHWLAEDDLHATLQRIMKCLKPGGRLV  155
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_66000
+Length=244
+
+ Score = 28.9 bits (63),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 12/27 (44%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+ Frame = -2
+
+Query  184  EVPDDRKYQIVNNMLRSVREGGRVVWV  210
+            EVP D +Y    +MLRS+ +  R  WV
+Sbjct  138  EVPKDGEYNAAIDMLRSIVDKFRAAWV  58
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_2045
+Length=9777
+
+ Score = 30.0 bits (66),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 17/68 (25%), Positives = 33/68 (49%), Gaps = 3/68 (4%)
+ Frame = -1
+
+Query  104   KAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGDACVAE  163
+             +A  VG   G ++P +A   GP    +V+++VPI      E  ++   C    G+   + 
+Sbjct  8298  EAPCVGAVAGNVLPASAPDSGPS---TVINIVPINDGADVEHPREGERCGASFGEGNGSV  8128
+
+Query  164   NILPKGEV  171
+              ++P+G +
+Sbjct  8127  VVVPEGTL  8104
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_10746
+Length=987
+
+ Score = 29.6 bits (65),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 20/64 (31%), Positives = 30/64 (47%), Gaps = 6/64 (9%)
+ Frame = -3
+
+Query  170  EVPYDVAYAFMILHEVPDDRKYQIVNNMLRSVREGGRVVWVEY------HGPPYWYNPTR  223
+            E  YD+ ++  +L  + DD   ++   M R V+ GGRV + E         P    NPT+
+Sbjct  502  ENSYDLVFSNWLLMYLNDDEVAKLAEKMTRWVKPGGRVFFRESCHRQSGDRPRNSSNPTK  323
+
+Query  224  YFMP  227
+            Y  P
+Sbjct  322  YRDP  311
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_7984
+Length=5682
+
+ Score = 30.0 bits (66),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 19/34 (56%), Gaps = 0/34 (0%)
+ Frame = +3
+
+Query  158   DACVAENILPKGEVPYDVAYAFMILHEVPDDRKY  191
+             D   A+  + +GEV  DVA    +LH V D R++
+Sbjct  1275  DVVAADEAVARGEVAMDVALGRQVLHAVRDLRRH  1376
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_35899
+Length=725
+
+ Score = 29.3 bits (64),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 22/52 (42%), Gaps = 0/52 (0%)
+ Frame = +2
+
+Query  145  KVQDFPWCKVRLGDACVAENILPKGEVPYDVAYAFMILHEVPDDRKYQIVNN  196
+            KVQ+  W  + +  ACVA    PK  VP+         H  P + +  I  +
+Sbjct  230  KVQNHTWSMLSVL*ACVAAAQCPKAGVPWRCVCGQPCAHRSPGESRRTISQS  385
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_55553
+Length=275
+
+ Score = 27.7 bits (60),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 11/35 (31%), Positives = 18/35 (51%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  99   LEPGCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVD  133
+            + PG K + +G   G  V H +  +GP G  + V+
+Sbjct  82   MRPGSKVLYLGAAAGTTVSHVSDIVGPSGAVNAVE  186
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_472
+Length=1418
+
+ Score = 28.5 bits (62),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 19/35 (54%), Gaps = 0/35 (0%)
+ Frame = -3
+
+Query  99   LEPGCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVD  133
+            ++PG K + +G   G  V H A  +GP+G    V+
+Sbjct  873  IKPGAKVLYLGAASGTTVSHVADIVGPEGAVYAVE  769
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_8964
+Length=560
+
+ Score = 28.1 bits (61),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 10/37 (27%), Positives = 23/37 (62%), Gaps = 0/37 (0%)
+ Frame = -3
+
+Query  172  PYDVAYAFMILHEVPDDRKYQIVNNMLRSVREGGRVV  208
+            P+D+A+  ++LH + +D     +  + + ++ GGR+V
+Sbjct  390  PFDLAFTNLVLHWIAEDDIRITLQRIKKCLKPGGRLV  280
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_49192
+Length=1766
+
+ Score = 28.5 bits (62),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 15/57 (26%), Positives = 24/57 (42%), Gaps = 0/57 (0%)
+ Frame = +1
+
+Query  20   PMVNGPFQVLKTSTVTSSPLVRPEEVGARFTNDVPSYMTDIYTWAYVNPTNVRLLDN  76
+            P V GP +    +   + P    EE+G     D+    TD+++W   NP      D+
+Sbjct  568  PTVMGPRRPGDVTIYMADPTRAKEEMGWEAKKDLDEMCTDLWSWQTKNPNGYNTPDD  738
+
+
+>Sycon_1_1_sequence_(paired)_trimmed_(paired)_contig_54743
+Length=227
+
+ Score = 26.2 bits (56),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+ Frame = +1
+
+Query  87   NARVLEREVLSRLEPGCKAIQVG  109
+            N  V+E  VL R  P C AIQ+G
+Sbjct  40   NGNVVEYRVLRRTRPQCCAIQLG  108
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1786209992
+
+
+  Database: ../Sycon_coactum_ar.fa
+    Posted date:  Aug 28, 2022  11:32 PM
+  Number of letters in database: 48,266,486
+  Number of sequences in database:  70,220
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

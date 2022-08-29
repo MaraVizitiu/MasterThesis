@@ -1,0 +1,131 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: E_gracilis_transcriptome.fasta
+           72,506 sequences; 63,049,595 total letters
+
+
+
+Query= EP00667_Euglena_gracilis_15664
+
+Length=240
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+GEFR01016310.1 TSA: Euglena gracilis EG_transcript_16311 transcri...  504     0.0  
+GEFR01054551.1 TSA: Euglena gracilis EG_transcript_54678 transcri...  39.3    6e-04
+GEFR01013487.1 TSA: Euglena gracilis EG_transcript_13473 transcri...  32.0    0.53 
+GEFR01034191.1 TSA: Euglena gracilis EG_transcript_34182 transcri...  28.9    3.8  
+GEFR01046328.1 TSA: Euglena gracilis EG_transcript_46368 transcri...  27.3    9.2  
+
+
+>GEFR01016310.1 TSA: Euglena gracilis EG_transcript_16311 transcribed 
+RNA sequence
+Length=1162
+
+ Score = 504 bits (1298),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 240/240 (100%), Positives = 240/240 (100%), Gaps = 0/240 (0%)
+ Frame = -2
+
+Query  1     MARHDELDSRFTKDVPHYMTDIYTWAYVNPTNVRLLDNQYVVDTLLFFNARALEREVLGR  60
+             MARHDELDSRFTKDVPHYMTDIYTWAYVNPTNVRLLDNQYVVDTLLFFNARALEREVLGR
+Sbjct  1152  MARHDELDSRFTKDVPHYMTDIYTWAYVNPTNVRLLDNQYVVDTLLFFNARALEREVLGR  973
+
+Query  61    LSPGCKAIQVGHTHGGLVPKAAAAIGEAGDFTVVDVTPIQADHAQVKLQASPWGRVRLGD  120
+             LSPGCKAIQVGHTHGGLVPKAAAAIGEAGDFTVVDVTPIQADHAQVKLQASPWGRVRLGD
+Sbjct  972   LSPGCKAIQVGHTHGGLVPKAAAAIGEAGDFTVVDVTPIQADHAQVKLQASPWGRVRLGD  793
+
+Query  121   ACLMENILPSGEKPHDVAYAFMILHEVPDDRKHQIVNNMLKSVKTGGTVMWVEYHGPPYW  180
+             ACLMENILPSGEKPHDVAYAFMILHEVPDDRKHQIVNNMLKSVKTGGTVMWVEYHGPPYW
+Sbjct  792   ACLMENILPSGEKPHDVAYAFMILHEVPDDRKHQIVNNMLKSVKTGGTVMWVEYHGPPYW  613
+
+Query  181   FNPTRYFMPFVFRWLEPFALRMWDTEIESFADAELRKQFKWSKVTYGGNLYQVVVAEHIA  240
+             FNPTRYFMPFVFRWLEPFALRMWDTEIESFADAELRKQFKWSKVTYGGNLYQVVVAEHIA
+Sbjct  612   FNPTRYFMPFVFRWLEPFALRMWDTEIESFADAELRKQFKWSKVTYGGNLYQVVVAEHIA  433
+
+
+>GEFR01054551.1 TSA: Euglena gracilis EG_transcript_54678 transcribed 
+RNA sequence
+Length=368
+
+ Score = 39.3 bits (90),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 18/18 (100%), Positives = 18/18 (100%), Gaps = 0/18 (0%)
+ Frame = +3
+
+Query  223  KVTYGGNLYQVVVAEHIA  240
+            KVTYGGNLYQVVVAEHIA
+Sbjct  3    KVTYGGNLYQVVVAEHIA  56
+
+
+>GEFR01013487.1 TSA: Euglena gracilis EG_transcript_13473 transcribed 
+RNA sequence
+Length=1319
+
+ Score = 32.0 bits (71),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 15/69 (22%), Positives = 31/69 (45%), Gaps = 7/69 (10%)
+ Frame = -2
+
+Query  141   FMILHEVPDDRKHQIVNNMLKSVKTGGTVMWVEYHGPPYWFN-------PTRYFMPFVFR  193
+             F+ L  +P     Q++  + +  +   + MW +Y               P   F+PF+ +
+Sbjct  1225  FLDLASLPGRSTQQLLYTLARGTRRMASGMWCDYKHQSQQAASSASLKWPQATFLPFLVK  1046
+
+Query  194   WLEPFALRM  202
+             W+EP+++ M
+Sbjct  1045  WMEPWSIEM  1019
+
+
+>GEFR01034191.1 TSA: Euglena gracilis EG_transcript_34182 transcribed 
+RNA sequence
+Length=574
+
+ Score = 28.9 bits (63),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+ Frame = +1
+
+Query  125  ENILPSGEKPHDVAYAFMILHEV  147
+            E + PSG  P  +AYAF++L ++
+Sbjct  427  EPMFPSGACPEGIAYAFLVLFQI  495
+
+
+>GEFR01046328.1 TSA: Euglena gracilis EG_transcript_46368 transcribed 
+RNA sequence
+Length=423
+
+ Score = 27.3 bits (59),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 12/42 (29%), Positives = 17/42 (40%), Gaps = 0/42 (0%)
+ Frame = -1
+
+Query  166  GGTVMWVEYHGPPYWFNPTRYFMPFVFRWLEPFALRMWDTEI  207
+            G  + +  +H P    +P     P V  WL P  LR W  + 
+Sbjct  357  GHCLAYCLHHNPSLGASPLYATAPVVVHWLGPLELRRWSLDF  232
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1951219617
+
+
+  Database: E_gracilis_transcriptome.fasta
+    Posted date:  Nov 24, 2021  5:53 PM
+  Number of letters in database: 63,049,595
+  Number of sequences in database:  72,506
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

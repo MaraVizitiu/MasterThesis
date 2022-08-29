@@ -1,0 +1,316 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  NF005866.0.HMM
+# target sequence database:        ../Predicted_proteins/spongilla_transcriptome_annotated_200501.fasta.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PRK07803.1  [M=631]
+Accession:   NF005866.0
+Description: NCBI Protein Cluster (PRK): fumarate reductase/succinate dehydrogenase flavoprotein subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+   5.2e-114  382.3   5.9    4.4e-68  230.6   4.6    2.1  2  c88591_g1_i1|c88591-g1.p1    GENE.c88591_g1_i1|c88591-g1~~c88
+    2.5e-06   26.6   0.0    2.5e-06   26.6   0.0    1.0  1  c114179_g1_i1|c114179-g1.p1  GENE.c114179_g1_i1|c114179-g1~~c
+    0.00041   19.2   0.1    0.00058   18.8   0.1    1.2  1  c102030_g2_i1|c102030-g1.p1  GENE.c102030_g2_i1|c102030-g1~~c
+    0.00091   18.1   0.1     0.0013   17.5   0.1    1.2  1  c102030_g2_i2|c102030-g1.p1  GENE.c102030_g2_i2|c102030-g1~~c
+      0.002   17.0   0.1     0.0029   16.4   0.1    1.2  1  c90307_g1_i1|c90307-g1.p1    GENE.c90307_g1_i1|c90307-g1~~c90
+  ------ inclusion threshold ------
+      0.044   12.5   0.4      0.048   12.4   0.4    1.1  1  c96493_g1_i2|c96493-g1.p1    GENE.c96493_g1_i2|c96493-g1~~c96
+      0.056   12.2   0.2       0.12   11.1   0.2    1.4  1  c102808_g2_i2|c102808-g2.p1  GENE.c102808_g2_i2|c102808-g2~~c
+      0.061   12.1   0.1       0.11   11.2   0.1    1.4  1  c104676_g1_i1|c104676-g1.p1  GENE.c104676_g1_i1|c104676-g1~~c
+      0.062   12.0   0.5       0.17   10.6   0.1    1.9  3  c101004_g1_i1|c101004-g1.p1  GENE.c101004_g1_i1|c101004-g1~~c
+      0.092   11.5   0.2       0.19   10.4   0.2    1.5  1  c102808_g2_i1|c102808-g2.p1  GENE.c102808_g2_i1|c102808-g2~~c
+       0.21   10.3   0.1       0.26   10.0   0.1    1.1  1  c110882_g1_i1|c107844-g1.p1  GENE.c110882_g1_i1|c107844-g1~~c
+       0.25   10.1   0.7       0.34    9.6   0.7    1.1  1  c104777_g1_i4|c104777-g1.p1  GENE.c104777_g1_i4|c104777-g1~~c
+       0.29    9.8   0.1        1.2    7.8   0.0    1.8  2  c104239_g2_i1|c104239-g2.p1  GENE.c104239_g2_i1|c104239-g2~~c
+       0.29    9.8   0.1        1.2    7.8   0.0    1.8  2  c104239_g2_i2|c104239-g2.p1  GENE.c104239_g2_i2|c104239-g2~~c
+       0.34    9.6   1.1       0.57    8.9   0.5    1.6  2  c103779_g1_i1|c103779-g1.p1  GENE.c103779_g1_i1|c103779-g1~~c
+       0.45    9.2   0.0       0.62    8.7   0.0    1.1  1  c100300_g1_i1|c100300-g1.p1  GENE.c100300_g1_i1|c100300-g1~~c
+
+
+Domain annotation for each sequence (and alignments):
+>> c88591_g1_i1|c88591-g1.p1  GENE.c88591_g1_i1|c88591-g1~~c88591_g1_i1|c88591-g1.p1  ORF type:complete len:665 (-),scor
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  230.6   4.6   2.4e-71   4.4e-68       4     290 ..      44     320 ..      41     322 .. 0.93
+   2 !  151.4   0.0   2.2e-47   4.1e-44     317     576 ..     322     596 ..     320     624 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 230.6 bits;  conditional E-value: 2.4e-71
+                 PRK07803.1   4 verheydvvviGaGGaGlraaiearerGlkvavvskslfGkahtvmaeGGiaaalgnvnskdnwkvhfrdtlrgGkflnnwrma 87 
+                                +  h+yd vv+GaGGaGlraa    ++G k+a ++k +  ++htv a+GGi aalgn+ +kdnw  h+ dt++g  +l +   +
+  c88591_g1_i1|c88591-g1.p1  44 IVDHTYDAVVVGAGGAGLRAAFGLAQNGYKTACITKLFPTRSHTVAAQGGINAALGNM-EKDNWIWHMYDTVKGSDWLGDQDAI 126
+                                6789********************************999******************8.58*********************** PP
+
+                 PRK07803.1  88 elhakeaPdrvleletyGalfdrtkdGkisqrnfGGheyp........rlahvGdrtGlelirtlqqkvvslqqedkaelgdye 163
+                                +  +++a + v+ele+yG  f rt+dG+i qr fGG +y         r   v drtG  l+ tl  + +              
+  c88591_g1_i1|c88591-g1.p1 127 HYMTEQAAKSVIELENYGMPFSRTDDGRIYQRAFGGQSYDfgrggqahRCCCVADRTGHSLLHTLYGQSLRH------------ 198
+                                *************************************995444433337777*************9886654............ PP
+
+                 PRK07803.1 164 arikvfaettitellkdegriaGafgyeresGrfvlfeapavvlatGGiGksfkvtsnsweytGdGhalalraGaelinmefvq 247
+                                   k f e    +ll ++g+  G+++   e+G++  f+a+  vlatGG G+s+   + +  +tGdG a+a raG +  +mefvq
+  c88591_g1_i1|c88591-g1.p1 199 -DTKYFVEYFALDLLMENGECRGVIALCMEDGTIHRFRAKNTVLATGGYGRSYFSCTSAHTCTGDGIAMANRAGLASEDMEFVQ 281
+                                .2478999999******************************************999999************************* PP
+
+                 PRK07803.1 248 fhPtGmvwPpsvkGilvtesvrGdgGvlknsegkrfmfdyipd 290
+                                fhPtG+       G l+te+ rG+gG l n +g+rfm +y p 
+  c88591_g1_i1|c88591-g1.p1 282 FHPTGIY----SAGCLITEGCRGEGGYLINGKGERFMERYAPT 320
+                                *****85....479**************************996 PP
+
+  == domain 2  score: 151.4 bits;  conditional E-value: 2.2e-47
+                 PRK07803.1 317 pellprdevarainsevkaGrgsp..hGGvyldiasrlpaeeikrrlPsmyhqfkeladvditkepmevgPtchyvmGGv.... 394
+                                ++l +rd v+ra+  e+ +Grg    +  v+l++ s+lp+e +  rlP + +  + +a vd+tkep+ v Pt+hy mGGv    
+  c88591_g1_i1|c88591-g1.p1 322 KDLASRDVVSRAMTVEIMEGRGCGplKDHVHLQL-SHLPPEILATRLPGISETAHIFAGVDVTKEPIPVLPTVHYNMGGVptny 404
+                                79*******************9743478999999.79******************************************83333 PP
+
+                 PRK07803.1 395 .....evdadtaaak.vpGlfaaGeva.gGlhGsnrlGGnslsdllvfGrraGlgaaeyvealesrpavseeevdaaakealap 471
+                                     + d+  +    vpGl+a+Ge a + +hG+nrlG nsl dl+vfGr   ++ ae  +  e++p +++++ ++++++  + 
+  c88591_g1_i1|c88591-g1.p1 405 kgqviQYDPARGGDYiVPGLYACGETAcASVHGANRLGANSLLDLVVFGRACANTIAEVNKPGEAQPPLKQNAGEKSIANLDRL 488
+                                3221123444333335*********983579***************************9999999*****99999999998888 PP
+
+                 PRK07803.1 472 leaeaeen.Pytlqkelqeamndlvgiirkeeeleealekleelkerlkk.vkv.eGerqynpgwhlaldlrnlllvsecvaka 552
+                                ++++++e    +l+  +q++m++++g+ r+ e l++  ++++++ ++l + +k  +  + +n+    +l+l+nl+  s   + +
+  c88591_g1_i1|c88591-g1.p1 489 YHTSNGEThTAELRLRMQKVMHEKAGVFRTGEYLKQGCQQITQIATHLDEdLKLyDKGHVWNTDLIETLELQNLMACSLLTVYS 572
+                                88888875156899******************************99876423321444589*********************** PP
+
+                 PRK07803.1 553 alerkesrGghtrddfpemdaewr 576
+                                a +rkesrG+h+r+d+ +  +e+ 
+  c88591_g1_i1|c88591-g1.p1 573 AEARKESRGAHARQDYTTRIDEYD 596
+                                ****************99877775 PP
+
+>> c114179_g1_i1|c114179-g1.p1  GENE.c114179_g1_i1|c114179-g1~~c114179_g1_i1|c114179-g1.p1  ORF type:5prime_partial len:
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.6   0.0   1.3e-09   2.5e-06     528     604 ..      13      91 ..       1     100 [. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 26.6 bits;  conditional E-value: 1.3e-09
+                   PRK07803.1 528 qynpgwhlaldlrnlllvsecvakaalerkesrGghtrddfpemd.aewrkvllvvrldeeeaeveve..reeleelred 604
+                                   +n+    +l+l+nl+  + c +  a +rkesrG+h+r+df + d  +w   +l  +  e+++e +++   +++ +l+ed
+  c114179_g1_i1|c114179-g1.p1  13 VWNTDLVETLELQNLMANAACTMYGAEARKESRGAHAREDFTSRDdVNWMVHTLSYHN-EKTGETSLKyrPTQQYSLNED 91 
+                                  578888889********************************98761578776666655.444444444004445555555 PP
+
+>> c102030_g2_i1|c102030-g1.p1  GENE.c102030_g2_i1|c102030-g1~~c102030_g2_i1|c102030-g1.p1  ORF type:complete len:329 (-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.8   0.1   3.1e-07   0.00058       7      39 ..      83     115 ..      77     124 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 18.8 bits;  conditional E-value: 3.1e-07
+                   PRK07803.1   7 heydvvviGaGGaGlraaiearerGlkvavvsk 39 
+                                  ++  v+v+GaG  Glraaie+   G++v vv k
+  c102030_g2_i1|c102030-g1.p1  83 KRLSVLVVGAGPVGLRAAIESAMLGARVDVVEK 115
+                                  6778***************************88 PP
+
+>> c102030_g2_i2|c102030-g1.p1  GENE.c102030_g2_i2|c102030-g1~~c102030_g2_i2|c102030-g1.p1  ORF type:3prime_partial len:
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.5   0.1   7.3e-07    0.0013       7      39 ..      83     115 ..      77     123 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 17.5 bits;  conditional E-value: 7.3e-07
+                   PRK07803.1   7 heydvvviGaGGaGlraaiearerGlkvavvsk 39 
+                                  ++  v+v+GaG  Glraaie+   G++v vv k
+  c102030_g2_i2|c102030-g1.p1  83 KRLSVLVVGAGPVGLRAAIESAMLGARVDVVEK 115
+                                  6778***************************88 PP
+
+>> c90307_g1_i1|c90307-g1.p1  GENE.c90307_g1_i1|c90307-g1~~c90307_g1_i1|c90307-g1.p1  ORF type:internal len:226 (-),scor
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.4   0.1   1.6e-06    0.0029       7      39 ..      29      61 ..      25      78 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 16.4 bits;  conditional E-value: 1.6e-06
+                 PRK07803.1  7 heydvvviGaGGaGlraaiearerGlkvavvsk 39
+                                +ydv+viG G aG  aa +a ++G+++ +v+ 
+  c90307_g1_i1|c90307-g1.p1 29 TSYDVIVIGGGHAGTEAAAAAARTGARTLLVTH 61
+                               68**************************99986 PP
+
+>> c96493_g1_i2|c96493-g1.p1  GENE.c96493_g1_i2|c96493-g1~~c96493_g1_i2|c96493-g1.p1  ORF type:internal len:120 (-),scor
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.4   2.6e-05     0.048       7      44 ..       2      39 ..       1      65 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 2.6e-05
+                 PRK07803.1  7 heydvvviGaGGaGlraaiearerGlkvavvskslfGk 44
+                                ++d++viG G  G+  a +a + G+k a+v  s +G 
+  c96493_g1_i2|c96493-g1.p1  2 AAFDLLVIGGGSGGIACARKAASLGAKAALVEHSRLGG 39
+                               689*******************************9985 PP
+
+>> c102808_g2_i2|c102808-g2.p1  GENE.c102808_g2_i2|c102808-g2~~c102808_g2_i2|c102808-g2.p1  ORF type:5prime_partial len:
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.2   6.4e-05      0.12       7      39 ..      37      69 ..      32      82 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 6.4e-05
+                   PRK07803.1  7 heydvvviGaGGaGlraaiearerGlkvavvsk 39
+                                  e d+vviG+G  G  aai+a + G+k+  v k
+  c102808_g2_i2|c102808-g2.p1 37 DEADLVVIGSGPGGYVAAIKAAQLGMKTVCVEK 69
+                                 578*************************99987 PP
+
+>> c104676_g1_i1|c104676-g1.p1  GENE.c104676_g1_i1|c104676-g1~~c104676_g1_i1|c104676-g1.p1  ORF type:complete len:719 (-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.1   6.2e-05      0.11       7      42 ..      64      99 ..      59     116 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 6.2e-05
+                   PRK07803.1  7 heydvvviGaGGaGlraaiearerGlkvavvskslf 42
+                                 +eyd++viG G +G   a++a +rG ++a+v k  f
+  c104676_g1_i1|c104676-g1.p1 64 KEYDILVIGGGITGCGVALDAISRGFSTALVEKDDF 99
+                                 79*****************************99766 PP
+
+>> c101004_g1_i1|c101004-g1.p1  GENE.c101004_g1_i1|c101004-g1~~c101004_g1_i1|c101004-g1.p1  ORF type:5prime_partial len:
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.1   9.5e-05      0.17       6      38 ..      29      61 ..      24      87 .. 0.86
+   2 ?   -3.2   0.0       1.4   2.6e+03     545     593 ..     268     318 ..     263     341 .. 0.66
+   3 ?   -2.2   0.0      0.67   1.2e+03     394     417 ..     332     355 ..     320     358 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 9.5e-05
+                   PRK07803.1  6 rheydvvviGaGGaGlraaiearerGlkvavvs 38
+                                 +++yd++viG G  Gl    +a + G+kvav+ 
+  c101004_g1_i1|c101004-g1.p1 29 TYDYDLIVIGGGSGGLACCKDAASFGKKVAVLD 61
+                                 579***************************975 PP
+
+  == domain 2  score: -3.2 bits;  conditional E-value: 1.4
+                   PRK07803.1 545 vsecvakaalerkesrGgh..trddfpemdaewrkvllvvrldeeeaevev 593
+                                  +s+c  ka l+r ++   +    dd  + +++w  vl+ +  ++++a + +
+  c101004_g1_i1|c101004-g1.p1 268 LSHCEPKAVLKRAQQLSVKwyCSDDQQDREDQWDTVLFATGREAATAGLGL 318
+                                  677888888888776655411568888888888888887766555554444 PP
+
+  == domain 3  score: -2.2 bits;  conditional E-value: 0.67
+                   PRK07803.1 394 vevdadtaaakvpGlfaaGevagG 417
+                                  + vd   a+ +vp +fa G+va G
+  c101004_g1_i1|c101004-g1.p1 332 IVVDQFEASVTVPHIFAIGDVAMG 355
+                                  45666677788**********988 PP
+
+>> c102808_g2_i1|c102808-g2.p1  GENE.c102808_g2_i1|c102808-g2~~c102808_g2_i1|c102808-g2.p1  ORF type:5prime_partial len:
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.2    0.0001      0.19       7      39 ..      37      69 ..      32      82 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0001
+                   PRK07803.1  7 heydvvviGaGGaGlraaiearerGlkvavvsk 39
+                                  e d+vviG+G  G  aai+a + G+k+  v k
+  c102808_g2_i1|c102808-g2.p1 37 DEADLVVIGSGPGGYVAAIKAAQLGMKTVCVEK 69
+                                 5789************************99987 PP
+
+>> c110882_g1_i1|c107844-g1.p1  GENE.c110882_g1_i1|c107844-g1~~c110882_g1_i1|c107844-g1.p1  ORF type:internal len:125 (-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.1   0.00014      0.26       6      39 ..      56      89 ..      51      98 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00014
+                   PRK07803.1  6 rheydvvviGaGGaGlraaiearerGlkvavvsk 39
+                                  ++  v+++GaG  Glr+a+++   G  v vv k
+  c110882_g1_i1|c107844-g1.p1 56 AQHRRVLIVGAGPIGLRTALDCAFLGCDVVVVEK 89
+                                 556679*************************988 PP
+
+>> c104777_g1_i4|c104777-g1.p1  GENE.c104777_g1_i4|c104777-g1~~c104777_g1_i4|c104777-g1.p1  ORF type:5prime_partial len:
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.6   0.7   0.00019      0.34       5      39 ..      16      50 ..      12      62 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.00019
+                   PRK07803.1  5 erheydvvviGaGGaGlraaiearerGlkvavvsk 39
+                                   ++yd +++G G  Gl aa    ++G+kvav  +
+  c104777_g1_i4|c104777-g1.p1 16 GVKSYDALIVGGGHNGLVAAAYLAKAGKKVAVFER 50
+                                 5789****************************864 PP
+
+>> c104239_g2_i1|c104239-g2.p1  GENE.c104239_g2_i1|c104239-g2~~c104239_g2_i1|c104239-g2.p1  ORF type:complete len:600 (-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.8   0.0   0.00063       1.2       7      36 ..     114     143 ..     110     150 .. 0.92
+   2 ?   -1.2   0.0      0.34   6.2e+02     190     214 ..     245     269 ..     228     306 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 7.8 bits;  conditional E-value: 0.00063
+                   PRK07803.1   7 heydvvviGaGGaGlraaiearerGlkvav 36 
+                                   +yd+vviG G  Gl    ea   G++va 
+  c104239_g2_i1|c104239-g2.p1 114 FDYDLVVIGGGSGGLACSKEAAGLGARVAC 143
+                                  68**************************96 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 0.34
+                   PRK07803.1 190 yeresGrfvlfeapavvlatGGiGk 214
+                                  +  ++G+  ++ a  +vlatGG  k
+  c104239_g2_i1|c104239-g2.p1 245 HVSKKGKEEVITAARIVLATGGRPK 269
+                                  56678999999***********766 PP
+
+>> c104239_g2_i2|c104239-g2.p1  GENE.c104239_g2_i2|c104239-g2~~c104239_g2_i2|c104239-g2.p1  ORF type:complete len:600 (-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.8   0.0   0.00063       1.2       7      36 ..     114     143 ..     110     150 .. 0.92
+   2 ?   -1.2   0.0      0.34   6.2e+02     190     214 ..     245     269 ..     228     306 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 7.8 bits;  conditional E-value: 0.00063
+                   PRK07803.1   7 heydvvviGaGGaGlraaiearerGlkvav 36 
+                                   +yd+vviG G  Gl    ea   G++va 
+  c104239_g2_i2|c104239-g2.p1 114 FDYDLVVIGGGSGGLACSKEAAGLGARVAC 143
+                                  68**************************96 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 0.34
+                   PRK07803.1 190 yeresGrfvlfeapavvlatGGiGk 214
+                                  +  ++G+  ++ a  +vlatGG  k
+  c104239_g2_i2|c104239-g2.p1 245 HVSKKGKEEVITAARIVLATGGRPK 269
+                                  56678999999***********766 PP
+
+>> c103779_g1_i1|c103779-g1.p1  GENE.c103779_g1_i1|c103779-g1~~c103779_g1_i1|c103779-g1.p1  ORF type:internal len:296 (-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.7   0.0       0.5   9.2e+02     496     529 ..      33      66 ..       8     100 .. 0.66
+   2 ?    8.9   0.5   0.00031      0.57       9      39 ..     103     133 ..      95     141 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -1.7 bits;  conditional E-value: 0.5
+                   PRK07803.1 496 giirkeeeleealekleelkerlkkvkveGerqy 529
+                                      ++++l++ ++ ++elk+rl+ ++ +G   y
+  c103779_g1_i1|c103779-g1.p1  33 EYYSQANDLSRIVKSFAELKRRLQLTNLQGIELY 66 
+                                  5555667777777777777777777777766555 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.00031
+                   PRK07803.1   9 ydvvviGaGGaGlraaiearerGlkvavvsk 39 
+                                    v++iGaG  Glr+a+++   G  v vv k
+  c103779_g1_i1|c103779-g1.p1 103 KKVLIIGAGPVGLRTAVDCVLLGCDVVVVEK 133
+                                  579************************9987 PP
+
+>> c100300_g1_i1|c100300-g1.p1  GENE.c100300_g1_i1|c100300-g1~~c100300_g1_i1|c100300-g1.p1  ORF type:5prime_partial len:
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.7   0.0   0.00034      0.62       5      47 ..      60     108 ..      56     112 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 8.7 bits;  conditional E-value: 0.00034
+                   PRK07803.1   5 erheydvvviGaGGaGlraaieare......rGlkvavvskslfGkaht 47 
+                                  e+ e+dvv++G G +Gl a i  ++      + ++v+vv k+    aht
+  c100300_g1_i1|c100300-g1.p1  60 EKDEFDVVIVGGGPSGLAASIRLKQlakecnHDVRVCVVEKAPEIGAHT 108
+                                  7899*****************8765111111345666676665555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (631 nodes)
+Target sequences:                      29373  (8488546 residues searched)
+Passed MSV filter:                       955  (0.0325129); expected 587.5 (0.02)
+Passed bias filter:                      652  (0.0221973); expected 587.5 (0.02)
+Passed Vit filter:                        88  (0.00299595); expected 29.4 (0.001)
+Passed Fwd filter:                        17  (0.000578763); expected 0.3 (1e-05)
+Initial search space (Z):              29373  [actual number of targets]
+Domain search space  (domZ):              16  [number of targets reported over threshold]
+# CPU time: 0.37u 0.00s 00:00:00.37 Elapsed: 00:00:00.14
+# Mc/sec: 35974.18
+//
+[ok]

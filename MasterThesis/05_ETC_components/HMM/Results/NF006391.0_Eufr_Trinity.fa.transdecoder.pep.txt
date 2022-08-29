@@ -1,0 +1,165 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  NF006391.0.HMM
+# target sequence database:        ../Predicted_proteins/Eufr_Trinity.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PRK08640.1  [M=254]
+Accession:   NF006391.0
+Description: NCBI Protein Cluster (PRK): succinate dehydrogenase iron-sulfur subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    2.8e-29  103.3   1.4      4e-29  102.8   1.4    1.1  1  Efr_contig4319.p1     GENE.Efr_contig4319~~Efr_contig4319.p1 
+    2.8e-29  103.3   1.4    4.1e-29  102.8   1.4    1.1  1  Efr_contig13344-1.p2  GENE.Efr_contig13344-1~~Efr_contig13344
+    2.8e-29  103.3   1.4    4.1e-29  102.8   1.4    1.1  1  Efr_contig13344-3.p2  GENE.Efr_contig13344-3~~Efr_contig13344
+  ------ inclusion threshold ------
+      0.011   16.1   0.5      0.011   16.1   0.5    2.1  2  Efr_contig22385.p1    GENE.Efr_contig22385~~Efr_contig22385.p
+      0.012   16.1   0.5      0.012   16.1   0.5    2.1  2  Efr_contig22687.p1    GENE.Efr_contig22687~~Efr_contig22687.p
+      0.012   16.0   1.0      0.012   16.0   1.0    2.0  2  Efr_contig565.p1      GENE.Efr_contig565~~Efr_contig565.p1  O
+
+
+Domain annotation for each sequence (and alignments):
+>> Efr_contig4319.p1  GENE.Efr_contig4319~~Efr_contig4319.p1  ORF type:5prime_partial len:296 (-),score=46.75 Efr_contig
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.8   1.4   4.3e-33     4e-29      20     237 ..      77     289 ..      58     293 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 102.8 bits;  conditional E-value: 4.3e-33
+         PRK08640.1  20 keyeeefeipyrp.nmnvisalmeirknpvnakGekvtpvvwdancleevcGacsmvingkprqacsalvdkleqeirlePlkkfPvvrdlv 110
+                        k++++e+++++++ +  v+ al +i+++           +++  +c e +cG+c+m ing+   ac   +d  ++  ++ Pl ++ +v+dlv
+  Efr_contig4319.p1  77 KPHMQEYKVDLNQcGPMVLDALIKIKNE-------IDPTLTFRRSCREGICGSCAMNINGQNTLACINHIDTKKSVTKIYPLPHMYIVKDLV 161
+                        5555666666554133455555555432.......22347899************************************************* PP
+
+         PRK08640.1 111 vdrsrlfdnlkrvkaWipidgtydlgaGpr.lseekrelayelskcmtcgvcleacPnvn.eksdfvGpaaisqvrlfnahPtGemkkeerl 200
+                         d s ++ + k ++ +++   + + g+ +   s e+r+    l +c+ c++c  +cP +  + ++++Gpa + q+  + +    +  k+erl
+  Efr_contig4319.p1 162 PDMSNFYRQYKSIEPYLQRKDESQAGKKEYyQSVEDRKKLDGLYECILCACCSTSCPAYWwHPEKYLGPAVLMQAYRWISDS-RDEMKAERL 252
+                        *****************9988888777665146688999999***************99626699**********9998887.5666899** PP
+
+         PRK08640.1 201 ealmgegGleecGnaqncvrvcPkeiPlttsiaalnr 237
+                        + l +   +  c    nc ++cPk++   ++ia+l++
+  Efr_contig4319.p1 253 NKLSDPFSVFRCHTIMNCTKSCPKGLNPGKAIAELKK 289
+                        *********************************9976 PP
+
+>> Efr_contig13344-1.p2  GENE.Efr_contig13344-1~~Efr_contig13344-1.p2  ORF type:5prime_partial len:297 (+),score=46.51 E
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.8   1.4   4.4e-33   4.1e-29      20     237 ..      78     290 ..      59     294 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 102.8 bits;  conditional E-value: 4.4e-33
+            PRK08640.1  20 keyeeefeipyrp.nmnvisalmeirknpvnakGekvtpvvwdancleevcGacsmvingkprqacsalvdkleqeirlePlkkfPvvr 107
+                           k++++e+++++++ +  v+ al +i+++           +++  +c e +cG+c+m ing+   ac   +d  ++  ++ Pl ++ +v+
+  Efr_contig13344-1.p2  78 KPHMQEYKVDLNQcGPMVLDALIKIKNE-------IDPTLTFRRSCREGICGSCAMNINGQNTLACINHIDTKKSVTKIYPLPHMYIVK 159
+                           5555666666554133455555555432.......22347899********************************************** PP
+
+            PRK08640.1 108 dlvvdrsrlfdnlkrvkaWipidgtydlgaGpr.lseekrelayelskcmtcgvcleacPnvn.eksdfvGpaaisqvrlfnahPtGem 194
+                           dlv d s ++ + k ++ +++   + + g+ +   s e+r+    l +c+ c++c  +cP +  + ++++Gpa + q+  + +    + 
+  Efr_contig13344-1.p2 160 DLVPDMSNFYRQYKSIEPYLQRKDESQAGKKEYyQSVEDRKKLDGLYECILCACCSTSCPAYWwHPEKYLGPAVLMQAYRWISDS-RDE 247
+                           ********************9988888777665146688999999***************99626699**********9998887.566 PP
+
+            PRK08640.1 195 kkeerlealmgegGleecGnaqncvrvcPkeiPlttsiaalnr 237
+                            k+erl+ l +   +  c    nc ++cPk++   ++ia+l++
+  Efr_contig13344-1.p2 248 MKAERLNKLSDPFSVFRCHTIMNCTKSCPKGLNPGKAIAELKK 290
+                           6899***********************************9976 PP
+
+>> Efr_contig13344-3.p2  GENE.Efr_contig13344-3~~Efr_contig13344-3.p2  ORF type:5prime_partial len:297 (+),score=46.51 E
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.8   1.4   4.4e-33   4.1e-29      20     237 ..      78     290 ..      59     294 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 102.8 bits;  conditional E-value: 4.4e-33
+            PRK08640.1  20 keyeeefeipyrp.nmnvisalmeirknpvnakGekvtpvvwdancleevcGacsmvingkprqacsalvdkleqeirlePlkkfPvvr 107
+                           k++++e+++++++ +  v+ al +i+++           +++  +c e +cG+c+m ing+   ac   +d  ++  ++ Pl ++ +v+
+  Efr_contig13344-3.p2  78 KPHMQEYKVDLNQcGPMVLDALIKIKNE-------IDPTLTFRRSCREGICGSCAMNINGQNTLACINHIDTKKSVTKIYPLPHMYIVK 159
+                           5555666666554133455555555432.......22347899********************************************** PP
+
+            PRK08640.1 108 dlvvdrsrlfdnlkrvkaWipidgtydlgaGpr.lseekrelayelskcmtcgvcleacPnvn.eksdfvGpaaisqvrlfnahPtGem 194
+                           dlv d s ++ + k ++ +++   + + g+ +   s e+r+    l +c+ c++c  +cP +  + ++++Gpa + q+  + +    + 
+  Efr_contig13344-3.p2 160 DLVPDMSNFYRQYKSIEPYLQRKDESQAGKKEYyQSVEDRKKLDGLYECILCACCSTSCPAYWwHPEKYLGPAVLMQAYRWISDS-RDE 247
+                           ********************9988888777665146688999999***************99626699**********9998887.566 PP
+
+            PRK08640.1 195 kkeerlealmgegGleecGnaqncvrvcPkeiPlttsiaalnr 237
+                            k+erl+ l +   +  c    nc ++cPk++   ++ia+l++
+  Efr_contig13344-3.p2 248 MKAERLNKLSDPFSVFRCHTIMNCTKSCPKGLNPGKAIAELKK 290
+                           6899***********************************9976 PP
+
+>> Efr_contig22385.p1  GENE.Efr_contig22385~~Efr_contig22385.p1  ORF type:5prime_partial len:213 (+),score=34.11 Efr_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   1.5      0.03   2.8e+02     153     167 ..     111     125 ..      82     131 .. 0.77
+   2 ?   16.1   0.5   1.2e-06     0.011     140     167 ..     135     164 ..     126     200 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 0.03
+          PRK08640.1 153 skcmtcgvcleacPn 167
+                          +c++c  c   cP 
+  Efr_contig22385.p1 111 ERCIACKLCEAICPA 125
+                         58***********96 PP
+
+  == domain 2  score: 16.1 bits;  conditional E-value: 1.2e-06
+          PRK08640.1 140 rlseekrelaye..lskcmtcgvcleacPn 167
+                         r   ++r++ y+  ++kc+ cg c eacP 
+  Efr_contig22385.p1 135 RADGSRRTTRYDidMTKCIYCGFCQEACPV 164
+                         55566777777522689************4 PP
+
+>> Efr_contig22687.p1  GENE.Efr_contig22687~~Efr_contig22687.p1  ORF type:5prime_partial len:214 (-),score=34.62 Efr_con
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   1.5      0.03   2.8e+02     153     167 ..     112     126 ..      83     132 .. 0.77
+   2 ?   16.1   0.5   1.2e-06     0.012     140     167 ..     136     165 ..     127     201 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 0.03
+          PRK08640.1 153 skcmtcgvcleacPn 167
+                          +c++c  c   cP 
+  Efr_contig22687.p1 112 ERCIACKLCEAICPA 126
+                         58***********96 PP
+
+  == domain 2  score: 16.1 bits;  conditional E-value: 1.2e-06
+          PRK08640.1 140 rlseekrelaye..lskcmtcgvcleacPn 167
+                         r   ++r++ y+  ++kc+ cg c eacP 
+  Efr_contig22687.p1 136 RADGSRRTTRYDidMTKCIYCGFCQEACPV 165
+                         55566777777522689************4 PP
+
+>> Efr_contig565.p1  GENE.Efr_contig565~~Efr_contig565.p1  ORF type:internal len:105 (+),score=15.43 Efr_contig565:1-312
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   1.5    0.0093        86     153     167 ..      50      64 ..      20      70 .. 0.77
+   2 ?   16.0   1.0   1.3e-06     0.012     139     166 ..      73     102 ..      65     104 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.0093
+        PRK08640.1 153 skcmtcgvcleacPn 167
+                        +c++c  c   cP 
+  Efr_contig565.p1  50 ERCIACKLCEAICPA 64 
+                       58***********96 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 1.3e-06
+        PRK08640.1 139 prlseekrelaye..lskcmtcgvcleacP 166
+                       +r   ++r++ y+  ++kc+ cg c eacP
+  Efr_contig565.p1  73 QRADGSRRTTRYDidMTKCIYCGFCQEACP 102
+                       566667778888622689***********9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (254 nodes)
+Target sequences:                      55605  (21132013 residues searched)
+Passed MSV filter:                      1590  (0.0285946); expected 1112.1 (0.02)
+Passed bias filter:                      904  (0.0162575); expected 1112.1 (0.02)
+Passed Vit filter:                        67  (0.00120493); expected 55.6 (0.001)
+Passed Fwd filter:                         6  (0.000107904); expected 0.6 (1e-05)
+Initial search space (Z):              55605  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.39u 0.01s 00:00:00.40 Elapsed: 00:00:00.15
+# Mc/sec: 34074.80
+//
+[ok]

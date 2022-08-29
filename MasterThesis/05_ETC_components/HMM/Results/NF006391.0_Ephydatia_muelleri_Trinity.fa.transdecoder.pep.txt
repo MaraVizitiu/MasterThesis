@@ -1,0 +1,122 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  NF006391.0.HMM
+# target sequence database:        ../Predicted_proteins/Ephydatia_muelleri_Trinity.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PRK08640.1  [M=254]
+Accession:   NF006391.0
+Description: NCBI Protein Cluster (PRK): succinate dehydrogenase iron-sulfur subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+    1.9e-29  103.8   1.0    2.7e-29  103.4   1.0    1.2  1  Emu_contig19036.p1  GENE.Emu_contig19036~~Emu_contig19036.p1 
+    1.9e-29  103.8   1.0    2.7e-29  103.4   1.0    1.2  1  Emu_contig19060.p1  GENE.Emu_contig19060~~Emu_contig19060.p1 
+  ------ inclusion threshold ------
+      0.012   16.1   0.5      0.012   16.1   0.5    2.1  2  Emu_contig7273.p2   GENE.Emu_contig7273~~Emu_contig7273.p2  O
+      0.012   16.0   0.4      0.012   16.0   0.4    2.1  2  Emu_contig4597.p2   GENE.Emu_contig4597~~Emu_contig4597.p2  O
+
+
+Domain annotation for each sequence (and alignments):
+>> Emu_contig19036.p1  GENE.Emu_contig19036~~Emu_contig19036.p1  ORF type:complete len:282 (+),score=46.39 Emu_contig190
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.4   1.0   1.9e-33   2.7e-29      17     237 ..      60     275 ..      42     279 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 103.4 bits;  conditional E-value: 1.9e-33
+          PRK08640.1  17 adskeyeeefeipyrp.nmnvisalmeirknpvnakGekvtpvvwdancleevcGacsmvingkprqacsalvdkleqeirlePlkkfPvv 106
+                         + +k++ +e+++++++ +  v+ al +i+++           +++  +c e +cG+c+m ing+   ac   +d  +++ ++ Pl ++ vv
+  Emu_contig19036.p1  60 PGDKPHLQEYKVDLNQcGPMVLDALIKIKNE-------IDPTLTFRRSCREGICGSCAMNINGQNTLACINHIDVNKSTTKIYPLPHMYVV 143
+                         4556666666666655234456666666432.......22347899********************************************* PP
+
+          PRK08640.1 107 rdlvvdrsrlfdnlkrvkaWipidgtydlgaGprl.seekrelayelskcmtcgvcleacPnvn.eksdfvGpaaisqvrlfnahPtGemk 195
+                         +dlv d s ++d+ k ++ +++   + + g+ + + s e+r+    l +c+ c++c  +cP +  + ++++Gpa + q+  +      +  
+  Emu_contig19036.p1 144 KDLVPDMSNFYDQYKSIEPYLQRKDESQAGKEEYYqSIEDRKKLDGLYECILCACCSTSCPAYWwHPEKYLGPAVLMQAYRWIIDSR-DEM 233
+                         **********************99999988877651668999999****************99626699**********99988875.556 PP
+
+          PRK08640.1 196 keerlealmgegGleecGnaqncvrvcPkeiPlttsiaalnr 237
+                         ++erl+ l +   +  c    nc ++cPk++   ++ia+l++
+  Emu_contig19036.p1 234 RTERLKKLSDPFSVFRCHTIMNCTKSCPKGLNPGKAIAELKK 275
+                         789***********************************9976 PP
+
+>> Emu_contig19060.p1  GENE.Emu_contig19060~~Emu_contig19060.p1  ORF type:complete len:282 (-),score=46.39 Emu_contig190
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.4   1.0   1.9e-33   2.7e-29      17     237 ..      60     275 ..      42     279 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 103.4 bits;  conditional E-value: 1.9e-33
+          PRK08640.1  17 adskeyeeefeipyrp.nmnvisalmeirknpvnakGekvtpvvwdancleevcGacsmvingkprqacsalvdkleqeirlePlkkfPvv 106
+                         + +k++ +e+++++++ +  v+ al +i+++           +++  +c e +cG+c+m ing+   ac   +d  +++ ++ Pl ++ vv
+  Emu_contig19060.p1  60 PGDKPHLQEYKVDLNQcGPMVLDALIKIKNE-------IDPTLTFRRSCREGICGSCAMNINGQNTLACINHIDVNKSTTKIYPLPHMYVV 143
+                         4556666666666655234456666666432.......22347899********************************************* PP
+
+          PRK08640.1 107 rdlvvdrsrlfdnlkrvkaWipidgtydlgaGprl.seekrelayelskcmtcgvcleacPnvn.eksdfvGpaaisqvrlfnahPtGemk 195
+                         +dlv d s ++d+ k ++ +++   + + g+ + + s e+r+    l +c+ c++c  +cP +  + ++++Gpa + q+  +      +  
+  Emu_contig19060.p1 144 KDLVPDMSNFYDQYKSIEPYLQRKDESQAGKEEYYqSIEDRKKLDGLYECILCACCSTSCPAYWwHPEKYLGPAVLMQAYRWIIDSR-DEM 233
+                         **********************99999988877651668999999****************99626699**********99988875.556 PP
+
+          PRK08640.1 196 keerlealmgegGleecGnaqncvrvcPkeiPlttsiaalnr 237
+                         ++erl+ l +   +  c    nc ++cPk++   ++ia+l++
+  Emu_contig19060.p1 234 RTERLKKLSDPFSVFRCHTIMNCTKSCPKGLNPGKAIAELKK 275
+                         789***********************************9976 PP
+
+>> Emu_contig7273.p2  GENE.Emu_contig7273~~Emu_contig7273.p2  ORF type:5prime_partial len:219 (+),score=23.21 Emu_contig
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   1.0     0.012   1.7e+02     153     167 ..     117     131 ..      84     136 .. 0.71
+   2 ?   16.1   0.5   8.5e-07     0.012     140     167 ..     141     170 ..     131     205 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 2.4 bits;  conditional E-value: 0.012
+         PRK08640.1 153 skcmtcgvcleacPn 167
+                         +c++c  c   cP 
+  Emu_contig7273.p2 117 ERCIACKLCEAICPA 131
+                        58***********96 PP
+
+  == domain 2  score: 16.1 bits;  conditional E-value: 8.5e-07
+         PRK08640.1 140 rlseekrelaye..lskcmtcgvcleacPn 167
+                        r   ++r++ y+  ++kc+ cg c eacP 
+  Emu_contig7273.p2 141 RADGSRRTTRYDidMTKCIYCGFCQEACPV 170
+                        55566777777622689************4 PP
+
+>> Emu_contig4597.p2  GENE.Emu_contig4597~~Emu_contig4597.p2  ORF type:complete len:211 (-),score=25.97 Emu_contig4597:1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.9     0.011   1.6e+02     153     167 ..     109     123 ..      78     129 .. 0.71
+   2 ?   16.0   0.4   8.8e-07     0.012     141     167 ..     134     162 ..     126     198 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 2.6 bits;  conditional E-value: 0.011
+         PRK08640.1 153 skcmtcgvcleacPn 167
+                         +c++c  c   cP 
+  Emu_contig4597.p2 109 ERCIACKLCEAICPA 123
+                        58***********96 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 8.8e-07
+         PRK08640.1 141 lseekrelaye..lskcmtcgvcleacPn 167
+                           ++r++ y+  ++kc+ cg c eacP 
+  Emu_contig4597.p2 134 ADGSRRTTRYDidMTKCIYCGFCQEACPV 162
+                        5556777777522689************4 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (254 nodes)
+Target sequences:                      55996  (20805003 residues searched)
+Passed MSV filter:                      1740  (0.0310736); expected 1119.9 (0.02)
+Passed bias filter:                      895  (0.0159833); expected 1119.9 (0.02)
+Passed Vit filter:                        39  (0.000696478); expected 56.0 (0.001)
+Passed Fwd filter:                         4  (7.14337e-05); expected 0.6 (1e-05)
+Initial search space (Z):              55996  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.38u 0.01s 00:00:00.39 Elapsed: 00:00:00.15
+# Mc/sec: 35218.45
+//
+[ok]

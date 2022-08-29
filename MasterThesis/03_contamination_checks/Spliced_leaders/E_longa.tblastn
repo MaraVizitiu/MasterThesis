@@ -1,0 +1,2219 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: E_longa_transcriptome.fasta
+           65,563 sequences; 94,584,590 total letters
+
+
+
+Query= EP00668_Euglena_longa_40427
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+GGOE01025468.1 TSA: Euglena longa strain CCAP 1204-17a Contig2553...  125     4e-36
+GGOE01053239.1 TSA: Euglena longa strain CCAP 1204-17a Contig5337...  125     5e-36
+GGOE01047072.1 TSA: Euglena longa strain CCAP 1204-17a Contig4720...  80.5    2e-19
+GGOE01018882.1 TSA: Euglena longa strain CCAP 1204-17a Contig1894...  27.7    0.96 
+GGOE01065336.1 TSA: Euglena longa strain CCAP 1204-17a Contig6819...  27.3    1.5  
+GGOE01004222.1 TSA: Euglena longa strain CCAP 1204-17a Contig4235...  26.2    3.0  
+GGOE01057679.1 TSA: Euglena longa strain CCAP 1204-17a Contig5795...  26.2    3.0  
+GGOE01061681.1 TSA: Euglena longa strain CCAP 1204-17a Contig6359...  26.2    3.1  
+GGOE01017896.1 TSA: Euglena longa strain CCAP 1204-17a Contig1795...  26.2    3.8  
+GGOE01014899.1 TSA: Euglena longa strain CCAP 1204-17a Contig1491...  26.2    3.8  
+GGOE01051283.1 TSA: Euglena longa strain CCAP 1204-17a Contig5141...  25.8    4.5  
+GGOE01062248.1 TSA: Euglena longa strain CCAP 1204-17a Contig6416...  25.8    4.6  
+GGOE01044737.1 TSA: Euglena longa strain CCAP 1204-17a Contig4486...  25.8    5.0  
+GGOE01051858.1 TSA: Euglena longa strain CCAP 1204-17a Contig5199...  25.4    5.3  
+GGOE01045466.1 TSA: Euglena longa strain CCAP 1204-17a Contig4559...  25.4    6.1  
+GGOE01019734.1 TSA: Euglena longa strain CCAP 1204-17a Contig1979...  25.4    6.6  
+GGOE01019733.1 TSA: Euglena longa strain CCAP 1204-17a Contig1979...  25.4    6.6  
+GGOE01005402.1 TSA: Euglena longa strain CCAP 1204-17a Contig5416...  25.4    6.6  
+GGOE01005403.1 TSA: Euglena longa strain CCAP 1204-17a Contig5417...  25.4    6.6  
+GGOE01015599.1 TSA: Euglena longa strain CCAP 1204-17a Contig1561...  25.4    6.7  
+GGOE01042054.1 TSA: Euglena longa strain CCAP 1204-17a Contig4218...  25.4    7.1  
+GGOE01044251.1 TSA: Euglena longa strain CCAP 1204-17a Contig4438...  25.4    7.4  
+GGOE01020836.1 TSA: Euglena longa strain CCAP 1204-17a Contig2090...  25.0    7.8  
+GGOE01022768.1 TSA: Euglena longa strain CCAP 1204-17a Contig2283...  25.0    8.1  
+GGOE01004462.1 TSA: Euglena longa strain CCAP 1204-17a Contig4475...  25.0    8.1  
+GGOE01022769.1 TSA: Euglena longa strain CCAP 1204-17a Contig2283...  25.0    8.1  
+GGOE01052956.1 TSA: Euglena longa strain CCAP 1204-17a Contig5309...  25.0    8.3  
+GGOE01013640.1 TSA: Euglena longa strain CCAP 1204-17a Contig1365...  25.0    9.3  
+GGOE01064520.1 TSA: Euglena longa strain CCAP 1204-17a Contig6737...  25.0    9.4  
+GGOE01041215.1 TSA: Euglena longa strain CCAP 1204-17a Contig4134...  25.0    9.8  
+GGOE01002315.1 TSA: Euglena longa strain CCAP 1204-17a Contig2327...  25.0    10.0 
+
+
+>GGOE01025468.1 TSA: Euglena longa strain CCAP 1204-17a Contig25537, 
+transcribed RNA sequence
+Length=1270
+
+ Score = 125 bits (314),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+ Frame = -1
+
+Query  1     VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  60
+             VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF
+Sbjct  1270  VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  1091
+
+
+>GGOE01053239.1 TSA: Euglena longa strain CCAP 1204-17a Contig53379, 
+transcribed RNA sequence
+Length=1325
+
+ Score = 125 bits (314),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+ Frame = -1
+
+Query  1     VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  60
+             VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF
+Sbjct  1325  VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  1146
+
+
+>GGOE01047072.1 TSA: Euglena longa strain CCAP 1204-17a Contig47205, 
+transcribed RNA sequence
+Length=1242
+
+ Score = 80.5 bits (197),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 44/58 (76%), Positives = 45/58 (78%), Gaps = 3/58 (5%)
+ Frame = +2
+
+Query  3    FFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  60
+            FF    F  KMKH  RLLFRPSQPQW +RS LKPQAA   RPTISSMMASHDQLDSRF
+Sbjct  11   FFFVGFFHHKMKHTMRLLFRPSQPQWWLRSMLKPQAA---RPTISSMMASHDQLDSRF  175
+
+
+>GGOE01018882.1 TSA: Euglena longa strain CCAP 1204-17a Contig18942, 
+transcribed RNA sequence
+Length=2014
+
+ Score = 27.7 bits (60),  Expect = 0.96, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+ Frame = -3
+
+Query  8     PFLCKMKHAARLLFRPSQPQWLV  30
+             PFL   + ++R+LFRPS  +W V
+Sbjct  1019  PFLIGGQDSSRILFRPSGGRWPV  951
+
+
+>GGOE01065336.1 TSA: Euglena longa strain CCAP 1204-17a Contig68190, 
+transcribed RNA sequence
+Length=1294
+
+ Score = 27.3 bits (59),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+ Frame = +1
+
+Query  21   FRPSQPQWLVRSTLKPQAASATRPTISSMMA  51
+            FRP +P W+V S   P   +AT   IS+  A
+Sbjct  820  FRPGEPTWIVLSLANPTFGTATIHMISAQNA  912
+
+
+>GGOE01004222.1 TSA: Euglena longa strain CCAP 1204-17a Contig4235, 
+transcribed RNA sequence
+Length=3573
+
+ Score = 26.2 bits (56),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 19/39 (49%), Gaps = 1/39 (3%)
+ Frame = -1
+
+Query  6    WPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRP  44
+            W P      H  RLL  PS PQ  VR   +P  ASA RP
+Sbjct  912  WRPLWWGTGHPPRLLPGPSVPQRRVRGLPRP-CASAPRP  799
+
+
+>GGOE01057679.1 TSA: Euglena longa strain CCAP 1204-17a Contig57953, 
+transcribed RNA sequence
+Length=1690
+
+ Score = 26.2 bits (56),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 12/27 (44%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  24    SQPQWLVRSTLKPQAASATRPTISSMM  50
+             S  ++LVR T   QAA  T P++SS++
+Sbjct  1622  SSEEFLVRGTNPLQAAKMTTPSLSSIL  1542
+
+
+>GGOE01061681.1 TSA: Euglena longa strain CCAP 1204-17a Contig63598, 
+transcribed RNA sequence
+Length=1524
+
+ Score = 26.2 bits (56),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 15/37 (41%), Positives = 23/37 (62%), Gaps = 4/37 (11%)
+ Frame = +3
+
+Query  16   AARLLFRPSQPQWLVRS----TLKPQAASATRPTISS  48
+            AARL FR  QP WLV +    + + + A AT+P +++
+Sbjct  426  AARLGFRAKQPSWLVSNPAACSWRERMAGATKPQLAA  536
+
+
+>GGOE01017896.1 TSA: Euglena longa strain CCAP 1204-17a Contig17951, 
+transcribed RNA sequence
+Length=1419
+
+ Score = 26.2 bits (56),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 20/45 (44%), Gaps = 0/45 (0%)
+ Frame = -3
+
+Query  3     FFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTIS  47
+             FFS  P  C+ ++  R L  P+ P WL  +T    +   + P   
+Sbjct  1417  FFSIWPARCQRRYGRRCLISPTGPPWLGCATACGASCRGSTPACG  1283
+
+
+>GGOE01014899.1 TSA: Euglena longa strain CCAP 1204-17a Contig14916, 
+transcribed RNA sequence
+Length=1449
+
+ Score = 26.2 bits (56),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 20/45 (44%), Gaps = 0/45 (0%)
+ Frame = -3
+
+Query  3     FFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTIS  47
+             FFS  P  C+ ++  R L  P+ P WL  +T    +   + P   
+Sbjct  1447  FFSIWPARCQRRYGRRCLISPTGPPWLGCATACGASCRGSTPACG  1313
+
+
+>GGOE01051283.1 TSA: Euglena longa strain CCAP 1204-17a Contig51418, 
+transcribed RNA sequence
+Length=1115
+
+ Score = 25.8 bits (55),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+ Frame = -3
+
+Query  15   HAARLLFRPSQPQWLVRSTLK  35
+            H   LLF P + QWL R+TL+
+Sbjct  729  HRGLLLFLPHENQWLGRATLR  667
+
+
+>GGOE01062248.1 TSA: Euglena longa strain CCAP 1204-17a Contig64165, 
+transcribed RNA sequence
+Length=2734
+
+ Score = 25.8 bits (55),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 15/35 (43%), Positives = 18/35 (51%), Gaps = 4/35 (11%)
+ Frame = -3
+
+Query  3    FFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQ  37
+            F S+PPFLC + HA      PS P  L  S   P+
+Sbjct  512  FASFPPFLCHVPHA----LSPSIPSLLQVSAFAPR  420
+
+
+>GGOE01044737.1 TSA: Euglena longa strain CCAP 1204-17a Contig44869, 
+transcribed RNA sequence
+Length=1803
+
+ Score = 25.8 bits (55),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 10/19 (53%), Positives = 11/19 (58%), Gaps = 0/19 (0%)
+ Frame = -2
+
+Query  5     SWPPFLCKMKHAARLLFRP  23
+             SWPPF C   H  +LL  P
+Sbjct  1577  SWPPFQCSPGHVEQLLVLP  1521
+
+
+>GGOE01051858.1 TSA: Euglena longa strain CCAP 1204-17a Contig51994, 
+transcribed RNA sequence
+Length=489
+
+ Score = 25.4 bits (54),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 12/26 (46%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+ Frame = +1
+
+Query  28   WLVRSTLKPQAASATRPTISSMMASH  53
+            W VRST   ++A   RPT  + M SH
+Sbjct  31   WRVRSTSACRSARGCRPTTHNAMRSH  108
+
+
+>GGOE01045466.1 TSA: Euglena longa strain CCAP 1204-17a Contig45598, 
+transcribed RNA sequence
+Length=1328
+
+ Score = 25.4 bits (54),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 15/26 (58%), Gaps = 2/26 (8%)
+ Frame = +2
+
+Query  6    WPPFLCKMKHAARLLFRPSQPQWLVR  31
+            W    C+  H  + LFR + PQWLVR
+Sbjct  734  WCRLRCRPGH--QQLFRSAGPQWLVR  805
+
+
+>GGOE01019734.1 TSA: Euglena longa strain CCAP 1204-17a Contig19797, 
+transcribed RNA sequence
+Length=5383
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 11/34 (32%), Positives = 15/34 (44%), Gaps = 0/34 (0%)
+ Frame = +2
+
+Query  6     WPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAA  39
+             WPP  C   H   + +RP  P  L   T + + A
+Sbjct  4259  WPPQGCITFHDVEMRYRPDMPPSLKELTFQIKPA  4360
+
+
+>GGOE01019733.1 TSA: Euglena longa strain CCAP 1204-17a Contig19796, 
+transcribed RNA sequence
+Length=5411
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 11/34 (32%), Positives = 15/34 (44%), Gaps = 0/34 (0%)
+ Frame = +2
+
+Query  6     WPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAA  39
+             WPP  C   H   + +RP  P  L   T + + A
+Sbjct  4259  WPPQGCITFHDVEMRYRPDMPPSLKELTFQIKPA  4360
+
+
+>GGOE01005402.1 TSA: Euglena longa strain CCAP 1204-17a Contig5416, 
+transcribed RNA sequence
+Length=2493
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+ Frame = +2
+
+Query  10    LCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMAS  52
+             LC+++   RL+ R  QPQ   RS    +      P  SS+  S
+Sbjct  1604  LCRLQCRRRLIQRSQQPQLCFRSAFPSRVRRCPLPFTSSIGTS  1732
+
+
+>GGOE01005403.1 TSA: Euglena longa strain CCAP 1204-17a Contig5417, 
+transcribed RNA sequence
+Length=2535
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+ Frame = +2
+
+Query  10    LCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMAS  52
+             LC+++   RL+ R  QPQ   RS    +      P  SS+  S
+Sbjct  1604  LCRLQCRRRLIQRSQQPQLCFRSAFPSRVRRCPLPFTSSIGTS  1732
+
+
+>GGOE01015599.1 TSA: Euglena longa strain CCAP 1204-17a Contig15616, 
+transcribed RNA sequence
+Length=1195
+
+ Score = 25.4 bits (54),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 11/28 (39%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+ Frame = -2
+
+Query  18    RLLFRPSQPQWLVRSTLKPQAASATRPT  45
+             R   +P+QP WLV+ + K QA +   P+
+Sbjct  1035  RATAQPTQPVWLVKLSEKGQAKNEAEPS  952
+
+
+>GGOE01042054.1 TSA: Euglena longa strain CCAP 1204-17a Contig42182, 
+transcribed RNA sequence
+Length=2039
+
+ Score = 25.4 bits (54),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 22/47 (47%), Gaps = 1/47 (2%)
+ Frame = -1
+
+Query  1    VYFFSWPPFLCKM-KHAARLLFRPSQPQWLVRSTLKPQAASATRPTI  46
+            ++  S P  L  M   AAR +    QP+WLVR+      A   RP I
+Sbjct  341  LHLCSRPAALSSMCSSAARRVSLSVQPEWLVRTAGHVGGACVLRPAI  201
+
+
+>GGOE01044251.1 TSA: Euglena longa strain CCAP 1204-17a Contig44383, 
+transcribed RNA sequence
+Length=2671
+
+ Score = 25.4 bits (54),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+ Frame = +3
+
+Query  36    PQAASATRPTISSMMASHDQLDSRF  60
+             P A+SA+RPTIS    + D   SRF
+Sbjct  1227  PSASSASRPTISRRAPTRDVEKSRF  1301
+
+
+>GGOE01020836.1 TSA: Euglena longa strain CCAP 1204-17a Contig20904, 
+transcribed RNA sequence
+Length=2241
+
+ Score = 25.0 bits (53),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 11/30 (37%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+ Frame = +1
+
+Query  22   RPSQPQWLVRSTLKPQAASATRPTISSMMA  51
+            +PS P+W+ R  L+ QA    R  I+  +A
+Sbjct  451  KPSGPEWVARCALRRQAVCRIRRPIALPLA  540
+
+
+>GGOE01022768.1 TSA: Euglena longa strain CCAP 1204-17a Contig22836, 
+transcribed RNA sequence
+Length=3075
+
+ Score = 25.0 bits (53),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 14/27 (52%), Gaps = 2/27 (7%)
+ Frame = +1
+
+Query  11    CKMKHAARLLFRPSQPQWLVRSTLKPQ  37
+             C   H  R   RPSQ  W VR TL+P 
+Sbjct  1591  CGSAH--RHRRRPSQAVWGVRGTLRPN  1665
+
+
+>GGOE01004462.1 TSA: Euglena longa strain CCAP 1204-17a Contig4475, 
+transcribed RNA sequence
+Length=3089
+
+ Score = 25.0 bits (53),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 14/27 (52%), Gaps = 2/27 (7%)
+ Frame = +1
+
+Query  11    CKMKHAARLLFRPSQPQWLVRSTLKPQ  37
+             C   H  R   RPSQ  W VR TL+P 
+Sbjct  1594  CGSAH--RHRRRPSQAVWGVRGTLRPN  1668
+
+
+>GGOE01022769.1 TSA: Euglena longa strain CCAP 1204-17a Contig22837, 
+transcribed RNA sequence
+Length=3242
+
+ Score = 25.0 bits (53),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 14/27 (52%), Gaps = 2/27 (7%)
+ Frame = +3
+
+Query  11    CKMKHAARLLFRPSQPQWLVRSTLKPQ  37
+             C   H  R   RPSQ  W VR TL+P 
+Sbjct  1758  CGSAH--RHRRRPSQAVWGVRGTLRPN  1832
+
+
+>GGOE01052956.1 TSA: Euglena longa strain CCAP 1204-17a Contig53096, 
+transcribed RNA sequence
+Length=1013
+
+ Score = 25.0 bits (53),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 10/18 (56%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+ Frame = -3
+
+Query  7    PPFLCKMKHAARLLFRPS  24
+            PP LC+M HAA+L   P+
+Sbjct  348  PPRLCQMSHAAQLACLPA  295
+
+
+>GGOE01013640.1 TSA: Euglena longa strain CCAP 1204-17a Contig13657, 
+transcribed RNA sequence
+Length=1322
+
+ Score = 25.0 bits (53),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 8/22 (36%), Positives = 16/22 (73%), Gaps = 0/22 (0%)
+ Frame = -1
+
+Query  1     VYFFSWPPFLCKMKHAARLLFR  22
+             +YFFSW  F+C +++ +  +F+
+Sbjct  1310  IYFFSWHIFICHVQNRSVSVFQ  1245
+
+
+>GGOE01064520.1 TSA: Euglena longa strain CCAP 1204-17a Contig67372, 
+transcribed RNA sequence
+Length=707
+
+ Score = 25.0 bits (53),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+ Frame = +2
+
+Query  24   SQPQWLVRSTLKPQAASATRPTIS  47
+            S P+WL+  T+KP + S+ R  +S
+Sbjct  491  SDPKWLMAHTVKPASYSSCRCKLS  562
+
+
+>GGOE01041215.1 TSA: Euglena longa strain CCAP 1204-17a Contig41343, 
+transcribed RNA sequence
+Length=2127
+
+ Score = 25.0 bits (53),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 9/25 (36%), Positives = 12/25 (48%), Gaps = 0/25 (0%)
+ Frame = -3
+
+Query  15    HAARLLFRPSQPQWLVRSTLKPQAA  39
+             H  R+L     P W +R   +PQ A
+Sbjct  1117  HGVRVLLHRVDPHWYLRLLGRPQCA  1043
+
+
+>GGOE01002315.1 TSA: Euglena longa strain CCAP 1204-17a Contig2327, 
+transcribed RNA sequence
+Length=1807
+
+ Score = 25.0 bits (53),  Expect = 10.0, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 25/55 (45%), Gaps = 3/55 (5%)
+ Frame = -2
+
+Query  2     YFFSWPPFLCKMKHAARLLFRPSQPQWL--VRSTLKPQ-AASATRPTISSMMASH  53
+             YFFS PPF+ +   +     R + P +L    S +KP    S TR   S   AS 
+Sbjct  1806  YFFSLPPFVLRAMLSYSSASRQTLPTYLEGEYSVVKPSTGGSVTRQGYSVSRASQ  1642
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.131    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 792844659
+
+
+Query= EP00668_Euglena_longa_36627
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+GGOE01047072.1 TSA: Euglena longa strain CCAP 1204-17a Contig4720...  127     8e-37
+GGOE01025468.1 TSA: Euglena longa strain CCAP 1204-17a Contig2553...  110     2e-30
+GGOE01053239.1 TSA: Euglena longa strain CCAP 1204-17a Contig5337...  110     2e-30
+GGOE01037285.1 TSA: Euglena longa strain CCAP 1204-17a Contig3735...  32.7    0.014
+GGOE01041215.1 TSA: Euglena longa strain CCAP 1204-17a Contig4134...  28.5    0.50 
+GGOE01026874.1 TSA: Euglena longa strain CCAP 1204-17a Contig2694...  28.1    0.78 
+GGOE01011962.1 TSA: Euglena longa strain CCAP 1204-17a Contig1197...  27.3    1.1  
+GGOE01042910.1 TSA: Euglena longa strain CCAP 1204-17a Contig4304...  26.6    2.1  
+GGOE01035090.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.2  
+GGOE01035092.1 TSA: Euglena longa strain CCAP 1204-17a Contig3516...  25.8    4.3  
+GGOE01011960.1 TSA: Euglena longa strain CCAP 1204-17a Contig1197...  25.8    4.3  
+GGOE01035132.1 TSA: Euglena longa strain CCAP 1204-17a Contig3520...  25.8    4.3  
+GGOE01035144.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035095.1 TSA: Euglena longa strain CCAP 1204-17a Contig3516...  25.8    4.3  
+GGOE01035083.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.3  
+GGOE01035136.1 TSA: Euglena longa strain CCAP 1204-17a Contig3520...  25.8    4.3  
+GGOE01035081.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.3  
+GGOE01035109.1 TSA: Euglena longa strain CCAP 1204-17a Contig3517...  25.8    4.3  
+GGOE01035089.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.3  
+GGOE01035146.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035116.1 TSA: Euglena longa strain CCAP 1204-17a Contig3518...  25.8    4.3  
+GGOE01035066.1 TSA: Euglena longa strain CCAP 1204-17a Contig3513...  25.8    4.3  
+GGOE01035129.1 TSA: Euglena longa strain CCAP 1204-17a Contig3519...  25.8    4.3  
+GGOE01035142.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035128.1 TSA: Euglena longa strain CCAP 1204-17a Contig3519...  25.8    4.3  
+GGOE01035124.1 TSA: Euglena longa strain CCAP 1204-17a Contig3519...  25.8    4.3  
+GGOE01035123.1 TSA: Euglena longa strain CCAP 1204-17a Contig3519...  25.8    4.3  
+GGOE01035131.1 TSA: Euglena longa strain CCAP 1204-17a Contig3520...  25.8    4.3  
+GGOE01035071.1 TSA: Euglena longa strain CCAP 1204-17a Contig3514...  25.8    4.3  
+GGOE01035141.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035137.1 TSA: Euglena longa strain CCAP 1204-17a Contig3520...  25.8    4.3  
+GGOE01035143.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035086.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.3  
+GGOE01035105.1 TSA: Euglena longa strain CCAP 1204-17a Contig3517...  25.8    4.3  
+GGOE01035149.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035114.1 TSA: Euglena longa strain CCAP 1204-17a Contig3518...  25.8    4.3  
+GGOE01035067.1 TSA: Euglena longa strain CCAP 1204-17a Contig3513...  25.8    4.3  
+GGOE01035100.1 TSA: Euglena longa strain CCAP 1204-17a Contig3516...  25.8    4.3  
+GGOE01035075.1 TSA: Euglena longa strain CCAP 1204-17a Contig3514...  25.8    4.3  
+GGOE01035094.1 TSA: Euglena longa strain CCAP 1204-17a Contig3516...  25.8    4.3  
+GGOE01035148.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035082.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.3  
+GGOE01035127.1 TSA: Euglena longa strain CCAP 1204-17a Contig3519...  25.8    4.3  
+GGOE01035091.1 TSA: Euglena longa strain CCAP 1204-17a Contig3516...  25.8    4.3  
+GGOE01035084.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.3  
+GGOE01035063.1 TSA: Euglena longa strain CCAP 1204-17a Contig3513...  25.8    4.3  
+GGOE01035138.1 TSA: Euglena longa strain CCAP 1204-17a Contig3520...  25.8    4.3  
+GGOE01035121.1 TSA: Euglena longa strain CCAP 1204-17a Contig3519...  25.8    4.3  
+GGOE01048986.1 TSA: Euglena longa strain CCAP 1204-17a Contig4911...  25.8    4.3  
+GGOE01035085.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.3  
+GGOE01035118.1 TSA: Euglena longa strain CCAP 1204-17a Contig3518...  25.8    4.3  
+GGOE01048982.1 TSA: Euglena longa strain CCAP 1204-17a Contig4911...  25.8    4.3  
+GGOE01035133.1 TSA: Euglena longa strain CCAP 1204-17a Contig3520...  25.8    4.3  
+GGOE01035097.1 TSA: Euglena longa strain CCAP 1204-17a Contig3516...  25.8    4.3  
+GGOE01035096.1 TSA: Euglena longa strain CCAP 1204-17a Contig3516...  25.8    4.3  
+GGOE01035088.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.3  
+GGOE01048984.1 TSA: Euglena longa strain CCAP 1204-17a Contig4911...  25.8    4.3  
+GGOE01035145.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035120.1 TSA: Euglena longa strain CCAP 1204-17a Contig3518...  25.8    4.3  
+GGOE01035115.1 TSA: Euglena longa strain CCAP 1204-17a Contig3518...  25.8    4.3  
+GGOE01035080.1 TSA: Euglena longa strain CCAP 1204-17a Contig3514...  25.8    4.3  
+GGOE01035078.1 TSA: Euglena longa strain CCAP 1204-17a Contig3514...  25.8    4.3  
+GGOE01035099.1 TSA: Euglena longa strain CCAP 1204-17a Contig3516...  25.8    4.3  
+GGOE01035113.1 TSA: Euglena longa strain CCAP 1204-17a Contig3518...  25.8    4.3  
+GGOE01035147.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035069.1 TSA: Euglena longa strain CCAP 1204-17a Contig3513...  25.8    4.3  
+GGOE01035150.1 TSA: Euglena longa strain CCAP 1204-17a Contig3521...  25.8    4.3  
+GGOE01035117.1 TSA: Euglena longa strain CCAP 1204-17a Contig3518...  25.8    4.3  
+GGOE01035079.1 TSA: Euglena longa strain CCAP 1204-17a Contig3514...  25.8    4.3  
+GGOE01048981.1 TSA: Euglena longa strain CCAP 1204-17a Contig4911...  25.8    4.3  
+GGOE01048979.1 TSA: Euglena longa strain CCAP 1204-17a Contig4911...  25.8    4.3  
+GGOE01035119.1 TSA: Euglena longa strain CCAP 1204-17a Contig3518...  25.8    4.3  
+GGOE01035068.1 TSA: Euglena longa strain CCAP 1204-17a Contig3513...  25.8    4.3  
+GGOE01035122.1 TSA: Euglena longa strain CCAP 1204-17a Contig3519...  25.8    4.3  
+GGOE01035112.1 TSA: Euglena longa strain CCAP 1204-17a Contig3518...  25.8    4.3  
+GGOE01035110.1 TSA: Euglena longa strain CCAP 1204-17a Contig3517...  25.8    4.3  
+GGOE01035098.1 TSA: Euglena longa strain CCAP 1204-17a Contig3516...  25.8    4.3  
+GGOE01035103.1 TSA: Euglena longa strain CCAP 1204-17a Contig3517...  25.8    4.3  
+GGOE01035151.1 TSA: Euglena longa strain CCAP 1204-17a Contig3522...  25.8    4.3  
+GGOE01035087.1 TSA: Euglena longa strain CCAP 1204-17a Contig3515...  25.8    4.3  
+GGOE01035139.1 TSA: Euglena longa strain CCAP 1204-17a Contig3520...  25.8    4.3  
+GGOE01035108.1 TSA: Euglena longa strain CCAP 1204-17a Contig3517...  25.8    4.3  
+GGOE01035072.1 TSA: Euglena longa strain CCAP 1204-17a Contig3514...  25.8    4.3  
+GGOE01035062.1 TSA: Euglena longa strain CCAP 1204-17a Contig3513...  25.8    4.3  
+GGOE01035125.1 TSA: Euglena longa strain CCAP 1204-17a Contig3519...  25.8    4.3  
+GGOE01035070.1 TSA: Euglena longa strain CCAP 1204-17a Contig3513...  25.8    4.3  
+GGOE01036212.1 TSA: Euglena longa strain CCAP 1204-17a Contig3628...  25.8    4.4  
+GGOE01013435.1 TSA: Euglena longa strain CCAP 1204-17a Contig1345...  25.0    7.8  
+GGOE01034363.1 TSA: Euglena longa strain CCAP 1204-17a Contig3443...  25.0    7.9  
+GGOE01013436.1 TSA: Euglena longa strain CCAP 1204-17a Contig1345...  25.0    7.9  
+
+
+>GGOE01047072.1 TSA: Euglena longa strain CCAP 1204-17a Contig47205, 
+transcribed RNA sequence
+Length=1242
+
+ Score = 127 bits (319),  Expect = 8e-37, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+ Frame = +2
+
+Query  1    MKHTMRLLFRPSQPQWWLRSMLKPQAARPTISSMMASHDQLDSRFTKDVPGYMTDIYTWA  60
+            MKHTMRLLFRPSQPQWWLRSMLKPQAARPTISSMMASHDQLDSRFTKDVPGYMTDIYTWA
+Sbjct  41   MKHTMRLLFRPSQPQWWLRSMLKPQAARPTISSMMASHDQLDSRFTKDVPGYMTDIYTWA  220
+
+
+>GGOE01025468.1 TSA: Euglena longa strain CCAP 1204-17a Contig25537, 
+transcribed RNA sequence
+Length=1270
+
+ Score = 110 bits (275),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 55/63 (87%), Positives = 56/63 (89%), Gaps = 3/63 (5%)
+ Frame = -1
+
+Query  1     MKHTMRLLFRPSQPQWWLRSMLKPQAA---RPTISSMMASHDQLDSRFTKDVPGYMTDIY  57
+             MKH  RLLFRPSQPQW +RS LKPQAA   RPTISSMMASHDQLDSRFTKDVPGYMTDIY
+Sbjct  1234  MKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRFTKDVPGYMTDIY  1055
+
+Query  58    TWA  60
+             TWA
+Sbjct  1054  TWA  1046
+
+
+>GGOE01053239.1 TSA: Euglena longa strain CCAP 1204-17a Contig53379, 
+transcribed RNA sequence
+Length=1325
+
+ Score = 110 bits (275),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 55/63 (87%), Positives = 56/63 (89%), Gaps = 3/63 (5%)
+ Frame = -1
+
+Query  1     MKHTMRLLFRPSQPQWWLRSMLKPQAA---RPTISSMMASHDQLDSRFTKDVPGYMTDIY  57
+             MKH  RLLFRPSQPQW +RS LKPQAA   RPTISSMMASHDQLDSRFTKDVPGYMTDIY
+Sbjct  1289  MKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRFTKDVPGYMTDIY  1110
+
+Query  58    TWA  60
+             TWA
+Sbjct  1109  TWA  1101
+
+
+>GGOE01037285.1 TSA: Euglena longa strain CCAP 1204-17a Contig37354, 
+transcribed RNA sequence
+Length=2357
+
+ Score = 32.7 bits (73),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 17/53 (32%), Positives = 27/53 (51%), Gaps = 11/53 (21%)
+ Frame = +2
+
+Query  11   PSQPQWW--------LRSMLKPQAARPTISSMMASHDQLDSRFTKD---VPGY  52
+            P QP+ W        L+   +PQA RPT++ M+   ++L  +   D   VPG+
+Sbjct  674  PPQPEAWPPVIWQRLLKPCFRPQAQRPTVAEMLGVLNELTHQLAPDITVVPGF  832
+
+
+>GGOE01041215.1 TSA: Euglena longa strain CCAP 1204-17a Contig41343, 
+transcribed RNA sequence
+Length=2127
+
+ Score = 28.5 bits (62),  Expect = 0.50, Method: Composition-based stats.
+ Identities = 10/25 (40%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+ Frame = -3
+
+Query  3     HTMRLLFRPSQPQWWLRSMLKPQAA  27
+             H +R+L     P W+LR + +PQ A
+Sbjct  1117  HGVRVLLHRVDPHWYLRLLGRPQCA  1043
+
+
+>GGOE01026874.1 TSA: Euglena longa strain CCAP 1204-17a Contig26943, 
+transcribed RNA sequence
+Length=1196
+
+ Score = 28.1 bits (61),  Expect = 0.78, Method: Composition-based stats.
+ Identities = 9/11 (82%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+ Frame = -3
+
+Query  10   RPSQPQWWLRS  20
+            RPS PQWW+RS
+Sbjct  747  RPSSPQWWIRS  715
+
+
+>GGOE01011962.1 TSA: Euglena longa strain CCAP 1204-17a Contig11979, 
+transcribed RNA sequence
+Length=1181
+
+ Score = 27.3 bits (59),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 9/11 (82%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+ Frame = +3
+
+Query  10   RPSQPQWWLRS  20
+            RPS PQWW+RS
+Sbjct  450  RPSSPQWWIRS  482
+
+
+>GGOE01042910.1 TSA: Euglena longa strain CCAP 1204-17a Contig43040, 
+transcribed RNA sequence
+Length=536
+
+ Score = 26.6 bits (57),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 17/40 (43%), Positives = 24/40 (60%), Gaps = 7/40 (18%)
+ Frame = -2
+
+Query  9    FRPSQPQWWLRSMLKPQAARPTISSMMASHDQLDSRFTKD  48
+            F P++P     SM +P  ARP+ +S+MA+    DSRF  D
+Sbjct  412  FSPARP-----SMRRP--ARPSFTSVMATSFCSDSRFASD  314
+
+
+>GGOE01035090.1 TSA: Euglena longa strain CCAP 1204-17a Contig35159, 
+transcribed RNA sequence
+Length=1494
+
+ Score = 25.8 bits (55),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1145  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1237
+
+
+>GGOE01035092.1 TSA: Euglena longa strain CCAP 1204-17a Contig35161, 
+transcribed RNA sequence
+Length=2362
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1310  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1402
+
+
+>GGOE01011960.1 TSA: Euglena longa strain CCAP 1204-17a Contig11977, 
+transcribed RNA sequence
+Length=2377
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = -1
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1747  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1655
+
+
+>GGOE01035132.1 TSA: Euglena longa strain CCAP 1204-17a Contig35201, 
+transcribed RNA sequence
+Length=2424
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1310  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1402
+
+
+>GGOE01035144.1 TSA: Euglena longa strain CCAP 1204-17a Contig35213, 
+transcribed RNA sequence
+Length=2464
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035095.1 TSA: Euglena longa strain CCAP 1204-17a Contig35164, 
+transcribed RNA sequence
+Length=2528
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035083.1 TSA: Euglena longa strain CCAP 1204-17a Contig35152, 
+transcribed RNA sequence
+Length=2526
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035136.1 TSA: Euglena longa strain CCAP 1204-17a Contig35205, 
+transcribed RNA sequence
+Length=2535
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1310  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1402
+
+
+>GGOE01035081.1 TSA: Euglena longa strain CCAP 1204-17a Contig35150, 
+transcribed RNA sequence
+Length=2571
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035109.1 TSA: Euglena longa strain CCAP 1204-17a Contig35178, 
+transcribed RNA sequence
+Length=2575
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035089.1 TSA: Euglena longa strain CCAP 1204-17a Contig35158, 
+transcribed RNA sequence
+Length=2590
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035146.1 TSA: Euglena longa strain CCAP 1204-17a Contig35215, 
+transcribed RNA sequence
+Length=2639
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035116.1 TSA: Euglena longa strain CCAP 1204-17a Contig35185, 
+transcribed RNA sequence
+Length=2637
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035066.1 TSA: Euglena longa strain CCAP 1204-17a Contig35135, 
+transcribed RNA sequence
+Length=2657
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035129.1 TSA: Euglena longa strain CCAP 1204-17a Contig35198, 
+transcribed RNA sequence
+Length=2682
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035142.1 TSA: Euglena longa strain CCAP 1204-17a Contig35211, 
+transcribed RNA sequence
+Length=2701
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035128.1 TSA: Euglena longa strain CCAP 1204-17a Contig35197, 
+transcribed RNA sequence
+Length=2768
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035124.1 TSA: Euglena longa strain CCAP 1204-17a Contig35193, 
+transcribed RNA sequence
+Length=2780
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035123.1 TSA: Euglena longa strain CCAP 1204-17a Contig35192, 
+transcribed RNA sequence
+Length=2783
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035131.1 TSA: Euglena longa strain CCAP 1204-17a Contig35200, 
+transcribed RNA sequence
+Length=2818
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035071.1 TSA: Euglena longa strain CCAP 1204-17a Contig35140, 
+transcribed RNA sequence
+Length=2866
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035141.1 TSA: Euglena longa strain CCAP 1204-17a Contig35210, 
+transcribed RNA sequence
+Length=2891
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035137.1 TSA: Euglena longa strain CCAP 1204-17a Contig35206, 
+transcribed RNA sequence
+Length=2929
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035143.1 TSA: Euglena longa strain CCAP 1204-17a Contig35212, 
+transcribed RNA sequence
+Length=2953
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035086.1 TSA: Euglena longa strain CCAP 1204-17a Contig35155, 
+transcribed RNA sequence
+Length=2952
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035105.1 TSA: Euglena longa strain CCAP 1204-17a Contig35174, 
+transcribed RNA sequence
+Length=2964
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035149.1 TSA: Euglena longa strain CCAP 1204-17a Contig35218, 
+transcribed RNA sequence
+Length=2977
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035114.1 TSA: Euglena longa strain CCAP 1204-17a Contig35183, 
+transcribed RNA sequence
+Length=3028
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035067.1 TSA: Euglena longa strain CCAP 1204-17a Contig35136, 
+transcribed RNA sequence
+Length=3027
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035100.1 TSA: Euglena longa strain CCAP 1204-17a Contig35169, 
+transcribed RNA sequence
+Length=3039
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035075.1 TSA: Euglena longa strain CCAP 1204-17a Contig35144, 
+transcribed RNA sequence
+Length=3053
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035094.1 TSA: Euglena longa strain CCAP 1204-17a Contig35163, 
+transcribed RNA sequence
+Length=3075
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035148.1 TSA: Euglena longa strain CCAP 1204-17a Contig35217, 
+transcribed RNA sequence
+Length=3082
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1310  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1402
+
+
+>GGOE01035082.1 TSA: Euglena longa strain CCAP 1204-17a Contig35151, 
+transcribed RNA sequence
+Length=3140
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035127.1 TSA: Euglena longa strain CCAP 1204-17a Contig35196, 
+transcribed RNA sequence
+Length=3144
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1310  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1402
+
+
+>GGOE01035091.1 TSA: Euglena longa strain CCAP 1204-17a Contig35160, 
+transcribed RNA sequence
+Length=3146
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035084.1 TSA: Euglena longa strain CCAP 1204-17a Contig35153, 
+transcribed RNA sequence
+Length=3153
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035063.1 TSA: Euglena longa strain CCAP 1204-17a Contig35132, 
+transcribed RNA sequence
+Length=3173
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035138.1 TSA: Euglena longa strain CCAP 1204-17a Contig35207, 
+transcribed RNA sequence
+Length=3176
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035121.1 TSA: Euglena longa strain CCAP 1204-17a Contig35190, 
+transcribed RNA sequence
+Length=3175
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01048986.1 TSA: Euglena longa strain CCAP 1204-17a Contig49119, 
+transcribed RNA sequence
+Length=3180
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1310  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1402
+
+
+>GGOE01035085.1 TSA: Euglena longa strain CCAP 1204-17a Contig35154, 
+transcribed RNA sequence
+Length=3185
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035118.1 TSA: Euglena longa strain CCAP 1204-17a Contig35187, 
+transcribed RNA sequence
+Length=3200
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01048982.1 TSA: Euglena longa strain CCAP 1204-17a Contig49115, 
+transcribed RNA sequence
+Length=3227
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035133.1 TSA: Euglena longa strain CCAP 1204-17a Contig35202, 
+transcribed RNA sequence
+Length=3237
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035097.1 TSA: Euglena longa strain CCAP 1204-17a Contig35166, 
+transcribed RNA sequence
+Length=3238
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035096.1 TSA: Euglena longa strain CCAP 1204-17a Contig35165, 
+transcribed RNA sequence
+Length=3242
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1310  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1402
+
+
+>GGOE01035088.1 TSA: Euglena longa strain CCAP 1204-17a Contig35157, 
+transcribed RNA sequence
+Length=3272
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01048984.1 TSA: Euglena longa strain CCAP 1204-17a Contig49117, 
+transcribed RNA sequence
+Length=3287
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035145.1 TSA: Euglena longa strain CCAP 1204-17a Contig35214, 
+transcribed RNA sequence
+Length=3286
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035120.1 TSA: Euglena longa strain CCAP 1204-17a Contig35189, 
+transcribed RNA sequence
+Length=3286
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035115.1 TSA: Euglena longa strain CCAP 1204-17a Contig35184, 
+transcribed RNA sequence
+Length=3292
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035080.1 TSA: Euglena longa strain CCAP 1204-17a Contig35149, 
+transcribed RNA sequence
+Length=3291
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1310  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1402
+
+
+>GGOE01035078.1 TSA: Euglena longa strain CCAP 1204-17a Contig35147, 
+transcribed RNA sequence
+Length=3300
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035099.1 TSA: Euglena longa strain CCAP 1204-17a Contig35168, 
+transcribed RNA sequence
+Length=3319
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035113.1 TSA: Euglena longa strain CCAP 1204-17a Contig35182, 
+transcribed RNA sequence
+Length=3325
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035147.1 TSA: Euglena longa strain CCAP 1204-17a Contig35216, 
+transcribed RNA sequence
+Length=3335
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035069.1 TSA: Euglena longa strain CCAP 1204-17a Contig35138, 
+transcribed RNA sequence
+Length=3334
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035150.1 TSA: Euglena longa strain CCAP 1204-17a Contig35219, 
+transcribed RNA sequence
+Length=3346
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035117.1 TSA: Euglena longa strain CCAP 1204-17a Contig35186, 
+transcribed RNA sequence
+Length=3349
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035079.1 TSA: Euglena longa strain CCAP 1204-17a Contig35148, 
+transcribed RNA sequence
+Length=3353
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +2
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1310  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1402
+
+
+>GGOE01048981.1 TSA: Euglena longa strain CCAP 1204-17a Contig49114, 
+transcribed RNA sequence
+Length=3362
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01048979.1 TSA: Euglena longa strain CCAP 1204-17a Contig49112, 
+transcribed RNA sequence
+Length=3363
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = -3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  2035  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1943
+
+
+>GGOE01035119.1 TSA: Euglena longa strain CCAP 1204-17a Contig35188, 
+transcribed RNA sequence
+Length=3374
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035068.1 TSA: Euglena longa strain CCAP 1204-17a Contig35137, 
+transcribed RNA sequence
+Length=3384
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035122.1 TSA: Euglena longa strain CCAP 1204-17a Contig35191, 
+transcribed RNA sequence
+Length=3417
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035112.1 TSA: Euglena longa strain CCAP 1204-17a Contig35181, 
+transcribed RNA sequence
+Length=3426
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035110.1 TSA: Euglena longa strain CCAP 1204-17a Contig35179, 
+transcribed RNA sequence
+Length=3445
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035098.1 TSA: Euglena longa strain CCAP 1204-17a Contig35167, 
+transcribed RNA sequence
+Length=3446
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035103.1 TSA: Euglena longa strain CCAP 1204-17a Contig35172, 
+transcribed RNA sequence
+Length=3461
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035151.1 TSA: Euglena longa strain CCAP 1204-17a Contig35220, 
+transcribed RNA sequence
+Length=3465
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035087.1 TSA: Euglena longa strain CCAP 1204-17a Contig35156, 
+transcribed RNA sequence
+Length=3498
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035139.1 TSA: Euglena longa strain CCAP 1204-17a Contig35208, 
+transcribed RNA sequence
+Length=3508
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035108.1 TSA: Euglena longa strain CCAP 1204-17a Contig35177, 
+transcribed RNA sequence
+Length=3523
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035072.1 TSA: Euglena longa strain CCAP 1204-17a Contig35141, 
+transcribed RNA sequence
+Length=3557
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035062.1 TSA: Euglena longa strain CCAP 1204-17a Contig35131, 
+transcribed RNA sequence
+Length=3583
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035125.1 TSA: Euglena longa strain CCAP 1204-17a Contig35194, 
+transcribed RNA sequence
+Length=3634
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01035070.1 TSA: Euglena longa strain CCAP 1204-17a Contig35139, 
+transcribed RNA sequence
+Length=3655
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+ Frame = +3
+
+Query  11    PSQPQWWLRSMLKPQAARPTISSMMASHDQL  41
+             P  P +WL     P  ARP + + + SH  L
+Sbjct  1329  PESPDFWLHCSFSPGRARPQMQTSIHSHSAL  1421
+
+
+>GGOE01036212.1 TSA: Euglena longa strain CCAP 1204-17a Contig36281, 
+transcribed RNA sequence
+Length=903
+
+ Score = 25.8 bits (55),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 13/41 (32%), Positives = 19/41 (46%), Gaps = 4/41 (10%)
+ Frame = -1
+
+Query  9    FRPSQPQWWLRSMLKPQAAR----PTISSMMASHDQLDSRF  45
+            FRP  P WW  ++  P A R    P ++S    H +   R+
+Sbjct  363  FRPPPPAWWQNTLSGPAAGRGAATPPVNSSPWGHRRSRGRW  241
+
+
+>GGOE01013435.1 TSA: Euglena longa strain CCAP 1204-17a Contig13452, 
+transcribed RNA sequence
+Length=1812
+
+ Score = 25.0 bits (53),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+ Frame = -2
+
+Query  10   RPSQPQWWLRSMLKPQAARPTISS  33
+            RPS+P WW  S   P ++  T++S
+Sbjct  671  RPSRPSWWCCSSCTPASSCRTMTS  600
+
+
+>GGOE01034363.1 TSA: Euglena longa strain CCAP 1204-17a Contig34432, 
+transcribed RNA sequence
+Length=3016
+
+ Score = 25.0 bits (53),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+ Frame = +3
+
+Query  10    RPSQPQWWLRSMLKPQAARPTISS  33
+             RPS+P WW  S   P ++  T++S
+Sbjct  2151  RPSRPSWWCCSSCTPASSCRTMTS  2222
+
+
+>GGOE01013436.1 TSA: Euglena longa strain CCAP 1204-17a Contig13453, 
+transcribed RNA sequence
+Length=3074
+
+ Score = 25.0 bits (53),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+ Frame = +1
+
+Query  10    RPSQPQWWLRSMLKPQAARPTISS  33
+             RPS+P WW  S   P ++  T++S
+Sbjct  2209  RPSRPSWWCCSSCTPASSCRTMTS  2280
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.130    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 792844659
+
+
+Query= EP00668_Euglena_longa_20481
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+GGOE01025468.1 TSA: Euglena longa strain CCAP 1204-17a Contig2553...  125     4e-36
+GGOE01053239.1 TSA: Euglena longa strain CCAP 1204-17a Contig5337...  125     5e-36
+GGOE01047072.1 TSA: Euglena longa strain CCAP 1204-17a Contig4720...  80.5    2e-19
+GGOE01018882.1 TSA: Euglena longa strain CCAP 1204-17a Contig1894...  27.7    0.96 
+GGOE01065336.1 TSA: Euglena longa strain CCAP 1204-17a Contig6819...  27.3    1.5  
+GGOE01004222.1 TSA: Euglena longa strain CCAP 1204-17a Contig4235...  26.2    3.0  
+GGOE01057679.1 TSA: Euglena longa strain CCAP 1204-17a Contig5795...  26.2    3.0  
+GGOE01061681.1 TSA: Euglena longa strain CCAP 1204-17a Contig6359...  26.2    3.1  
+GGOE01017896.1 TSA: Euglena longa strain CCAP 1204-17a Contig1795...  26.2    3.8  
+GGOE01014899.1 TSA: Euglena longa strain CCAP 1204-17a Contig1491...  26.2    3.8  
+GGOE01051283.1 TSA: Euglena longa strain CCAP 1204-17a Contig5141...  25.8    4.5  
+GGOE01062248.1 TSA: Euglena longa strain CCAP 1204-17a Contig6416...  25.8    4.6  
+GGOE01044737.1 TSA: Euglena longa strain CCAP 1204-17a Contig4486...  25.8    5.0  
+GGOE01051858.1 TSA: Euglena longa strain CCAP 1204-17a Contig5199...  25.4    5.3  
+GGOE01045466.1 TSA: Euglena longa strain CCAP 1204-17a Contig4559...  25.4    6.1  
+GGOE01019734.1 TSA: Euglena longa strain CCAP 1204-17a Contig1979...  25.4    6.6  
+GGOE01019733.1 TSA: Euglena longa strain CCAP 1204-17a Contig1979...  25.4    6.6  
+GGOE01005402.1 TSA: Euglena longa strain CCAP 1204-17a Contig5416...  25.4    6.6  
+GGOE01005403.1 TSA: Euglena longa strain CCAP 1204-17a Contig5417...  25.4    6.6  
+GGOE01015599.1 TSA: Euglena longa strain CCAP 1204-17a Contig1561...  25.4    6.7  
+GGOE01042054.1 TSA: Euglena longa strain CCAP 1204-17a Contig4218...  25.4    7.1  
+GGOE01044251.1 TSA: Euglena longa strain CCAP 1204-17a Contig4438...  25.4    7.4  
+GGOE01020836.1 TSA: Euglena longa strain CCAP 1204-17a Contig2090...  25.0    7.8  
+GGOE01022768.1 TSA: Euglena longa strain CCAP 1204-17a Contig2283...  25.0    8.1  
+GGOE01004462.1 TSA: Euglena longa strain CCAP 1204-17a Contig4475...  25.0    8.1  
+GGOE01022769.1 TSA: Euglena longa strain CCAP 1204-17a Contig2283...  25.0    8.1  
+GGOE01052956.1 TSA: Euglena longa strain CCAP 1204-17a Contig5309...  25.0    8.3  
+GGOE01013640.1 TSA: Euglena longa strain CCAP 1204-17a Contig1365...  25.0    9.3  
+GGOE01064520.1 TSA: Euglena longa strain CCAP 1204-17a Contig6737...  25.0    9.4  
+GGOE01041215.1 TSA: Euglena longa strain CCAP 1204-17a Contig4134...  25.0    9.8  
+GGOE01002315.1 TSA: Euglena longa strain CCAP 1204-17a Contig2327...  25.0    10.0 
+
+
+>GGOE01025468.1 TSA: Euglena longa strain CCAP 1204-17a Contig25537, 
+transcribed RNA sequence
+Length=1270
+
+ Score = 125 bits (314),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+ Frame = -1
+
+Query  1     VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  60
+             VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF
+Sbjct  1270  VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  1091
+
+
+>GGOE01053239.1 TSA: Euglena longa strain CCAP 1204-17a Contig53379, 
+transcribed RNA sequence
+Length=1325
+
+ Score = 125 bits (314),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+ Frame = -1
+
+Query  1     VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  60
+             VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF
+Sbjct  1325  VYFFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  1146
+
+
+>GGOE01047072.1 TSA: Euglena longa strain CCAP 1204-17a Contig47205, 
+transcribed RNA sequence
+Length=1242
+
+ Score = 80.5 bits (197),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 44/58 (76%), Positives = 45/58 (78%), Gaps = 3/58 (5%)
+ Frame = +2
+
+Query  3    FFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMASHDQLDSRF  60
+            FF    F  KMKH  RLLFRPSQPQW +RS LKPQAA   RPTISSMMASHDQLDSRF
+Sbjct  11   FFFVGFFHHKMKHTMRLLFRPSQPQWWLRSMLKPQAA---RPTISSMMASHDQLDSRF  175
+
+
+>GGOE01018882.1 TSA: Euglena longa strain CCAP 1204-17a Contig18942, 
+transcribed RNA sequence
+Length=2014
+
+ Score = 27.7 bits (60),  Expect = 0.96, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+ Frame = -3
+
+Query  8     PFLCKMKHAARLLFRPSQPQWLV  30
+             PFL   + ++R+LFRPS  +W V
+Sbjct  1019  PFLIGGQDSSRILFRPSGGRWPV  951
+
+
+>GGOE01065336.1 TSA: Euglena longa strain CCAP 1204-17a Contig68190, 
+transcribed RNA sequence
+Length=1294
+
+ Score = 27.3 bits (59),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+ Frame = +1
+
+Query  21   FRPSQPQWLVRSTLKPQAASATRPTISSMMA  51
+            FRP +P W+V S   P   +AT   IS+  A
+Sbjct  820  FRPGEPTWIVLSLANPTFGTATIHMISAQNA  912
+
+
+>GGOE01004222.1 TSA: Euglena longa strain CCAP 1204-17a Contig4235, 
+transcribed RNA sequence
+Length=3573
+
+ Score = 26.2 bits (56),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 19/39 (49%), Gaps = 1/39 (3%)
+ Frame = -1
+
+Query  6    WPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRP  44
+            W P      H  RLL  PS PQ  VR   +P  ASA RP
+Sbjct  912  WRPLWWGTGHPPRLLPGPSVPQRRVRGLPRP-CASAPRP  799
+
+
+>GGOE01057679.1 TSA: Euglena longa strain CCAP 1204-17a Contig57953, 
+transcribed RNA sequence
+Length=1690
+
+ Score = 26.2 bits (56),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 12/27 (44%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+ Frame = -3
+
+Query  24    SQPQWLVRSTLKPQAASATRPTISSMM  50
+             S  ++LVR T   QAA  T P++SS++
+Sbjct  1622  SSEEFLVRGTNPLQAAKMTTPSLSSIL  1542
+
+
+>GGOE01061681.1 TSA: Euglena longa strain CCAP 1204-17a Contig63598, 
+transcribed RNA sequence
+Length=1524
+
+ Score = 26.2 bits (56),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 15/37 (41%), Positives = 23/37 (62%), Gaps = 4/37 (11%)
+ Frame = +3
+
+Query  16   AARLLFRPSQPQWLVRS----TLKPQAASATRPTISS  48
+            AARL FR  QP WLV +    + + + A AT+P +++
+Sbjct  426  AARLGFRAKQPSWLVSNPAACSWRERMAGATKPQLAA  536
+
+
+>GGOE01017896.1 TSA: Euglena longa strain CCAP 1204-17a Contig17951, 
+transcribed RNA sequence
+Length=1419
+
+ Score = 26.2 bits (56),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 20/45 (44%), Gaps = 0/45 (0%)
+ Frame = -3
+
+Query  3     FFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTIS  47
+             FFS  P  C+ ++  R L  P+ P WL  +T    +   + P   
+Sbjct  1417  FFSIWPARCQRRYGRRCLISPTGPPWLGCATACGASCRGSTPACG  1283
+
+
+>GGOE01014899.1 TSA: Euglena longa strain CCAP 1204-17a Contig14916, 
+transcribed RNA sequence
+Length=1449
+
+ Score = 26.2 bits (56),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 20/45 (44%), Gaps = 0/45 (0%)
+ Frame = -3
+
+Query  3     FFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTIS  47
+             FFS  P  C+ ++  R L  P+ P WL  +T    +   + P   
+Sbjct  1447  FFSIWPARCQRRYGRRCLISPTGPPWLGCATACGASCRGSTPACG  1313
+
+
+>GGOE01051283.1 TSA: Euglena longa strain CCAP 1204-17a Contig51418, 
+transcribed RNA sequence
+Length=1115
+
+ Score = 25.8 bits (55),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+ Frame = -3
+
+Query  15   HAARLLFRPSQPQWLVRSTLK  35
+            H   LLF P + QWL R+TL+
+Sbjct  729  HRGLLLFLPHENQWLGRATLR  667
+
+
+>GGOE01062248.1 TSA: Euglena longa strain CCAP 1204-17a Contig64165, 
+transcribed RNA sequence
+Length=2734
+
+ Score = 25.8 bits (55),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 15/35 (43%), Positives = 18/35 (51%), Gaps = 4/35 (11%)
+ Frame = -3
+
+Query  3    FFSWPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQ  37
+            F S+PPFLC + HA      PS P  L  S   P+
+Sbjct  512  FASFPPFLCHVPHA----LSPSIPSLLQVSAFAPR  420
+
+
+>GGOE01044737.1 TSA: Euglena longa strain CCAP 1204-17a Contig44869, 
+transcribed RNA sequence
+Length=1803
+
+ Score = 25.8 bits (55),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 10/19 (53%), Positives = 11/19 (58%), Gaps = 0/19 (0%)
+ Frame = -2
+
+Query  5     SWPPFLCKMKHAARLLFRP  23
+             SWPPF C   H  +LL  P
+Sbjct  1577  SWPPFQCSPGHVEQLLVLP  1521
+
+
+>GGOE01051858.1 TSA: Euglena longa strain CCAP 1204-17a Contig51994, 
+transcribed RNA sequence
+Length=489
+
+ Score = 25.4 bits (54),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 12/26 (46%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+ Frame = +1
+
+Query  28   WLVRSTLKPQAASATRPTISSMMASH  53
+            W VRST   ++A   RPT  + M SH
+Sbjct  31   WRVRSTSACRSARGCRPTTHNAMRSH  108
+
+
+>GGOE01045466.1 TSA: Euglena longa strain CCAP 1204-17a Contig45598, 
+transcribed RNA sequence
+Length=1328
+
+ Score = 25.4 bits (54),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 15/26 (58%), Gaps = 2/26 (8%)
+ Frame = +2
+
+Query  6    WPPFLCKMKHAARLLFRPSQPQWLVR  31
+            W    C+  H  + LFR + PQWLVR
+Sbjct  734  WCRLRCRPGH--QQLFRSAGPQWLVR  805
+
+
+>GGOE01019734.1 TSA: Euglena longa strain CCAP 1204-17a Contig19797, 
+transcribed RNA sequence
+Length=5383
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 11/34 (32%), Positives = 15/34 (44%), Gaps = 0/34 (0%)
+ Frame = +2
+
+Query  6     WPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAA  39
+             WPP  C   H   + +RP  P  L   T + + A
+Sbjct  4259  WPPQGCITFHDVEMRYRPDMPPSLKELTFQIKPA  4360
+
+
+>GGOE01019733.1 TSA: Euglena longa strain CCAP 1204-17a Contig19796, 
+transcribed RNA sequence
+Length=5411
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 11/34 (32%), Positives = 15/34 (44%), Gaps = 0/34 (0%)
+ Frame = +2
+
+Query  6     WPPFLCKMKHAARLLFRPSQPQWLVRSTLKPQAA  39
+             WPP  C   H   + +RP  P  L   T + + A
+Sbjct  4259  WPPQGCITFHDVEMRYRPDMPPSLKELTFQIKPA  4360
+
+
+>GGOE01005402.1 TSA: Euglena longa strain CCAP 1204-17a Contig5416, 
+transcribed RNA sequence
+Length=2493
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+ Frame = +2
+
+Query  10    LCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMAS  52
+             LC+++   RL+ R  QPQ   RS    +      P  SS+  S
+Sbjct  1604  LCRLQCRRRLIQRSQQPQLCFRSAFPSRVRRCPLPFTSSIGTS  1732
+
+
+>GGOE01005403.1 TSA: Euglena longa strain CCAP 1204-17a Contig5417, 
+transcribed RNA sequence
+Length=2535
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+ Frame = +2
+
+Query  10    LCKMKHAARLLFRPSQPQWLVRSTLKPQAASATRPTISSMMAS  52
+             LC+++   RL+ R  QPQ   RS    +      P  SS+  S
+Sbjct  1604  LCRLQCRRRLIQRSQQPQLCFRSAFPSRVRRCPLPFTSSIGTS  1732
+
+
+>GGOE01015599.1 TSA: Euglena longa strain CCAP 1204-17a Contig15616, 
+transcribed RNA sequence
+Length=1195
+
+ Score = 25.4 bits (54),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 11/28 (39%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+ Frame = -2
+
+Query  18    RLLFRPSQPQWLVRSTLKPQAASATRPT  45
+             R   +P+QP WLV+ + K QA +   P+
+Sbjct  1035  RATAQPTQPVWLVKLSEKGQAKNEAEPS  952
+
+
+>GGOE01042054.1 TSA: Euglena longa strain CCAP 1204-17a Contig42182, 
+transcribed RNA sequence
+Length=2039
+
+ Score = 25.4 bits (54),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 22/47 (47%), Gaps = 1/47 (2%)
+ Frame = -1
+
+Query  1    VYFFSWPPFLCKM-KHAARLLFRPSQPQWLVRSTLKPQAASATRPTI  46
+            ++  S P  L  M   AAR +    QP+WLVR+      A   RP I
+Sbjct  341  LHLCSRPAALSSMCSSAARRVSLSVQPEWLVRTAGHVGGACVLRPAI  201
+
+
+>GGOE01044251.1 TSA: Euglena longa strain CCAP 1204-17a Contig44383, 
+transcribed RNA sequence
+Length=2671
+
+ Score = 25.4 bits (54),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+ Frame = +3
+
+Query  36    PQAASATRPTISSMMASHDQLDSRF  60
+             P A+SA+RPTIS    + D   SRF
+Sbjct  1227  PSASSASRPTISRRAPTRDVEKSRF  1301
+
+
+>GGOE01020836.1 TSA: Euglena longa strain CCAP 1204-17a Contig20904, 
+transcribed RNA sequence
+Length=2241
+
+ Score = 25.0 bits (53),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 11/30 (37%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+ Frame = +1
+
+Query  22   RPSQPQWLVRSTLKPQAASATRPTISSMMA  51
+            +PS P+W+ R  L+ QA    R  I+  +A
+Sbjct  451  KPSGPEWVARCALRRQAVCRIRRPIALPLA  540
+
+
+>GGOE01022768.1 TSA: Euglena longa strain CCAP 1204-17a Contig22836, 
+transcribed RNA sequence
+Length=3075
+
+ Score = 25.0 bits (53),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 14/27 (52%), Gaps = 2/27 (7%)
+ Frame = +1
+
+Query  11    CKMKHAARLLFRPSQPQWLVRSTLKPQ  37
+             C   H  R   RPSQ  W VR TL+P 
+Sbjct  1591  CGSAH--RHRRRPSQAVWGVRGTLRPN  1665
+
+
+>GGOE01004462.1 TSA: Euglena longa strain CCAP 1204-17a Contig4475, 
+transcribed RNA sequence
+Length=3089
+
+ Score = 25.0 bits (53),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 14/27 (52%), Gaps = 2/27 (7%)
+ Frame = +1
+
+Query  11    CKMKHAARLLFRPSQPQWLVRSTLKPQ  37
+             C   H  R   RPSQ  W VR TL+P 
+Sbjct  1594  CGSAH--RHRRRPSQAVWGVRGTLRPN  1668
+
+
+>GGOE01022769.1 TSA: Euglena longa strain CCAP 1204-17a Contig22837, 
+transcribed RNA sequence
+Length=3242
+
+ Score = 25.0 bits (53),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 14/27 (52%), Gaps = 2/27 (7%)
+ Frame = +3
+
+Query  11    CKMKHAARLLFRPSQPQWLVRSTLKPQ  37
+             C   H  R   RPSQ  W VR TL+P 
+Sbjct  1758  CGSAH--RHRRRPSQAVWGVRGTLRPN  1832
+
+
+>GGOE01052956.1 TSA: Euglena longa strain CCAP 1204-17a Contig53096, 
+transcribed RNA sequence
+Length=1013
+
+ Score = 25.0 bits (53),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 10/18 (56%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+ Frame = -3
+
+Query  7    PPFLCKMKHAARLLFRPS  24
+            PP LC+M HAA+L   P+
+Sbjct  348  PPRLCQMSHAAQLACLPA  295
+
+
+>GGOE01013640.1 TSA: Euglena longa strain CCAP 1204-17a Contig13657, 
+transcribed RNA sequence
+Length=1322
+
+ Score = 25.0 bits (53),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 8/22 (36%), Positives = 16/22 (73%), Gaps = 0/22 (0%)
+ Frame = -1
+
+Query  1     VYFFSWPPFLCKMKHAARLLFR  22
+             +YFFSW  F+C +++ +  +F+
+Sbjct  1310  IYFFSWHIFICHVQNRSVSVFQ  1245
+
+
+>GGOE01064520.1 TSA: Euglena longa strain CCAP 1204-17a Contig67372, 
+transcribed RNA sequence
+Length=707
+
+ Score = 25.0 bits (53),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+ Frame = +2
+
+Query  24   SQPQWLVRSTLKPQAASATRPTIS  47
+            S P+WL+  T+KP + S+ R  +S
+Sbjct  491  SDPKWLMAHTVKPASYSSCRCKLS  562
+
+
+>GGOE01041215.1 TSA: Euglena longa strain CCAP 1204-17a Contig41343, 
+transcribed RNA sequence
+Length=2127
+
+ Score = 25.0 bits (53),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 9/25 (36%), Positives = 12/25 (48%), Gaps = 0/25 (0%)
+ Frame = -3
+
+Query  15    HAARLLFRPSQPQWLVRSTLKPQAA  39
+             H  R+L     P W +R   +PQ A
+Sbjct  1117  HGVRVLLHRVDPHWYLRLLGRPQCA  1043
+
+
+>GGOE01002315.1 TSA: Euglena longa strain CCAP 1204-17a Contig2327, 
+transcribed RNA sequence
+Length=1807
+
+ Score = 25.0 bits (53),  Expect = 10.0, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 25/55 (45%), Gaps = 3/55 (5%)
+ Frame = -2
+
+Query  2     YFFSWPPFLCKMKHAARLLFRPSQPQWL--VRSTLKPQ-AASATRPTISSMMASH  53
+             YFFS PPF+ +   +     R + P +L    S +KP    S TR   S   AS 
+Sbjct  1806  YFFSLPPFVLRAMLSYSSASRQTLPTYLEGEYSVVKPSTGGSVTRQGYSVSRASQ  1642
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.131    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 792844659
+
+
+  Database: E_longa_transcriptome.fasta
+    Posted date:  Nov 29, 2021  1:14 PM
+  Number of letters in database: 94,584,590
+  Number of sequences in database:  65,563
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

@@ -1,0 +1,135 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  NF005866.0.HMM
+# target sequence database:        ../Predicted_proteins/Spongilla_lacustris_ar.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PRK07803.1  [M=631]
+Accession:   NF005866.0
+Description: NCBI Protein Cluster (PRK): fumarate reductase/succinate dehydrogenase flavoprotein subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                                  -----------
+      3e-87  293.4   1.6    1.3e-44  152.6   0.0    2.2  2  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1   GENE.Spongilla_nonrepro_s_8_1_se
+  ------ inclusion threshold ------
+      0.011   14.1   0.1      0.016   13.5   0.1    1.2  1  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_38889.p1  GENE.Spongilla_nonrepro_s_8_1_se
+      0.051   11.8   0.1      0.063   11.5   0.1    1.1  1  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31607.p1  GENE.Spongilla_nonrepro_s_8_1_se
+       0.31    9.2   0.0       0.43    8.8   0.0    1.1  1  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8912.p1   GENE.Spongilla_nonrepro_s_8_1_se
+
+
+Domain annotation for each sequence (and alignments):
+>> Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1  GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030~
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.1   0.7   1.5e-44   7.8e-41      92     290 ..       3     192 ..       1     194 [. 0.91
+   2 !  152.6   0.0   2.4e-48   1.3e-44     317     576 ..     194     468 ..     191     496 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 140.1 bits;  conditional E-value: 1.5e-44
+                                                PRK07803.1  92 keaPdrvleletyGalfdrtkdGkisqrnfGGheyp........rlahvGdrt 136
+                                                               ++a + v+ele+yG  f rt+dG+i qr fGG +y         r   v drt
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1   3 EQAAKSVIELENYGMPFSRTDDGRIYQRAFGGQSYDfgrggqahRCCCVADRT 55 
+                                                               568899***************************995444433337777***** PP
+
+                                                PRK07803.1 137 GlelirtlqqkvvslqqedkaelgdyearikvfaettitellkdegriaGafg 189
+                                                               G  l+ tl  + +                 k f e    +ll ++g+  G+++
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1  56 GHSLLHTLYGQSLRH-------------DTKYFVEYFALDLLMENGECRGVIA 95 
+                                                               ********9886654.............2478999999*************** PP
+
+                                                PRK07803.1 190 yeresGrfvlfeapavvlatGGiGksfkvtsnsweytGdGhalalraGaelin 242
+                                                                  e+G++  f+a+  vlatGG G+s+   + +  +tGdG a+a raG +  +
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1  96 LCMEDGTIHRFRAKNTVLATGGYGRSYFSCTSAHTCTGDGIAMANRAGLASED 148
+                                                               ***************************999999******************** PP
+
+                                                PRK07803.1 243 mefvqfhPtGmvwPpsvkGilvtesvrGdgGvlknsegkrfmfdyipd 290
+                                                               mefvqfhPtG+       G l+te+ rG+gG l n +g+rfm +y p 
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 149 MEFVQFHPTGIY----SAGCLITEGCRGEGGYLINGKGERFMERYAPT 192
+                                                               **********85....479**************************996 PP
+
+  == domain 2  score: 152.6 bits;  conditional E-value: 2.4e-48
+                                                PRK07803.1 317 pellprdevarainsevkaGrgsp..hGGvyldiasrlpaeeikrrlPsmyhq 367
+                                                               ++l +rd v+ra+  e+ +Grg    +  v+l++ s+lp+e +  rlP + + 
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 194 KDLASRDVVSRAMTVEIMEGRGCGplKDHVHLQL-SHLPPEILATRLPGISET 245
+                                                               79*******************9743478999999.79**************** PP
+
+                                                PRK07803.1 368 fkeladvditkepmevgPtchyvmGGv.........evdadtaaak.vpGlfa 410
+                                                                + +a vd+tkep+ v Pt+hy mGGv         + d+  +    vpGl+a
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 246 AHIFAGVDVTKEPIPVLPTVHYNMGGVptnykgqviQYDPARGGDYiVPGLYA 298
+                                                               **************************833333221123444333335****** PP
+
+                                                PRK07803.1 411 aGeva.gGlhGsnrlGGnslsdllvfGrraGlgaaeyvealesrpavseeevd 462
+                                                               +Ge a + +hG+nrlG nsl dl+vfGr   ++ ae  +  e++p +++++ +
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 299 CGETAcASVHGANRLGANSLLDLVVFGRACANTIAEVNKPGEAQPPLKQNAGE 351
+                                                               ***983579***************************9999999*****99999 PP
+
+                                                PRK07803.1 463 aaakealapleaeaeen.Pytlqkelqeamndlvgiirkeeeleealekleel 514
+                                                               +++++  + ++++++e    +l+  +q++m++++g+ r+ e l++  ++++++
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 352 KSIANLDRLYHTSNGEThTAELRLRMQKVMHEKAGVFRTGEYLKQGCQQITQI 404
+                                                               99999888888888875156899****************************** PP
+
+                                                PRK07803.1 515 kerlkk.vkv.eGerqynpgwhlaldlrnlllvsecvakaalerkesrGghtr 565
+                                                                ++l + +k  +  + +n+    +l+l+nl+  s   + +a +rkesrG+h+r
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 405 ATHLDEdLKLyDKGHVWNTDLIETLELQNLMACSLLTVYSAEARKESRGAHAR 457
+                                                               99876423321444589************************************ PP
+
+                                                PRK07803.1 566 ddfpemdaewr 576
+                                                               +d+++  +e+ 
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1030.p1 458 QDYNTRIDEYD 468
+                                                               ***99887775 PP
+
+>> Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_38889.p1  GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3888
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.1   3.2e-06     0.016       7      40 ..      64      97 ..      59     102 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 3.2e-06
+                                                 PRK07803.1  7 heydvvviGaGGaGlraaiearerGlkvavvsks 40
+                                                               +eyd++viG G +G   a++a +rG ++a+v k 
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_38889.p1 64 KEYDILVIGGGITGCGVALDAISRGFSTALVEKD 97
+                                                               79*****************************985 PP
+
+>> Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31607.p1  GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3160
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.1   1.2e-05     0.063       5      47 ..      60     108 ..      56     113 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 1.2e-05
+                                                 PRK07803.1   5 erheydvvviGaGGaGlraaieare......rGlkvavvskslfGkaht 47 
+                                                                e+ e+dvv++G G +Gl a i  ++      + ++v+vv k+    aht
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31607.p1  60 EKDEFDVVIVGGGPSGLAASIRLKQlakecnHDVRVCVVEKAPEIGAHT 108
+                                                                7899*****************8765111121345677777766555666 PP
+
+>> Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8912.p1  GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8912~
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.8   0.0   8.3e-05      0.43       6      38 ..       4      36 ..       1      43 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 8.8 bits;  conditional E-value: 8.3e-05
+                                                PRK07803.1  6 rheydvvviGaGGaGlraaiearerGlkvavvs 38
+                                                              +++yd++v+G G  Gl +a ++ ++G+kv ++ 
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8912.p1  4 HKRYDLIVVGGGPMGLATAYNVAKTGKKVLILE 36
+                                                              679*************************99875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (631 nodes)
+Target sequences:                      20640  (4752597 residues searched)
+Passed MSV filter:                       585  (0.028343); expected 412.8 (0.02)
+Passed bias filter:                      390  (0.0188953); expected 412.8 (0.02)
+Passed Vit filter:                        38  (0.00184109); expected 20.6 (0.001)
+Passed Fwd filter:                         4  (0.000193798); expected 0.2 (1e-05)
+Initial search space (Z):              20640  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.23u 0.00s 00:00:00.23 Elapsed: 00:00:00.09
+# Mc/sec: 32271.12
+//
+[ok]

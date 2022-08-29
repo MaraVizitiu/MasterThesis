@@ -1,0 +1,78 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  NF006391.0.HMM
+# target sequence database:        ../Predicted_proteins/spongilla_transcriptome_annotated_200501.fasta.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PRK08640.1  [M=254]
+Accession:   NF006391.0
+Description: NCBI Protein Cluster (PRK): succinate dehydrogenase iron-sulfur subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    3.9e-30  105.2   1.5    5.6e-30  104.7   1.5    1.2  1  c102654_g4_i1|c102654-g4.p1  GENE.c102654_g4_i1|c102654-g4~~c
+     0.0069   15.9   0.5     0.0069   15.9   0.5    2.2  2  c102628_g3_i1|c102628-g3.p1  GENE.c102628_g3_i1|c102628-g3~~c
+
+
+Domain annotation for each sequence (and alignments):
+>> c102654_g4_i1|c102654-g4.p1  GENE.c102654_g4_i1|c102654-g4~~c102654_g4_i1|c102654-g4.p1  ORF type:5prime_partial len:
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.7   1.5   3.8e-34   5.6e-30      20     237 ..      76     288 ..      56     293 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 104.7 bits;  conditional E-value: 3.8e-34
+                   PRK08640.1  20 keyeeefeipyrp.nmnvisalmeirknpvnakGekvtpvvwdancleevcGacsmvingkprqacsalvdkleqeirlePl 100
+                                  k++++e+++++++ +  v+ al +i+++           +++  +c e +cG+csm ing+   ac   +d  ++  ++ Pl
+  c102654_g4_i1|c102654-g4.p1  76 KPHMQEYKVDLNQcGPMVLDALIKIKNE-------IDPTLTFRRSCREGICGSCSMNINGQNTLACINHIDVKKSVTKVYPL 150
+                                  5566666666654233455566555432.......22347899*************************************** PP
+
+                   PRK08640.1 101 kkfPvvrdlvvdrsrlfdnlkrvkaWipidgtydlgaGpr.lseekrelayelskcmtcgvcleacPnvn.eksdfvGpaai 180
+                                   ++ vv+dlv d s ++d+ k v  +++   + + g+ +   s e+r+    l +c+ c++c+ +cP +  + ++++Gpa +
+  c102654_g4_i1|c102654-g4.p1 151 PHMYVVKDLVPDMSNFYDQYKSVDPFLQRKDESQAGKKEYyQSVEDRKKLDGLYECILCACCTTSCPAYWwHPEKYLGPAVL 232
+                                  ***************************9988888777665146688999999***************99626699******* PP
+
+                   PRK08640.1 181 sqvrlfnahPtGemkkeerlealmgegGleecGnaqncvrvcPkeiPlttsiaalnr 237
+                                   q+  +      +  k+erl+ l +   +  c    nc ++cPk++   ++ia+l++
+  c102654_g4_i1|c102654-g4.p1 233 MQAYRWIIDS-RDEMKAERLKKLSDPFSVFRCHTIMNCTKSCPKGLNPGKAIAELKK 288
+                                  ***9998877.5666899***********************************9976 PP
+
+>> c102628_g3_i1|c102628-g3.p1  GENE.c102628_g3_i1|c102628-g3~~c102628_g3_i1|c102628-g3.p1  ORF type:5prime_partial len:
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   1.5      0.01   1.5e+02     153     167 ..     118     132 ..      89     138 .. 0.77
+   2 !   15.9   0.5   4.7e-07    0.0069     140     167 ..     142     171 ..     134     207 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 0.01
+                   PRK08640.1 153 skcmtcgvcleacPn 167
+                                   +c++c  c   cP 
+  c102628_g3_i1|c102628-g3.p1 118 ERCIACKLCEAICPA 132
+                                  58***********96 PP
+
+  == domain 2  score: 15.9 bits;  conditional E-value: 4.7e-07
+                   PRK08640.1 140 rlseekrelaye..lskcmtcgvcleacPn 167
+                                  r   ++r++ y+  ++kc+ cg c eacP 
+  c102628_g3_i1|c102628-g3.p1 142 RADGSRRTTRYDidMTKCIYCGFCQEACPV 171
+                                  55556677777522689************4 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (254 nodes)
+Target sequences:                      29373  (8488546 residues searched)
+Passed MSV filter:                       897  (0.0305382); expected 587.5 (0.02)
+Passed bias filter:                      531  (0.0180778); expected 587.5 (0.02)
+Passed Vit filter:                        41  (0.00139584); expected 29.4 (0.001)
+Passed Fwd filter:                         2  (6.80897e-05); expected 0.3 (1e-05)
+Initial search space (Z):              29373  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.19u 0.00s 00:00:00.19 Elapsed: 00:00:00.07
+# Mc/sec: 27466.97
+//
+[ok]

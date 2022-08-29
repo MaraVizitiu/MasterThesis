@@ -1,0 +1,111 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR01959.1.HMM
+# target sequence database:        ../Predicted_proteins/Spongilla_lacustris_ar.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       nuoF_fam  [M=410]
+Accession:   TIGR01959.1
+Description: JCVI: NADH-quinone oxidoreductase subunit NuoF
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                                  -----------
+   1.1e-187  623.6   0.0   1.3e-187  623.4   0.0    1.0  1  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1   GENE.Spongilla_nonrepro_s_8_1_se
+    6.2e-62  209.4   0.6    6.8e-62  209.3   0.6    1.0  1  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34587.p1  GENE.Spongilla_nonrepro_s_8_1_se
+
+
+Domain annotation for each sequence (and alignments):
+>> Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1  GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450~
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  623.4   0.0  1.3e-191  1.3e-187       2     409 ..      52     460 ..      51     461 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 623.4 bits;  conditional E-value: 1.3e-191
+                                                  nuoF_fam   2 llkkleekesvtleeyekkggykalkkaleelspddiieevkesglrGrGGaG 54 
+                                                               ++++l+ +++++l+ ++++g++ ++k++l +  +d+i++e+k+sglrGrGGaG
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1  52 IFTNLYGRHDWKLKGAMSRGDWYKTKEILIK-GHDWILQEIKKSGLRGRGGAG 103
+                                                               789999***********************99.********************* PP
+
+                                                  nuoF_fam  55 fptGlkWsfipkde.akpkylvvnadesePgtfkdrdlleaePhklieGliia 106
+                                                               fp+GlkWsf+ k    +pkylvvnade+ePgt+kdr++++++Phkl+eG+++a
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1 104 FPSGLKWSFMNKPPdGRPKYLVVNADEGEPGTCKDREIMRHDPHKLVEGCLVA 156
+                                                               ************8779************************************* PP
+
+                                                  nuoF_fam 107 ayalkakkgyiyirGefvkeakaleaaideayaagllGknilgsgfdlelvvh 159
+                                                               +++++a+++yiyirGef++ea++++ ai+eay+agl+Gkn +gs++d+++++h
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1 157 GRSMGARAAYIYIRGEFYNEASNMQVAIQEAYEAGLIGKNACGSNYDFDIYMH 209
+                                                               ***************************************************** PP
+
+                                                  nuoF_fam 160 eGaGayiCGeetallesleGkkgqPrlkPPfPavvGlygkPtvvnnvetlasv 212
+                                                               +GaGayiCGeetal+esleGk g+PrlkPPfPa vG++g+Pt+v nvet+a+ 
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1 210 RGAGAYICGEETALIESLEGKAGKPRLKPPFPADVGVFGCPTTVANVETVAVA 262
+                                                               ***************************************************** PP
+
+                                                  nuoF_fam 213 PailrkGaewykklgkeksaGtklfslsGkvkkpglyelplgitlkelledya 265
+                                                               P+i r+G +w++++g+e+++Gtkl+++sG+v+ p+++e++++i+lkel+e +a
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1 263 PTICRRGGDWFASFGRERNSGTKLYCISGHVNTPCTVEEEMSIPLKELVERHA 315
+                                                               ***************************************************** PP
+
+                                                  nuoF_fam 266 gGvrdgkk.lkaviPGGssvpvltaeevldvemdydslakagsrlGtaavivl 317
+                                                               gGvr+g++ l a+iPGGssvp+l+ + +++v md+d+la+++s+lGtaaviv+
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1 316 GGVRGGWDnLLAIIPGGSSVPLLPRKICEEVLMDFDALAAVNSGLGTAAVIVM 368
+                                                               *******99******************************************** PP
+
+                                                  nuoF_fam 318 desvdivklvarlsefykkesCGqCtPCreGtgWlvkilerleegegkkedid 370
+                                                               d+s d+v  +arl  fyk+esCGqCtPCreGtgWl ki++r+++g++k  +id
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1 369 DKSADVVDCIARLILFYKHESCGQCTPCREGTGWLSKIMDRFVSGNAKPSEID 421
+                                                               ***************************************************** PP
+
+                                                  nuoF_fam 371 kleslskelegktiCalgdaavepvqsaikkfrdefeak 409
+                                                               ++ +lsk++eg+tiCalgdaa++pvq+++++fr e+ea+
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3450.p1 422 MIWELSKQIEGHTICALGDAAAWPVQGLVRHFRPELEAR 460
+                                                               ************************************987 PP
+
+>> Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34587.p1  GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3458
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  209.3   0.6   6.6e-66   6.8e-62     241     396 ..       1     157 []       1     157 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 209.3 bits;  conditional E-value: 6.6e-66
+                                                   nuoF_fam 241 GkvkkpglyelplgitlkelledyagGvrdgkk.lkaviPGGssvpvltaee 291
+                                                                G+v++p+++e++++++lkel+e +agGv +g++ l aviPGGss+p+l++++
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34587.p1   1 GHVNHPCTVEEEMSVPLKELIERHAGGVIGGWDnLLAVIPGGSSTPMLPKSD 52 
+                                                                9*******************************99****************** PP
+
+                                                   nuoF_fam 292 vldvemdydslakagsrlGtaavivldesvdivklvarlsefykkesCGqCt 343
+                                                                +++v md+d l +  ++lGtaaviv+++s d++k +arl++fyk+esCGqCt
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34587.p1  53 CETVLMDFDDLVSKRTGLGTAAVIVMNKSADVIKCIARLAAFYKHESCGQCT 104
+                                                                **************************************************** PP
+
+                                                   nuoF_fam 344 PCreGtgWlvkilerleegegkkedidkleslskelegktiCalgdaavepv 395
+                                                                PCreG +W+ k+++r+  g+++ e+id+l++lsk++eg+tiCal+d+a++pv
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34587.p1 105 PCREGCNWMNKMMQRFAVGKARVEEIDMLFELSKQIEGHTICALADGAAWPV 156
+                                                                ***************************************************9 PP
+
+                                                   nuoF_fam 396 q 396
+                                                                q
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_34587.p1 157 Q 157
+                                                                7 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (410 nodes)
+Target sequences:                      20640  (4752597 residues searched)
+Passed MSV filter:                       449  (0.0217539); expected 412.8 (0.02)
+Passed bias filter:                      366  (0.0177326); expected 412.8 (0.02)
+Passed Vit filter:                        28  (0.00135659); expected 20.6 (0.001)
+Passed Fwd filter:                         2  (9.68992e-05); expected 0.2 (1e-05)
+Initial search space (Z):              20640  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.05
+# Mc/sec: 35688.81
+//
+[ok]

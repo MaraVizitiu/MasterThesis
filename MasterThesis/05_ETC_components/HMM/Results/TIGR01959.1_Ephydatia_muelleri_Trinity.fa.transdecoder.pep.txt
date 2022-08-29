@@ -1,0 +1,122 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR01959.1.HMM
+# target sequence database:        ../Predicted_proteins/Ephydatia_muelleri_Trinity.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       nuoF_fam  [M=410]
+Accession:   TIGR01959.1
+Description: JCVI: NADH-quinone oxidoreductase subunit NuoF
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+   2.7e-188  627.1   0.0   3.1e-188  626.8   0.0    1.0  1  Emu_contig4499.p1  GENE.Emu_contig4499~~Emu_contig4499.p1  OR
+   2.7e-188  627.1   0.0   3.1e-188  626.8   0.0    1.0  1  Emu_contig7269.p1  GENE.Emu_contig7269~~Emu_contig7269.p1  OR
+  ------ inclusion threshold ------
+       0.52   10.2   0.0          1    9.2   0.0    1.4  2  Emu_contig693.p1   GENE.Emu_contig693~~Emu_contig693.p1  ORF 
+
+
+Domain annotation for each sequence (and alignments):
+>> Emu_contig4499.p1  GENE.Emu_contig4499~~Emu_contig4499.p1  ORF type:complete len:475 (+),score=82.98 Emu_contig4499:4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  626.8   0.0  1.7e-192  3.1e-188       2     409 ..      52     460 ..      51     461 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 626.8 bits;  conditional E-value: 1.7e-192
+           nuoF_fam   2 llkkleekesvtleeyekkggykalkkaleelspddiieevkesglrGrGGaGfptGlkWsfipkde.akpkylvvnadesePgtfkdrdll 92 
+                        ++++l+ +++++l+ ++++g++ ++k++l +  +d+i++evk+sglrGrGGaGfp+GlkWsf+ k    +pkylvvnade+ePgt+kdr+++
+  Emu_contig4499.p1  52 IFTNLYGRHDWKLKGAMSRGDWYKTKEILVK-GHDWILQEVKKSGLRGRGGAGFPSGLKWSFMNKPPdGRPKYLVVNADEGEPGTCKDREIM 142
+                        789999***********************99.*********************************8779*********************** PP
+
+           nuoF_fam  93 eaePhklieGliiaayalkakkgyiyirGefvkeakaleaaideayaagllGknilgsgfdlelvvheGaGayiCGeetallesleGkkgqP 184
+                        +++Phkl+eG++ia++a++a+++yiyirGef++ea++++ ai+eay+agl+Gkn +gs++d+++++h+GaGayiCGeetal+esleGk g+P
+  Emu_contig4499.p1 143 RHDPHKLVEGCLIAGRAMGARAAYIYIRGEFYNEASNMQVAIQEAYEAGLIGKNACGSNYDFDIYMHRGAGAYICGEETALIESLEGKAGKP 234
+                        ******************************************************************************************** PP
+
+           nuoF_fam 185 rlkPPfPavvGlygkPtvvnnvetlasvPailrkGaewykklgkeksaGtklfslsGkvkkpglyelplgitlkelledyagGvrdgkk.lk 275
+                        rlkPPfPa vG++g+Pt+v nvet+a+ P+i r+G +w++++g+e+++Gtklf++sG+v+ p+++e++++i+lkel+e +agGvr+g++ l 
+  Emu_contig4499.p1 235 RLKPPFPADVGVFGCPTTVANVETVAVAPTICRRGGDWFASFGRERNSGTKLFCISGHVNTPCTVEEEMSISLKELVERHAGGVRGGWDnLL 326
+                        ****************************************************************************************99** PP
+
+           nuoF_fam 276 aviPGGssvpvltaeevldvemdydslakagsrlGtaavivldesvdivklvarlsefykkesCGqCtPCreGtgWlvkilerleegegkke 367
+                        a+iPGGssvp+l+ + + dv md+d+l +++s+lGtaaviv+d+s d+v  +arls fyk+esCGqCtPCreGtgWl+ki++r+++g++k  
+  Emu_contig4499.p1 327 AIIPGGSSVPLLPRKICDDVLMDFDALVAVNSGLGTAAVIVMDKSADVVDCIARLSLFYKHESCGQCTPCREGTGWLYKIMDRFVSGNAKPA 418
+                        ******************************************************************************************** PP
+
+           nuoF_fam 368 didkleslskelegktiCalgdaavepvqsaikkfrdefeak 409
+                        +id++ +lsk++eg+tiCalgdaa++pvq+++++fr e+ea+
+  Emu_contig4499.p1 419 EIDMIWELSKQIEGHTICALGDAAAWPVQGLVRHFRPELEAR 460
+                        ***************************************987 PP
+
+>> Emu_contig7269.p1  GENE.Emu_contig7269~~Emu_contig7269.p1  ORF type:complete len:475 (-),score=82.98 Emu_contig7269:1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  626.8   0.0  1.7e-192  3.1e-188       2     409 ..      52     460 ..      51     461 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 626.8 bits;  conditional E-value: 1.7e-192
+           nuoF_fam   2 llkkleekesvtleeyekkggykalkkaleelspddiieevkesglrGrGGaGfptGlkWsfipkde.akpkylvvnadesePgtfkdrdll 92 
+                        ++++l+ +++++l+ ++++g++ ++k++l +  +d+i++evk+sglrGrGGaGfp+GlkWsf+ k    +pkylvvnade+ePgt+kdr+++
+  Emu_contig7269.p1  52 IFTNLYGRHDWKLKGAMSRGDWYKTKEILVK-GHDWILQEVKKSGLRGRGGAGFPSGLKWSFMNKPPdGRPKYLVVNADEGEPGTCKDREIM 142
+                        789999***********************99.*********************************8779*********************** PP
+
+           nuoF_fam  93 eaePhklieGliiaayalkakkgyiyirGefvkeakaleaaideayaagllGknilgsgfdlelvvheGaGayiCGeetallesleGkkgqP 184
+                        +++Phkl+eG++ia++a++a+++yiyirGef++ea++++ ai+eay+agl+Gkn +gs++d+++++h+GaGayiCGeetal+esleGk g+P
+  Emu_contig7269.p1 143 RHDPHKLVEGCLIAGRAMGARAAYIYIRGEFYNEASNMQVAIQEAYEAGLIGKNACGSNYDFDIYMHRGAGAYICGEETALIESLEGKAGKP 234
+                        ******************************************************************************************** PP
+
+           nuoF_fam 185 rlkPPfPavvGlygkPtvvnnvetlasvPailrkGaewykklgkeksaGtklfslsGkvkkpglyelplgitlkelledyagGvrdgkk.lk 275
+                        rlkPPfPa vG++g+Pt+v nvet+a+ P+i r+G +w++++g+e+++Gtklf++sG+v+ p+++e++++i+lkel+e +agGvr+g++ l 
+  Emu_contig7269.p1 235 RLKPPFPADVGVFGCPTTVANVETVAVAPTICRRGGDWFASFGRERNSGTKLFCISGHVNTPCTVEEEMSISLKELVERHAGGVRGGWDnLL 326
+                        ****************************************************************************************99** PP
+
+           nuoF_fam 276 aviPGGssvpvltaeevldvemdydslakagsrlGtaavivldesvdivklvarlsefykkesCGqCtPCreGtgWlvkilerleegegkke 367
+                        a+iPGGssvp+l+ + + dv md+d+l +++s+lGtaaviv+d+s d+v  +arls fyk+esCGqCtPCreGtgWl+ki++r+++g++k  
+  Emu_contig7269.p1 327 AIIPGGSSVPLLPRKICDDVLMDFDALVAVNSGLGTAAVIVMDKSADVVDCIARLSLFYKHESCGQCTPCREGTGWLYKIMDRFVSGNAKPA 418
+                        ******************************************************************************************** PP
+
+           nuoF_fam 368 didkleslskelegktiCalgdaavepvqsaikkfrdefeak 409
+                        +id++ +lsk++eg+tiCalgdaa++pvq+++++fr e+ea+
+  Emu_contig7269.p1 419 EIDMIWELSKQIEGHTICALGDAAAWPVQGLVRHFRPELEAR 460
+                        ***************************************987 PP
+
+>> Emu_contig693.p1  GENE.Emu_contig693~~Emu_contig693.p1  ORF type:internal len:108 (-),score=11.75 Emu_contig693:1-321
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.0      0.17   3.2e+03      70      88 ..      42      60 ..      38      63 .. 0.82
+   2 ?    9.2   0.0   5.5e-05         1      60      98 ..      64     102 ..      59     104 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 0.17
+          nuoF_fam 70 kpkylvvnadesePgtfkd 88
+                       + +l +n d s   t++d
+  Emu_contig693.p1 42 AESFLWCNFDLSVCDTCRD 60
+                      5679999999999999998 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 5.5e-05
+          nuoF_fam  60 kWsfipkdeakpkylvvnadesePgtfkdrdlleaePhk 98 
+                       k sfi+k eak+++l+ ++d  e g    + l++++Ph+
+  Emu_contig693.p1  64 KHSFITKTEAKQRFLLKDCDFEERGGPSLKYLVKRNPHS 102
+                       89************************************6 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (410 nodes)
+Target sequences:                      55996  (20805003 residues searched)
+Passed MSV filter:                      1323  (0.0236267); expected 1119.9 (0.02)
+Passed bias filter:                     1157  (0.0206622); expected 1119.9 (0.02)
+Passed Vit filter:                        52  (0.000928638); expected 56.0 (0.001)
+Passed Fwd filter:                         3  (5.35753e-05); expected 0.6 (1e-05)
+Initial search space (Z):              55996  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.48u 0.01s 00:00:00.49 Elapsed: 00:00:00.17
+# Mc/sec: 47850.84
+//
+[ok]

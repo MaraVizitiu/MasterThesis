@@ -1,0 +1,188 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../spongilla_transcriptome_annotated_200501.fasta
+           62,180 sequences; 38,807,050 total letters
+
+
+
+Query= Ephydatia_muelleri_RQUA
+
+Length=292
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+c95408_g1_i1|c95408-g1 (Methyl-transferase) - emapper OG|NA           507     0.0  
+c103259_g1_i1|c103259-g1 AS3MT (arsenic (3 oxidation state) methy...  36.6    0.019
+c103259_g1_i2|c103259-g1 AS3MT (arsenic (3 oxidation state) methy...  36.2    0.021
+c104520_g4_i1|c104520-g4|NA                                           29.3    0.93 
+c106532_g1_i1|c106532-g1|NA                                           28.1    1.9  
+c102583_g5_i1|c102583-g2 1-to-2 LRBA,NBEA LPS responsive beige-li...  28.1    6.0  
+c102139_g1_i1|c102139-g1 1-to-2 PCMTD2,PCMTD1 protein-L-isoaspart...  28.1    8.1  
+c102139_g1_i2|c102139-g1 1-to-2 PCMTD2,PCMTD1 protein-L-isoaspart...  28.1    8.1  
+
+
+>c95408_g1_i1|c95408-g1 (Methyl-transferase) - emapper OG|NA
+Length=1226
+
+ Score = 507 bits (1305),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 238/282 (84%), Positives = 256/282 (91%), Gaps = 1/282 (0%)
+ Frame = -1
+
+Query  1     MSMLTRLAFQMC-LRNTKLTPMVNGPFQVLKTSTVTSSPLVRPEEVGARFTNDVPSYMTD  59
+             MS   R AFQ+C  RN  LTP VNGPF  L TSTV SSPL R E++ ARFT DVPSYMT+
+Sbjct  1127  MSRFVRSAFQICQRRNIALTPTVNGPFPALTTSTVASSPLARAEDLDARFTKDVPSYMTE  948
+
+Query  60    IYTWAYVNPTNVRLLDNQYVVDTILFFNARVLEREVLSRLEPGCKAIQVGHTHGRLVPHA  119
+              YTWAYVNPTNVRLLDNQYVVDT+LFFNAR+LEREV+SRLEPGCKA+QVGHTHG LVP A
+Sbjct  947   TYTWAYVNPTNVRLLDNQYVVDTLLFFNARILEREVISRLEPGCKAVQVGHTHGHLVPRA  768
+
+Query  120   AKKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGDACVAENILPKGEVPYDVAYAF  179
+             AKKIGP G FSVVDV PIQADHAQEKV+ FPWC+VRLGDAC+AENILPKGE P+DVAYAF
+Sbjct  767   AKKIGPTGVFSVVDVTPIQADHAQEKVRGFPWCRVRLGDACIAENILPKGEEPHDVAYAF  588
+
+Query  180   MILHEVPDDRKYQIVNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWLEPFALR  239
+             MILHEVPDDRKYQIVNNML+SVREGGRVVWVEYHGPPYWYNPTRYFMP++FNWLEPFALR
+Sbjct  587   MILHEVPDDRKYQIVNNMLQSVREGGRVVWVEYHGPPYWYNPTRYFMPYIFNWLEPFALR  408
+
+Query  240   MWDTEIEAFADEDLKKQFTWSKTVYGGNLYQVVVAENRQVPK  281
+             MWDTEIE+FAD+DLKKQFTWSKTVYGGNLYQVVVAENRQV +
+Sbjct  407   MWDTEIESFADKDLKKQFTWSKTVYGGNLYQVVVAENRQVSR  282
+
+
+>c103259_g1_i1|c103259-g1 AS3MT (arsenic ( 3 oxidation state) 
+methyltransferase) - emapper OG|NA
+Length=1398
+
+ Score = 36.6 bits (83),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 38/158 (24%), Positives = 70/158 (44%), Gaps = 15/158 (9%)
+ Frame = -2
+
+Query  59    DIYTWAYVNPTNVRLLDNQYVVDTILFFNARVLER-----EVLSRLEPGCKAIQVGHTHG  113
+             D+ T A    +  R+  +Q V   +   +  VL +      V  +   GC  + +G   G
+Sbjct  1226  DLKTNACCTASGARM--SQQVKQALSLCHEEVLTKFYGCGSVFPQAPEGCNVLDLGCGTG  1053
+
+Query  114   RLVPHAAKKIGPKGDFSVVDVVPIQAD----HAQEKVQDF--PWCKVRLGDACVAE-NIL  166
+             R     +K +GP G  + VD+ P Q +    H Q  ++ F    C V   +  V + + +
+Sbjct  1052  RDCFVLSKLVGPMGHVTGVDMTPEQLEVARRHTQYHMKQFGHTSCNVDFLEGYVEKLDTV  873
+
+Query  167   PKGEVPYDVAYAFMILHEVPDDRK-YQIVNNMLRSVRE  203
+                +  +DV  +  +++ VPD R  +Q V+ +L++  E
+Sbjct  872   GIKDNSFDVVISNCVVNLVPDKRAVFQEVHRVLKTGGE  759
+
+
+>c103259_g1_i2|c103259-g1 AS3MT (arsenic ( 3 oxidation state) 
+methyltransferase) - emapper OG|NA
+Length=1341
+
+ Score = 36.2 bits (82),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 38/158 (24%), Positives = 70/158 (44%), Gaps = 15/158 (9%)
+ Frame = -1
+
+Query  59    DIYTWAYVNPTNVRLLDNQYVVDTILFFNARVLER-----EVLSRLEPGCKAIQVGHTHG  113
+             D+ T A    +  R+  +Q V   +   +  VL +      V  +   GC  + +G   G
+Sbjct  1173  DLKTNACCTASGARM--SQQVKQALSLCHEEVLTKFYGCGSVFPQAPEGCNVLDLGCGTG  1000
+
+Query  114   RLVPHAAKKIGPKGDFSVVDVVPIQAD----HAQEKVQDF--PWCKVRLGDACVAE-NIL  166
+             R     +K +GP G  + VD+ P Q +    H Q  ++ F    C V   +  V + + +
+Sbjct  999   RDCFVLSKLVGPMGHVTGVDMTPEQLEVARRHTQYHMKQFGHTSCNVDFLEGYVEKLDTV  820
+
+Query  167   PKGEVPYDVAYAFMILHEVPDDRK-YQIVNNMLRSVRE  203
+                +  +DV  +  +++ VPD R  +Q V+ +L++  E
+Sbjct  819   GIKDNSFDVVISNCVVNLVPDKRAVFQEVHRVLKTGGE  706
+
+
+>c104520_g4_i1|c104520-g4|NA
+Length=264
+
+ Score = 29.3 bits (64),  Expect = 0.93, Method: Composition-based stats.
+ Identities = 13/27 (48%), Positives = 15/27 (56%), Gaps = 0/27 (0%)
+ Frame = -1
+
+Query  214  GPPYWYNPTRYFMPFVFNWLEPFALRM  240
+            GPP +Y P  Y  PFV      F+LRM
+Sbjct  156  GPPTYYIPLFYQHPFVLLEQHSFSLRM  76
+
+
+>c106532_g1_i1|c106532-g1|NA
+Length=223
+
+ Score = 28.1 bits (61),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 10/29 (34%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+ Frame = +2
+
+Query  99   LEPGCKAIQVGHTHGRLVPHAAKKIGPKG  127
+            ++PG K + +G   G  V H +  +GP+G
+Sbjct  134  MKPGSKVLYLGAASGTTVSHVSDLVGPEG  220
+
+
+>c102583_g5_i1|c102583-g2 1-to-2 LRBA,NBEA LPS responsive beige-like 
+anchor protein|NA
+Length=660
+
+ Score = 28.1 bits (61),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 24/47 (51%), Gaps = 3/47 (6%)
+ Frame = -1
+
+Query  194  VNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWL---EPFA  237
+            +N +L + RE     W++   PP+ Y      M FV +WL   EPF+
+Sbjct  411  LNPVLLAQREEKFETWLDDQVPPFLYGTHYSTMAFVLHWLVRVEPFS  271
+
+
+>c102139_g1_i1|c102139-g1 1-to-2 PCMTD2,PCMTD1 protein-L-isoaspartate 
+(D-aspartate) O-methyltransferase domain containing 
+2|NA
+Length=1512
+
+ Score = 28.1 bits (61),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+ Frame = -2
+
+Query  98    RLEPGCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQADHAQEKVQDF  149
+              L+PG   + +G   G     A   IGP G    V++     ++A +KV  F
+Sbjct  1154  ELKPGMSFLNIGSGTGYFSTMAGLLIGPYGTNHGVEIYEDNVEYANDKVAQF  999
+
+
+>c102139_g1_i2|c102139-g1 1-to-2 PCMTD2,PCMTD1 protein-L-isoaspartate 
+(D-aspartate) O-methyltransferase domain containing 
+2|NA
+Length=1524
+
+ Score = 28.1 bits (61),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+ Frame = -2
+
+Query  98    RLEPGCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQADHAQEKVQDF  149
+              L+PG   + +G   G     A   IGP G    V++     ++A +KV  F
+Sbjct  1166  ELKPGMSFLNIGSGTGYFSTMAGLLIGPYGTNHGVEIYEDNVEYANDKVAQF  1011
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1365414988
+
+
+  Database: ../spongilla_transcriptome_annotated_200501.fasta
+    Posted date:  Aug 28, 2022  11:31 PM
+  Number of letters in database: 38,807,050
+  Number of sequences in database:  62,180
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

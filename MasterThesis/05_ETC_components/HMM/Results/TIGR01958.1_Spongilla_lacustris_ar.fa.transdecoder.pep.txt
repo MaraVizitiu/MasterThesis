@@ -1,0 +1,77 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR01958.1.HMM
+# target sequence database:        ../Predicted_proteins/Spongilla_lacustris_ar.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       nuoE_fam  [M=148]
+Accession:   TIGR01958.1
+Description: JCVI: NADH-quinone oxidoreductase subunit NuoE
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                                 -----------
+    5.2e-56  189.0   0.1    6.5e-56  188.7   0.1    1.1  1  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7784.p1  GENE.Spongilla_nonrepro_s_8_1_se
+  ------ inclusion threshold ------
+      0.048   13.9   0.1      0.086   13.1   0.1    1.4  1  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3449.p1  GENE.Spongilla_nonrepro_s_8_1_se
+
+
+Domain annotation for each sequence (and alignments):
+>> Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7784.p1  GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7784~
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  188.7   0.1   6.3e-60   6.5e-56       2     147 ..      66     211 ..      65     212 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 188.7 bits;  conditional E-value: 6.3e-60
+                                                  nuoE_fam   2 ieeaikkypddqkrsaileaLkeaqeekGwvaaealeavAelleipaveveev 54 
+                                                               ie+++k+yp+ +k +a++++L+ aq+++ w++ +a+++vAe+l++++++v+ev
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7784.p1  66 IEAIVKNYPEVHKAAAVIPVLDLAQRQHRWLPISAMNKVAEILGMSRMRVYEV 118
+                                                               899************************************************** PP
+
+                                                  nuoE_fam  55 atFYsmfetepvgryklqvCttvvCaLrGseallkalekklgiklgettkdgk 107
+                                                               atFY+mf+++pvg+y++qvCtt++C+Lr s+a+++a+ kkl+i++g+tt+dg 
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7784.p1 119 ATFYTMFNRNPVGKYHIQVCTTTPCMLRDSDAIVSAICKKLNIEMGQTTHDGL 171
+                                                               ***************************************************** PP
+
+                                                  nuoE_fam 108 ftlkeveClgaCeeaPvllvnedtyerlteekleelleel 147
+                                                               ftl+eveClgaC++aP++++n+d+ye+l++  +e++l+el
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7784.p1 172 FTLSEVECLGACVNAPMVQINDDYYEDLSPRDVERILDEL 211
+                                                               *************************************987 PP
+
+>> Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3449.p1  GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3449~
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.1   8.3e-06     0.086      65     118 ..      42      95 ..      37     119 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 8.3e-06
+                                                  nuoE_fam  65 pvgryklqvCttvvCaLrGseallkalekklgiklgettkdgkftlkeveClg 117
+                                                                + r++  v +++ C+L+ se+ ++a ek l+ +l+++ + + +++   +Cl 
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3449.p1  42 RKQRMNTDVRKNIFCILMTSEDYIDAFEKLLKLHLNDVQDREIVHVLVDCCLQ 94 
+                                                               5678899999****************************999999999999986 PP
+
+                                                  nuoE_fam 118 a 118
+                                                                
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3449.p1  95 E 95 
+                                                               5 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (148 nodes)
+Target sequences:                      20640  (4752597 residues searched)
+Passed MSV filter:                       552  (0.0267442); expected 412.8 (0.02)
+Passed bias filter:                      387  (0.01875); expected 412.8 (0.02)
+Passed Vit filter:                        32  (0.00155039); expected 20.6 (0.001)
+Passed Fwd filter:                         2  (9.68992e-05); expected 0.2 (1e-05)
+Initial search space (Z):              20640  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.05
+# Mc/sec: 13722.78
+//
+[ok]

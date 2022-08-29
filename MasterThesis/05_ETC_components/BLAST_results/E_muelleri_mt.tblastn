@@ -1,0 +1,184 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: E_muelleri_mt_genome.fasta
+           1 sequences; 23,946 total letters
+
+
+
+Query= ND1_Homo_sapiens
+
+Length=318
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+LT158504.1 Ephydatia muelleri genome assembly, organelle: mitocho...  241     4e-75
+
+
+>LT158504.1 Ephydatia muelleri genome assembly, organelle: mitochondrion
+Length=23946
+
+ Score = 241 bits (616),  Expect = 4e-75, Method: Compositional matrix adjust.
+ Identities = 154/315 (49%), Positives = 221/315 (70%), Gaps = 9/315 (3%)
+ Frame = +1
+
+Query  11     VPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEPLKPATStitl  70
+              VP+LI++A+L L ERK+LGY+Q RKGPNVVG YGLLQP AD +KLF KE + P  + I +
+Sbjct  16513  VPLLISIAYLTLAERKVLGYIQCRKGPNVVGVYGLLQPLADGLKLFIKEIIIPNHANIFI  16692
+
+Query  71     yitaptlaltialll--wtplpmpnplvnlnlgllfilATSSLAVYSILWSGWASNSNYA  128
+              YI AP L+LT+A +     P        +L +G+L++ A SS++VY+IL SG +SNS YA
+Sbjct  16693  YIMAPILSLTLAFMA*GVIPYGQGIVFSDLGIGILYLFAVSSISVYAILMSG*SSNSKYA  16872
+
+Query  129    LIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLITTQEHLWLLLPSWPLAMMWFIS  188
+               +GA+RA AQ ISYEV++ +I++S +L  GS NL+ ++ TQ+ +  ++P +P A+M+F+S
+Sbjct  16873  FLGAIRAAAQMISYEVSIGLIIISVVLCVGSLNLTEIVLTQKPI*FIIPLFPAAIMFFVS  17052
+
+Query  189    TLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYtniimmntltttiflgttYD  248
+               LAETNR PFDL EGESELVSG+N+EY++  FALFF+AEY +II+M+T    +FLG    
+Sbjct  17053  ALAETNRVPFDLTEGESELVSGYNVEYSSMSFALFFLAEYAHIILMSTFGVILFLGG*MV  17232
+
+Query  249    ALSPEL-YTTYFV------TKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLALL  301
+                +P L +   F+       K  ++  LF+W+R +YPR RYDQLM LL K++LPL+LA +
+Sbjct  17233  TSAPWLNHANIFILSPILGLKVSIIIFLFIWVRASYPRIRYDQLMVLL*KSYLPLSLAFV  17412
+
+Query  302    MWYVSMPITISSIPP  316
+              +    + I  +++PP
+Sbjct  17413  VLVSGILIGFNALPP  17457
+
+
+ Score = 20.4 bits (41),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 10/25 (40%), Positives = 13/25 (52%), Gaps = 2/25 (8%)
+ Frame = -1
+
+Query  36    GPNVVGPYGLLQPFADAMKLFTKEP  60
+             GPN VGP  +L P   A  +  + P
+Sbjct  6894  GPNYVGP--MLSPIRTAPAMARRRP  6826
+
+
+ Score = 19.2 bits (38),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 10/18 (56%), Gaps = 0/18 (0%)
+ Frame = +2
+
+Query  280    FRYDQLMHLLWKNFLPLT  297
+              FRY    HLL  + LPL 
+Sbjct  15008  FRYCITRHLLCCSSLPLC  15061
+
+
+ Score = 18.1 bits (35),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 11/28 (39%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+ Frame = -2
+
+Query  124   NSNYALIGALRAVAQTISYEVTLAIILL  151
+             N  YA +   +AVA T   ++ L+IIL+
+Sbjct  2306  NLMYAFVTL*KAVAPTKLSDIYLSIILV  2223
+
+
+ Score = 18.1 bits (35),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 8/29 (28%), Positives = 14/29 (48%), Gaps = 0/29 (0%)
+ Frame = +2
+
+Query  278    PRFRYDQLMHLLWKNFLPLTLALLMWYVS  306
+              P  R   +   LW   LP+ ++L +W + 
+Sbjct  17918  PCLRLSPVPGWLWTILLPIGISLGLWAIG  18004
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.137    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2125776
+
+
+Query= ND1_Amphimedon_queenslandica
+
+Length=314
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+LT158504.1 Ephydatia muelleri genome assembly, organelle: mitocho...  394     2e-128
+
+
+>LT158504.1 Ephydatia muelleri genome assembly, organelle: mitochondrion
+Length=23946
+
+ Score = 394 bits (1013),  Expect = 2e-128, Method: Compositional matrix adjust.
+ Identities = 219/303 (72%), Positives = 253/303 (83%), Gaps = 18/303 (6%)
+ Frame = +1
+
+Query  30     ERKVLGYIQSRKGPNIEGVWGVIQPFADGLKLFTKEMIMPNHANIFLYWLSPIFSLTLAF  89
+              ERKVLGYIQ RKGPN+ GV+G++QP ADGLKLF KE+I+PNHANIF+Y ++PI SLTLAF
+Sbjct  16552  ERKVLGYIQCRKGPNVVGVYGLLQPLADGLKLFIKEIIIPNHANIFIYIMAPILSLTLAF  16731
+
+Query  90     IAWGVMPYSNGIVFSDLGQGLLYIFAVSSISVYAVLMSGWASNSRYGFLGAIRAAAQMIS  149
+              +A GV+PY  GIVFSDLG G+LY+FAVSSISVYA+LMSG +SNS+Y FLGAIRAAAQMIS
+Sbjct  16732  MA*GVIPYGQGIVFSDLGIGILYLFAVSSISVYAILMSG*SSNSKYAFLGAIRAAAQMIS  16911
+
+Query  150    YEvsigliiisvvlcvgslNLTQIVMAQGYMWYIAPLWPAAMMFFVSALAETNRVPFDLT  209
+              YEVSIGLIIISVVLCVGSLNLT+IV+ Q  + +I PL+PAA+MFFVSALAETNRVPFDLT
+Sbjct  16912  YEVSIGLIIISVVLCVGSLNLTEIVLTQKPI*FIIPLFPAAIMFFVSALAETNRVPFDLT  17091
+
+Query  210    EGESELVSGFNVEYPSMSFALFFLAEYANIILMSALSAVLFLGG------GW--------  255
+              EGESELVSG+NVEY SMSFALFFLAEYA+IILMS    +LFLGG       W        
+Sbjct  17092  EGESELVSGYNVEYSSMSFALFFLAEYAHIILMSTFGVILFLGG*MVTSAPWLNHANIFI  17271
+
+Query  256    ----LGVKTSVIVYIFIWIRATFPRVRYDQLMALLWKSYLPLSLGFVTLVSGTLIGVNGL  311
+                  LG+K S+I+++FIW+RA++PR+RYDQLM LL KSYLPLSL FV LVSG LIG N L
+Sbjct  17272  LSPILGLKVSIIIFLFIWVRASYPRIRYDQLMVLL*KSYLPLSLAFVVLVSGILIGFNAL  17451
+
+Query  312    LPY  314
+               PY
+Sbjct  17452  PPY  17460
+
+
+ Score = 20.0 bits (40),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+ Frame = +2
+
+Query  256    LGVKTSVIVYIFIWIRA  272
+                ++ SV  +IFIW+R+
+Sbjct  18953  FCIRRSVFWFIFIWMRS  19003
+
+
+ Score = 18.1 bits (35),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 18/55 (33%), Positives = 24/55 (44%), Gaps = 7/55 (13%)
+ Frame = -1
+
+Query  74    IFLYWLSPIFSLTLAFIAWGVMPYSNGIVF----SDLGQGLLYIFAVSSISVYAV  124
+             IF  WL P     L+      +P+   I+F    SDLG  LL       +SVY +
+Sbjct  1116  IFQRWLVPSL---LSHCLNLQIPFYT*IIFMTLTSDLGCSLLDNGPSRPLSVYHI  961
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2094048
+
+
+  Database: E_muelleri_mt_genome.fasta
+    Posted date:  Aug 28, 2022  10:43 PM
+  Number of letters in database: 23,946
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

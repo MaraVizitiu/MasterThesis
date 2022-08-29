@@ -1,0 +1,229 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../Spongilla_lacustris_ar.fa
+           56,696 sequences; 29,120,864 total letters
+
+
+
+Query= Ephydatia_muelleri_RQUA
+
+Length=292
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14571                503     1e-180
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1447                 45.4    1e-05 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2372                 32.7    0.22  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4639                 32.3    0.33  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_29671                28.5    0.83  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_19749                29.3    2.0   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24882                29.3    2.4   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14245                28.9    3.3   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8481                 28.1    6.7   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9523                 25.4    7.3   
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14571
+Length=1200
+
+ Score = 503 bits (1295),  Expect = 1e-180, Method: Compositional matrix adjust.
+ Identities = 237/282 (84%), Positives = 255/282 (90%), Gaps = 1/282 (0%)
+ Frame = -3
+
+Query  1    MSMLTRLAFQMC-LRNTKLTPMVNGPFQVLKTSTVTSSPLVRPEEVGARFTNDVPSYMTD  59
+            MS   R AFQ+C  RN  LTP VNGPF  L TSTV SSPL R E++ ARFT DVPSYMT+
+Sbjct  988  MSRFVRSAFQICQRRNIVLTPTVNGPFPALTTSTVASSPLARAEDLDARFTKDVPSYMTE  809
+
+Query  60   IYTWAYVNPTNVRLLDNQYVVDTILFFNARVLEREVLSRLEPGCKAIQVGHTHGRLVPHA  119
+             YTWAYVNPTNVRLLDNQYVVDT+LFFNAR+LEREV+SRLEPGCKA+QVGHTHG LVP A
+Sbjct  808  TYTWAYVNPTNVRLLDNQYVVDTLLFFNARILEREVISRLEPGCKAVQVGHTHGHLVPRA  629
+
+Query  120  AKKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGDACVAENILPKGEVPYDVAYAF  179
+            AKKIGP G FSVVDV PIQADHAQ KV+ FPWC+VRLGDAC+AENILPKGE P+DVAYAF
+Sbjct  628  AKKIGPTGIFSVVDVTPIQADHAQVKVRGFPWCRVRLGDACIAENILPKGEEPHDVAYAF  449
+
+Query  180  MILHEVPDDRKYQIVNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWLEPFALR  239
+            MILHEVPDDRKYQIVNNML+SVREGGRVVWVEYHGPPYWYNPTRYFMP++FNWLEPFALR
+Sbjct  448  MILHEVPDDRKYQIVNNMLQSVREGGRVVWVEYHGPPYWYNPTRYFMPYIFNWLEPFALR  269
+
+Query  240  MWDTEIEAFADEDLKKQFTWSKTVYGGNLYQVVVAENRQVPK  281
+            MWDTEIE+FAD+DLKKQFTWSKTVYGGNLYQVVVAENRQV +
+Sbjct  268  MWDTEIESFADKDLKKQFTWSKTVYGGNLYQVVVAENRQVSR  143
+
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+ Frame = +2
+
+Query  10    QMCLRNTKLTPMVNGPFQVLKTSTVTSSPLVRPEEVGARFTN  51
+             Q+ + +  LTP VNGPF  L TSTV SSPL R E++ ARFT 
+Sbjct  1073  QLYI*SIVLTPTVNGPFPALTTSTVASSPLARAEDLDARFTK  1198
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1447
+Length=700
+
+ Score = 45.4 bits (106),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 56/134 (42%), Gaps = 20/134 (15%)
+ Frame = +1
+
+Query  99   LEPGCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVRLGD  158
+            L PG   + +G   G +   AA+++ P G      VV +  DH     +     + R GD
+Sbjct  100  LRPGDHVLDLGCGTGNVTQAAAQRVAPNGR-----VVGLDPDH-----ERILTARARYGD  249
+
+Query  159  ACVAE------NILPKGEVPYDVAYAFMILHEVPDDRKYQIVNNMLRSVREGGRVVWVEY  212
+                E        LP+G   YDV ++  +LH + D  K  +   M RS++ GGR   V  
+Sbjct  250  NGNLEFFEGRAESLPEG--LYDVVFSNYVLHWIED--KKAVFERMYRSLKVGGRFGIVAM  417
+
+Query  213  HGPPYWYNPTRYFM  226
+             GPP      R  M
+Sbjct  418  LGPPVVLRQLRLLM  459
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_2372
+Length=1040
+
+ Score = 32.7 bits (73),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 28/119 (24%), Positives = 55/119 (46%), Gaps = 9/119 (8%)
+ Frame = +1
+
+Query  102  GCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQAD----HAQEKVQDF--PWCKVR  155
+            GC  + +G   GR     +K +GP G  + VD+ P Q +    H Q  ++ F    C V 
+Sbjct  34   GCNVLDLGCGTGRDCFVLSKLVGPMGHVTGVDMTPEQLEVARRHTQYHMKQFGHTSCNVD  213
+
+Query  156  LGDACVAE-NILPKGEVPYDVAYAFMILHEVPDDRKYQIVNNMLRSVREGGRVVWVEYH  213
+              +  V + + +   +  +DV  +  +++ VPD  K  +   + R ++ GG + + + +
+Sbjct  214  FLEGYVEKLDTVGIKDNSFDVVISNCVVNLVPD--KQAVFQEVHRVLKAGGELYFSDVY  384
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4639
+Length=2206
+
+ Score = 32.3 bits (72),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 16/71 (23%), Positives = 33/71 (46%), Gaps = 0/71 (0%)
+ Frame = -2
+
+Query  96    LSRLEPGCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQADHAQEKVQDFPWCKVR  155
+             L  + PG + ++ G   G +  H +K +G  G     +V  +  +HA+   Q +   +  
+Sbjct  1815  LMDVNPGARVVEAGSGSGAMTLHLSKAVGQNGKVYSFEVKDVHLEHAKRNYQRWLKSQQA  1636
+
+Query  156   LGDACVAENIL  166
+              G +  ++N+L
+Sbjct  1635  QGPSGWSDNVL  1603
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_29671
+Length=202
+
+ Score = 28.5 bits (62),  Expect = 0.83, Method: Composition-based stats.
+ Identities = 12/23 (52%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+ Frame = +3
+
+Query  75   DNQYVVDTILFFNARVLEREVLS  97
+            DNQY+V  I  FN RVL  + +S
+Sbjct  96   DNQYLVQAINLFNIRVLPSDAIS  164
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_19749
+Length=786
+
+ Score = 29.3 bits (64),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 26/99 (26%), Positives = 42/99 (42%), Gaps = 29/99 (29%)
+ Frame = -3
+
+Query  99   LEPGCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQADHAQ--------EKVQDFP  150
+            L+ GC    V H        AA+++ P G      VV +  DH +          V++  
+Sbjct  640  LDLGCGTGNVTHI-------AAQRVAPNGK-----VVGLDPDHERILSARTKYSHVENLV  497
+
+Query  151  WCKVRLGDACVAENILPKGEVPYDVAYAFMILHEVPDDR  189
+            + + R  D       LP+G  PYDV ++  +LH + D +
+Sbjct  496  FVEGRAND-------LPEG--PYDVVFSNYVLHWIEDKK  407
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24882
+Length=774
+
+ Score = 29.3 bits (64),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+ Frame = +3
+
+Query  143  QEKVQDFPWCKVRLGDACVAENILPKGEVPYDVA---YAFMILHEVPD  187
+            Q     FP      G  C AEN+  KG + + +A   Y+   +H  P 
+Sbjct  27   QSSAHSFPHLWNLFGTPCCAENVFGKGNILWWIACQHYSRFCIHHCPS  170
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14245
+Length=1691
+
+ Score = 28.9 bits (63),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 24/47 (51%), Gaps = 3/47 (6%)
+ Frame = -3
+
+Query  194   VNNMLRSVREGGRVVWVEYHGPPYWYNPTRYFMPFVFNWL---EPFA  237
+             +N +L + RE     W++   PP+ Y      M FV +WL   EPF+
+Sbjct  1590  LNPVLLAQREEKFETWLDDQVPPFLYGTHYSTMAFVLHWLVRVEPFS  1450
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_8481
+Length=1480
+
+ Score = 28.1 bits (61),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+ Frame = +3
+
+Query  98   RLEPGCKAIQVGHTHGRLVPHAAKKIGPKGDFSVVDVVPIQADHAQEKVQDF  149
+             L+PG   + +G   G     A   IGP G    V++     ++A +KV  F
+Sbjct  360  ELKPGMSFLNIGSGTGYFSTMAGLLIGPYGTNHGVEIYEDNVEYANDKVAQF  515
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_9523
+Length=1006
+
+ Score = 25.4 bits (54),  Expect(2) = 7.3, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 12/19 (63%), Gaps = 0/19 (0%)
+ Frame = -2
+
+Query  195  NNMLRSVREGGRVVWVEYH  213
+            N    +VREGG  +W +YH
+Sbjct  363  NGTFFAVREGGVRLWTQYH  307
+
+
+ Score = 20.0 bits (40),  Expect(2) = 7.3, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 7/9 (78%), Gaps = 0/9 (0%)
+ Frame = -3
+
+Query  150  PWCKVRLGD  158
+            PWC  RLGD
+Sbjct  476  PWCWHRLGD  450
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 882410974
+
+
+  Database: ../Spongilla_lacustris_ar.fa
+    Posted date:  Aug 28, 2022  11:30 PM
+  Number of letters in database: 29,120,864
+  Number of sequences in database:  56,696
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

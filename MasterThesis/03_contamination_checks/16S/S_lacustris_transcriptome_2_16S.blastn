@@ -1,0 +1,438 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: spongilla_transcriptome_annotated_200501.fasta
+           62,180 sequences; 38,807,050 total letters
+
+
+
+Query= V00159.1 Chloroplast Euglena gracilis gene coding for the 5S and 16S
+rRNA
+
+Length=2474
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+c8493_g1_i1|c8493-g1|NA                                               174     3e-42
+c93664_g3_i1|c93664-g3|NA                                             124     5e-27
+c79070_g2_i1|c79070-g2|NA                                             77.9    6e-13
+c103577_g3_i2|c103577-g3|NA                                           73.4    7e-12
+c110583_g1_i1|c110583-g1 1-to-1 NIP7 NIP7, nucleolar pre-rRNA pro...  40.1    0.15 
+c111834_g1_i1|c111834-g1|NA                                           38.3    0.52 
+c108807_g1_i1|c108807-g1|NA                                           38.3    0.52 
+c103577_g3_i1|c103577-g3|NA                                           37.4    0.52 
+c103577_g2_i1|c103577-g2|NA                                           37.4    0.52 
+c103577_g1_i1|c103577-g1|NA                                           37.4    0.52 
+c93664_g2_i1|c93664-g2|NA                                             35.6    1.8  
+c103852_g2_i6|c103852-g2|NA                                           34.6    6.3  
+c103852_g2_i5|c103852-g2|NA                                           34.6    6.3  
+c103852_g2_i4|c103852-g2|NA                                           34.6    6.3  
+c103092_g2_i2|c103092-g2|NA                                           34.6    6.3  
+c103092_g2_i1|c103092-g2|NA                                           34.6    6.3  
+c91973_g1_i1|c91973-g1|NA                                             34.6    6.3  
+c84604_g1_i1|c84604-g1 (Inherit from KOG: Tyrosine kinase) - emap...  34.6    6.3  
+c104413_g1_i2|c104413-g1|NA                                           33.7    6.3  
+c104413_g1_i1|c104413-g1|NA                                           33.7    6.3  
+c95827_g1_i1|c95827-g1|NA                                             33.7    6.3  
+c77766_g1_i1|c77766-g1|NA                                             33.7    6.3  
+c61835_g1_i1|c61835-g1|NA                                             33.7    6.3  
+c24727_g1_i1|c24727-g1|NA                                             33.7    6.3  
+
+
+>c8493_g1_i1|c8493-g1|NA
+Length=367
+
+ Score = 174 bits (192),  Expect = 3e-42
+ Identities = 216/292 (74%), Gaps = 3/292 (1%)
+ Strand=Plus/Minus
+
+Query  867   GACGGTATTTGAGGAATAAGCATCGGCTAATTCCGTGCCAGCAGCCGCGGTAATACGGGA  926
+             |||| ||  ||  ||||||||| ||||||| || |||||||||||||||||||||| |  
+Sbjct  296   GACGTTACCTGCAGAATAAGCACCGGCTAACTCTGTGCCAGCAGCCGCGGTAATACAGAG  237
+
+Query  927   GATGCGAGCGTTATCCGGAATTATTGGGCGTAAAGAGTTTGTAGGCGGTCAAGTGTGTTT  986
+             | |||||||||||  |||||||| ||||||||||| |  |||||| ||   | |  ||  
+Sbjct  236   GGTGCGAGCGTTAATCGGAATTACTGGGCGTAAAGCGAGTGTAGGTGGCTCATTAAGTCA  177
+
+Query  987   AATGTTAAAAGTCAAAGCTTAACTTTGGAAGGGCATTAAAAACTGCTAG-ACTTGAGTAT  1045
+              |||| |||   |   ||||||| | ||||  ||||   | |||| | |  || || |||
+Sbjct  176   CATGTGAAATCCCCGGGCTTAACCTGGGAACTGCATGTGATACTGGTGGTGCTAGAATAT  117
+
+Query  1046  GGTAGGGGTGAAG-GGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACA  1104
+             |  || || ||||  ||||| |  |||||||||||||||||||||||||  | | |||  
+Sbjct  116   GTGAGAGG-GAAGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATG  58
+
+Query  1105  CCAATGGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAGC  1156
+             || ||||||||||||  || || |   |||| |||| ||||||  |||||||
+Sbjct  57    CCGATGGCGAAGGCAGCTTCCTGGCATAATATTGACACTGAGATTCGAAAGC  6
+
+
+>c93664_g3_i1|c93664-g3|NA
+Length=726
+
+ Score = 124 bits (137),  Expect = 5e-27
+ Identities = 128/165 (78%), Gaps = 2/165 (1%)
+ Strand=Plus/Minus
+
+Query  1050  GGGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCAAT  1109
+             ||||| || |||| ||  | |||||||||  ||||| |  | ||   |  |||||||   
+Sbjct  308   GGGGTAAATGGAACTTTTA-TGTAGCGGTAGAATGCTTTAATATAAAATGGAACACCGGA  250
+
+Query  1110  GGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAGCTGAGGGAGCAAAC  1169
+             |||||||||| ||| |||    ||| |||||||||||| |||||||    ||||||||||
+Sbjct  249   GGCGAAGGCAATTTACTAATTAAAT-CTGACGCTGAGACACGAAAGTAAGGGGAGCAAAC  191
+
+Query  1170  AGGATTAGATACCCTGGTAGTCTTGGCCGTAAACTATGGATACTA  1214
+             |||||||||||||||||||||| |  |||||||||||| ||| ||
+Sbjct  190   AGGATTAGATACCCTGGTAGTCCTTACCGTAAACTATGAATATTA  146
+
+
+ Score = 36.5 bits (39),  Expect = 1.8
+ Identities = 53/74 (72%), Gaps = 6/74 (8%)
+ Strand=Plus/Minus
+
+Query  900  CGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAG-CGTTATCCGGAATTATTGGGCGTA  958
+            ||||||||||| |||||| |||||  || |   ||   ||||| | ||      ||||||
+Sbjct  461  CGTGCCAGCAGACGCGGTTATACGTAAGGTCTAAGTTTTTATCAGAAA-----AGGCGTA  407
+
+Query  959  AAGAGTTTGTAGGC  972
+            ||| || |||||||
+Sbjct  406  AAGGGTGTGTAGGC  393
+
+
+>c79070_g2_i1|c79070-g2|NA
+Length=310
+
+ Score = 77.9 bits (85),  Expect = 6e-13
+ Identities = 82/106 (77%), Gaps = 3/106 (3%)
+ Strand=Plus/Plus
+
+Query  1265  GGGGAGTACGCTTGCACAAGTGAAACTCAAAGGAATTGACGG--GGGCCCGCACAAGCGG  1322
+             |||||||| | ||||| |  ||||||| ||||||||||||||  |||| | ||| ||  |
+Sbjct  199   GGGGAGTATGGTTGCAAAGCTGAAACTTAAAGGAATTGACGGAAGGGCAC-CACCAGGAG  257
+
+Query  1323  TGGAGCATGTGGTTTAATTCGATGCAACACGAAGAACCTTACCAGG  1368
+             |||||| || || |||||| ||  |||||||   ||||| ||| ||
+Sbjct  258   TGGAGCCTGCGGCTTAATTTGACTCAACACGGGAAACCTCACCCGG  303
+
+
+>c103577_g3_i2|c103577-g3|NA
+Length=2041
+
+ Score = 73.4 bits (80),  Expect = 7e-12
+ Identities = 81/106 (76%), Gaps = 3/106 (3%)
+ Strand=Plus/Minus
+
+Query  1265  GGGGAGTACGCTTGCACAAGTGAAACTCAAAGGAATTGACGG--GGGCCCGCACAAGCGG  1322
+             |||||||| | | |||    ||||||| ||||||||||||||  |||| | ||| ||  |
+Sbjct  878   GGGGAGTATGGTCGCAAGGCTGAAACTTAAAGGAATTGACGGAAGGGCAC-CACCAGGAG  820
+
+Query  1323  TGGAGCATGTGGTTTAATTCGATGCAACACGAAGAACCTTACCAGG  1368
+             |||||| || || |||||| ||  |||||||  ||| || ||||||
+Sbjct  819   TGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGG  774
+
+
+ Score = 50.9 bits (55),  Expect = 8e-05
+ Identities = 55/72 (76%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1698  GGAATCGCTAGTAATCGCCGGTCAGCTATACGGCGGTGAATACGTTCTCGGGCCTTGTAC  1757
+             |||||  ||||||| ||| |||||||    || || ||| ||||| |  |  | ||||||
+Sbjct  412   GGAATTCCTAGTAAGCGCGGGTCAGCAGCTCG-CGTTGATTACGTCCCTGCCCTTTGTAC  354
+
+Query  1758  ACACCGCCCGTC  1769
+             ||||||||||||
+Sbjct  353   ACACCGCCCGTC  342
+
+
+ Score = 37.4 bits (40),  Expect = 0.52
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  901   GTGCCAGCAGCCGCGGTAAT  920
+             ||||||||||||||||||||
+Sbjct  1422  GTGCCAGCAGCCGCGGTAAT  1403
+
+
+ Score = 34.6 bits (37),  Expect = 6.3
+ Identities = 38/51 (75%), Gaps = 0/51 (0%)
+ Strand=Plus/Minus
+
+Query  1429  GGTGGTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCC  1479
+             ||||||||||||| ||  | || | |||  ||||  |||  |||||| |||
+Sbjct  720   GGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGGTTAATTCC  670
+
+
+>c110583_g1_i1|c110583-g1 1-to-1 NIP7 NIP7, nucleolar pre-rRNA 
+processing protein|NA
+Length=655
+
+ Score = 40.1 bits (43),  Expect = 0.15
+ Identities = 26/29 (90%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  2266  AGCACTTTGACTTTTTCTCCTATGTTTTT  2294
+             |||| |||||| ||||||||||||| |||
+Sbjct  556   AGCAATTTGACATTTTCTCCTATGTATTT  584
+
+
+>c111834_g1_i1|c111834-g1|NA
+Length=201
+
+ Score = 38.3 bits (41),  Expect = 0.52
+ Identities = 22/23 (96%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  2218  AATCTTTTGGTTCTCTTTTAAAA  2240
+             |||||||||||||||| ||||||
+Sbjct  79    AATCTTTTGGTTCTCTGTTAAAA  101
+
+
+>c108807_g1_i1|c108807-g1|NA
+Length=303
+
+ Score = 38.3 bits (41),  Expect = 0.52
+ Identities = 22/23 (96%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  1137  TGACGCTGAGAAACGAAAGCTGA  1159
+             ||||||||||||||||||| |||
+Sbjct  281   TGACGCTGAGAAACGAAAGATGA  259
+
+
+>c103577_g3_i1|c103577-g3|NA
+Length=923
+
+ Score = 37.4 bits (40),  Expect = 0.52
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  901  GTGCCAGCAGCCGCGGTAAT  920
+            ||||||||||||||||||||
+Sbjct  261  GTGCCAGCAGCCGCGGTAAT  242
+
+
+>c103577_g2_i1|c103577-g2|NA
+Length=442
+
+ Score = 37.4 bits (40),  Expect = 0.52
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  901  GTGCCAGCAGCCGCGGTAAT  920
+            ||||||||||||||||||||
+Sbjct  18   GTGCCAGCAGCCGCGGTAAT  37
+
+
+>c103577_g1_i1|c103577-g1|NA
+Length=793
+
+ Score = 37.4 bits (40),  Expect = 0.52
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  901  GTGCCAGCAGCCGCGGTAAT  920
+            ||||||||||||||||||||
+Sbjct  522  GTGCCAGCAGCCGCGGTAAT  541
+
+
+>c93664_g2_i1|c93664-g2|NA
+Length=217
+
+ Score = 35.6 bits (38),  Expect = 1.8
+ Identities = 25/29 (86%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  2111  GGATTTCCGAGGATATCGCTTTTAAACTT  2139
+             |||| |||||||||||| || |||| |||
+Sbjct  38    GGATATCCGAGGATATCCCTATTAACCTT  66
+
+
+>c103852_g2_i6|c103852-g2|NA
+Length=800
+
+ Score = 34.6 bits (37),  Expect = 6.3
+ Identities = 23/26 (88%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  2444  ATATAGAAAAATGTGCAATACTGCAC  2469
+             || ||||||||||| | |||||||||
+Sbjct  184   ATGTAGAAAAATGTACCATACTGCAC  209
+
+
+>c103852_g2_i5|c103852-g2|NA
+Length=801
+
+ Score = 34.6 bits (37),  Expect = 6.3
+ Identities = 23/26 (88%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  2444  ATATAGAAAAATGTGCAATACTGCAC  2469
+             || ||||||||||| | |||||||||
+Sbjct  196   ATGTAGAAAAATGTACCATACTGCAC  221
+
+
+>c103852_g2_i4|c103852-g2|NA
+Length=763
+
+ Score = 34.6 bits (37),  Expect = 6.3
+ Identities = 23/26 (88%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  2444  ATATAGAAAAATGTGCAATACTGCAC  2469
+             || ||||||||||| | |||||||||
+Sbjct  196   ATGTAGAAAAATGTACCATACTGCAC  221
+
+
+>c103092_g2_i2|c103092-g2|NA
+Length=366
+
+ Score = 34.6 bits (37),  Expect = 6.3
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  2023  GTCAAAAACTTCTCCTTTGAG  2043
+             ||||||||||| |||||||||
+Sbjct  283   GTCAAAAACTTTTCCTTTGAG  263
+
+
+>c103092_g2_i1|c103092-g2|NA
+Length=297
+
+ Score = 34.6 bits (37),  Expect = 6.3
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  2023  GTCAAAAACTTCTCCTTTGAG  2043
+             ||||||||||| |||||||||
+Sbjct  214   GTCAAAAACTTTTCCTTTGAG  194
+
+
+>c91973_g1_i1|c91973-g1|NA
+Length=386
+
+ Score = 34.6 bits (37),  Expect = 6.3
+ Identities = 58/82 (71%), Gaps = 3/82 (4%)
+ Strand=Plus/Plus
+
+Query  1689  CATGAAGCCGGAATCGCTAGTAATCGCCGGTCAGCTATACG-GCGGTGAATACGTTCTCG  1747
+             ||||||   |||||  | |||||  || |||||  ||  |  ||| ||| || || |  |
+Sbjct  212   CATGAACGAGGAATTCCCAGTAAGTGCGGGTCA--TAAGCTTGCGTTGATTAAGTCCCTG  269
+
+Query  1748  GGCCTTGTACACACCGCCCGTC  1769
+               | ||||||||||||||||||
+Sbjct  270   CCCTTTGTACACACCGCCCGTC  291
+
+
+>c84604_g1_i1|c84604-g1 (Inherit from KOG: Tyrosine kinase) - 
+emapper OG|NA
+Length=848
+
+ Score = 34.6 bits (37),  Expect = 6.3
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  2263  GTAAGCACTTTGACTTTTTCT  2283
+             |||||||| ||||||||||||
+Sbjct  134   GTAAGCACATTGACTTTTTCT  154
+
+
+>c104413_g1_i2|c104413-g1|NA
+Length=903
+
+ Score = 33.7 bits (36),  Expect = 6.3
+ Identities = 23/25 (92%), Gaps = 1/25 (4%)
+ Strand=Plus/Minus
+
+Query  77   TATCATTATGATGCGATATTTTTGT  101
+            ||||||| |||||||||||| ||||
+Sbjct  54   TATCATT-TGATGCGATATTGTTGT  31
+
+
+>c104413_g1_i1|c104413-g1|NA
+Length=223
+
+ Score = 33.7 bits (36),  Expect = 6.3
+ Identities = 23/25 (92%), Gaps = 1/25 (4%)
+ Strand=Plus/Minus
+
+Query  77   TATCATTATGATGCGATATTTTTGT  101
+            ||||||| |||||||||||| ||||
+Sbjct  54   TATCATT-TGATGCGATATTGTTGT  31
+
+
+>c95827_g1_i1|c95827-g1|NA
+Length=239
+
+ Score = 33.7 bits (36),  Expect = 6.3
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  2070  TGCATGGGAAGAAATTAA  2087
+             ||||||||||||||||||
+Sbjct  72    TGCATGGGAAGAAATTAA  55
+
+
+>c77766_g1_i1|c77766-g1|NA
+Length=250
+
+ Score = 33.7 bits (36),  Expect = 6.3
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  756  GAAGGCAGCAGTGAGGAA  773
+            ||||||||||||||||||
+Sbjct  39   GAAGGCAGCAGTGAGGAA  56
+
+
+>c61835_g1_i1|c61835-g1|NA
+Length=341
+
+ Score = 33.7 bits (36),  Expect = 6.3
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  1754  GTACACACCGCCCGTCAC  1771
+             ||||||||||||||||||
+Sbjct  69    GTACACACCGCCCGTCAC  52
+
+
+>c24727_g1_i1|c24727-g1|NA
+Length=228
+
+ Score = 33.7 bits (36),  Expect = 6.3
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  51   AGGATTTACTGAAATTAAACAAT  73
+            ||| ||||||||||| |||||||
+Sbjct  109  AGGCTTTACTGAAATGAAACAAT  87
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 90474364350
+
+
+  Database: spongilla_transcriptome_annotated_200501.fasta
+    Posted date:  Jan 16, 2022  2:25 PM
+  Number of letters in database: 38,807,050
+  Number of sequences in database:  62,180
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,63 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR02968.1.HMM
+# target sequence database:        ../Predicted_proteins/spongilla_transcriptome_annotated_200501.fasta.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       succ_dehyd_anc  [M=105]
+Accession:   TIGR02968.1
+Description: JCVI: succinate dehydrogenase, hydrophobic membrane anchor protein
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+  ------ inclusion threshold ------
+        5.1    8.0  10.7       0.26   12.1   1.5    2.8  3  c98567_g1_i1|c98567-g1|NA.p1  GENE.c98567_g1_i1|c98567-g1|NA~~
+
+
+Domain annotation for each sequence (and alignments):
+>> c98567_g1_i1|c98567-g1|NA.p1  GENE.c98567_g1_i1|c98567-g1|NA~~c98567_g1_i1|c98567-g1|NA.p1  ORF type:5prime_partial l
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   1.5   8.9e-06      0.26      42     104 ..      54     118 ..      25     121 .. 0.69
+   2 ?   -3.5   0.0      0.63   1.8e+04      21      26 ..     153     158 ..     142     185 .. 0.53
+   3 ?    0.7   0.9     0.033   9.6e+02      16      56 ..     214     252 ..     208     272 .. 0.44
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 8.9e-06
+                succ_dehyd_anc  42 allakplvk..iltllallalllHawiGlrdvleDYvksealrlvlqvlvilvlvayliagvlil 104
+                                   +++++ + +  + ++la  a ll    G+  +++DYv+ +++ ++l +l++ ++++ l++ + ++
+  c98567_g1_i1|c98567-g1|NA.p1  54 KFFKTATQRqyLYLVLATEAYLLALACGVDRIFTDYVTHDGVCAALGFLTQWASITELFFTFSVI 118
+                                   455444444003344444566666778********************999999998887766554 PP
+
+  == domain 2  score: -3.5 bits;  conditional E-value: 0.63
+                succ_dehyd_anc  21 ylifli 26 
+                                   ++i+ i
+  c98567_g1_i1|c98567-g1|NA.p1 153 FVIISI 158
+                                   222222 PP
+
+  == domain 3  score: 0.7 bits;  conditional E-value: 0.033
+                succ_dehyd_anc  16 vvlllyliflivfllalpeatyeawkallakplvkiltlla 56 
+                                    +++l ++  +v  l++ + ++  ++ +  k   ++++ll+
+  c98567_g1_i1|c98567-g1|NA.p1 214 AIVVLTVVTNVV--LCHAACKHRDMSYHHRKRAKEVALLLL 252
+                                   444333333332..333333333333333333333333322 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (105 nodes)
+Target sequences:                      29373  (8488546 residues searched)
+Passed MSV filter:                      1433  (0.0487863); expected 587.5 (0.02)
+Passed bias filter:                      573  (0.0195077); expected 587.5 (0.02)
+Passed Vit filter:                        30  (0.00102135); expected 29.4 (0.001)
+Passed Fwd filter:                         2  (6.80897e-05); expected 0.3 (1e-05)
+Initial search space (Z):              29373  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.17u 0.00s 00:00:00.17 Elapsed: 00:00:00.07
+# Mc/sec: 11308.24
+//
+[ok]

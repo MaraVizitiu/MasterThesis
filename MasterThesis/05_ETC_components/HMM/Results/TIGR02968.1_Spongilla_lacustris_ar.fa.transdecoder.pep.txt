@@ -1,0 +1,61 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TIGR02968.1.HMM
+# target sequence database:        ../Predicted_proteins/Spongilla_lacustris_ar.fa.transdecoder.pep
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       succ_dehyd_anc  [M=105]
+Accession:   TIGR02968.1
+Description: JCVI: succinate dehydrogenase, hydrophobic membrane anchor protein
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                                  -----------
+  ------ inclusion threshold ------
+        9.4    6.6   9.9        1.9    8.8   5.5    2.1  2  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18552.p1  GENE.Spongilla_nonrepro_s_8_1_se
+
+
+Domain annotation for each sequence (and alignments):
+>> Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18552.p1  GENE.Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_1855
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.1      0.11   2.3e+03      17      32 ..       5      20 ..       1      61 [. 0.47
+   2 ?    8.8   5.5   9.3e-05       1.9       9      96 ..      98     187 ..      96     191 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 0.11
+                                             succ_dehyd_anc 17 vlllyliflivfllal 32
+                                                               v + + ++++++ +++
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18552.p1  5 VWACLYVLVAGCSASK 20
+                                                               3333333333333322 PP
+
+  == domain 2  score: 8.8 bits;  conditional E-value: 9.3e-05
+                                             succ_dehyd_anc   9 llqRvtAvvlllyliflivfllalpeatyeawkallakplvkiltllallal 60 
+                                                                ++ R+ Av++++++++++++++++ +++     ++++ + v+ +  +++  +
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18552.p1  98 IVFRIPAVIMAIVCVVMLIYIFCRYSRNARLEDNVMKMNAVRKVAPIIIYPI 149
+                                                                678********************99999888888888777665554444433 PP
+
+                                             succ_dehyd_anc  61 l..lHawiGlrdvleDYvksealrlvlqvlvilvlvay 96 
+                                                                +  + +   + + +e Y++ +++   l + +i+++++y
+  Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18552.p1 150 IftIVSIASIVQSIEGYINHDKVANYLDMSFITLAYIY 187
+                                                                20022333455557888888888888888777766665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (105 nodes)
+Target sequences:                      20640  (4752597 residues searched)
+Passed MSV filter:                      1036  (0.0501938); expected 412.8 (0.02)
+Passed bias filter:                      378  (0.018314); expected 412.8 (0.02)
+Passed Vit filter:                        25  (0.00121124); expected 20.6 (0.001)
+Passed Fwd filter:                         1  (4.84496e-05); expected 0.2 (1e-05)
+Initial search space (Z):              20640  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.05
+# Mc/sec: 8901.04
+//
+[ok]

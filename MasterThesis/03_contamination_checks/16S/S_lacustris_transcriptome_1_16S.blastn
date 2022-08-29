@@ -1,0 +1,652 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Spongilla_lacustris_ar.fa
+           56,696 sequences; 29,120,864 total letters
+
+
+
+Query= V00159.1 Chloroplast Euglena gracilis gene coding for the 5S and 16S
+rRNA
+
+Length=2474
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16667                442     1e-122
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_47657                274     3e-72 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24734                205     1e-51 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25485                168     9e-41 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30682                146     1e-33 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24354                134     2e-30 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16180                124     3e-27 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_37600                80.6    4e-14 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_20367                78.8    1e-13 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_43067                77.0    4e-13 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31116                71.6    2e-11 
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3052                 40.1    0.11  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_37958                38.3    0.38  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16415                38.3    0.38  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_36440                37.4    0.38  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4771                 37.4    0.38  
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_33329                35.6    1.3   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31118                35.6    1.3   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15117                35.6    1.3   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14531                35.6    1.3   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_41315                34.6    4.7   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_44779                33.7    4.7   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_33653                33.7    4.7   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27826                33.7    4.7   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18583                33.7    4.7   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7896                 33.7    4.7   
+Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_889                  33.7    4.7   
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16667
+Length=703
+
+ Score = 442 bits (489),  Expect = 1e-122
+ Identities = 533/717 (74%), Gaps = 20/717 (3%)
+ Strand=Plus/Minus
+
+Query  462   TGCTTAACACATGCAAGTTGAACGAAATTACTAGCAATAGTAATTTAGTGGCGGACGGGT  521
+             |||||||||||||||||| |||||   |    |||||||   |    |||||| ||||||
+Sbjct  703   TGCTTAACACATGCAAGTCGAACGCTGT----AGCAATACAGA----GTGGCGAACGGGT  652
+
+Query  522   GAGTAATATGTAAGAATCTGCGCTTGGGTGAGGAATAACAGATGGAAACGTTTGCTAATG  581
+             ||| ||   ||  ||| |||| | |  || |||||||||    ||||||   ||||||| 
+Sbjct  651   GAGGAACGCGTGGGAACCTGCCCCTCAGTAAGGAATAACTCCGGGAAACTGGTGCTAATA  592
+
+Query  582   CCTCATAATTTACTA---GA--TCTATGTGAGTAGCTAGTTAAAGAGAATTTCGCCTAGG  636
+             ||| |||  || | |   ||  || |  |||   | | || |||||   | ||||  |||
+Sbjct  591   CCTTATA--TTGCGATCGGAAGTCCAAATGACCGG-TCGTGAAAGATT-TATCGCTGAGG  536
+
+Query  637   CATGAGCTTGCATCTGATTAGCTTGTTGGTGAGGTAAAGGCTTACCAAGGCGACGATCAG  696
+              | | ||  || |||||||||||||||||||||||||||||| ||||||||  |||||||
+Sbjct  535   GAGGGGCCCGCGTCTGATTAGCTTGTTGGTGAGGTAAAGGCTCACCAAGGCATCGATCAG  476
+
+Query  697   TAGCTGATTTGAGAGGATGATCAGCCACACTGGGATTGAGA-ACGGAACAGACTTTTACG  755
+             |||||| | |||||||||||||||||||||||||| ||||| ||||  ||||||  ||||
+Sbjct  475   TAGCTGGTCTGAGAGGATGATCAGCCACACTGGGACTGAGACACGGCCCAGACTCCTACG  416
+
+Query  756   GAAGGCAGCAGTGAGGAATTTTCCGCAATGGGCGCAAGCCTGACGGAGCAATACCGCGTG  815
+             | ||||||||||| ||||| ||   ||||||||||||||||||   |||||| |||||||
+Sbjct  415   GGAGGCAGCAGTGGGGAATATTGGACAATGGGCGCAAGCCTGATCCAGCAATGCCGCGTG  356
+
+Query  816   AAGGAAGAAGGCCTTTGGGTTGTAAACTTCTTTTCTCAAAGAAGAAGAAATGACGGTATT  875
+             |  || ||||||||| ||||||||||  ||||||  | | || ||   |||||||||| |
+Sbjct  355   AGTGATGAAGGCCTTCGGGTTGTAAAGCTCTTTTGCCCACGACGA--TAATGACGGTAGT  298
+
+Query  876   TGAGGAATAAGCATCGGCTAATTCCGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAGC  935
+              |  ||||||||  ||||||| | ||||||||||||||||||||||||   |  || |||
+Sbjct  297   GGGAGAATAAGCCCCGGCTAACTTCGTGCCAGCAGCCGCGGTAATACGAAGGGGGCTAGC  238
+
+Query  936   GTTATCCGGAATTATTGGGCGTAAAGAGTTTGTAGGCGGTCAAGTGTGTTTAATGTTAAA  995
+             ||| | |||| ||| ||||||||||| |   |||||||| |  ||  |||    || |||
+Sbjct  237   GTTGTTCGGAGTTACTGGGCGTAAAGGGCGCGTAGGCGGCCCTGTAAGTTAGGCGTGAAA  178
+
+Query  996   AGTCAAAGCTTAACTTTGGAAGGGCATTAAAAACTGCTAGACTTGAGTATGGTAGGGGTG  1055
+                |   ||| |||   ||||  ||  |  | ||||| || |||||| | || || ||||
+Sbjct  177   GCCCTGGGCTCAACCCGGGAATTGCGCTTGATACTGCAAGGCTTGAGGACGGGAGAGGTG  118
+
+Query  1056  AAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCAATGGCGAA  1115
+             |  |||||| | ||||||| |||||||| |||||| ||| | |||||||||| |||||||
+Sbjct  117   AGTGGAATTCCTAGTGTAGAGGTGAAATTCGTAGATATTAGGAAGAACACCAGTGGCGAA  58
+
+Query  1116  GGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAGCTGAGGGAGCAAACAGG  1172
+             |||   |  || | ||    |||||||||||   |||||||   |||||||||||||
+Sbjct  57    GGCGGCTCACTGGACCGTATCTGACGCTGAGGCGCGAAAGCGTGGGGAGCAAACAGG  1
+
+
+ Score = 40.1 bits (43),  Expect = 0.11
+ Identities = 23/24 (96%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  228  CGTTCAACTTGCATGTGTTAAGCA  251
+            ||||| ||||||||||||||||||
+Sbjct  680  CGTTCGACTTGCATGTGTTAAGCA  703
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_47657
+Length=383
+
+ Score = 274 bits (303),  Expect = 3e-72
+ Identities = 293/384 (76%), Gaps = 5/384 (1%)
+ Strand=Plus/Minus
+
+Query  811   GCGTGAAGGAAGAAGGCCTTTGGGTTGTAAACTTCTTTTCTCAAAGAAGAAG---AAATG  867
+             |||||| ||| ||||||||| ||||||||||| |||||    |  |||||||   || ||
+Sbjct  383   GCGTGAGGGATGAAGGCCTTCGGGTTGTAAACCTCTTTCAGTAGGGAAGAAGCGAAAGTG  324
+
+Query  868   ACGGTATTTGAGGAATAAGCATCGGCTAATTCCGTGCCAGCAGCCGCGGTAATACGGGAG  927
+             ||||||  | | ||| ||||| ||||||| |  ||||||||||||||||||||||    |
+Sbjct  323   ACGGTACCTAAAGAAGAAGCACCGGCTAACTATGTGCCAGCAGCCGCGGTAATACATAGG  264
+
+Query  928   ATGCGAGCGTTATCCGGAATTATTGGGCGTAAAGAGTTTGTAGGCGGTCAAGTGTGTTTA  987
+              ||| |||||| |||||||||||||||||||||||  | ||||| |||    || ||   
+Sbjct  263   GTGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGAACTCGTAGGTGGTTCGTTGCGTCGG  204
+
+Query  988   ATGTTAAAAGTCAAAG-CTTAACTTTGGAAGGGCATTAAAAACTGCTAGACTTGAGTATG  1046
+              ||| |||| |||| | || |||  | ||   ||| |  | || |    ||| |||| ||
+Sbjct  203   GTGTGAAAA-TCAAGGGCTCAACCCTTGACCTGCACTCGATACGGGCGAACTGGAGTTTG  145
+
+Query  1047  GTAGGGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACC  1106
+             ||||||| ||  |||||| |  ||||||||||| |||||| ||| ||  | | |||||||
+Sbjct  144   GTAGGGGAGACTGGAATTCCTGGTGTAGCGGTGGAATGCGCAGATATCAGGAGGAACACC  85
+
+Query  1107  AATGGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAGCTGAGGGAGCA  1166
+              ||||||||||||  | ||| ||||||||||||| ||||| |  ||||||   |||||| 
+Sbjct  84    GATGGCGAAGGCAGGTCTCTGGGCCAATACTGACACTGAGGAGTGAAAGCGCGGGGAGCG  25
+
+Query  1167  AACAGGATTAGATACCCTGGTAGT  1190
+             ||||||||||||||||||||||||
+Sbjct  24    AACAGGATTAGATACCCTGGTAGT  1
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24734
+Length=260
+
+ Score = 205 bits (226),  Expect = 1e-51
+ Identities = 171/207 (83%), Gaps = 2/207 (1%)
+ Strand=Plus/Minus
+
+Query  645  TGCATCTGATTAGCTTGTTGGTGAGGTAAAGGCTTACCAAGGCGACGATCAGTAGCTGAT  704
+            ||| ||||||||| | ||||||||||||| |||| |||||| | ||||||||||||||||
+Sbjct  231  TGCGTCTGATTAGATAGTTGGTGAGGTAACGGCTCACCAAGTCAACGATCAGTAGCTGAT  172
+
+Query  705  TTGAGAGGATGATCAGCCACACTGGGATTGAGA-ACGGAACAGACTTTTACGGAAGGCAG  763
+             |||||| |||||||||||||| || | ||||| ||||  | ||||  ||||| ||||||
+Sbjct  171  GTGAGAGCATGATCAGCCACACGGGCACTGAGACACGGGCCCGACTCCTACGGGAGGCAG  112
+
+Query  764  CAGTGAGGAATTTTCCGCAATGGGCGCAAGCCTGACGGAGCAATACCGCGTGAAGGAAGA  823
+            |||| |||||| ||   |||||| || ||| ||||   ||| || |||||||||||| ||
+Sbjct  111  CAGTAAGGAATATTGGTCAATGGACGAAAGTCTGAACCAGCCATGCCGCGTGAAGGATGA  52
+
+Query  824  AGG-CCTTTGGGTTGTAAACTTCTTTT  849
+            ||| ||| ||| |||||||||||||||
+Sbjct  51   AGGTCCTCTGGATTGTAAACTTCTTTT  25
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_25485
+Length=442
+
+ Score = 168 bits (186),  Expect = 9e-41
+ Identities = 308/458 (67%), Gaps = 55/458 (12%)
+ Strand=Plus/Plus
+
+Query  755   GGAAGGCAGCAGTGAGGAATTTTCCGCAATGGGCGCAAGCCTGACGGAGCAATACCGCGT  814
+             || ||||||||||| ||||| || | |||||||||||||||||| | ||| || ||||||
+Sbjct  1     GGGAGGCAGCAGTGGGGAATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGT  60
+
+Query  815   GAAGGAAGAAGGCCTTTGG-----------------------------GTTGTAAACTT-  844
+             | | |||||||||||| ||                             |  ||||| || 
+Sbjct  61    GTATGAAGAAGGCCTTCGGNNNNNNNNNNNNNNNNNNNNNNNNGGAAGGGAGTAAAGTTA  120
+
+Query  845   ----CTTTTCTCAAAGAAGAAGAAATGACGGTATTTGAGGAATAAGCATCGGCTAATTCC  900
+                 |||| ||||            ||||| ||   |  ||| ||||| ||||||| |||
+Sbjct  121   ATACCTTTGCTCAT-----------TGACGTTACCCGCAGAAGAAGCACCGGCTAACTCC  169
+
+Query  901   GTGCCAGCAGCCGCGGTAATACGGGAGATGCGAGCGTTATCCGGAATTATTGGGCGTAAA  960
+             ||||||||||||||||||||||||  | ||| |||||||  |||||||| ||||||||||
+Sbjct  170   GTGCCAGCAGCCGCGGTAATACGGAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAA  229
+
+Query  961   GAGTTTGTAGGCGGT----CAAGTGTGTTTAATGTTAAAAGTCAAAGCTTAACTTTGGAA  1016
+             | ||  | |||||||    ||||   |      || |||   |   ||||||| | ||||
+Sbjct  230   GCGTGCGCAGGCGGTTATACAAGACAG----GCGTGAAATCCCCGGGCTTAACCTGGGAA  285
+
+Query  1017  GGGCATTAAAAACTG-CTAGACTTGAGTATGGTAGGGGTGAAGGGAATTTCCAGTGTAGC  1075
+               ||||     ||||  ||| || |||| ||  || || |    ||||| |  |||||||
+Sbjct  286   TTGCATCTGTGACTGTATAG-CTAGAGTGTGTCAGAGGGGGGTAGAATTCCACGTGTAGC  344
+
+Query  1076  GGTGAAATGCGTAGAGATTGGAAAGAACACCAATGGCGAAGGCACTTTTCTAGGCCAATA  1135
+              |||||||||||||| ||  | | ||| ||||||||||||||||     || ||  || |
+Sbjct  345   AGTGAAATGCGTAGATATGTGGAGGAATACCAATGGCGAAGGCAGCCCCCTGGGATAACA  404
+
+Query  1136  CTGACGCTGAGAAACGAAAGCTGAGGGAGCAAACAGGA  1173
+             |||||||| |   ||||||||   ||||||||||||||
+Sbjct  405   CTGACGCTCATGCACGAAAGCGTGGGGAGCAAACAGGA  442
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_30682
+Length=343
+
+ Score = 146 bits (161),  Expect = 1e-33
+ Identities = 211/292 (72%), Gaps = 12/292 (4%)
+ Strand=Plus/Plus
+
+Query  426  GAGTTTGATCCTTGCTCAGGGTGAACGCTGGCGGTATGCTTAACACATGCAAGTTGAACG  485
+            |||||||||||| ||||||   |||||||||||| ||||||||||||||||||| |||||
+Sbjct  61   GAGTTTGATCCTGGCTCAGAACGAACGCTGGCGGCATGCTTAACACATGCAAGTCGAACG  120
+
+Query  486  AAATTACTAGCAATAGTAATTTAGTGGCGGACGGGTGAGTAATATGTAAGAATCTGCGCT  545
+                |  ||||||   ||    ||||||||||||||||| |||| ||| |||||| | ||
+Sbjct  121  ---GTCATAGCAA---TATGGCAGTGGCGGACGGGTGAGGAATAGGTAGGAATCTACCCT  174
+
+Query  546  TGGGTGAGGAATAACAGATGGAAACGTTTGCTAATGCCTCATAATTTACTAGATCTATGT  605
+                |  ||||||||    ||||||   ||||||| ||  |||  || | |  ||  |  
+Sbjct  175  GCACTACGGAATAACTCTGGGAAACTGGTGCTAATACCGTATA--TTGCGATGTCCCTTC  232
+
+Query  606  GA--GTAGC-TAGTTAAAGAGAATTTCGCCTAGGCATGAGCTTGCATCTGATTAGCTTGT  662
+             |  |  || | || |||||   | |||     | | |||| | | || |||||||||||
+Sbjct  233  CAAGGGGGCATTGTGAAAGA-TTTATCGGTGCAGGAGGAGCCTACCTCCGATTAGCTTGT  291
+
+Query  663  TGGTGAGGTAAAGGCTTACCAAGGCGACGATCAGTAGCTGATTTGAGAGGAT  714
+            ||| | |||||||||  |||||||||| |||| ||||||| | |||||||||
+Sbjct  292  TGGCGGGGTAAAGGCCCACCAAGGCGATGATCGGTAGCTGGTCTGAGAGGAT  343
+
+
+ Score = 41.9 bits (45),  Expect = 0.031
+ Identities = 24/25 (96%), Gaps = 0/25 (0%)
+ Strand=Plus/Minus
+
+Query  228  CGTTCAACTTGCATGTGTTAAGCAT  252
+            ||||| |||||||||||||||||||
+Sbjct  120  CGTTCGACTTGCATGTGTTAAGCAT  96
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_24354
+Length=246
+
+ Score = 134 bits (148),  Expect = 2e-30
+ Identities = 185/255 (73%), Gaps = 13/255 (5%)
+ Strand=Plus/Plus
+
+Query  464  CTTAACACATGCAAGTTGAACGAAATTACTAGCAATAGTAATTTAGTGGCGGACGGGTGA  523
+            |||||||||||||||| |||||    |  ||||||||       ||||||||||||||||
+Sbjct  1    CTTAACACATGCAAGTCGAACGC---TTGTAGCAATACAGG---AGTGGCGGACGGGTGA  54
+
+Query  524  GTAATATGTAAGAATCTGCGCTTGGGTGAGGAATAACAGATGGAAACGTTTGCTAATGCC  583
+            | || | ||  ||| |||| | |  || ||||||||||   ||||||   ||||||| ||
+Sbjct  55   GGAACACGTGGGAACCTGCCCCTCAGTAAGGAATAACACCGGGAAACTGGTGCTAATACC  114
+
+Query  584  TCATAATTTACTAGATCT----ATGTGAGTAGCTAGTTAAAGAGAATTTCGCCTAGGCAT  639
+            | ||| |   || || ||    | |    |||  ||| |||||   | ||||  ||| | 
+Sbjct  115  TTATATTGCTCTGGAACTTCAAAGGGTTTTAG--AGTGAAAGATT-TATCGCTGAGGGAG  171
+
+Query  640  GAGCTTGCATCTGATTAGCTTGTTGGTGAGGTAAAGGCTTACCAAGGCGACGATCAGTAG  699
+            | ||  || || |||||||| |||||| |||||| |||||||||||||||||||| ||||
+Sbjct  172  GGGCCCGCGTCCGATTAGCTAGTTGGTAAGGTAATGGCTTACCAAGGCGACGATCGGTAG  231
+
+Query  700  CTGATTTGAGAGGAT  714
+            ||| | |||||||||
+Sbjct  232  CTGGTCTGAGAGGAT  246
+
+
+ Score = 36.5 bits (39),  Expect = 1.3
+ Identities = 21/22 (95%), Gaps = 0/22 (0%)
+ Strand=Plus/Minus
+
+Query  228  CGTTCAACTTGCATGTGTTAAG  249
+            ||||| ||||||||||||||||
+Sbjct  22   CGTTCGACTTGCATGTGTTAAG  1
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16180
+Length=1437
+
+ Score = 124 bits (137),  Expect = 3e-27
+ Identities = 128/165 (78%), Gaps = 2/165 (1%)
+ Strand=Plus/Minus
+
+Query  1050  GGGGTGAAGGGAATTTCCAGTGTAGCGGTGAAATGCGTAGAGATTGGAAAGAACACCAAT  1109
+             ||||| || |||| ||  | |||||||||  ||||| |  | ||   |  |||||||   
+Sbjct  1002  GGGGTAAATGGAACTTTTA-TGTAGCGGTAGAATGCTTTAATATAAAATGGAACACCGGA  944
+
+Query  1110  GGCGAAGGCACTTTTCTAGGCCAATACTGACGCTGAGAAACGAAAGCTGAGGGAGCAAAC  1169
+             |||||||||| ||| |||    ||| |||||||||||| |||||||    ||||||||||
+Sbjct  943   GGCGAAGGCAATTTACTAATTAAAT-CTGACGCTGAGACACGAAAGTAAGGGGAGCAAAC  885
+
+Query  1170  AGGATTAGATACCCTGGTAGTCTTGGCCGTAAACTATGGATACTA  1214
+             |||||||||||||||||||||| |  |||||||||||| ||| ||
+Sbjct  884   AGGATTAGATACCCTGGTAGTCCTTACCGTAAACTATGAATATTA  840
+
+
+ Score = 47.3 bits (51),  Expect = 7e-04
+ Identities = 83/120 (69%), Gaps = 1/120 (1%)
+ Strand=Plus/Minus
+
+Query  1256  ATCCCGCCTGGGGAGTACGCTTGCACAAGTGAAACTCAAAGGAATTGACGGGGGCCCGCA  1315
+             ||||||||||  ||||||| | |||  | | ||| |||||  | ||| |||    |   |
+Sbjct  769   ATCCCGCCTGAAGAGTACGATCGCAAGATTAAAATTCAAAAAATTTGGCGGTTCACTAAA  710
+
+Query  1316  C-AAGCGGTGGAGCATGTGGTTTAATTCGATGCAACACGAAGAACCTTACCAGGATTTGA  1374
+             | ||   | ||||| ||| ||||||||||||    | |||  ||||||||||  | ||||
+Sbjct  709   CCAATTAGAGGAGCGTGTAGTTTAATTCGATAATCCGCGATTAACCTTACCAAAACTTGA  650
+
+
+ Score = 36.5 bits (39),  Expect = 1.3
+ Identities = 53/74 (72%), Gaps = 6/74 (8%)
+ Strand=Plus/Minus
+
+Query  900   CGTGCCAGCAGCCGCGGTAATACGGGAGATGCGAG-CGTTATCCGGAATTATTGGGCGTA  958
+             ||||||||||| |||||| |||||  || |   ||   ||||| | ||      ||||||
+Sbjct  1155  CGTGCCAGCAGACGCGGTTATACGTAAGGTCTAAGTTTTTATCAGAAA-----AGGCGTA  1101
+
+Query  959   AAGAGTTTGTAGGC  972
+             ||| || |||||||
+Sbjct  1100  AAGGGTGTGTAGGC  1087
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_37600
+Length=251
+
+ Score = 80.6 bits (88),  Expect = 4e-14
+ Identities = 62/74 (84%), Gaps = 0/74 (0%)
+ Strand=Plus/Plus
+
+Query  638  ATGAGCTTGCATCTGATTAGCTTGTTGGTGAGGTAAAGGCTTACCAAGGCGACGATCAGT  697
+            |||||| ||| |  |||||||| ||||||  ||||||||| ||||||||||||||||  |
+Sbjct  173  ATGAGCCTGCGTTAGATTAGCTAGTTGGTAGGGTAAAGGCCTACCAAGGCGACGATCTAT  232
+
+Query  698  AGCTGATTTGAGAG  711
+            ||||| | ||||||
+Sbjct  233  AGCTGGTCTGAGAG  246
+
+
+ Score = 47.3 bits (51),  Expect = 7e-04
+ Identities = 61/82 (74%), Gaps = 2/82 (2%)
+ Strand=Plus/Plus
+
+Query  508  AGTGGCGGACGGGTGAGTAATATGTAAGAATCTGCGCTTG-GGTGAGGAATAACAGATGG  566
+            ||||||||||||||||||||   ||| |||||||| || |  ||| || | |||    ||
+Sbjct  46   AGTGGCGGACGGGTGAGTAACGCGTAGGAATCTGC-CTCGTAGTGGGGGACAACGTGGGG  104
+
+Query  567  AAACGTTTGCTAATGCCTCATA  588
+            ||||    |||||| || ||||
+Sbjct  105  AAACTCACGCTAATACCGCATA  126
+
+
+ Score = 34.6 bits (37),  Expect = 4.7
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  228  CGTTCAACTTGCATGTGTTAA  248
+            ||||| |||||||||||||||
+Sbjct  21   CGTTCGACTTGCATGTGTTAA  1
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_20367
+Length=280
+
+ Score = 78.8 bits (86),  Expect = 1e-13
+ Identities = 49/53 (92%), Gaps = 0/53 (0%)
+ Strand=Plus/Minus
+
+Query  650  CTGATTAGCTTGTTGGTGAGGTAAAGGCTTACCAAGGCGACGATCAGTAGCTG  702
+            |||||||||||||||||| |||||| ||  |||||||||||||||||||||||
+Sbjct  54   CTGATTAGCTTGTTGGTGGGGTAAAAGCCCACCAAGGCGACGATCAGTAGCTG  2
+
+
+ Score = 48.2 bits (52),  Expect = 2e-04
+ Identities = 59/81 (73%), Gaps = 0/81 (0%)
+ Strand=Plus/Minus
+
+Query  508  AGTGGCGGACGGGTGAGTAATATGTAAGAATCTGCGCTTGGGTGAGGAATAACAGATGGA  567
+            ||||||| ||||||||||||||| |  |||  ||| |    ||| || |||||   | ||
+Sbjct  193  AGTGGCGAACGGGTGAGTAATATATCGGAACGTGCCCAGTCGTGGGGGATAACTACTCGA  134
+
+Query  568  AACGTTTGCTAATGCCTCATA  588
+            ||  | ||||||| || ||||
+Sbjct  133  AAGCTGTGCTAATACCGCATA  113
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_43067
+Length=263
+
+ Score = 77.0 bits (84),  Expect = 4e-13
+ Identities = 57/67 (85%), Gaps = 0/67 (0%)
+ Strand=Plus/Plus
+
+Query  419  AAATGACGAGTTTGATCCTTGCTCAGGGTGAACGCTGGCGGTATGCTTAACACATGCAAG  478
+            || ||| |||||||||| | ||||||  ||||||||||||| | || |||||||||||||
+Sbjct  157  AATTGAAGAGTTTGATCATGGCTCAGATTGAACGCTGGCGGCAGGCCTAACACATGCAAG  216
+
+Query  479  TTGAACG  485
+            | |||||
+Sbjct  217  TCGAACG  223
+
+
+ Score = 33.7 bits (36),  Expect = 4.7
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  228  CGTTCAACTTGCATGTGTTAAGC  250
+            ||||| |||||||||||||| ||
+Sbjct  223  CGTTCGACTTGCATGTGTTAGGC  201
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31116
+Length=280
+
+ Score = 71.6 bits (78),  Expect = 2e-11
+ Identities = 90/118 (76%), Gaps = 7/118 (6%)
+ Strand=Plus/Minus
+
+Query  442  CAGGGTGAACGCTGGCGGTATGCTTAACACATGCAAGTTGAACGAAATTACTAGCAATAG  501
+            ||| ||||||||||||||  || |||| |||||||||| || ||  |||| |||||||| 
+Sbjct  280  CAGAGTGAACGCTGGCGGCGTGGTTAAGACATGCAAGTCGAGCG--ATTA-TAGCAATA-  225
+
+Query  502  TAATTTAGTGGCGGACGGGTGAGTAATATGTAAG-AATCTGCGCTTGGGTGAGGAATA  558
+            |||   || |||  ||||||| |||| | || || ||||||| ||   ||  ||||||
+Sbjct  224  TAA--GAGCGGCAAACGGGTGCGTAACACGTGAGCAATCTGCCCTGAAGTCTGGAATA  169
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_3052
+Length=1460
+
+ Score = 40.1 bits (43),  Expect = 0.11
+ Identities = 26/29 (90%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+
+Query  2266  AGCACTTTGACTTTTTCTCCTATGTTTTT  2294
+             |||| |||||| ||||||||||||| |||
+Sbjct  1348  AGCAATTTGACATTTTCTCCTATGTATTT  1376
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_37958
+Length=331
+
+ Score = 38.3 bits (41),  Expect = 0.38
+ Identities = 22/23 (96%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  1137  TGACGCTGAGAAACGAAAGCTGA  1159
+             ||||||||||||||||||| |||
+Sbjct  101   TGACGCTGAGAAACGAAAGATGA  123
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_16415
+Length=652
+
+ Score = 38.3 bits (41),  Expect = 0.38
+ Identities = 22/23 (96%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  846  TTTTCTCAAAGAAGAAGAAATGA  868
+            |||||| ||||||||||||||||
+Sbjct  156  TTTTCTAAAAGAAGAAGAAATGA  178
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_36440
+Length=237
+
+ Score = 37.4 bits (40),  Expect = 0.38
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Minus
+
+Query  901  GTGCCAGCAGCCGCGGTAAT  920
+            ||||||||||||||||||||
+Sbjct  199  GTGCCAGCAGCCGCGGTAAT  180
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_4771
+Length=666
+
+ Score = 37.4 bits (40),  Expect = 0.38
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  901  GTGCCAGCAGCCGCGGTAAT  920
+            ||||||||||||||||||||
+Sbjct  33   GTGCCAGCAGCCGCGGTAAT  52
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_33329
+Length=782
+
+ Score = 35.6 bits (38),  Expect = 1.3
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  1619  TGCAATTTTGTGAAAATGAGCTAA  1642
+             ||||||||||| ||| ||||||||
+Sbjct  711   TGCAATTTTGTAAAACTGAGCTAA  734
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_31118
+Length=613
+
+ Score = 35.6 bits (38),  Expect = 1.3
+ Identities = 25/29 (86%), Gaps = 0/29 (0%)
+ Strand=Plus/Minus
+
+Query  2111  GGATTTCCGAGGATATCGCTTTTAAACTT  2139
+             |||| |||||||||||| || |||| |||
+Sbjct  474   GGATATCCGAGGATATCCCTATTAACCTT  446
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_15117
+Length=383
+
+ Score = 35.6 bits (38),  Expect = 1.3
+ Identities = 25/28 (89%), Gaps = 2/28 (7%)
+ Strand=Plus/Minus
+
+Query  124  CAAAATGTAAATGAGATAAAAAACATGT  151
+            |||||||||  ||||| |||||||||||
+Sbjct  44   CAAAATGTA--TGAGAAAAAAAACATGT  19
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_14531
+Length=795
+
+ Score = 35.6 bits (38),  Expect = 1.3
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  1610  ACAATAAGTTGCAATTTTGTGAAA  1633
+             ||| |||||||| |||||||||||
+Sbjct  651   ACAGTAAGTTGCTATTTTGTGAAA  674
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_41315
+Length=341
+
+ Score = 34.6 bits (37),  Expect = 4.7
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  2263  GTAAGCACTTTGACTTTTTCT  2283
+             |||||||| ||||||||||||
+Sbjct  47    GTAAGCACATTGACTTTTTCT  27
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_44779
+Length=236
+
+ Score = 33.7 bits (36),  Expect = 4.7
+ Identities = 24/27 (89%), Gaps = 2/27 (7%)
+ Strand=Plus/Plus
+
+Query  2158  GTCGAGTGT--TGGCAAAATGATTATG  2182
+             |||||||||  |||||||||||| |||
+Sbjct  63    GTCGAGTGTATTGGCAAAATGATCATG  89
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_33653
+Length=427
+
+ Score = 33.7 bits (36),  Expect = 4.7
+ Identities = 24/28 (86%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  2280  TTCTCCTATGTTTTTGAATGGTTTTTTG  2307
+             || ||||||||||||| |  ||||||||
+Sbjct  354   TTGTCCTATGTTTTTGCACTGTTTTTTG  327
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_27826
+Length=338
+
+ Score = 33.7 bits (36),  Expect = 4.7
+ Identities = 34/42 (81%), Gaps = 2/42 (5%)
+ Strand=Plus/Minus
+
+Query  1980  TATTTATGATGATAATA-TGTGCAATTAATTAAACCAACAAA  2020
+             |||||||||||| |||| ||| |||| | || || || ||||
+Sbjct  275   TATTTATGATGAGAATAGTGT-CAATAATTTTAATCAGCAAA  235
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_18583
+Length=369
+
+ Score = 33.7 bits (36),  Expect = 4.7
+ Identities = 27/33 (82%), Gaps = 0/33 (0%)
+ Strand=Plus/Plus
+
+Query  900  CGTGCCAGCAGCCGCGGTAATACGGGAGATGCG  932
+            |||||||||||  ||||| |||||  |||| ||
+Sbjct  73   CGTGCCAGCAGTTGCGGTTATACGATAGATTCG  105
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_7896
+Length=2056
+
+ Score = 33.7 bits (36),  Expect = 4.7
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  2070  TGCATGGGAAGAAATTAA  2087
+             ||||||||||||||||||
+Sbjct  1787  TGCATGGGAAGAAATTAA  1770
+
+
+>Spongilla_nonrepro_s_8_1_sequence_trimmed_contig_889
+Length=1403
+
+ Score = 33.7 bits (36),  Expect = 4.7
+ Identities = 23/25 (92%), Gaps = 1/25 (4%)
+ Strand=Plus/Plus
+
+Query  77   TATCATTATGATGCGATATTTTTGT  101
+            ||||||| |||||||||||| ||||
+Sbjct  522  TATCATT-TGATGCGATATTGTTGT  545
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 67346637696
+
+
+  Database: Spongilla_lacustris_ar.fa
+    Posted date:  Jan 16, 2022  2:24 PM
+  Number of letters in database: 29,120,864
+  Number of sequences in database:  56,696
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
